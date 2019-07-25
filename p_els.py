@@ -2,12 +2,12 @@
 ## IMPORT MODULES
 ## IMPORT MODULES
 
-import mod_GetUserInput1 ## MODULE.FUNCTION() #1 - GET USER INPUT; CHOOSE TEXT TO SEARCH
-import mod_TextFileOpen ## MODULE.FUNCTION() #2 - TEXT FILE OPEN
-import mod_TextFilePreprocess ## MODULE.FUNCTION() #3A - TEXT FILE PREPROCESS; CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE
-import mod_ConvertJSONStringsToDicts ## MODULE.FUNCTION() #4 - CONVERT PARSED JSON STRINGS TO LIST OF DICTS
-import mod_GetNumberOfTextChosen ## MODULE.FUNCTION() #5 - GET NUMBER OF TEXT CHOSEN
-import mod_TextDictionaryCreateA ## MODULE.FUNCTION() #6A - TEXT DICTIONARY CREATE A; CALLS MODULE.FUNCTION() #6B - TEXT DICTIONARY CREATE B
+import mod_1GetUserInput1 ## MODULE.FUNCTION() #1 - GET USER INPUT; CHOOSE TEXT TO SEARCH
+import mod_2TextFileOpen ## MODULE.FUNCTION() #2 - TEXT FILE OPEN
+import mod_3TextFilePreprocess ## MODULE.FUNCTION() #3A - TEXT FILE PREPROCESS; CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE
+import mod_4ConvertJSONStringsToDicts ## MODULE.FUNCTION() #4 - CONVERT PARSED JSON STRINGS TO LIST OF DICTS
+import mod_5GetNumberOfTextChosen ## MODULE.FUNCTION() #5 - GET NUMBER OF TEXT CHOSEN
+import mod_6TextDictionaryCreateA ## MODULE.FUNCTION() #6A - TEXT DICTIONARY CREATE A; CALLS MODULE.FUNCTION() #6B - TEXT DICTIONARY CREATE B
 #import mod_GetUserInput2 ## MODULE.FUNCTION() # - GET USER INPUT; INPUT ELS SEARCH TERM
 import pprint
 
@@ -30,22 +30,22 @@ import pprint
 ## CALL MODULES.FUNCTIONS
 
 ## CALL MODULE.FUNCTION() #1 - GET USER INPUT 1 - CHOOSE TEXT TO SEARCH
-TextChosen = mod_GetUserInput1.fn_GetUserInput1()
+TextChosen = mod_1GetUserInput1.fn_GetUserInput1()
 
 ## CALL MODULE.FUNCTION() #2 - TEXT FILE OPEN
-JSON = mod_TextFileOpen.fn_TextFileOpen(TextChosen)
+JSON = mod_2TextFileOpen.fn_TextFileOpen(TextChosen)
 
 ## CALL MODULE.FUNCTION() #3A - TEXT FILE PREPROCESS; CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE
-ListOfJSONStringsParsed = mod_TextFilePreprocess.fn_TextFilePreprocess(JSON)
+ListOfJSONStringsParsed = mod_3TextFilePreprocess.fn_TextFilePreprocess(JSON)
 
 ## CALL MODULE.FUNCTION() #4 - CONVERT PARSED JSON STRINGS TO DICTIONARIES; RETURN LIST OF DICTIONARIES
-ListOfDictsOfJSONStringsParsed = mod_ConvertJSONStringsToDicts.fn_ConvertJSONStringsToDicts(ListOfJSONStringsParsed)
+ListOfDictsOfJSONStringsParsed = mod_4ConvertJSONStringsToDicts.fn_ConvertJSONStringsToDicts(ListOfJSONStringsParsed)
 
 ## CALL MODULE.FUNCTION() #5 - GET NUMBER OF TEXT CHOSEN
-SearchTextChosen = mod_GetNumberOfTextChosen.fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed)
+SearchTextChosen = mod_5GetNumberOfTextChosen.fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed)
 
 ## CALL MODULE.FUNCTION() #6A - TEXT DICTIONARY CREATE A; CALLS MODULE.FUNCTION() #6B - TEXT DICTIONARY CREATE B
-DictOfVerses = mod_TextDictionaryCreateA.fn_TextDictionaryCreateA(ListOfDictsOfJSONStringsParsed, SearchTextChosen)
+DictOfVerses = mod_6TextDictionaryCreateA.fn_TextDictionaryCreateA(ListOfDictsOfJSONStringsParsed, SearchTextChosen)
 
 
 
