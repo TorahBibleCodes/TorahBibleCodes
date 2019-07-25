@@ -4,10 +4,10 @@
 
 import mod_1GetUserInput1 ## MODULE.FUNCTION() #1 - GET USER INPUT; CHOOSE TEXT TO SEARCH
 import mod_2TextFileOpen ## MODULE.FUNCTION() #2 - TEXT FILE OPEN
-import mod_3TextFilePreprocess ## MODULE.FUNCTION() #3A - TEXT FILE PREPROCESS; CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE
+import mod_3ATextFilePreprocess ## MODULE.FUNCTION() #3A - TEXT FILE PREPROCESS; CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE
 import mod_4ConvertJSONStringsToDicts ## MODULE.FUNCTION() #4 - CONVERT PARSED JSON STRINGS TO LIST OF DICTS
 import mod_5GetNumberOfTextChosen ## MODULE.FUNCTION() #5 - GET NUMBER OF TEXT CHOSEN
-import mod_6TextDictionaryCreateA ## MODULE.FUNCTION() #6A - TEXT DICTIONARY CREATE A; CALLS MODULE.FUNCTION() #6B - TEXT DICTIONARY CREATE B
+import mod_6ATextDictionaryCreateA ## MODULE.FUNCTION() #6A - TEXT DICTIONARY CREATE A; CALLS MODULE.FUNCTION() #6B - TEXT DICTIONARY CREATE B
 #import mod_GetUserInput2 ## MODULE.FUNCTION() # - GET USER INPUT; INPUT ELS SEARCH TERM
 import pprint
 
@@ -36,7 +36,7 @@ TextChosen = mod_1GetUserInput1.fn_GetUserInput1()
 JSON = mod_2TextFileOpen.fn_TextFileOpen(TextChosen)
 
 ## CALL MODULE.FUNCTION() #3A - TEXT FILE PREPROCESS; CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE
-ListOfJSONStringsParsed = mod_3TextFilePreprocess.fn_TextFilePreprocess(JSON)
+ListOfJSONStringsParsed = mod_3ATextFilePreprocess.fn_TextFilePreprocess(JSON)
 
 ## CALL MODULE.FUNCTION() #4 - CONVERT PARSED JSON STRINGS TO DICTIONARIES; RETURN LIST OF DICTIONARIES
 ListOfDictsOfJSONStringsParsed = mod_4ConvertJSONStringsToDicts.fn_ConvertJSONStringsToDicts(ListOfJSONStringsParsed)
@@ -45,7 +45,7 @@ ListOfDictsOfJSONStringsParsed = mod_4ConvertJSONStringsToDicts.fn_ConvertJSONSt
 SearchTextChosen = mod_5GetNumberOfTextChosen.fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed)
 
 ## CALL MODULE.FUNCTION() #6A - TEXT DICTIONARY CREATE A; CALLS MODULE.FUNCTION() #6B - TEXT DICTIONARY CREATE B
-DictOfVerses = mod_6TextDictionaryCreateA.fn_TextDictionaryCreateA(ListOfDictsOfJSONStringsParsed, SearchTextChosen)
+DictOfVerses = mod_6ATextDictionaryCreateA.fn_TextDictionaryCreateA(ListOfDictsOfJSONStringsParsed, SearchTextChosen)
 
 
 
