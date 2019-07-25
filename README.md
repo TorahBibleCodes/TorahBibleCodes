@@ -5,4 +5,6 @@ http://TorahBibleCodes.com
 <br />
 http://www.TorahBibleCodes.com
 <br />
+https://github.com/torahbiblecodes
+<br />
 https://stackoverflow.com/users/8911652/torahbiblecodes
