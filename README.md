@@ -1,2 +1,5 @@
 # TorahBibleCodes
-Torah Bible Codes - Open-Source
+Torah Bible Codes - Open-Source Python
+
+http://TorahBibleCodes.com
+http://www.TorahBibleCodes.com
