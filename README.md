@@ -13,3 +13,5 @@ https://stackoverflow.com/users/8911652/torahbiblecodes
 
 # Current Development Status
 
+# Structure of App / Program
+
