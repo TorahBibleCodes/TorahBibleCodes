@@ -13,6 +13,8 @@ https://stackoverflow.com/users/8911652/torahbiblecodes
 
 # Current Development Status
 
+<br />Active Development: In Progress
+
 # Structure of App / Program
 
 <br />1.) CALL MODULE.FUNCTION() #1 - GET USER INPUT 1 - CHOOSE TEXT TO SEARCH
