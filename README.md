@@ -58,18 +58,17 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 
 ## Each verse in the Torah is accessible via the Python dictionary "D" with a unique 3-digit tuple key as per following examples:
 
-`D[1,1,1] = GENESIS 1:1
-D[1,1,7] = GENESIS 1:7
-D[1,50,26] = GENESIS 50:26
-D[2,1,1] = EXODUS 1:1
-D[2,40,38] = EXODUS 40:38
-D[3,1,1] = LEVITICUS 1:1
-D[3,27,34] = LEVITICUS 27:34
-D[4,1,1] = NUMBERS 1:1
-D[4,36,13] = NUMBERS 36:13
-D[5,1,1] = DEUTERONOMY 1:1
-D[5,34,12] = DEUTERONOMY 34:12`
-
+`<br />D[1,1,1] = GENESIS 1:1
+<br />D[1,1,7] = GENESIS 1:7
+<br />D[1,50,26] = GENESIS 50:26
+<br />D[2,1,1] = EXODUS 1:1
+<br />D[2,40,38] = EXODUS 40:38
+<br />D[3,1,1] = LEVITICUS 1:1
+<br />D[3,27,34] = LEVITICUS 27:34
+<br />D[4,1,1] = NUMBERS 1:1
+<br />D[4,36,13] = NUMBERS 36:13
+<br />D[5,1,1] = DEUTERONOMY 1:1
+<br />D[5,34,12] = DEUTERONOMY 34:12
 
 <br />((1, 1, 1), 'בראשיתבראאלהיםאתהשמיםואתהארץ')
 <br />((1, 1, 2), 'והארץהיתהתהוובהווחשךעלפניתהוםורוחאלהיםמרחפתעלפניהמים')
@@ -158,18 +157,18 @@ D[5,34,12] = DEUTERONOMY 34:12`
 <br />((1, 4, 5), 'ואלקיןואלמנחתולאשעהויחרלקיןמאדויפלופניו')
 <br />((1, 4, 6), 'ויאמריהוהאלקיןלמהחרהלךולמהנפלופניך')
 <br />((1, 4, 7), 'הלואאםתיטיבשאתואםלאתיטיבלפתחחטאתרבץואליךתשוקתוואתהתמשלבו')
-<br /> 
+<br />`
 
 ## ... etc. ... etc. ... etc. ...
 
 ## Each Letter Object is its own Class / Module Object with unique position accessible by extension of previous tuple syntax:  Book, Chapter, Verse, Letter
 
-<br />((1, 1, 1, 1), 'ב')
+`<br />((1, 1, 1, 1), 'ב')
 <br />((1, 1, 1, 2), 'ר')
 <br />((1, 1, 1, 3), 'א')
 <br />((1, 1, 1, 4), 'ש')
 <br />((1, 1, 1, 5), 'י')
-<br />((1, 1, 1, 6), 'ת')
+<br />((1, 1, 1, 6), 'ת')`
 
 ## Each letter's Kabbalah Gematria Value is tracked in each Letter Object
 
