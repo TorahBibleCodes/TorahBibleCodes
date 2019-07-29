@@ -16,6 +16,8 @@ None
 
 <br />Active Development: In Progress
 
+# 
+
 # The Texts Used:
 ## Genesis
 https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Text%20Only.json
@@ -39,7 +41,9 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 <br />3.) CALL MODULE.FUNCTION() #3A - TEXT FILE PREPROCESS; CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE
 <br />4.) CALL MODULE.FUNCTION() #4 - CONVERT PARSED JSON STRINGS TO DICTIONARIES; RETURN LIST OF DICTIONARIES
 <br />5.) CALL MODULE.FUNCTION() #5 - GET NUMBER OF TEXT CHOSEN
-<br />6.) CALL MODULE.FUNCTION() #6A - TEXT DICTIONARY CREATE A; CALLS MODULE.FUNCTION() #6B - TEXT DICTIONARY CREATE B
+<br />6.) CALL MODULE.FUNCTION() #6 - ZIPPED TUPLE CREATE
+<br />7.) CALL MODULE.FUNCTION() #7 - DICTIONARY OF VERSES CREATE WITH TUPLES AS KEYS, e.g. (1,1,1) = BOOK (1) GENESIS CHAPTER 1, VERSE 1...
+
 
 # Example Output (at Current Step in Program being Developed)
 
