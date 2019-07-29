@@ -58,7 +58,7 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 
 ## Each verse in the Torah is accessible via the Python dictionary "D" with a unique 3-digit tuple key as per following examples:
 
-D[1,1,1] = GENESIS 1:1
+`D[1,1,1] = GENESIS 1:1
 D[1,1,7] = GENESIS 1:7
 D[1,50,26] = GENESIS 50:26
 D[2,1,1] = EXODUS 1:1
@@ -68,7 +68,7 @@ D[3,27,34] = LEVITICUS 27:34
 D[4,1,1] = NUMBERS 1:1
 D[4,36,13] = NUMBERS 36:13
 D[5,1,1] = DEUTERONOMY 1:1
-D[5,34,12] = DEUTERONOMY 34:12
+D[5,34,12] = DEUTERONOMY 34:12`
 
 
 <br />((1, 1, 1), 'בראשיתבראאלהיםאתהשמיםואתהארץ')
