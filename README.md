@@ -51,7 +51,9 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 <br />7.) CALL MODULE.FUNCTION() #7 - DICTIONARY OF VERSES CREATE WITH TUPLES AS KEYS, e.g. (1,1,1) = BOOK (1) GENESIS CHAPTER 1, VERSE 1...
 
 
-# Example Output (at Current Step in Program being Developed)
+# Program Concepts:  Objects
+
+For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all five together), the text is parsed and a dictionary is created accessible by tuple (Book, Chapter, Verse):
 
 
 <br />((1, 1, 1), 'בראשיתבראאלהיםאתהשמיםואתהארץ')
@@ -144,4 +146,13 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 <br /> 
 
 ## ... etc. ... etc. ... etc. ...
+
+## Each letter is its own Class / Module Object with unique position accessible by extension of previous tuple:  Book, Chapter, Verse, Letter
+
+<br />((1, 1, 1, 1), 'ב')
+<br />((1, 1, 1, 2), 'ר')
+<br />((1, 1, 1, 3), 'א')
+<br />((1, 1, 1, 4), 'ש')
+<br />((1, 1, 1, 5), 'י')
+<br />((1, 1, 1, 6), 'ת')
 
