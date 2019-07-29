@@ -161,7 +161,9 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 
 ## ... etc. ... etc. ... etc. ...
 
-## Each Letter Object is its own Class / Module Object with unique position accessible by extension of previous tuple syntax:  Book, Chapter, Verse, Letter
+### Please see the file "D.py" to see the "D" Object:  Dictionary of Verses
+
+## Each Verse can be further subdivided into a string sequence of many Letter Objects which are classes which keep track of their position within the ELS Search sequence, and accessible by extension of previous tuple syntax:  Book, Chapter, Verse, Letter
 
 <br />((1, 1, 1, 1), 'ב')
 <br />((1, 1, 1, 2), 'ר')
