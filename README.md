@@ -163,12 +163,12 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 
 ## Each Letter Object is its own Class / Module Object with unique position accessible by extension of previous tuple syntax:  Book, Chapter, Verse, Letter
 
-`<br />((1, 1, 1, 1), 'ב')
+<br />((1, 1, 1, 1), 'ב')
 <br />((1, 1, 1, 2), 'ר')
 <br />((1, 1, 1, 3), 'א')
 <br />((1, 1, 1, 4), 'ש')
 <br />((1, 1, 1, 5), 'י')
-<br />((1, 1, 1, 6), 'ת')`
+<br />((1, 1, 1, 6), 'ת')
 
 ## Each letter's Kabbalah Gematria Value is tracked in each Letter Object
 
