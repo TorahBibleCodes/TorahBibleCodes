@@ -53,7 +53,7 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 
 # Program Concepts:  Objects
 
-For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all five together), the text is parsed and a dictionary is created accessible by tuple (Book, Chapter, Verse):
+For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all five together), the text is parsed and a Python dictionary that is created that allows access to each verse by 3-digit tuple key (Book, Chapter, Verse):
 
 
 <br />((1, 1, 1), 'בראשיתבראאלהיםאתהשמיםואתהארץ')
