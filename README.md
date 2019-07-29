@@ -53,7 +53,7 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 
 # Program Concepts:  Objects
 
-For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all five together), the text is parsed and a Python dictionary that is created that allows access to each verse by 3-digit tuple key (Book, Chapter, Verse):
+For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all five together), the text is parsed and a Python dictionary is created that allows one to access each verse by 3-digit tuple key (Book, Chapter, Verse):
 
 
 <br />((1, 1, 1), 'בראשיתבראאלהיםאתהשמיםואתהארץ')
@@ -147,7 +147,7 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 
 ## ... etc. ... etc. ... etc. ...
 
-## Each letter is its own Class / Module Object with unique position accessible by extension of previous tuple:  Book, Chapter, Verse, Letter
+## Each Letter Object is its own Class / Module Object with unique position accessible by extension of previous tuple syntax:  Book, Chapter, Verse, Letter
 
 <br />((1, 1, 1, 1), 'ב')
 <br />((1, 1, 1, 2), 'ר')
@@ -155,4 +155,6 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 <br />((1, 1, 1, 4), 'ש')
 <br />((1, 1, 1, 5), 'י')
 <br />((1, 1, 1, 6), 'ת')
+
+## Each letter's Kabbalah Gematria Value is tracked in each Letter Object
 
