@@ -68,7 +68,7 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 <br />D[4,1,1] = NUMBERS 1:1
 <br />D[4,36,13] = NUMBERS 36:13
 <br />D[5,1,1] = DEUTERONOMY 1:1
-<br />D[5,34,12] = DEUTERONOMY 34:12
+<br />D[5,34,12] = DEUTERONOMY 34:12`
 
 <br />((1, 1, 1), 'בראשיתבראאלהיםאתהשמיםואתהארץ')
 <br />((1, 1, 2), 'והארץהיתהתהוובהווחשךעלפניתהוםורוחאלהיםמרחפתעלפניהמים')
@@ -157,7 +157,7 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 <br />((1, 4, 5), 'ואלקיןואלמנחתולאשעהויחרלקיןמאדויפלופניו')
 <br />((1, 4, 6), 'ויאמריהוהאלקיןלמהחרהלךולמהנפלופניך')
 <br />((1, 4, 7), 'הלואאםתיטיבשאתואםלאתיטיבלפתחחטאתרבץואליךתשוקתוואתהתמשלבו')
-<br />`
+<br />
 
 ## ... etc. ... etc. ... etc. ...
 
