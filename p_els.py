@@ -7,7 +7,7 @@ import mod_2TextFileOpen ## MODULE.FUNCTION() #2 - TEXT FILE OPEN
 import mod_3ATextFilePreprocess ## MODULE.FUNCTION() #3A - TEXT FILE PREPROCESS; CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE
 import mod_4ConvertJSONStringsToDicts ## MODULE.FUNCTION() #4 - CONVERT PARSED JSON STRINGS TO LIST OF DICTS
 import mod_5GetNumberOfTextChosen ## MODULE.FUNCTION() #5 - GET NUMBER OF TEXT CHOSEN
-import mod_6ZippedTupleCreate ## MODULE.FUNCTION() #6 - CREATE ZIPPED TUPLE OF (BOOK NUMBER, DICTIONARY OF BOOK SELECTED)
+import mod_6ZippedTupleCreate ## MODULE.FUNCTION() #6 - CREATE ZIPPED TUPLE OF (BOOK NUMBER, BOOK NAME)
 import mod_7DictionaryOfVersesCreate ## MODULE.FUNCTION #7 - CREATE DICTIONARY OF VERSES OF TEXTS CHOSEN TO BE SEARCHED
 
 
@@ -51,7 +51,11 @@ SearchTextChosen = mod_5GetNumberOfTextChosen.fn_GetNumberOfTextChosen(ListOfDic
 ZippedTuple = mod_6ZippedTupleCreate.fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, SearchTextChosen)
 
 ## CALL MODULE.FUNCTION() #7 - DICTIONARY OF VERSES CREATE
-#DictOfVerses = mod_7DictionaryOfVersesCreate.fn_DictionaryOfVersesCreate(ZippedTuple)
+D = mod_7DictionaryOfVersesCreate.fn_DictionaryOfVersesCreate(ZippedTuple)
+
+  
+
+
 
 
 
