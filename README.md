@@ -47,7 +47,7 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
   <li>Go to folder where the TorahBibleCodes files are saved</li>
   <li>Open Command Prompt / Command Line Interface (CLI) - WINDOWS:  SHIFT RIGHT-CLICK --> OPEN COMMAND PROMPT</li>
   <li>TYPE/RUN:  python p_els.py</li>
-  <li>
+  <li>A "D" Python Dictionary Object is returned to you to interact with and further develop per your needs, and we invite you to share your open-source solutions and scientific research with the community to allow confirmation of your discoveries and data.
 </ol>
 
 # Structure of App / Program
