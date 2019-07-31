@@ -41,7 +41,7 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Text%20Only.json
 
 
-# How to Run the App / Pprogram
+# How to Run the App / Program
 <ol>
   <li>Download and Install Python on your local computer</li>
   <li>Go to folder where the TorahBibleCodes files are saved</li>
