@@ -205,6 +205,12 @@ Or alternatively accessible as Dictionary of Letters (with 5-digit key) with 5th
 <br />D5[1, 1, 1, 5, 5] --> 'י'
 <br />D5[1, 1, 1, 6, 6] --> 'ת'
 
+<br />D5[5, 34, 12, 43, 304849] --> 'י'
+<br />D5[5, 34, 12, 44, 304850] --> 'ש'
+<br />D5[5, 34, 12, 45, 304851] --> 'ר'
+<br />D5[5, 34, 12, 46, 304852] --> 'א'
+<br />D5[5, 34, 12, 47, 304853] --> 'ל'
+
 ## Each letter's Kabbalah Gematria Value is tracked in each Letter Object
 
 ### א = 1
