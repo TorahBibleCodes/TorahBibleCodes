@@ -171,7 +171,11 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 
 ## ... etc. ... etc. ... etc. ...
 
-### Please see the file "D.py" to see the "D" Object:  Dictionary of Verses
+### Please see the file "D.py" to see the "D" Object:  Dictionary of Verses with a 3-digit Tuple Key
+
+### Please see the file "DL.py" to see the "DL" Object:  Dictionary of Letters with a 4-digit Tuple Key
+
+### Please see the file "D5.py" to see the "D5" Object:  Dictionary of Letters with a 5-digit Tuple Key
 
 ## Each Verse can be further subdivided into a string sequence of many Letter Objects which are classes which keep track of their position within the ELS Search sequence, and accessible by extension of previous tuple syntax:  Book, Chapter, Verse, Letter
 
