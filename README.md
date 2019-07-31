@@ -204,7 +204,7 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 <br />DL[5,34,12,46] --> 'א'
 <br />DL[5,34,12,47] --> 'ל'
 
-### D5 Object - Dictionary of Letters (with 5-digit key) with 5th element of tuple being the position in total sequence of text...
+### D5 Object - Dictionary of Letters (with 5-digit key) with 5th element of tuple being the position of letter in total sequence of text...(i.e. either all five (5) texts together (304853 letters), or one (1) text only)...
 <br />D5[1, 1, 1, 1, 1] --> 'ב'
 <br />D5[1, 1, 1, 2, 2] --> 'ר'
 <br />D5[1, 1, 1, 3, 3] --> 'א'
