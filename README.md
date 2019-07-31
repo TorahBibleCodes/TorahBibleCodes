@@ -46,11 +46,12 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
   <li>Download and Install Python on your local computer</li>
   <li>Go to folder where the TorahBibleCodes files are saved</li>
   <li>Open Command Prompt / Command Line Interface (CLI) - WINDOWS:  SHIFT RIGHT-CLICK --> OPEN COMMAND PROMPT</li>
-  <li>python p_els.py</li>
+  <li>TYPE/RUN:  python p_els.py</li>
+  <li>
 </ol>
 
 # Structure of App / Program
-<br />0.) COMMAND LINE INTERFACE (CLI): #0 - RUN PROGRAM p_els.py TO GET DATA AND CREATE DATA OBJECTS
+<br />0.) COMMAND LINE INTERFACE (CLI): #0 - RUN PROGRAM p_els.py TO GET DATA AND CREATE INTERACTIVE DATA OBJECTS
 <br />1.) CALL MODULE.FUNCTION() #1 - GET USER INPUT 1 - CHOOSE TEXT TO SEARCH
 <br />2.) CALL MODULE.FUNCTION() #2 - TEXT FILE OPEN
 <br />3.) CALL MODULE.FUNCTION() #3A - TEXT FILE PREPROCESS; CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE
@@ -182,4 +183,15 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 <br />((1, 1, 1, 6), 'ת')
 
 ## Each letter's Kabbalah Gematria Value is tracked in each Letter Object
+
+### א = 1
+### ב = 2
+### 3 = ג
+### 4 = ד
+### 5 = ה
+### 6 = ו
+### 7 = ז
+### 8 = ח
+### 9 = ט
+### 10 = י
 
