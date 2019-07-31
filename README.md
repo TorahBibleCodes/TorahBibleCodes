@@ -179,12 +179,12 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 
 ## Each Verse can be further subdivided into a string sequence of many Letter Objects which are classes which keep track of their position within the ELS Search sequence, and accessible by extension of previous tuple syntax:  Book, Chapter, Verse, Letter
 
-### D Object - Verses are accessible as data with a 3-digit Tuple Key
+### D Object - Dictionary of Verses, accessible as data with a 3-digit Tuple Key
 <br />D[1,1,1] --> GENESIS 1:1 - 1st Book, 1st Chapter, 1st Verse 
 <br />D[1,1,2] --> GENESIS 1:2 - 1st Book, 1st Chapter, 2nd Verse
 <br />D[1,1,3] --> GENESIS 1:3 - 1st Book, 1st Chapter, 3rd Verse
 
-### D Object - Letters are accessible as data with sub-element (0-indexed) within each verse.
+### D Object - Dictionary of Verses/Letters, accessible as data with a 3-digit Tuple Key + sub-element (0-indexed) in sequence of letters within each verse.
 <br />D[1,1,1][0] --> 1st element (letter) in string/verse sequence --> 'ב'
 <br />D[1,1,1][1] --> 2nd element (letter) in string/verse sequence --> 'ר'
 <br />D[1,1,1][2] --> 3rd element (letter) in string/verse sequence --> 'א'
