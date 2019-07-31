@@ -180,13 +180,27 @@ Letters are accessible as data with sub-element (0-indexed) within each verse.
 <br />D[1,1,1][-1] --> Last element in string/verse sequence
 
 
-Or alternatively accessible as Letter Objects...
-<br />((1, 1, 1, 1), 'ב')
-<br />((1, 1, 1, 2), 'ר')
-<br />((1, 1, 1, 3), 'א')
-<br />((1, 1, 1, 4), 'ש')
-<br />((1, 1, 1, 5), 'י')
-<br />((1, 1, 1, 6), 'ת')
+Or alternatively accessible as Dictionary of Letters (with 4-digit key)...
+<br />DL[1, 1, 1, 1] --> 'ב'
+<br />DL[1, 1, 1, 2] --> 'ר'
+<br />DL[1, 1, 1, 3] --> 'א'
+<br />DL[1, 1, 1, 4] --> 'ש'
+<br />DL[1, 1, 1, 5] --> 'י'
+<br />DL[1, 1, 1, 6] --> 'ת'
+
+<br />DL[5,34,12,43] --> 'י'
+<br />DL[5,34,12,44] --> 'ש'
+<br />DL[5,34,12,45] --> 'ר'
+<br />DL[5,34,12,46] --> 'א'
+<br />DL[5,34,12,47] --> 'ל'
+
+Or alternatively accessible as Dictionary of Letters (with 5-digit key) with 5th element of tuple being the position in total sequence of text...
+<br />D5[1, 1, 1, 1, 1] --> 'ב'
+<br />D5[1, 1, 1, 2, 2] --> 'ר'
+<br />D5[1, 1, 1, 3, 3] --> 'א'
+<br />D5[1, 1, 1, 4, 4] --> 'ש'
+<br />D5[1, 1, 1, 5, 5] --> 'י'
+<br />D5[1, 1, 1, 6, 6] --> 'ת'
 
 ## Each letter's Kabbalah Gematria Value is tracked in each Letter Object
 
