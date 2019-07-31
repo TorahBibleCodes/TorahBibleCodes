@@ -40,8 +40,17 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 ## Deuteronomy
 https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Text%20Only.json
 
-# Structure of App / Program
 
+# How to Run the App / Pprogram
+<ol>
+  <li>Download and Install Python on your local computer</li>
+  <li>Go to folder where the TorahBibleCodes files are saved</li>
+  <li>Open Command Prompt / Command Line Interface (CLI) - WINDOWS:  SHIFT RIGHT-CLICK --> OPEN COMMAND PROMPT</li>
+  <li>python p_els.py</li>
+</ol>
+
+# Structure of App / Program
+<br />0.) COMMAND LINE INTERFACE (CLI): #0 - RUN PROGRAM p_els.py TO GET DATA AND CREATE DATA OBJECTS
 <br />1.) CALL MODULE.FUNCTION() #1 - GET USER INPUT 1 - CHOOSE TEXT TO SEARCH
 <br />2.) CALL MODULE.FUNCTION() #2 - TEXT FILE OPEN
 <br />3.) CALL MODULE.FUNCTION() #3A - TEXT FILE PREPROCESS; CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE
