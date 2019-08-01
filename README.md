@@ -61,7 +61,7 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 <br />7.) CALL MODULE.FUNCTION() #7 - DICTIONARY OF VERSES CREATE WITH TUPLES AS KEYS, e.g. (1,1,1) = BOOK (1) GENESIS CHAPTER 1, VERSE 1...
 
 
-# Program Concepts:  Objects
+# Program Concepts:  Objects - D, DL, D5, S, L
 ## "D" Object:  Dictionary of Verses Object
 
 For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all five together), the text is parsed and a Python dictionary "D" is created that allows one to access each verse by 3-digit tuple key (Book, Chapter, Verse).  After choosing the text(s) to be searched, a Python dictionary "D" is created to contain each verse - accessible by 3-digit tuple key.
@@ -217,6 +217,10 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 <br />D5[5, 34, 12, 45, 304851] --> 'ר'
 <br />D5[5, 34, 12, 46, 304852] --> 'א'
 <br />D5[5, 34, 12, 47, 304853] --> 'ל'
+
+### S Object - String of Letters
+
+### L Object - List of Letters
 
 ## Each letter's Kabbalah Gematria Value is tracked in each Letter Object
 
