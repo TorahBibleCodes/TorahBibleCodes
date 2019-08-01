@@ -222,9 +222,12 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 <br />D5[5, 34, 12, 46, 304852] --> 'א'
 <br />D5[5, 34, 12, 47, 304853] --> 'ל'
 
-### S Object - String of Letters
-
 ### L Object - List of Letters
+<br />L[0:6] --> ['ב', 'ר', 'א', 'ש', 'י', 'ת']
+
+### S Object - String of Letters
+<br />S[0:6] --> 'בראשית'
+
 
 ## Each letter's Kabbalah Gematria Value is tracked in each Letter Object
 
