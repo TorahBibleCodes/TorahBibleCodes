@@ -9,7 +9,7 @@ import mod_4ConvertJSONStringsToDicts ## MODULE.FUNCTION() #4 - CONVERT PARSED J
 import mod_5GetNumberOfTextChosen ## MODULE.FUNCTION() #5 - GET NUMBER OF TEXT CHOSEN
 import mod_6ZippedTupleCreate ## MODULE.FUNCTION() #6 - CREATE ZIPPED TUPLE OF (BOOK NUMBER, BOOK NAME)
 import mod_7DictionaryOfVersesCreate ## MODULE.FUNCTION #7 - CREATE DICTIONARY OF VERSES OF TEXTS CHOSEN TO BE SEARCHED
-
+import mod_8DataObjectsCreate
 
 #import mod_GetUserInput2 ## MODULE.FUNCTION() # - GET USER INPUT; INPUT ELS SEARCH TERM
 import pprint
@@ -52,6 +52,9 @@ ZippedTuple = mod_6ZippedTupleCreate.fn_ZippedTupleCreate(ListOfDictsOfJSONStrin
 
 ## CALL MODULE.FUNCTION() #7 - DICTIONARY OF VERSES CREATE
 D = mod_7DictionaryOfVersesCreate.fn_DictionaryOfVersesCreate(ZippedTuple)
+
+## CALL MODULE.FUNCTION() #8 - DATA OBJECTS CREATE - RETURNS 1.) STRING OF LETTERS, 2.) LIST OF LETTERS, 3.) DICT OF LETTERS, 4.) DICT OF LETTERS
+S, L, DL, D5 = mod_8DataObjectsCreate.fn_DataObjectsCreate(D)
 
   
 
