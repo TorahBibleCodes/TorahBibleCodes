@@ -61,7 +61,7 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 <br />7.) CALL MODULE.FUNCTION() #7 - DICTIONARY OF VERSES CREATE WITH TUPLES AS KEYS, e.g. (1,1,1) = BOOK (1) GENESIS CHAPTER 1, VERSE 1...
 
 
-# Program Concepts:  Objects - D, DL, D5, S, L
+# Program Concepts:  Objects - D, DL, D5, L, S
 ## "D" Object:  Dictionary of Verses Object
 
 For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all five together), the text is parsed and a Python dictionary "D" is created that allows one to access each verse by 3-digit tuple key (Book, Chapter, Verse).  After choosing the text(s) to be searched, a Python dictionary "D" is created to contain each verse - accessible by 3-digit tuple key.
@@ -171,11 +171,15 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 
 ## ... etc. ... etc. ... etc. ...
 
-### Please see the file "D.py" to see the "D" Object:  Dictionary of Verses with a 3-digit Tuple Key
+### Please see the file "D.py" (also run: "p_els.py") to see the "D" Object:  Dictionary of Verses with a 3-digit Tuple Key
 
-### Please see the file "DL.py" to see the "DL" Object:  Dictionary of Letters with a 4-digit Tuple Key
+### Please run the file "p_els.py" to see and interact with the "DL" Object:  Dictionary of Letters with a 4-digit Tuple Key
 
-### Please see the file "D5.py" to see the "D5" Object:  Dictionary of Letters with a 5-digit Tuple Key
+### Please run the file "p_els.py" to see and interact with the "D5" Object:  Dictionary of Letters with a 5-digit Tuple Key
+
+### Please run the file "p_els.py" to see and interact with the "L" Object:  List of Letters
+
+### Please run the file "p_els.py" to see and interact with the "S" Object:  String of Letters
 
 ## Each Verse can be further subdivided into a string sequence of many Letter Objects which are classes which keep track of their position within the ELS Search sequence, and accessible by extension of previous tuple syntax:  Book, Chapter, Verse, Letter
 
