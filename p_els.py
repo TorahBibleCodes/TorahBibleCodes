@@ -54,8 +54,8 @@ ZippedTuple = mod_6ZippedTupleCreate.fn_ZippedTupleCreate(ListOfDictsOfJSONStrin
 ## CALL MODULE.FUNCTION() #7 - DICTIONARY OF VERSES CREATE
 D = mod_7DictionaryOfVersesCreate.fn_DictionaryOfVersesCreate(ZippedTuple)
 
-## CALL MODULE.FUNCTION() #8 - DATA OBJECTS CREATE - RETURNS 1.) STRING OF LETTERS, 2.) LIST OF LETTERS, 3.) DICT OF LETTERS, 4.) DICT OF LETTERS
-S, L, DL, D5 = mod_8DataObjectsCreate.fn_DataObjectsCreate(D)
+## CALL MODULE.FUNCTION() #8 - DATA OBJECTS CREATE - RETURNS 1.) DICT OF LETTERS; 2.) DICT OF LETTERS; 3.) LIST OF LETTERS; 4.) STRING-SEQUENCE OF LETTERS
+DL, D5, L, S = mod_8DataObjectsCreate.fn_DataObjectsCreate(D)
 
   
 
