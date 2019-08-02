@@ -229,7 +229,9 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 <br />S[0:6] --> 'בראשית'
 
 
-## Each letter's Kabbalah Gematria Value is tracked in each Letter Object
+## Each letter's Kabbalah Numerical Gematria Value is obtainable by passing a string-sequence to a MODULE.FUNCTION() call:
+string = 'בראשית'
+<br />mod_9GetNumberValue.fnGetNumberValue(string) --> [2, 200, 1, 300, 10, 400]
 
 ### א = 1
 ### ב = 2
@@ -243,7 +245,7 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 ### 10 = י
 ### 20 = כ / ך
 ### 30 = ל
-### 40 = מ
+### 40 = מ / ם
 ### 50 = נ / ן
 ### 60 = ס
 ### 70 = ע
