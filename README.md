@@ -231,7 +231,7 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 
 ## Each letter's Kabbalah Numerical Gematria Value is obtainable by passing a string-sequence to a MODULE.FUNCTION() call:
 string = 'בראשית'
-<br />mod_9GetNumberValue.fnGetNumberValue(string) --> [2, 200, 1, 300, 10, 400]
+<br />mod_9GetNumberValue.fn_GetNumberValue(string) --> [2, 200, 1, 300, 10, 400]
 
 ### א = 1
 ### ב = 2
