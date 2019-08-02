@@ -42,7 +42,7 @@ def fn_GetNumberValues(S):
             value = 20 
         elif each == 'ל':
             value = 30 
-        elif each == 'מ':
+        elif each == 'מ' or each == 'ם':
             value = 40 
         elif each == 'נ' or each == 'ן':
             value = 50 
