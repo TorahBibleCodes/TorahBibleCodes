@@ -29,7 +29,7 @@ def fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed):
             ## APPEND BOOK NUMBER TO LIST
             TextChosen.append(each)
             
-    ## IF TEXT CHOSEN IS ALL TWENTY-ONE (21) THE PROPHETS (NEVI'IM) TEXTS...
+    ## ...ELSE IF TEXT CHOSEN IS ALL TWENTY-ONE (21) THE PROPHETS (NEVI'IM) TEXTS...
     elif len(ListOfDictsOfJSONStringsParsed) == 21:
         
         ## DECLARE VARIABLES
@@ -44,7 +44,7 @@ def fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed):
             ## APPEND BOOK NUMBER TO LIST
             TextChosen.append(each)
             
-    ## IF TEXT CHOSEN IS ALL THIRTEEN (13) THE WRITINGS (K'TUVIM) TEXTS...
+    ## ...ELSE IF TEXT CHOSEN IS ALL THIRTEEN (13) THE WRITINGS (K'TUVIM) TEXTS...
     elif len(ListOfDictsOfJSONStringsParsed) == 13:
         
         ## DECLARE VARIABLES
@@ -59,7 +59,7 @@ def fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed):
             ## APPEND BOOK NUMBER TO LIST
             TextChosen.append(each)
             
-    ## IF TEXT CHOSEN IS ALL THIRTY-NINE (39) HEBREW BIBLE (TANACH) TEXTS...
+    ## ...ELSE IF TEXT CHOSEN IS ALL THIRTY-NINE (39) HEBREW BIBLE (TANACH) TEXTS...
     elif len(ListOfDictsOfJSONStringsParsed) == 39:
         
         ## DECLARE VARIABLES
