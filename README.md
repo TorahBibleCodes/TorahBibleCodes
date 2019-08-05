@@ -40,6 +40,74 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 ## 5.) Deuteronomy
 https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Text%20Only.json
 
+## 6.) Joshua
+
+## 7.) Judges
+
+## 8.) I Samuel
+
+## 9.) II Samuel
+
+## 10.) I Kings
+
+## 11.) II Kings
+
+## 12.) Isaiah
+
+## 13.) Jeremiah
+
+## 14.) Ezekiel
+
+## 15.) Hosea
+
+## 16.) Joel
+
+## 17.) Amos
+
+## 18.) Obadiah
+
+## 19.) Jonah
+
+## 20.) Micah
+
+## 21.) Nahum
+
+## 22.) Habakkuk
+
+## 23.) Zephaniah
+
+## 24.) Haggai
+
+## 25.) Zechariah
+
+## 26.) Malachi
+
+## 27.) Psalms
+
+## 28.) Proverbs
+
+## 29.) Job
+
+## 30.) Song of Songs
+
+## 31.) Ruth
+
+## 32.) Lamentations
+
+## 33.) Ecclesiastes
+
+## 34.) Esther
+
+## 35.) Daniel
+
+## 36.) Ezra
+
+## 37.) Nehemiah
+
+## 38.) I Chronicles
+
+## 39.) II Chronicles
+
 
 # How to Run the App / Program
 <ol>
