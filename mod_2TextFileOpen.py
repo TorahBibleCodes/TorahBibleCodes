@@ -461,7 +461,7 @@ def fn_TextFileOpen(TextChosen):
             TextFile6 = File.read()
             
         ## READ STRING FILE TO TEXT FILE VARIABLE
-        with open("text_.33ecclesiastes.json", encoding="utf-8-sig") as File:
+        with open("text_33ecclesiastes.json", encoding="utf-8-sig") as File:
             
             ## TEXT CHOSEN:
             TextFile7 = File.read()
