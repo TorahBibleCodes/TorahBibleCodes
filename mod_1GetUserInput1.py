@@ -52,7 +52,6 @@ def fn_GetUserInput1():
     print("40 - Pentateuch (Torah)")
     print("41 - Prophets (Nevi'im)")
     print("42 - Writings (K'tuvim)")
-    print("43 - Hebrew Bible (Tanach)")
     
     ## TEXT CHOSEN = USER INPUT (TEXT STRING)
     TextString = input("Please select text to search:  ")
