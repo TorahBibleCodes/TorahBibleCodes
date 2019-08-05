@@ -10,7 +10,7 @@ https://github.com/torahbiblecodes
 https://stackoverflow.com/users/8911652/torahbiblecodes
 
 # Known Bugs and Open Issues
-None
+Error with JSON decoding of text of Ecclesiastes - We are working on solving the issue.
 
 # Current Development Status
 
