@@ -491,13 +491,13 @@ def fn_TextFileOpen(TextChosen):
             TextFile11 = File.read()
             
         ## READ STRING FILE TO TEXT FILE VARIABLE
-        with open("text_12Ichronicles.json", encoding="utf-8-sig") as File:
+        with open("text_38Ichronicles.json", encoding="utf-8-sig") as File:
             
             ## TEXT CHOSEN:
             TextFile12 = File.read()
             
         ## READ STRING FILE TO TEXT FILE VARIABLE
-        with open("text_13IIchronicles.json", encoding="utf-8-sig") as File:
+        with open("text_39IIchronicles.json", encoding="utf-8-sig") as File:
             
             ## TEXT CHOSEN:
             TextFile13 = File.read()
