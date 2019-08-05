@@ -14,7 +14,7 @@ def fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed):
     ## DECLARE VARIABLES
     TextChosen = []
     
-    ## IF TEXT CHOSEN IS ALL FIVE (5) TEXTS...
+    ## IF TEXT CHOSEN IS ALL FIVE (5) TORAH TEXTS...
     if len(ListOfDictsOfJSONStringsParsed) == 5:
         
         ## DECLARE VARIABLES
@@ -22,6 +22,36 @@ def fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed):
         
         ## CREATE LIST OF BOOK NUMBERS SELECTED
         BookNumbers = list((range(1, LengthForRange, 1)))
+        
+        ## LOOP THROUGH LIST
+        for each in BookNumbers:
+            
+            ## APPEND BOOK NUMBER TO LIST
+            TextChosen.append(each)
+            
+    ## IF TEXT CHOSEN IS ALL TWENTY-ONE (21) THE PROPHETS (NEVI'IM) TEXTS...
+    if len(ListOfDictsOfJSONStringsParsed) == 21:
+        
+        ## DECLARE VARIABLES
+        LengthForRange = (len(ListOfDictsOfJSONStringsParsed) + 6)
+        
+        ## CREATE LIST OF BOOK NUMBERS SELECTED
+        BookNumbers = list((range(6, LengthForRange, 1)))
+        
+        ## LOOP THROUGH LIST
+        for each in BookNumbers:
+            
+            ## APPEND BOOK NUMBER TO LIST
+            TextChosen.append(each)
+            
+    ## IF TEXT CHOSEN IS ALL THIRTEEN (13) THE WRITINGS (K'TUVIM) TEXTS...
+    if len(ListOfDictsOfJSONStringsParsed) == 13:
+        
+        ## DECLARE VARIABLES
+        LengthForRange = (len(ListOfDictsOfJSONStringsParsed) + 27)
+        
+        ## CREATE LIST OF BOOK NUMBERS SELECTED
+        BookNumbers = list((range(27, LengthForRange, 1)))
         
         ## LOOP THROUGH LIST
         for each in BookNumbers:
@@ -52,7 +82,110 @@ def fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed):
          
             elif TextTitle == "Deuteronomy":
                 BookNumber = 5
+                
+            elif TextTitle == "Joshua":
+                BookNumber = 6
             
+            elif TextTitle == "Judges":
+                BookNumber = 7
+                
+            elif TextTitle == "ISamuel":
+                BookNumber = 8
+            
+            elif TextTitle == "IISamuel":
+                BookNumber = 9
+                
+            elif TextTitle == "IKings":
+                BookNumber = 10
+                
+            elif TextTitle == "IIKings":
+                BookNumber = 11
+                
+            elif TextTitle == "Isaiah":
+                BookNumber = 12
+                
+            elif TextTitle == "Jeremiah":
+                BookNumber = 13
+                
+            elif TextTitle == "Ezekiel":
+                BookNumber = 14
+                
+            elif TextTitle == "Hosea":
+                BookNumber = 15
+                
+            elif TextTitle == "Joel":
+                BookNumber = 16
+                
+            elif TextTitle == "Amos":
+                BookNumber = 17
+                
+            elif TextTitle == "Obadiah":
+                BookNumber = 18
+                
+            elif TextTitle == "Jonah":
+                BookNumber = 19
+                
+            elif TextTitle == "Micah":
+                BookNumber = 20
+                
+            elif TextTitle == "Nahum":
+                BookNumber = 21
+                
+            elif TextTitle == "Habakkuk":
+                BookNumber = 22
+                
+            elif TextTitle == "Zephaniah":
+                BookNumber = 23
+                
+            elif TextTitle == "Haggai":
+                BookNumber = 24
+                
+            elif TextTitle == "Zechariah":
+                BookNumber = 25
+                
+            elif TextTitle == "Malachi":
+                BookNumber = 26
+                
+            elif TextTitle == "Psalms":
+                BookNumber = 27
+            
+            elif TextTitle == "Proverbs":
+                BookNumber = 28
+                
+            elif TextTitle == "Job":
+                BookNumber = 29
+                
+            elif TextTitle == "SongOfSongs":
+                BookNumber = 30
+            
+            elif TextTitle == "Ruth":
+                BookNumber = 31
+                
+            elif TextTitle == "Lamentations":
+                BookNumber = 32
+                
+            elif TextTitle == "Ecclesiastes":
+                BookNumber = 33
+                
+            elif TextTitle == "Esther":
+                BookNumber = 34
+                
+            elif TextTitle == "Daniel":
+                BookNumber = 35
+                
+            elif TextTitle == "Ezra":
+                BookNumber = 36
+                
+            elif TextTitle == "Nehemiah":
+                BookNumber = 37
+                
+            elif TextTitle == "IChronicles":
+                BookNumber = 38
+                
+            elif TextTitle == "IIChronicles":
+                BookNumber = 39
+                
+                
             ## APPEND BOOK NUMBER TO LIST
             TextChosen.append(BookNumber)
     

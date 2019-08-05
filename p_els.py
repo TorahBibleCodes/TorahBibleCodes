@@ -60,10 +60,32 @@ S, L, DL, D5 = mod_8DataObjectsCreate.fn_DataObjectsCreate(D)
 ## CALL MODULE.FUNCTION() #9 - GET NUMBER VALUE - RETURNS LIST OF NUMBER VALUES FOR EACH LETTER OF STRING
 N = mod_9GetNumberValues.fn_GetNumberValues(S)
 
-  
+
+
+
+
+
+
+
+class cls_L(object):
+    """ Letter Object """
+
+    def __init__(self):
+        self.name = self
+        self.gematria = ""
+        
+    def printself(self):
+        print(self.name, self.gematria)
+        
+
+
+
+    
 
 ## CALL MODULE.FUNCTION() # - GET USER INPUT 2 - INPUT TEXT EQUIDISTANT LETTER SEQUENCES (ELS = K) TO SEARCH
 # UserInput2 = mod_GetUserInput2.fn_GetUserInput2()
+
+
 
 ## END MAIN PROGRAM
 ## END MAIN PROGRAM
