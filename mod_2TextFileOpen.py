@@ -292,7 +292,7 @@ def fn_TextFileOpen(TextChosen):
         ## READ STRING FILE TO TEXT FILE VARIABLE
         with open("text_6joshua.json", encoding="utf-8-sig") as File:
             
-            ## TEXT CHOSEN:
+            ## TEXT CHOSEN: 1 GENESIS
             TextFile1 = File.read()
         
         ## READ STRING FILE TO TEXT FILE VARIABLE

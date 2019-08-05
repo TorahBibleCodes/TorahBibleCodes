@@ -30,7 +30,7 @@ def fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed):
             TextChosen.append(each)
             
     ## IF TEXT CHOSEN IS ALL TWENTY-ONE (21) THE PROPHETS (NEVI'IM) TEXTS...
-    if len(ListOfDictsOfJSONStringsParsed) == 21:
+    elif len(ListOfDictsOfJSONStringsParsed) == 21:
         
         ## DECLARE VARIABLES
         LengthForRange = (len(ListOfDictsOfJSONStringsParsed) + 6)
@@ -45,13 +45,28 @@ def fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed):
             TextChosen.append(each)
             
     ## IF TEXT CHOSEN IS ALL THIRTEEN (13) THE WRITINGS (K'TUVIM) TEXTS...
-    if len(ListOfDictsOfJSONStringsParsed) == 13:
+    elif len(ListOfDictsOfJSONStringsParsed) == 13:
         
         ## DECLARE VARIABLES
         LengthForRange = (len(ListOfDictsOfJSONStringsParsed) + 27)
         
         ## CREATE LIST OF BOOK NUMBERS SELECTED
         BookNumbers = list((range(27, LengthForRange, 1)))
+        
+        ## LOOP THROUGH LIST
+        for each in BookNumbers:
+            
+            ## APPEND BOOK NUMBER TO LIST
+            TextChosen.append(each)
+            
+    ## IF TEXT CHOSEN IS ALL THIRTY-NINE (39) HEBREW BIBLE (TANACH) TEXTS...
+    elif len(ListOfDictsOfJSONStringsParsed) == 39:
+        
+        ## DECLARE VARIABLES
+        LengthForRange = (len(ListOfDictsOfJSONStringsParsed) + 1)
+        
+        ## CREATE LIST OF BOOK NUMBERS SELECTED
+        BookNumbers = list((range(1, LengthForRange, 1)))
         
         ## LOOP THROUGH LIST
         for each in BookNumbers:
