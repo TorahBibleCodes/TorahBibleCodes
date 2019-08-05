@@ -25,19 +25,19 @@ n, n + d, n + 2d, ..., n + (k - 1)d
 WRR define n as the start, d as the skip between letters in the search-term, and k as the length of the ELS. These three parameters uniquely identify the ELS which is denoted (n, d, k).
 
 # The Texts Used:
-## Genesis
+## 1.) Genesis
 https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Text%20Only.json
 
-## Exodus
+## 2.) Exodus
 https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Text%20Only.json
 
-## Leviticus
+## 3.) Leviticus
 https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Text%20Only.json
 
-## Numbers
+## 4.) Numbers
 https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Text%20Only.json
 
-## Deuteronomy
+## 5.) Deuteronomy
 https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Text%20Only.json
 
 
@@ -61,7 +61,7 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 <br />7.) CALL MODULE.FUNCTION() #7 - DICTIONARY OF VERSES CREATE WITH TUPLES AS KEYS, e.g. (1,1,1) = BOOK (1) GENESIS CHAPTER 1, VERSE 1...
 <br />8.) CALL MODULE.FUNCTION() #8 - DATA OBJECTS CREATE; RETURNS 1.) STRING OF LETTERS, 2.) LIST OF LETTERS, 3.) DICT OF LETTERS, 4.) DICT OF LETTERS
 <br />9.) CALL MODULE.FUNCTION() #9 - GET NUMBER VALUE OF EACH LETTER IN STRING
-
+<br />10.) STEP 10 - IN DEVELOPMENT
 
 # Program Concepts:  Objects - D, DL, D5, L, S
 ## "D" Object:  Dictionary of Verses Object
