@@ -131,10 +131,10 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 <br />9.) CALL MODULE.FUNCTION() #9 - GET NUMBER VALUE OF EACH LETTER IN STRING
 <br />10.) STEP 10 - IN DEVELOPMENT
 
-# Program Concepts:  Objects - D, DL, D5, L, S
+# Program Concepts:  Objects - D, DL, D5, L, S, N
 ## "D" Object:  Dictionary of Verses Object
 
-For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all five together), the text is parsed and a Python dictionary "D" is created that allows one to access each verse by 3-digit tuple key (Book, Chapter, Verse).  After choosing the text(s) to be searched, a Python dictionary "D" is created to contain each verse - accessible by 3-digit tuple key.
+For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all five (5) together, or the twenty-one (21) books of the Prophets, or the thirteen (13) books of the Writings, or the thirty-nine (39) books of the entire Hebrew Bible, the text is parsed and a Python dictionary "D" is created that allows one to access each verse by 3-digit tuple key (Book, Chapter, Verse).  After choosing the text(s) to be searched, a Python dictionary "D" is created to contain each verse - accessible by 3-digit tuple key.
 
 ## Each verse in the Hebrew Bible is accessible via the Python dictionary "D" with a unique 3-digit tuple key as per following examples:
 
@@ -241,7 +241,7 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 
 ## ... etc. ... etc. ... etc. ...
 
-### Please see the file "D.py" (also run: "p_els.py") to see the "D" Object:  Dictionary of Verses with a 3-digit Tuple Key
+### Please see the file "D.py" (also run: "p_els.py") to see and interact with the "D" Object:  Dictionary of Verses with a 3-digit Tuple Key
 
 ### Please run the file "p_els.py" to see and interact with the "DL" Object:  Dictionary of Letters with a 4-digit Tuple Key
 
@@ -299,9 +299,9 @@ For any text chosen (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all fi
 <br />S[0:6] --> 'בראשית'
 
 
-## N Object - List of Numbers:  Each letter's Kabbalah Numerical Gematria Value is obtainable by passing a string-sequence to a MODULE.FUNCTION() call (NOTE:  Numbers returned are left-to-right; Hebrew letters returned in L Object are right-to-left)
+## N Object - List of Numbers:  Each letter's Kabbalah Numerical Gematria Value is obtainable by passing a string-sequence to a MODULE.FUNCTION() call (NOTE:  Numbers returned in the N Object are left-to-right; Hebrew letters returned in L Object are right-to-left)
 string = 'בראשית'
-<br />mod_9GetNumberValue.fn_GetNumberValue(string) --> [2, 200, 1, 300, 10, 400]
+<br />N = mod_9GetNumberValue.fn_GetNumberValue(string) --> [2, 200, 1, 300, 10, 400]
 
 ### א = 1
 ### ב = 2
