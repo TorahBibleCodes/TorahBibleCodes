@@ -304,8 +304,8 @@ For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or a
 
 
 ## N Object - List of Numbers:  Each letter's Kabbalah Numerical Gematria Value is obtainable by passing a string-sequence to a MODULE.FUNCTION() call (NOTE:  Numbers returned in the N Object are left-to-right; Hebrew letters returned in L Object are right-to-left)
-string = 'בראשית'
-<br />N = mod_9GetNumberValue.fn_GetNumberValue(string) --> [2, 200, 1, 300, 10, 400]
+ListOfLetters = 'בראשית'
+<br />N = mod_9GetNumberValue.fn_GetNumberValue(ListOfLetters) --> [2, 200, 1, 300, 10, 400]
 
 ### א = 1
 ### ב = 2
@@ -330,7 +330,7 @@ string = 'בראשית'
 ### 300 = ש
 ### 400 = ת
 
-## Pandas Objects
+# Pandas Objects
 
 s = pd.Series(L)
 
@@ -338,6 +338,10 @@ s = pd.Series(L)
 # Useful CLI Commands
 s.str.startswith("ב")
 --> Returns Boolean (True/False) for each match (True) and for each non-match (False)
+
+s.str.find("ב")
+--> Returns Boolean-like (0 / -1) for each match (0) and for each non-match (-1)
+
 
 
 # Statistics
