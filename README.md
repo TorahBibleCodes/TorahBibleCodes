@@ -327,3 +327,11 @@ string = 'בראשית'
 ### 200 = ר
 ### 300 = ש
 ### 400 = ת
+
+# Statistics
+
+### Total Number of Verses in Hebrew Bible: 23206
+### Total Number of Letters in Hebrew Bible: 1197120
+
+
+
