@@ -241,6 +241,8 @@ For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or a
 
 ## ... etc. ... etc. ... etc. ...
 
+# Python Objects
+
 ### Please see the file "D.py" (also run: "p_els.py") to see and interact with the "D" Object:  Python Dictionary of Verses with a 3-digit Tuple Key
 
 ### Please run the file "p_els.py" to see and interact with the "DL" Object:  Python Dictionary of Letters with a 4-digit Tuple Key
@@ -328,9 +330,22 @@ string = 'בראשית'
 ### 300 = ש
 ### 400 = ת
 
+## Pandas Objects
+
+s = pd.Series(L)
+
+
+# Useful CLI Commands
+s.str.startswith("ב")
+--> Returns Boolean (True/False) for each match (True) and for each non-match (False)
+
+
 # Statistics
 ### Total Number of Verses in Torah: 5846
-### Total Number of Letters in Torah:  304853 
+### Total Number of Letters in Torah:  304853
+
+### Total Number of Verses in Genesis:  1533
+### Total Number of Letters in Genesis:  78069
 
 ### Total Number of Verses in Hebrew Bible: 23206
 ### Total Number of Letters in Hebrew Bible: 1197120
@@ -338,5 +353,3 @@ string = 'בראשית'
 #### Total Number of Letter Bet ("ב") in Hebrew Bible:  65216 
 #### Total Number of Letter Gimel ("ג") in Hebrew Bible:  10080
 #### Total Number of Letter Daled ("ד") in Hebrew Bible:  32371
-
-
