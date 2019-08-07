@@ -330,9 +330,13 @@ string = 'בראשית'
 
 # Statistics
 ### Total Number of Verses in Torah: 5846
-### Total Number of Letters in Torah:  304853
+### Total Number of Letters in Torah:  304853 
+
 ### Total Number of Verses in Hebrew Bible: 23206
 ### Total Number of Letters in Hebrew Bible: 1197120
-
+#### Total Number of Letter Aleph ("א") in Hebrew Bible:  95685 
+#### Total Number of Letter Bet ("ב") in Hebrew Bible:  65216 
+#### Total Number of Letter Gimel ("ג") in Hebrew Bible:  10080
+#### Total Number of Letter Daled ("ד") in Hebrew Bible:  32371
 
 
