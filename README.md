@@ -339,14 +339,21 @@ s = pd.Series(L) --> Converts ListOfLetters to Pandas Series (~ Dictionary-like 
 s.str.startswith("ב")
 --> Returns Boolean (True/False) for each match (True) and for each non-match (False)
 
+s.str.endswith("ב")
+--> Returns Boolean (True/False) for each match (True) and for each non-match (False)
+
 s.str.find("ב")
 --> Returns Boolean-like (0 / -1) for each match (0) and for each non-match (-1)
 
 s.str.rfind("ב")
 --> Returns Boolean-like (0 / -1) for each match (0) and for each non-match (-1)
 
-len(s) --> Total Number of Letters in the Pandas Series s
-len(S) --> Total Number of Letters in the Python String S
+len(s) --> Total Number of Letters in the Pandas Series s --> Equal to len(S); len(L); len(DL); len(D5); len(N)
+len(S) --> Total Number of Letters in the Python String S --> Equal to len(s); len(L); len(DL); len(D5); len(N) 
+len(L) --> Total Number of Letters in the Python List L --> Equal to len(s); len(S); len(DL); len(D5); len(N)
+len(DL) --> Total Number of Letters in the Python Dictionary DL with 4-digit Tuple Key --> Equal to len(s); len(S); len(D5); len(N)
+len(D5) --> Total Number of Letters in the Python Dictionary D5 with 5-digit Tuple Key --> Equal to len(s); len(S); len(DL); len(N)
+len(N) --> Total Number of Numbers in the Python List N --> Equal to len(s); len(S); len(DL); len(D5)
 
 
 # Statistics
