@@ -134,9 +134,9 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 # Program Concepts:  Objects - D, DL, D5, L, S, N
 ## "D" Object:  Dictionary of Verses Object
 
-For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all five (5) together, or the twenty-one (21) books of the Prophets, or the thirteen (13) books of the Writings, or the thirty-nine (39) books of the entire Hebrew Bible, the text is parsed and a Python dictionary "D" is created that allows one to access each verse by 3-digit tuple key (Book, Chapter, Verse).  After choosing the text(s) to be searched, a Python dictionary "D" is created to contain each verse - accessible by 3-digit tuple key.
+For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all five (5) together, or all twenty-one (21) books of the Prophets, or all thirteen (13) books of the Writings, or all thirty-nine (39) books of the entire Hebrew Bible), the text is parsed and a Python dictionary "D" is created that allows one to access each verse by 3-digit Tuple Key (Book, Chapter, Verse).  After choosing the text(s) to be searched, a Python dictionary "D" is created to contain each verse - accessible by 3-digit Tuple Key.
 
-## Each verse (and letter) of the thirty-nine (39) books of the Hebrew Bible is accessible via the Python dictionary "D" with a unique 3-digit tuple key as per following examples:
+## Each verse (and letter) of the thirty-nine (39) books of the Hebrew Bible is accessible via the Python dictionary "D" with a unique 3-digit Tuple Key as per following examples:
 
 `<br />D[1,1,1] = GENESIS 1:1
 <br />D[1,1,7] = GENESIS 1:7
@@ -255,7 +255,7 @@ For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or a
 
 ### Please run the file "p_els.py" to see and interact with the "N" Object:  Python List of Numbers
 
-## Each Verse can be further subdivided into a string sequence of many Letter Objects (i.e. Strings of one (1) letter only) which are classes which keep track of their position within the ELS Search sequence, and accessible by extension of previous tuple syntax:  Book, Chapter, Verse, Letter
+## Each Verse can be further subdivided into a String (or List) Sequence of many Letter Objects (i.e. Strings of one (1) Letter only) which are classes which are accessible within the ELS Search sequence, and accessible by extension of previous tuple syntax:  Book, Chapter, Verse, Letter
 
 ### D Object - Dictionary of Verses, accessible as data with a 3-digit Tuple Key
 <br />D[1,1,1] --> GENESIS 1:1 - 1st Book, 1st Chapter, 1st Verse 
@@ -304,7 +304,7 @@ For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or a
 
 
 ## N Object - List of Numbers:  Each letter's Kabbalah Numerical Gematria Value is obtainable by passing a string-sequence to a MODULE.FUNCTION() call (NOTE:  Numbers returned in the N Object are left-to-right; Hebrew letters returned in L Object are right-to-left)
-ListOfLetters = 'בראשית'
+ListOfLetters =  ['ב', 'ר', 'א', 'ש', 'י', 'ת']
 <br />N = mod_9GetNumberValue.fn_GetNumberValue(ListOfLetters) --> [2, 200, 1, 300, 10, 400]
 
 ### א = 1
@@ -332,7 +332,7 @@ ListOfLetters = 'בראשית'
 
 # Pandas Objects
 
-s = pd.Series(L)
+s = pd.Series(L) --> Converts ListOfLetters to Pandas Series (~ Dictionary-like Object)
 
 
 # Useful CLI Commands
@@ -342,6 +342,11 @@ s.str.startswith("ב")
 s.str.find("ב")
 --> Returns Boolean-like (0 / -1) for each match (0) and for each non-match (-1)
 
+s.str.rfind("ב")
+--> Returns Boolean-like (0 / -1) for each match (0) and for each non-match (-1)
+
+len(s) --> Total Number of Letters in the Pandas Series s
+len(S) --> Total Number of Letters in the Python String S
 
 
 # Statistics
