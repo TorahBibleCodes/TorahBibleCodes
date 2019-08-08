@@ -350,7 +350,12 @@ s.str.find("ב")
 s.str.rfind("ב")
 --> Returns Boolean-like (0 / -1) for each match (0) and for each non-match (-1)
 
-<br />len(s) --> Total Number of Letters in the Pandas Series s --> Equal to len(S); len(L); len(DL); len(D5); len(N)
+<ul>
+  <li>len(s) --> Total Number of Letters in the Pandas Series s --> Equal to len(S); len(L); len(DL); len(D5); len(N)</li>
+  <li></li>
+  <li></li>
+</ul>
+<br />
 <br />len(S) --> Total Number of Letters in the Python String S --> Equal to len(s); len(L); len(DL); len(D5); len(N) 
 <br />len(L) --> Total Number of Letters in the Python List L --> Equal to len(s); len(S); len(DL); len(D5); len(N)
 <br />len(DL) --> Total Number of Letters in the Python Dictionary DL with 4-digit Tuple Key --> Equal to len(s); len(S); len(D5); len(N)
