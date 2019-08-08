@@ -335,7 +335,7 @@ ListOfLetters =  ['ב', 'ר', 'א', 'ש', 'י', 'ת']
 # Pandas Objects
 
 s = pd.Series(L) --> Converts ListOfLetters to Pandas Series (~ Dictionary-like Object)
-
+s = pd.Series(L, index=ListOfIndexesCustom) --> Converts ListOfLetters to Pandas Series (~ Dictionary-like Object) with custom indexes for keys of the PD Series starting with 1-index/key
 
 # Useful CLI Commands
 s.str.startswith("ב")
