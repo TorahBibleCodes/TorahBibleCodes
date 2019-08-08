@@ -332,7 +332,7 @@ ListOfLetters =  ['ב', 'ר', 'א', 'ש', 'י', 'ת']
 ### 300 = ש
 ### 400 = ת
 
-# Pandas Objects
+# Pandas Objects: s
 
 s = pd.Series(L) --> Converts ListOfLetters to Pandas Series (~ Dictionary-like Object)
 <br />s = pd.Series(L, index=ListOfIndexesCustom) --> Converts ListOfLetters to Pandas Series (~ Dictionary-like Object) with custom indexes for keys of the PD Series starting with 1-index/key
