@@ -298,9 +298,11 @@ For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or a
 
 ### L Object - List of Letters
 <br />L[0:6] --> ['ב', 'ר', 'א', 'ש', 'י', 'ת']
+<br />L[-5:] --> ['י', 'ש', 'ר', 'א', 'ל']
 
 ### S Object - String of Letters
 <br />S[0:6] --> 'בראשית'
+<br />S[-5:] --> 'ישראל'
 
 
 ## N Object - List of Numbers:  Each letter's Kabbalah Numerical Gematria Value is obtainable by passing a string-sequence to a MODULE.FUNCTION() call (NOTE:  Numbers returned in the N Object are left-to-right; Hebrew letters returned in L Object are right-to-left)
