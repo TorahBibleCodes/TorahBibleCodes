@@ -354,9 +354,9 @@ s.str.rfind("ב")
   <li>len(s) --> Total Number of Letters in the Pandas Series s --> Equal to len(S); len(L); len(DL); len(D5); len(N)</li>
   <li>len(S) --> Total Number of Letters in the Python String S --> Equal to len(s); len(L); len(DL); len(D5); len(N)</li>
   <li>len(L) --> Total Number of Letters in the Python List L --> Equal to len(s); len(S); len(DL); len(D5); len(N)</li>
-  <li>len(DL) --> Total Number of Letters in the Python Dictionary DL with 4-digit Tuple Key --> Equal to len(s); len(S); len(D5); len(N)</li>
-  <li>len(D5) --> Total Number of Letters in the Python Dictionary D5 with 5-digit Tuple Key --> Equal to len(s); len(S); len(DL); len(N)</li>
-  <li>len(N) --> Total Number of Numbers in the Python List N --> Equal to len(s); len(S); len(DL); len(D5)</li>
+  <li>len(DL) --> Total Number of Letters in the Python Dictionary DL with 4-digit Tuple Key --> Equal to len(s); len(S); len(L); len(D5); len(N)</li>
+  <li>len(D5) --> Total Number of Letters in the Python Dictionary D5 with 5-digit Tuple Key --> Equal to len(s); len(S); len(L); len(DL); len(N)</li>
+  <li>len(N) --> Total Number of Numbers in the Python List N --> Equal to len(s); len(S); len(L); len(DL); len(D5)</li>
   
 </ul>
 
