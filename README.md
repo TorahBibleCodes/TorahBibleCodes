@@ -365,33 +365,33 @@ s.str.rfind("ב")
 # Statistics
 ### Total Number of Verses in Torah: 5846
 ### Total Number of Letters in Torah:  304853
-Total Number of Letter א in Torah: 27060
-<br />Total Number of Letter ב in Torah: 16345
-<br />Total Number of Letter ג in Torah: 2109
-<br />Total Number of Letter ד in Torah: 7032
-<br />Total Number of Letter ה in Torah: 28055
-<br />Total Number of Letter ו in Torah: 30533
-<br />Total Number of Letter ז in Torah: 2198
-<br />Total Number of Letter ח in Torah: 7189
-<br />Total Number of Letter ט in Torah: 1804
-<br />Total Number of Letter י in Torah: 31556
-<br />Total Number of Letter כ in Torah: 8610
-<br />Total Number of Letter ך in Torah: 3358
-<br />Total Number of Letter ל in Torah: 21570
-<br />Total Number of Letter מ in Torah: 14466
-<br />Total Number of Letter ם in Torah: 10624
-<br />Total Number of Letter נ in Torah: 9867
-<br />Total Number of Letter ן in Torah: 4259
-<br />Total Number of Letter ס in Torah: 1833
-<br />Total Number of Letter ע in Torah: 11250
-<br />Total Number of Letter פ in Torah: 3975
-<br />Total Number of Letter ף in Torah: 830
-<br />Total Number of Letter צ in Torah: 2927
-<br />Total Number of Letter ץ in Torah: 1035
-<br />Total Number of Letter ק in Torah: 4695
-<br />Total Number of Letter ר in Torah: 18125
-<br />Total Number of Letter ש in Torah: 15595
-<br />Total Number of Letter ת in Torah: 17950
+Total Number of Letter א Aleph in Torah: 27060
+<br />Total Number of Letter ב Bet in Torah: 16345
+<br />Total Number of Letter ג Gimel in Torah: 2109
+<br />Total Number of Letter ד Daled in Torah: 7032
+<br />Total Number of Letter ה Heh/Hey/Hay in Torah: 28055
+<br />Total Number of Letter ו Vav in Torah: 30533
+<br />Total Number of Letter ז Zayin in Torah: 2198
+<br />Total Number of Letter ח Het in Torah: 7189
+<br />Total Number of Letter ט Tet in Torah: 1804
+<br />Total Number of Letter י Yud in Torah: 31556
+<br />Total Number of Letter כ Khaf in Torah: 8610
+<br />Total Number of Letter ך Khaf Sofit in Torah: 3358
+<br />Total Number of Letter ל Lamed in Torah: 21570
+<br />Total Number of Letter מ Mem in Torah: 14466
+<br />Total Number of Letter ם Mem Sofit in Torah: 10624
+<br />Total Number of Letter נ Nun in Torah: 9867
+<br />Total Number of Letter ן Nun Sofit in Torah: 4259
+<br />Total Number of Letter ס Samekh in Torah: 1833
+<br />Total Number of Letter ע 'Ain in Torah: 11250
+<br />Total Number of Letter פ Peh/Pey/Pay in Torah: 3975
+<br />Total Number of Letter ף Peh/Pey/Pay Sofit in Torah: 830
+<br />Total Number of Letter צ Tzadik in Torah: 2927
+<br />Total Number of Letter ץ Tzadik Sofit in Torah: 1035
+<br />Total Number of Letter ק Kuf in Torah: 4695
+<br />Total Number of Letter ר Resh in Torah: 18125
+<br />Total Number of Letter ש Shin in Torah: 15595
+<br />Total Number of Letter ת Taf in Torah: 17950
 
 ### Total Number of Verses in Genesis:  1533
 ### Total Number of Letters in Genesis:  78069
