@@ -365,7 +365,7 @@ s.str.rfind("ב")
 # Statistics
 ### Total Number of Verses in Torah: 5846
 ### Total Number of Letters in Torah:  304853
-<br />Total Number of Letter א in Torah: 27060
+Total Number of Letter א in Torah: 27060
 <br />Total Number of Letter ב in Torah: 16345
 <br />Total Number of Letter ג in Torah: 2109
 <br />Total Number of Letter ד in Torah: 7032
