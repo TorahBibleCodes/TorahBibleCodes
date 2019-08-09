@@ -372,7 +372,7 @@ Total Number of Letter א Aleph in Torah: 27060
 <br />Total Number of Letter ה Heh/Hey/Hay in Torah: 28055
 <br />Total Number of Letter ו Vav in Torah: 30533
 <br />Total Number of Letter ז Zayin in Torah: 2198
-<br />Total Number of Letter ח Het in Torah: 7189
+<br />Total Number of Letter ח Ḥet in Torah: 7189
 <br />Total Number of Letter ט Tet in Torah: 1804
 <br />Total Number of Letter י Yud in Torah: 31556
 <br />Total Number of Letter כ Khaf in Torah: 8610
