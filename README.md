@@ -396,6 +396,34 @@ Total Number of Letter א Aleph in Torah: 27060
 ### Total Number of Verses in Genesis:  1533
 ### Total Number of Letters in Genesis:  78069
 
+Total Number of Letter א in Book of Genesis: 7634
+<br />Total Number of Letter ב in Book of Genesis: 4332
+<br />Total Number of Letter ג in Book of Genesis: 577
+<br />Total Number of Letter ד in Book of Genesis: 1848
+<br />Total Number of Letter ה in Book of Genesis: 6283
+<br />Total Number of Letter ו in Book of Genesis: 8447
+<br />Total Number of Letter ז in Book of Genesis: 428
+<br />Total Number of Letter ח in Book of Genesis: 1844
+<br />Total Number of Letter ט in Book of Genesis: 308
+<br />Total Number of Letter י in Book of Genesis: 9041
+<br />Total Number of Letter כ in Book of Genesis: 1909
+<br />Total Number of Letter ך in Book of Genesis: 865
+<br />Total Number of Letter ל in Book of Genesis: 5275
+<br />Total Number of Letter מ in Book of Genesis: 3421
+<br />Total Number of Letter ם in Book of Genesis: 2689
+<br />Total Number of Letter נ in Book of Genesis: 2776
+<br />Total Number of Letter ן in Book of Genesis: 1009
+<br />Total Number of Letter ס in Book of Genesis: 446
+<br />Total Number of Letter ע in Book of Genesis: 2823
+<br />Total Number of Letter פ in Book of Genesis: 890
+<br />Total Number of Letter ף in Book of Genesis: 313
+<br />Total Number of Letter צ in Book of Genesis: 740
+<br />Total Number of Letter ץ in Book of Genesis: 351
+<br />Total Number of Letter ק in Book of Genesis: 1301
+<br />Total Number of Letter ר in Book of Genesis: 4793
+<br />Total Number of Letter ש in Book of Genesis: 3574
+<br />Total Number of Letter ת in Book of Genesis: 4152
+
 ### Total Number of Verses in Hebrew Bible: 23206
 ### Total Number of Letters in Hebrew Bible: 1197120
 
