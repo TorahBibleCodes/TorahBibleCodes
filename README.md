@@ -126,10 +126,11 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 <br />4.) CALL MODULE.FUNCTION() #4 - CONVERT PARSED JSON STRINGS TO DICTIONARIES; RETURN LIST OF DICTIONARIES
 <br />5.) CALL MODULE.FUNCTION() #5 - GET NUMBER OF TEXT CHOSEN
 <br />6.) CALL MODULE.FUNCTION() #6 - ZIPPED TUPLE CREATE
-<br />7.) CALL MODULE.FUNCTION() #7 - DICTIONARY OF VERSES CREATE WITH TUPLES AS KEYS, e.g. (1,1,1) = BOOK (1) GENESIS CHAPTER 1, VERSE 1...
+<br />7.) CALL MODULE.FUNCTION() #7 - DICTIONARY OF VERSES CREATE WITH TUPLES AS KEYS, e.g. (1,1,1) = BOOK (1) GENESIS CHAPTER 1, VERSE 1... ; RETURNS DICTIONARY OF VERSES
 <br />8.) CALL MODULE.FUNCTION() #8 - DATA OBJECTS CREATE; RETURNS 1.) STRING OF LETTERS, 2.) LIST OF LETTERS, 3.) DICT OF LETTERS, 4.) DICT OF LETTERS
 <br />9.) CALL MODULE.FUNCTION() #9 - GET NUMBER VALUE OF EACH LETTER IN STRING
-<br />10.) STEP 10 - IN DEVELOPMENT
+<br />10.) CALL MODULE.FUNCTION() #10 - CREATE LIST OF CUSTOM INDEXES NON-0-INDEXED / 1-INDEXED RETURNS LIST OF CUSTOM INDEXES
+
 
 # Program Concepts:  Objects - D, DL, D5, L, S, N
 ## "D" Object:  Dictionary of Verses Object
@@ -350,6 +351,7 @@ s.str.find("ב")
 s.str.rfind("ב")
 --> Returns Boolean-like (0 / -1) for each match (0) and for each non-match (-1)
 
+### The following values are all equivalent; Each equals every other value
 <ul>
   <li>len(s) --> Total Number of Letters in the Pandas Series s --> Equal to len(S); len(L); len(DL); len(D5); len(N)</li>
   <li>len(S) --> Total Number of Letters in the Python String S --> Equal to len(s); len(L); len(DL); len(D5); len(N)</li>
