@@ -19,35 +19,41 @@ def fn_DictionaryOfVersesCreate(ZippedTuple):
     for each in ZippedTuple:
         
         ## TEST PRINT OUTPUT - each[0] = integer; each[1] = dictionary object
-        print(each[0], each[1]['title'])
-        print(len(each[1]['text'])) ## len(d['text']) = NUMBER OF CHAPTERS IN SELECTED TEXT
-        print(type(each[1]['text'])) # type(d['text']) = LIST OF CHAPTERS (LIST OF LISTS) IN SELECTED TEXT
+        ## print(each[0], each[1]['title'])
+        ## print(len(each[1]['text'])) ## len(d['text']) = NUMBER OF CHAPTERS IN SELECTED TEXT
+        ## print(type(each[1]['text'])) # type(d['text']) = LIST OF CHAPTERS (LIST OF LISTS) IN SELECTED TEXT
         
         NumberOfBook = each[0]
         NumberOfChapters = len(each[1]['text'])
     
         ## TEST PRINT OUTPUT
-        print(NumberOfBook, NumberOfChapters)
+        ## print(NumberOfBook, NumberOfChapters)
         
         ChapterCounter = 1
         
         for Chapter in each[1]['text']:
-            print("\n")  ## PRINT SPACE
-            print("NumberOfBook = ", NumberOfBook)
-            print("NumberOfChapters = ", NumberOfChapters)
-            print("NumberOfChapter = ", ChapterCounter)
-            print("Chapter = ", Chapter)
+            
+            ## TEST PRINT OUTPUT
+            ## print("\n")  ## PRINT SPACE
+            ## print("NumberOfBook = ", NumberOfBook)
+            ## print("NumberOfChapters = ", NumberOfChapters)
+            ## print("NumberOfChapter = ", ChapterCounter)
+            ## print("Chapter = ", Chapter)
             
             VerseCounter = 1
             
             for Verse in Chapter:
-                print("\n")  ## PRINT SPACE
-                print("NumberOfChapter = ", ChapterCounter)
-                print("NumberOfVerse = ", VerseCounter)
+                
+                ## TEST PRINT OUTPUT
+                ## print("\n")  ## PRINT SPACE
+                ## print("NumberOfChapter = ", ChapterCounter)
+                ## print("NumberOfVerse = ", VerseCounter)
                 
                 KeyTuple = (NumberOfBook, ChapterCounter, VerseCounter)
-                print("KeyTuple = ", KeyTuple)
-                print("Verse = ", Verse)
+                
+                ## TEST PRINT OUTPUT
+                ## print("KeyTuple = ", KeyTuple)
+                ## print("Verse = ", Verse)
                 
                 DictOfVerses[KeyTuple] = Verse
                 

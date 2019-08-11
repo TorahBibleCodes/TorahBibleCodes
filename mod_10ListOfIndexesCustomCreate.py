@@ -21,8 +21,8 @@ def fn_ListOfIndexesCustomCreate(D5):
     for each in D5: ## EACH == KEY OF D5
         
         ## TEST PRINT OUTPUT
-        print("index = ", each[-1])
-        print("each D5 key =", each)
+        ## print("index = ", each[-1])
+        ## print("each D5 key =", each)
         
         ## DECLARE INDEX VALUE
         IndexCustom = each[-1]

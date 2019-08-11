@@ -13,12 +13,12 @@ def fn_TextFileParse(JSONString):
     print("WITHIN FUNCTION:  BEGIN FUNCTION #3B TEXT FILE PARSE")
          
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print(JSONString)
+    ## print("\n")  ## PRINT SPACE
+    ## print(JSONString)
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("Length of JSONString =", len(JSONString), type(JSONString))
+    ## print("\n")  ## PRINT SPACE
+    ## print("Length of JSONString =", len(JSONString), type(JSONString))
     
     ## BEGIN TEXT FILE PARSE
     ## BEGIN TEXT FILE PARSE
@@ -31,12 +31,12 @@ def fn_TextFileParse(JSONString):
     
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print(TextNoSpaces)
+    ## print("\n")  ## PRINT SPACE
+    ## print(TextNoSpaces)
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("Length of TextNoSpaces =", len(TextNoSpaces), type(TextNoSpaces))
+    ## print("\n")  ## PRINT SPACE
+    ## print("Length of TextNoSpaces =", len(TextNoSpaces), type(TextNoSpaces))
     
     
     ## REMOVE HYPHENS FROM STRING
@@ -46,12 +46,12 @@ def fn_TextFileParse(JSONString):
 
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print(TextNoHyphens)
+    ## print("\n")  ## PRINT SPACE
+    ## print(TextNoHyphens)
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("Length of TextNoHyphens =", len(TextNoHyphens), type(TextNoHyphens))
+    ## print("\n")  ## PRINT SPACE
+    ## print("Length of TextNoHyphens =", len(TextNoHyphens), type(TextNoHyphens))
     
 
     ## REMOVE BRACKETS AND CONTENTS WIHIN BRACKETS FROM STRING
@@ -61,12 +61,12 @@ def fn_TextFileParse(JSONString):
     TextNoBrackets = re.sub("[\[].*?[\]]", "", TextNoHyphens)
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print(TextNoBrackets)
+    ## print("\n")  ## PRINT SPACE
+    ## print(TextNoBrackets)
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("Length of TextNoBrackets =", len(TextNoBrackets), type(TextNoBrackets))
+    ## print("\n")  ## PRINT SPACE
+    ## print("Length of TextNoBrackets =", len(TextNoBrackets), type(TextNoBrackets))
     
     ## END TEXT FILE PARSE
     ## END TEXT FILE PARSE
@@ -78,8 +78,8 @@ def fn_TextFileParse(JSONString):
     TextParsed = TextNoBrackets
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("Length of TextParsed =", len(TextParsed), type(TextParsed))
+    ## print("\n")  ## PRINT SPACE
+    ## print("Length of TextParsed =", len(TextParsed), type(TextParsed))
     
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE

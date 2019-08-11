@@ -25,9 +25,11 @@ def fn_DataObjectsCreate(D):
         
         ## COUNT LENGTH OF STRING, i.e. HOW MANY LETTERS IN EACH STRING
         LengthOfString = len(each)
-        print("Key = ", key)
-        print("LengthOfVerse = ", LengthOfString)
-        print(each)
+        
+        ## TEST PRINT OUTPUT
+        ## print("Key = ", key)
+        ## print("LengthOfVerse = ", LengthOfString)
+        ## print(each)
         
         ## FOR EACH LETTER IN STRING/VERSE...
         for letter in each:

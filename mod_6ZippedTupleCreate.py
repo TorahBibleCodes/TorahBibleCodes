@@ -17,13 +17,13 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, SearchTextChosen):
         ## CREATE ZIPPED TUPLE OF SEARCH TEXT CHOSEN // DICT OF JSON STRING PARSED 
         ZippedTuple = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
         
-        ## LOOP THROUGH TUPLE ()
-        for each in ZippedTuple:
+        ## LOOP THROUGH TUPLE - TEST PRINT OUTPUT
+        ## for each in ZippedTuple:
             
             ## TEST PRINT OUTPUT
-            print("\n")  ## PRINT SPACE
-            print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 5 TEXTS OF TORAH CHOSEN = ", each[0],len(each[1]))
-            print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 5 TEXTS OF TORAH CHOSEN = ", type(each[0]),type(each[1]))
+            ## print("\n")  ## PRINT SPACE
+            ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 5 TEXTS OF TORAH CHOSEN = ", each[0],len(each[1]))
+            ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 5 TEXTS OF TORAH CHOSEN = ", type(each[0]),type(each[1]))
       
         ## RETURN ZIPPED TUPLE
         return(ZippedTuple)
@@ -34,13 +34,13 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, SearchTextChosen):
         ## CREATE ZIPPED TUPLE OF SEARCH TEXT CHOSEN // DICT OF JSON STRING PARSED 
         ZippedTuple = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
         
-        ## LOOP THROUGH TUPLE ()
-        for each in ZippedTuple:
+        ## LOOP THROUGH TUPLE - TEST PRINT OUTPUT
+        ## for each in ZippedTuple:
             
             ## TEST PRINT OUTPUT
-            print("\n")  ## PRINT SPACE
-            print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 21 TEXTS OF THE PROPHETS CHOSEN = ", each[0],len(each[1]))
-            print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 21 TEXTS OF THE PROPHETS CHOSEN = ", type(each[0]),type(each[1]))
+            ## print("\n")  ## PRINT SPACE
+            ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 21 TEXTS OF THE PROPHETS CHOSEN = ", each[0],len(each[1]))
+            ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 21 TEXTS OF THE PROPHETS CHOSEN = ", type(each[0]),type(each[1]))
       
         ## RETURN ZIPPED TUPLE
         return(ZippedTuple)
@@ -51,13 +51,13 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, SearchTextChosen):
         ## CREATE ZIPPED TUPLE OF SEARCH TEXT CHOSEN // DICT OF JSON STRING PARSED 
         ZippedTuple = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
         
-        ## LOOP THROUGH TUPLE ()
-        for each in ZippedTuple:
+        ## LOOP THROUGH TUPLE - TEST PRINT OUTPUT
+        ## for each in ZippedTuple:
             
             ## TEST PRINT OUTPUT
-            print("\n")  ## PRINT SPACE
-            print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 13 TEXTS OF THE WRITINGS CHOSEN = ", each[0],len(each[1]))
-            print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 13 TEXTS OF THE WRITINGS CHOSEN = ", type(each[0]),type(each[1]))
+            ## print("\n")  ## PRINT SPACE
+            ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 13 TEXTS OF THE WRITINGS CHOSEN = ", each[0],len(each[1]))
+            ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 13 TEXTS OF THE WRITINGS CHOSEN = ", type(each[0]),type(each[1]))
       
         ## RETURN ZIPPED TUPLE
         return(ZippedTuple)
@@ -68,13 +68,13 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, SearchTextChosen):
         ## CREATE ZIPPED TUPLE OF SEARCH TEXT CHOSEN // DICT OF JSON STRING PARSED 
         ZippedTuple = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
         
-        ## LOOP THROUGH TUPLE ()
-        for each in ZippedTuple:
+        ## LOOP THROUGH TUPLE - TEST PRINT OUTPUT
+        ## for each in ZippedTuple:
             
             ## TEST PRINT OUTPUT
-            print("\n")  ## PRINT SPACE
-            print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 39 TEXTS OF THE HEBREW BIBLE CHOSEN = ", each[0],len(each[1]))
-            print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 39 TEXTS OF THE HEBREW BIBLE CHOSEN = ", type(each[0]),type(each[1]))
+            ## print("\n")  ## PRINT SPACE
+            ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 39 TEXTS OF THE HEBREW BIBLE CHOSEN = ", each[0],len(each[1]))
+            ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 39 TEXTS OF THE HEBREW BIBLE CHOSEN = ", type(each[0]),type(each[1]))
       
         ## RETURN ZIPPED TUPLE
         return(ZippedTuple)
@@ -86,28 +86,28 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, SearchTextChosen):
         ZippedTuple = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
         
         ## TEST PRINT OUTPUT
-        print("ZIPPED TUPLE IN FUNCTION 6 = ", ZippedTuple)
+        ## print("ZIPPED TUPLE IN FUNCTION 6 = ", ZippedTuple)
     
-        ## LOOP THROUGH TUPLE
-        for each in ZippedTuple:
+        ## LOOP THROUGH TUPLE - TEST PRINT OUTPUT
+        ## for each in ZippedTuple:
             
             ## TEST PRINT OUTPUT
-            print("\n")  ## PRINT SPACE
-            print("HERE IS EACH ELEMENT IN ZIPPEDTUPLE = ", each)
-            print("EACH ELEMENT IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ONE BOOK CHOSEN = ", len(each), type(each))
+            ## print("\n")  ## PRINT SPACE
+            ## print("HERE IS EACH ELEMENT IN ZIPPEDTUPLE = ", each)
+            ## print("EACH ELEMENT IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ONE BOOK CHOSEN = ", len(each), type(each))
             
             ## TEST PRINT OUTPUT
-            print("\n")  ## PRINT SPACE
-            print("EACH ELEMENT IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ONE BOOK CHOSEN = ", each[0],len(each[1]))
-            print("Z = ", each[0],len(each[1]))
+            ## print("\n")  ## PRINT SPACE
+            ## print("EACH ELEMENT IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ONE BOOK CHOSEN = ", each[0],len(each[1]))
+            ## print("Z = ", each[0],len(each[1]))
             
             ## TEST PRINT OUTPUT
-            print("\n")  ## PRINT SPACE
-            print("EACH ELEMENT IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ONE BOOK CHOSEN = ", each[0],len(each[1]))
-            print("Z = ", type(each[0]),type(each[1]))
+            ## print("\n")  ## PRINT SPACE
+            ## print("EACH ELEMENT IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ONE BOOK CHOSEN = ", each[0],len(each[1]))
+            ## print("Z = ", type(each[0]),type(each[1]))
             
             ## TEST PRINT OUTPUT
-            print("\n")  ## PRINT SPACE
+            ##print("\n")  ## PRINT SPACE
                    
         ## RETURN ZIPPED TUPLE
         return(ZippedTuple)

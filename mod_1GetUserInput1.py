@@ -58,18 +58,18 @@ def fn_GetUserInput1():
     TextString = input("Please select text to search:  ")
     
     ## CONVERT TEXT STRING TO INTEGER
-    TextChosen = int(TextString)
+    NumberOfTextChosen = int(TextString)
     
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("You have chosen:  ", TextChosen, type(TextChosen))
+    print("You have chosen:  ", NumberOfTextChosen, type(NumberOfTextChosen))
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
     print("WITHIN FUNCTION:  END FUNCTION #1 - GET USER INPUT; CHOOSE TEXT TO SEARCH")
 
     ## RETURN VARIABLES TO PROGRAM
-    return(TextChosen)
+    return(NumberOfTextChosen)
 
 ## END FUNCTION () #1 - GET USER INPUT; CHOOSE TEXT TO SEARCH
 ## END FUNCTION () #1 - GET USER INPUT; CHOOSE TEXT TO SEARCH
