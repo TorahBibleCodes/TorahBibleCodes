@@ -427,3 +427,31 @@ Total Number of Letter א in Book of Genesis: 7634
 ### Total Number of Verses in Hebrew Bible: 23206
 ### Total Number of Letters in Hebrew Bible: 1197120
 
+Total Number of Letter א in Hebrew Bible: 95685
+<br />Total Number of Letter ב in Hebrew Bible: 65216
+<br />Total Number of Letter ג in Hebrew Bible: 10080
+<br />Total Number of Letter ד in Hebrew Bible: 32371
+<br />Total Number of Letter ה in Hebrew Bible: 101962
+<br />Total Number of Letter ו in Hebrew Bible: 129606
+<br />Total Number of Letter ז in Hebrew Bible: 9099
+<br />Total Number of Letter ח in Hebrew Bible: 27598
+<br />Total Number of Letter ט in Hebrew Bible: 6310
+<br />Total Number of Letter י in Hebrew Bible: 137870
+<br />Total Number of Letter כ in Hebrew Bible: 33466
+<br />Total Number of Letter ך in Hebrew Bible: 14002
+<br />Total Number of Letter ל in Hebrew Bible: 88302
+<br />Total Number of Letter מ in Hebrew Bible: 57638
+<br />Total Number of Letter ם in Hebrew Bible: 41291
+<br />Total Number of Letter נ in Hebrew Bible: 39852
+<br />Total Number of Letter ן in Hebrew Bible: 15241
+<br />Total Number of Letter ס in Hebrew Bible: 7635
+<br />Total Number of Letter ע in Hebrew Bible: 44811
+<br />Total Number of Letter פ in Hebrew Bible: 15730
+<br />Total Number of Letter ף in Hebrew Bible: 2554
+<br />Total Number of Letter צ in Hebrew Bible: 11689
+<br />Total Number of Letter ץ in Hebrew Bible: 3288
+<br />Total Number of Letter ק in Hebrew Bible: 16278
+<br />Total Number of Letter ר in Hebrew Bible: 68064
+<br />Total Number of Letter ש in Hebrew Bible: 58198
+<br />Total Number of Letter ת in Hebrew Bible: 63206
+
