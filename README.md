@@ -246,7 +246,9 @@ For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or a
 
 # Python Objects
 
-### Please see the file "D.py" (also run: "p_els.py") to see and interact with the "D" Object:  Python Dictionary of Verses with a 3-digit Tuple Key
+### Please see the file "D.py" (also run: "p_els.py") to see and interact with the "D" Object:  Python Dictionary of Verses (with No Spaces) with a 3-digit Tuple Key
+
+### Please see the file "DS.py" (also run: "p_els.py") to see and interact with the "DS" Object:  Python Dictionary of Verses (with Spaces) with a 3-digit Tuple Key
 
 ### Please run the file "p_els.py" to see and interact with the "DL" Object:  Python Dictionary of Letters with a 4-digit Tuple Key
 
@@ -257,6 +259,13 @@ For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or a
 ### Please run the file "p_els.py" to see and interact with the "S" Object:  Python String of Letters
 
 ### Please run the file "p_els.py" to see and interact with the "N" Object:  Python List of Numbers
+
+### Please run the file "p_els.py" to see and interact with the "NW" Object:  Python List of Numbers for Words
+
+### Please run the file "p_els.py" to see and interact with the "W" Object:  Python Tuple of Words and Each's Gematria Value
+
+### Please run the file "p_els.py" to see and interact with the "ListOfWords" Object:  Python List of Words of the Selected Text(s)
+
 
 ## Each Verse can be further subdivided into a String (or List) Sequence of many Letter Objects (i.e. Strings of one (1) Letter only) which are classes which are accessible within the ELS Search sequence, and accessible by extension of previous tuple syntax:  Book, Chapter, Verse, Letter
 
