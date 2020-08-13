@@ -130,9 +130,10 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 <br />8.) CALL MODULE.FUNCTION() #8 - DATA OBJECTS CREATE; RETURNS 1.) STRING OF LETTERS, 2.) LIST OF LETTERS, 3.) DICT OF LETTERS, 4.) DICT OF LETTERS
 <br />9.) CALL MODULE.FUNCTION() #9 - GET NUMBER VALUE OF EACH LETTER IN STRING
 <br />10.) CALL MODULE.FUNCTION() #10 - CREATE LIST OF CUSTOM INDEXES NON-0-INDEXED / 1-INDEXED; RETURNS LIST OF CUSTOM INDEXES
-<br />11.) STEP 11 IN DEVELOPMENT...
+<br />11.) CALL MODULE.FUNCTION() #11 - DATA OBJECT CREATE - RETURNS TUPLE OF WORDS WITH EACH WORD'S GEMATRIA NUMBER VALUE
+<br />12.) STEP 12 IN DEVELOPMENT...
 
-# Program Concepts:  Objects - D, DL, D5, L, S, N
+# Program Concepts:  Objects - D (DS), DL, D5, L, S, N (NW), W, ListOfWords
 ## "D" Object:  Dictionary of Verses Object
 
 For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all five (5) together, or all twenty-one (21) books of the Prophets, or all thirteen (13) books of the Writings, or all thirty-nine (39) books of the entire Hebrew Bible), the text is parsed and a Python dictionary "D" is created that allows one to access each verse by 3-digit Tuple Key (Book, Chapter, Verse).  After choosing the text(s) to be searched, a Python dictionary "D" is created to contain each verse - accessible by 3-digit Tuple Key.
@@ -258,10 +259,15 @@ For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or a
 
 ## Each Verse can be further subdivided into a String (or List) Sequence of many Letter Objects (i.e. Strings of one (1) Letter only) which are classes which are accessible within the ELS Search sequence, and accessible by extension of previous tuple syntax:  Book, Chapter, Verse, Letter
 
-### D Object - Dictionary of Verses, accessible as data with a 3-digit Tuple Key
+### D Object - Dictionary of Verses (with No Spaces), accessible as data with a 3-digit Tuple Key
 <br />D[1,1,1] --> GENESIS 1:1 - 1st Book, 1st Chapter, 1st Verse 
 <br />D[1,1,2] --> GENESIS 1:2 - 1st Book, 1st Chapter, 2nd Verse
 <br />D[1,1,3] --> GENESIS 1:3 - 1st Book, 1st Chapter, 3rd Verse
+
+### DS Object - Dictionary of Verses (with Spaces), accessible as data with a 3-digit Tuple Key
+<br />DS[1,1,1] --> GENESIS 1:1 - 1st Book, 1st Chapter, 1st Verse 
+<br />DS[1,1,2] --> GENESIS 1:2 - 1st Book, 1st Chapter, 2nd Verse
+<br />DS[1,1,3] --> GENESIS 1:3 - 1st Book, 1st Chapter, 3rd Verse
 
 ### D Object - Dictionary of Verses/Letters, accessible as data with a 3-digit Tuple Key + sub-element (0-indexed) in sequence of letters within each verse.
 <br />D[1,1,1][0] --> 1st element (letter) in string/verse sequence --> 'ב'
