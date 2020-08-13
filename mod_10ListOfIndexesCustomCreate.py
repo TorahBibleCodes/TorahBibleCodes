@@ -31,7 +31,7 @@ def fn_ListOfIndexesCustomCreate(D5):
         ListOfIndexesCustom.append(IndexCustom)
     
     ## TEST PRINT OUTPUT        
-    print(ListOfIndexesCustom)
+    ## print(ListOfIndexesCustom)
     
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE

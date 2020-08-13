@@ -14,7 +14,7 @@ def fn_TextFileParse(JSONString):
          
     ## TEST PRINT OUTPUT
     ## print("\n")  ## PRINT SPACE
-    ## print(JSONString)
+    ##print(JSONString)
     
     ## TEST PRINT OUTPUT
     ## print("\n")  ## PRINT SPACE
@@ -23,70 +23,92 @@ def fn_TextFileParse(JSONString):
     ## BEGIN TEXT FILE PARSE
     ## BEGIN TEXT FILE PARSE
     ## BEGIN TEXT FILE PARSE
-    
-    ## REMOVE WHITE SPACES FROM STRING
-    ## REMOVE WHITE SPACES FROM STRING
-    ## REMOVE WHITE SPACES FROM STRING
-    TextNoSpaces = JSONString.replace(" ", "")
-    
-    
-    ## TEST PRINT OUTPUT
-    ## print("\n")  ## PRINT SPACE
-    ## print(TextNoSpaces)
-    
-    ## TEST PRINT OUTPUT
-    ## print("\n")  ## PRINT SPACE
-    ## print("Length of TextNoSpaces =", len(TextNoSpaces), type(TextNoSpaces))
-    
-    
-    ## REMOVE HYPHENS FROM STRING
-    ## REMOVE HYPHENS FROM STRING
-    ## REMOVE HYPHENS FROM STRING
-    TextNoHyphens = TextNoSpaces.replace("־", "")
 
+    ## REMOVE HYPHENS FROM STRING
+    ## REMOVE HYPHENS FROM STRING
+    ## REMOVE HYPHENS FROM STRING
     
+
+    TextNoHyphensWithSpaces = JSONString.replace("־", " ")
+
+
+
+
+
     ## TEST PRINT OUTPUT
-    ## print("\n")  ## PRINT SPACE
-    ## print(TextNoHyphens)
-    
-    ## TEST PRINT OUTPUT
-    ## print("\n")  ## PRINT SPACE
-    ## print("Length of TextNoHyphens =", len(TextNoHyphens), type(TextNoHyphens))
-    
+    ##print("\n")  ## PRINT SPACE
+    ##print("Length of TextNoHyphensWithSpaces =", len(TextNoHyphensWithSpaces), type(TextNoHyphensWithSpaces))
 
     ## REMOVE BRACKETS AND CONTENTS WIHIN BRACKETS FROM STRING
     ## REMOVE BRACKETS AND CONTENTS WIHIN BRACKETS FROM STRING
     ## REMOVE BRACKETS AND CONTENTS WIHIN BRACKETS FROM STRING
-    #TextNoBrackets = re.sub("[\(\[].*?[\)\]]", "", TextNoHyphens)
-    TextNoBrackets = re.sub("[\[].*?[\]]", "", TextNoHyphens)
+
+    TextNoBracketsWithSpaces = re.sub("[\[].*?[\]]", "", TextNoHyphensWithSpaces)
+
+
+
+
+
+    
     
     ## TEST PRINT OUTPUT
-    ## print("\n")  ## PRINT SPACE
-    ## print(TextNoBrackets)
+    ##print("\n")  ## PRINT SPACE
+    ##print("Length of TextNoBracketsWithSpaces =", len(TextNoBracketsWithSpaces), type(TextNoBracketsWithSpaces))
+
+    ## REMOVE WHITE SPACES FROM STRING
+    ## REMOVE WHITE SPACES FROM STRING
+    ## REMOVE WHITE SPACES FROM STRING
+    
+
+    TextNoSpaces = TextNoBracketsWithSpaces.replace(" ", "")
+
+
+
     
     ## TEST PRINT OUTPUT
-    ## print("\n")  ## PRINT SPACE
-    ## print("Length of TextNoBrackets =", len(TextNoBrackets), type(TextNoBrackets))
+    ##print("\n")  ## PRINT SPACE
+    ##print("Length of TextNoSpaces =", len(TextNoSpaces), type(TextNoSpaces))
+    
+    ## CHANGE VARIABLE NAME
+    ## CHANGE VARIABLE NAME
+    ## CHANGE VARIABLE NAME
+    TextParsedWithSpaces = TextNoBracketsWithSpaces
+    TextParsedNoSpaces = TextNoSpaces
+
+
+
+
+
+
+
+    ## TEST PRINT OUTPUT
+    ##print("\n")  ## PRINT SPACE
+    ##print("Length of TextParsedWithSpaces =", len(TextParsedWithSpaces), type(TextParsedWithSpaces))
+    
+    ## TEST PRINT OUTPUT
+    ##print("\n")  ## PRINT SPACE
+    ##print("Length of TextParsedNoSpaces =", len(TextParsedNoSpaces), type(TextParsedNoSpaces))
+
+
+    
     
     ## END TEXT FILE PARSE
     ## END TEXT FILE PARSE
     ## END TEXT FILE PARSE
     
-    ## CHANGE VARIABLE NAME
-    ## CHANGE VARIABLE NAME
-    ## CHANGE VARIABLE NAME
-    TextParsed = TextNoBrackets
+    ## CHANGE VARIABLE NAMES
+    ## CHANGE VARIABLE NAMES
+    ## CHANGE VARIABLE NAMES
     
-    ## TEST PRINT OUTPUT
-    ## print("\n")  ## PRINT SPACE
-    ## print("Length of TextParsed =", len(TextParsed), type(TextParsed))
+    TextParsedWithSpaces = TextNoBracketsWithSpaces
+    TextParsedNoSpaces = TextNoSpaces
     
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
     print("WITHIN FUNCTION:  END FUNCTION #3B - TEXT FILE PARSE")
 
-    ## RETURN VARIABLES TO PROGRAM
-    return(TextParsed)
+    ## RETURN VARIABLES TO PROGRAM - RETURNS TUPLE OF TWO TEXTS (LISTS):  1.) WITH SPACES; 2.) WITH NO SPACES
+    return(TextParsedWithSpaces, TextParsedNoSpaces)
 
 ## END FUNCTION () #3B - TEXT FILE PARSE
 ## END FUNCTION () #3B - TEXT FILE PARSE

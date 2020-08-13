@@ -5,7 +5,7 @@
 ## FUNCTION () #6 - ZIPPED TUPLE CREATE
 ## FUNCTION () #6 - ZIPPED TUPLE CREATE
 ## FUNCTION () #6 - ZIPPED TUPLE CREATE
-def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, SearchTextChosen):
+def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONStringsParsedWithSpaces, SearchTextChosen):
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
@@ -15,7 +15,8 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, SearchTextChosen):
     if len(ListOfDictsOfJSONStringsParsed) == 5:
         
         ## CREATE ZIPPED TUPLE OF SEARCH TEXT CHOSEN // DICT OF JSON STRING PARSED 
-        ZippedTuple = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
+        ZippedTupleNoSpaces = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
+        ZippedTupleWithSpaces = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsedWithSpaces))
         
         ## LOOP THROUGH TUPLE - TEST PRINT OUTPUT
         ## for each in ZippedTuple:
@@ -26,13 +27,14 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, SearchTextChosen):
             ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 5 TEXTS OF TORAH CHOSEN = ", type(each[0]),type(each[1]))
       
         ## RETURN ZIPPED TUPLE
-        return(ZippedTuple)
+        return(ZippedTupleNoSpaces, ZippedTupleWithSpaces)
         
     ## ...ELSE IF TEXT CHOSEN IS ALL TWENTY-ONE (21) TEXTS OF THE PROPHETS (NEVI'IM):
     elif len(ListOfDictsOfJSONStringsParsed) == 21:
         
         ## CREATE ZIPPED TUPLE OF SEARCH TEXT CHOSEN // DICT OF JSON STRING PARSED 
-        ZippedTuple = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
+        ZippedTupleNoSpaces = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
+        ZippedTupleWithSpaces = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsedWithSpaces))
         
         ## LOOP THROUGH TUPLE - TEST PRINT OUTPUT
         ## for each in ZippedTuple:
@@ -43,13 +45,14 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, SearchTextChosen):
             ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 21 TEXTS OF THE PROPHETS CHOSEN = ", type(each[0]),type(each[1]))
       
         ## RETURN ZIPPED TUPLE
-        return(ZippedTuple)
+        return(ZippedTupleNoSpaces, ZippedTupleWithSpaces)
         
     ## ...ELSE IF TEXT CHOSEN IS ALL THIRTEEN (13) TEXTS OF THE WRITINGS (K'TUVIM):
     elif len(ListOfDictsOfJSONStringsParsed) == 13:
         
         ## CREATE ZIPPED TUPLE OF SEARCH TEXT CHOSEN // DICT OF JSON STRING PARSED 
-        ZippedTuple = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
+        ZippedTupleNoSpaces = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
+        ZippedTupleWithSpaces = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsedWithSpaces))
         
         ## LOOP THROUGH TUPLE - TEST PRINT OUTPUT
         ## for each in ZippedTuple:
@@ -60,13 +63,14 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, SearchTextChosen):
             ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 13 TEXTS OF THE WRITINGS CHOSEN = ", type(each[0]),type(each[1]))
       
         ## RETURN ZIPPED TUPLE
-        return(ZippedTuple)
+        return(ZippedTupleNoSpaces, ZippedTupleWithSpaces)
         
     ## ...ELSE IF TEXT CHOSEN IS ALL THIRTY-NINE (39) TEXTS OF THE HEBREW BIBLE (TANACH):
     elif len(ListOfDictsOfJSONStringsParsed) == 39:
         
         ## CREATE ZIPPED TUPLE OF SEARCH TEXT CHOSEN // DICT OF JSON STRING PARSED 
-        ZippedTuple = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
+        ZippedTupleNoSpaces = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
+        ZippedTupleWithSpaces = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsedWithSpaces))
         
         ## LOOP THROUGH TUPLE - TEST PRINT OUTPUT
         ## for each in ZippedTuple:
@@ -77,13 +81,14 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, SearchTextChosen):
             ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 39 TEXTS OF THE HEBREW BIBLE CHOSEN = ", type(each[0]),type(each[1]))
       
         ## RETURN ZIPPED TUPLE
-        return(ZippedTuple)
+        return(ZippedTupleNoSpaces, ZippedTupleWithSpaces)
         
     ## ...ELSE IF TEXT CHOSEN IS ONLY ONE (1) TEXT:
     elif len(ListOfDictsOfJSONStringsParsed) == 1:
         
         ## CREATE ZIPPED TUPLE OF SEARCH TEXT CHOSEN // DICT OF JSON STRING PARSED  
-        ZippedTuple = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
+        ZippedTupleNoSpaces = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
+        ZippedTupleWithSpaces = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsedWithSpaces))
         
         ## TEST PRINT OUTPUT
         ## print("ZIPPED TUPLE IN FUNCTION 6 = ", ZippedTuple)
@@ -110,7 +115,7 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, SearchTextChosen):
             ##print("\n")  ## PRINT SPACE
                    
         ## RETURN ZIPPED TUPLE
-        return(ZippedTuple)
+        return(ZippedTupleNoSpaces, ZippedTupleWithSpaces)
         
     ## ELSE ALL OTHER CASES (NEVER CALLED)
     else:
