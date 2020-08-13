@@ -132,13 +132,14 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 <br />10.) CALL MODULE.FUNCTION() #10 - CREATE LIST OF CUSTOM INDEXES NON-0-INDEXED / 1-INDEXED; RETURNS LIST OF CUSTOM INDEXES
 <br />11.) CALL MODULE.FUNCTION() #11 - DATA OBJECT CREATE - RETURNS TUPLE OF WORDS WITH EACH WORD'S GEMATRIA NUMBER VALUE
 <br />12.) STEP 12 IN DEVELOPMENT...
+<br />99.) ...STEP 99 CALL MODULE.FUNCTION() #99 = OUTPUT/WRITE TO CSV FILE ALL WORDS OF SELECTED TEXT(S) WITH EACH WORD'S GEMATRIA VALUE
 
 # Program Concepts:  Objects - D (DS), DL, D5, L, S, N (NW), W, ListOfWords
 ## "D" Object:  Dictionary of Verses Object
 
 For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all five (5) together, or all twenty-one (21) books of the Prophets, or all thirteen (13) books of the Writings, or all thirty-nine (39) books of the entire Hebrew Bible), the text is parsed and a Python dictionary "D" is created that allows one to access each verse by 3-digit Tuple Key (Book, Chapter, Verse).  After choosing the text(s) to be searched, a Python dictionary "D" is created to contain each verse - accessible by 3-digit Tuple Key.
 
-## Each verse (and letter) of the thirty-nine (39) books of the Hebrew Bible is accessible via the Python dictionary "D" with a unique 3-digit Tuple Key as per following examples:
+## Each verse (and letter) of the thirty-nine (39) books of the Hebrew Bible is accessible via the Python dictionary "D" (or "DS") with a unique 3-digit Tuple Key as per following examples:
 
 `<br />D[1,1,1] = GENESIS 1:1
 <br />D[1,1,7] = GENESIS 1:7
