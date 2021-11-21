@@ -4,9 +4,15 @@
 
 ### remasterized torabible codes for massive AI pattern search and dummies iface. (Work on progress)
 
+
+![image](https://user-images.githubusercontent.com/60758685/142779977-354545db-a8e1-4600-8efc-1a2b864b5734.png)
+
+
 ![image](https://user-images.githubusercontent.com/60758685/142779308-e0641475-c2eb-44c3-8c41-059f03dcdea1.png)
 
+
 ![image](https://user-images.githubusercontent.com/60758685/142779321-c0be35b9-6d19-4f63-8014-d48ca800c7ad.png)
+
 
 ## Usage
 
