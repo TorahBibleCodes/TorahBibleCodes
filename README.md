@@ -12,6 +12,21 @@
 
 `python3 TBC.py`
 
+Modules
+
+- Conversions , search and make conversion
+
+- Publish , share in eos blockchain your interesting results (almost done)
+
+- Maps , Set or recover geolocalization information (pending set places in Torah)
+
+- XGboost pattern (XG-ELS, search for unprobable patterns basen on linear regresions, pending iface)
+
+- Probnet deterministic patterns from 100 % accuracy geometrical or arthmetic functions sequencces, (pending iface)
+
+- Pandas , panda sequences (pending iface)
+
+- GPU & multithreading (pending)
 
 ### Original Code
 
