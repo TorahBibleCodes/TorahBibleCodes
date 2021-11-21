@@ -1,0 +1,4 @@
+privkey="5K8WFSf48kKSn8nQkVwwGao168SeTNWzLdbyHqRcpPn6MwX66mo"
+account="d3usxm4ch1n4"
+privkey2="5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3"
+priv3="5KMfuuhv99ETJ835V3GJuNjWZX6q9ZcdsBoSHMQ6YDUjF8jeK3p"
