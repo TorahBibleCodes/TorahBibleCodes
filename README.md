@@ -1,14 +1,20 @@
 
+
+# TorahBibleCodes 
+
+### remasterized torabible codes for massive AI pattern search and dummies iface.
+
 ![image](https://user-images.githubusercontent.com/60758685/142779308-e0641475-c2eb-44c3-8c41-059f03dcdea1.png)
 
 ![image](https://user-images.githubusercontent.com/60758685/142779321-c0be35b9-6d19-4f63-8014-d48ca800c7ad.png)
 
 ## Usage
 
-`python3 TBC.py
-`
+`python3 TBC.py`
 
-# TorahBibleCodes
+
+### Original Code
+
 Torah Bible Codes - Open-Source Python
 
 http://TorahBibleCodes.com
