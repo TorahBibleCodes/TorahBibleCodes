@@ -2,7 +2,7 @@
 
 # TorahBibleCodes 
 
-### remasterized torabible codes for massive AI pattern search and dummies iface.
+### remasterized torabible codes for massive AI pattern search and dummies iface. (Work on progress)
 
 ![image](https://user-images.githubusercontent.com/60758685/142779308-e0641475-c2eb-44c3-8c41-059f03dcdea1.png)
 
