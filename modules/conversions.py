@@ -22,10 +22,21 @@ def search(options):
         except:
             pass
 
-def els(options):
+
+
+def get_space(options):
+    pattern = options[0]
+    srun = options[1]
+    plist = [char for char in pattern]
+    #for a in plist:
+    #    get_space([]
+
+    print (plist)
+
+def elsf(options):
     space = options[1]
     i=1
-
+    rese=""
     for (z,b,y) in p_els.D:
         #m = re.search(exp, p_els.D[z,b,y])
         #print (p_els.D[z,b,y])
@@ -38,10 +49,36 @@ def els(options):
                     res=(char)+res
 
                 i=i+1
-            print(res)
+            rese=rese+" "+res
+            #print(res)
         except:
             pass
 
+
+
+
+def els(options):
+    space = options[1]
+    i=1
+    rese=""
+    for (z,b,y) in p_els.D:
+        #m = re.search(exp, p_els.D[z,b,y])
+        #print (p_els.D[z,b,y])
+        try:
+         #   print(m.group(0))
+            #print(p_els.D[z,b,y])
+            res=""
+            for char in p_els.D[z,b,y]:
+                if (i % int(space)) == 0:
+                    res=(char)+res
+
+                i=i+1
+            rese=rese+" "+res
+            #print(res)
+        except:
+            pass
+
+    print (rese)
 # get data from letters
 def tonum(options):
     ListOfLetters = options[0].split(",")
@@ -63,7 +100,7 @@ def coreOptions():
 
 ## Extend command usage instructions 
 def ExtendCommands():
-    commands = [["els","els words space"],["search","search termsexp"],["get","get book verse number"],["tonum","tonum (sentence or word)"],["toword","toword \"1,2,3,4,5\""]]
+    commands = [["els","els words space"],["search","search termsexp"],["get","get book verse number"],["tonum","tonum (sentence or word)"],["toword","toword \"1,2,3,4,5\""],["get_space","get_spaces sentence"]]
     return commands
 
 
@@ -74,4 +111,3 @@ def core(moduleOptions):
 	query = moduleOptions[0][2]
 	modelist = moduleOptions[1][2]
 	
-
