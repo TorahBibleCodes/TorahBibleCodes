@@ -9,8 +9,8 @@
 def fn_ListOfIndexesCustomCreate(D5):
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #10 - LIST OF INDEXES (CUSTOM) CREATE")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  BEGIN FUNCTION #10 - LIST OF INDEXES (CUSTOM) CREATE")
           
     ## DECLARE VARIABLES
     
@@ -34,8 +34,8 @@ def fn_ListOfIndexesCustomCreate(D5):
     ## print(ListOfIndexesCustom)
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #10 - LIST OF INDEXES (CUSTOM) CREATE")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  END FUNCTION #10 - LIST OF INDEXES (CUSTOM) CREATE")
     
     ## RETURN VARIABLES
     return(ListOfIndexesCustom)

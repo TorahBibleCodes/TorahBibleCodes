@@ -9,8 +9,8 @@
 def fn_TupleOfWordsAndGematriaValuesCreate(ListOfWords, NW):
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #11 - TUPLE OF WORDS AND GEMATRIA VALUES CREATE ")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  BEGIN FUNCTION #11 - TUPLE OF WORDS AND GEMATRIA VALUES CREATE ")
           
     ## DECLARE VARIABLES
     ## CALL PYTHON BUILT-IN FUNCTION(S) - CREATE TUPLE OF WORDS AND GEMATRIA VALUES
@@ -21,8 +21,8 @@ def fn_TupleOfWordsAndGematriaValuesCreate(ListOfWords, NW):
     ## print(W)
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #11 - TUPLE OF WORDS AND GEMATRIA VALUES CREATE")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  END FUNCTION #11 - TUPLE OF WORDS AND GEMATRIA VALUES CREATE")
     
     ## RETURN VARIABLES - TUPLE OF WORDS AND GEMATRIA VALUES
     return(W)

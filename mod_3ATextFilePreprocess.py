@@ -9,8 +9,8 @@ import mod_3BTextFileParse ## MODULE.FUNCTION() #3B - TEXT FILE PARSE
 def fn_TextFilePreprocess(JSON):
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #3A TEXT FILE PREPROCESS")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  BEGIN FUNCTION #3A TEXT FILE PREPROCESS")
 
     ## DECLARE VARIABLES
     ListOfJSONStringsParsed = []
@@ -46,8 +46,8 @@ def fn_TextFilePreprocess(JSON):
             ListOfJSONStringsParsedWithSpaces.append(JSONParsed[0]) ## JSONParsed[0] = TextWithSpaces ## JSONParsed[1] = TextNoSpaces
             
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #3A - TEXT FILE PREPROCESS")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  END FUNCTION #3A - TEXT FILE PREPROCESS")
 
     ## RETURN VARIABLES TO PROGRAM
     return(ListOfJSONStringsParsed, ListOfJSONStringsParsedWithSpaces)

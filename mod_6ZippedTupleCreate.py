@@ -8,8 +8,8 @@
 def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONStringsParsedWithSpaces, SearchTextChosen):
 
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #6 - ZIPPED TUPLE CREATE")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  BEGIN FUNCTION #6 - ZIPPED TUPLE CREATE")
     
     ## IF TEXT CHOSEN IS ALL FIVE (5) TEXTS OF TORAH...
     if len(ListOfDictsOfJSONStringsParsed) == 5:
@@ -124,8 +124,8 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONString
           
 
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #6 - ZIPPED TUPLE CREATE")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  END FUNCTION #6 - ZIPPED TUPLE CREATE")
 
 ## END FUNCTION () #6 - ZIPPED TUPLE CREATE
 ## END FUNCTION () #6 - ZIPPED TUPLE CREATE

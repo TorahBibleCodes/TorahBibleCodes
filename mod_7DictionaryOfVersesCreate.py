@@ -9,8 +9,8 @@
 def fn_DictionaryOfVersesCreate(ZippedTupleNoSpaces, ZippedTupleWithSpaces):
 
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #7 - DICTIONARY OF VERSES CREATE")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  BEGIN FUNCTION #7 - DICTIONARY OF VERSES CREATE")
           
     ## DECLARE VARIABLES      
     DictOfVersesNoSpaces = {} ## EMPTY DICTIONARY TO HOLD KEYS + VERSES
@@ -115,8 +115,8 @@ def fn_DictionaryOfVersesCreate(ZippedTupleNoSpaces, ZippedTupleWithSpaces):
 
             
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #7 - DICTIONARY OF VERSES CREATE")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  END FUNCTION #7 - DICTIONARY OF VERSES CREATE")
 
     ## RETURN VARIABLES TO PROGRAM
     return(DictOfVersesNoSpaces, DictOfVersesWithSpaces)

@@ -8,8 +8,8 @@
 def fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed):
 
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #5 - GET NUMBER OF TEXT CHOSEN")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  BEGIN FUNCTION #5 - GET NUMBER OF TEXT CHOSEN")
     
     ## DECLARE VARIABLES
     TextChosen = []
@@ -212,8 +212,8 @@ def fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed):
     TextChosen = tuple(TextChosen)
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #5 - GET NUMBER OF TEXT CHOSEN")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  END FUNCTION #5 - GET NUMBER OF TEXT CHOSEN")
 
     ## RETURN VARIABLES TO PROGRAM
     return(TextChosen)

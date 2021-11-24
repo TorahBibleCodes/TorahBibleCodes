@@ -10,8 +10,8 @@ import json
 def fn_ConvertJSONStringsToDicts(ListOfJSONStringsParsed, ListOfJSONStringsParsedWithSpaces):
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #4 CONVERT PARSED JSON STRINGS TO DICTIONARIES")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  BEGIN FUNCTION #4 CONVERT PARSED JSON STRINGS TO DICTIONARIES")
     
     ## DECLARE VARIABLES      
     ListOfDictsOfJSONStringsParsed = []
@@ -39,8 +39,8 @@ def fn_ConvertJSONStringsToDicts(ListOfJSONStringsParsed, ListOfJSONStringsParse
         ListOfDictsOfJSONStringsParsedWithSpaces.append(DictOfConvertedJSON)
         
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #4 - CONVERT PARSED JSON STRINGS TO DICTIONARIES")    
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  END FUNCTION #4 - CONVERT PARSED JSON STRINGS TO DICTIONARIES")    
     
     ## RETURN VARIABLES TO PROGRAM
     return(ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONStringsParsedWithSpaces)

@@ -4,8 +4,8 @@
 def fn_TextFileOpen(TextChosen):
 
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #2 TEXT FILE OPEN")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  BEGIN FUNCTION #2 TEXT FILE OPEN")
           
     ## OPEN TEXT FILE
     ## IF TEXT CHOSEN IS ONLY ONE (1) TEXT...
@@ -764,8 +764,8 @@ def fn_TextFileOpen(TextChosen):
         
             
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #2 - TEXT FILE OPEN")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  END FUNCTION #2 - TEXT FILE OPEN")
 
     ## RETURN VARIABLES TO PROGRAM
     return(TextFile)

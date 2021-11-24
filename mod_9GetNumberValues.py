@@ -9,8 +9,8 @@
 def fn_GetNumberValues(SequenceOfLetters, ListOfWords):
     
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #9 - GET NUMBER VALUES")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  BEGIN FUNCTION #9 - GET NUMBER VALUES")
     
     ## CREATE EMPTY LIST TO STORE VALUES
     ListOfNumberValues4Letters = []
@@ -178,8 +178,8 @@ def fn_GetNumberValues(SequenceOfLetters, ListOfWords):
     ## END FOR LOOP 2A
 
     ## TEST PRINT OUTPUT
-    print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #9 - GET NUMBER VALUES")
+    #print("\n")  ## PRINT SPACE
+    #print("WITHIN FUNCTION:  END FUNCTION #9 - GET NUMBER VALUES")
 
     ## RETURN VARIABLES TO PROGRAM
     return(ListOfNumberValues4Letters, ListOfNumberValues4Words)

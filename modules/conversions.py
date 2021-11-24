@@ -16,11 +16,11 @@ import mod_9GetNumberValues ## MODULE.FUNCTION #9 - GET NUMBER VALUE OF EACH LET
 import mod_10ListOfIndexesCustomCreate ## MODULE.FUNCTION() #10 - CREATE LIST OF CUSTOM INDEXES NON-0-INDEXED / 1-INDEXED RETURNS LIST OF CUSTOM INDEXES
 import mod_11TupleOfWordsAndGematriaValuesCreate ## MODULE.FUNCTION() #11 - DATA OBJECT CREATE - RETURNS TUPLE OF WORDS WITH EACH WORD'S GEMATRIA NUMBER VALUE
 import mod_99WriteOutputToCSVFile_WordsAndGematriaValues ## MODULE.FUNCTION() #99 - 
-
-
+from console_progressbar import ProgressBar
+from deep_translator import GoogleTranslator
 
 #import p_els
-from googletrans import Translator
+#from googletrans import Translator
 #from translate import Translator
 ## search query
 
@@ -31,7 +31,7 @@ import re
 
 def reload():
 
-	global TextChosen, D, DL ,DS, S, N, NW, W,D5, OP
+	global TextChosen, D, DL ,DS, S, N, NW, W,D5, OP, SearchTextChosen, ListOfWords, L, ZippedTupleWithSpaces
 	## CALL MODULE.FUNCTION() #2 - TEXT FILE OPEN
 	JSON = mod_2TextFileOpen.fn_TextFileOpen(TextChosen)
 
@@ -121,10 +121,82 @@ def elsf(options):
 		except:
 			pass
 
+def elsa(options):
+	global TextChosen
+	space = options[1]
+	#pb = ProgressBar(total=100,prefix='Loading', suffix='', decimals=3, length=50, fill='|', zfill='-')
 
+	#for space in range(140,500):
 
+	abd = 'abcdefghijklmnñopqrstuvwxyz'
+	array_final = []
+	try:
+		for ff in range(1, 43):
+			#pb.print_progress_bar(pbc)
+			#pbc = pbc + 2.32
+			TextChosen = ff
+			reload()
+			i=1
+			rese=""
+			for (z,b,y) in D:
+				#m = re.search(exp, D[z,b,y])
+				#print (D[z,b,y])
+				try:
+				 #   print(m.group(0))
+					#print(D[z,b,y])
+					res=""
+					for char in D[z,b,y]:
+						if (i % int(space)) == 0:
+							res=(char)+res
+
+						i=i+1
+					rese=rese+" "+res
+					#print(res)
+				except:
+					pass
+
+			#print (rese.strip())
+			#print('======')
+			#translator = Translator()
+			#result = translator.translate(rese.strip(),dest='en')
+			translated = GoogleTranslator(source='iw', target='es').translate(rese.strip()) 
+			#translator= Translator(to_lang="en")
+			#translation = translator.translate("casa")
+			str_split = translated.split(' ')
+			str_final = ''
+			for word in str_split:
+				try:
+					if word[0].lower() in abd:
+						#print(word+' ')
+						str_final = str_final+ word+' '
+				except:
+					pass
+			
+			if not str_final == '':
+				#array_final.append(str_final)
+				print(str_final)
+				print()
+			#print('======')
+		#print(array_final)
+		#pb.print_progress_bar(100)
+		#for pf in array_final:
+		#	print(pf)
+	except:
+		pass
+def tt(options):
+	listform = ''
+	for string in options:
+		listform = listform +string
+	#ListOfLetters = options[0].split(",")
+	mod_num = mod_9GetNumberValues.fn_GetNumberValues(listform,options)
+	#print (mod_num)
+
+	sed = [0, mod_num[1][0]]
+	els(sed)
 def els(options):
 	space = options[1]
+	#print(space)
+	abd = 'abcdefghijklmnñopqrstuvwxyz'
 	i=1
 	rese=""
 	for (z,b,y) in D:
@@ -146,17 +218,36 @@ def els(options):
 
 	print (rese.strip())
 	print('======')
-	translator = Translator()
-	result = translator.translate(rese.strip(),dest='en')
+	#translator = Translator()
+	#result = translator.translate(rese.strip(),dest='en')
 	#translator= Translator(to_lang="en")
 	#translation = translator.translate("casa")
-	print(result.text)
-	print('======')
+	translated = GoogleTranslator(source='iw', target='es').translate(rese.strip()) 
+
+	str_split = translated.split(' ')
+	str_final = ''
+	for word in str_split:
+		try:
+			if word[0].lower() in abd:
+				#print(word+' ')
+				str_final = str_final+ word+' '
+		except:
+			pass
+	
+	if not str_final == '':
+		#array_final.append(str_final)
+		print(str_final)
+		print()
+	#print(translated)
+	#print('======')
 # get data from letters
 def tonum(options):
-	ListOfLetters = options[0].split(",")
+	listform = ''
+	for string in options:
+		listform = listform +string
+	#ListOfLetters = options[0].split(",")
 
-	print (mod_9GetNumberValues.fn_GetNumberValues(ListOfLetters,ListOfLetters))
+	print (mod_9GetNumberValues.fn_GetNumberValues(listform,options))
 
 
 ## get data from loaded dictionary
@@ -173,7 +264,7 @@ def coreOptions():
 
 ## Extend command usage instructions 
 def ExtendCommands():
-	commands = [["els","els words space"],["file","set file"],["search","search termsexp"],["get","get book verse number"],["tonum","tonum (sentence or word)"],["toword","toword \"1,2,3,4,5\""],["get_space","get_spaces sentence"]]
+	commands = [["tt","els words space"],["els","els words space"],["elsa","els words space"],["file","set file"],["search","search termsexp"],["get","get book verse number"],["tonum","tonum (sentence or word)"],["toword","toword \"1,2,3,4,5\""],["get_space","get_spaces sentence"]]
 	return commands
 
 
