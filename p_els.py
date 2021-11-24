@@ -15,7 +15,6 @@ import mod_8DataObjectsCreate ## MODULE.FUNCTION #8 - DATA OBJECTS CREATE; RETUR
 import mod_9GetNumberValues ## MODULE.FUNCTION #9 - GET NUMBER VALUE OF EACH LETTER IN STRING
 import mod_10ListOfIndexesCustomCreate ## MODULE.FUNCTION() #10 - CREATE LIST OF CUSTOM INDEXES NON-0-INDEXED / 1-INDEXED RETURNS LIST OF CUSTOM INDEXES
 import mod_11TupleOfWordsAndGematriaValuesCreate ## MODULE.FUNCTION() #11 - DATA OBJECT CREATE - RETURNS TUPLE OF WORDS WITH EACH WORD'S GEMATRIA NUMBER VALUE
-
 import mod_99WriteOutputToCSVFile_WordsAndGematriaValues ## MODULE.FUNCTION() #99 - 
 
 #import mod_GetUserInput2 ## MODULE.FUNCTION() # - GET USER INPUT; INPUT ELS SEARCH TERM
@@ -39,7 +38,7 @@ import mod_99WriteOutputToCSVFile_WordsAndGematriaValues ## MODULE.FUNCTION() #9
 ## CALL MODULES.FUNCTIONS
 
 ## CALL MODULE.FUNCTION() #1 - GET USER INPUT 1 - CHOOSE TEXT TO SEARCH
-TextChosen = mod_1GetUserInput1.fn_GetUserInput1()
+TextChosen = 1#mod_1GetUserInput1.fn_GetUserInput1()
 
 ## CALL MODULE.FUNCTION() #2 - TEXT FILE OPEN
 JSON = mod_2TextFileOpen.fn_TextFileOpen(TextChosen)
