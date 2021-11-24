@@ -193,6 +193,18 @@ def tt(options):
 
 	sed = [0, mod_num[1][0]]
 	els(sed)
+def tte(options):
+	listform = ''
+
+	for string in options:
+		translated = GoogleTranslator(source='en', target='iw').translate(string) 
+		listform = listform +translated
+	#ListOfLetters = options[0].split(",")
+	mod_num = mod_9GetNumberValues.fn_GetNumberValues(listform,options)
+	#print (mod_num)
+
+	sed = [0, mod_num[1][0]]
+	elsa(sed)
 def els(options):
 	space = options[1]
 	#print(space)
@@ -264,7 +276,7 @@ def coreOptions():
 
 ## Extend command usage instructions 
 def ExtendCommands():
-	commands = [["tt","els words space"],["els","els words space"],["elsa","els words space"],["file","set file"],["search","search termsexp"],["get","get book verse number"],["tonum","tonum (sentence or word)"],["toword","toword \"1,2,3,4,5\""],["get_space","get_spaces sentence"]]
+	commands = [["tte","els words space"],["tt","els words space"],["els","els words space"],["elsa","els words space"],["file","set file"],["search","search termsexp"],["get","get book verse number"],["tonum","tonum (sentence or word)"],["toword","toword \"1,2,3,4,5\""],["get_space","get_spaces sentence"]]
 	return commands
 
 
