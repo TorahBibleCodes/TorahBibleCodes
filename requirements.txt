@@ -1,1 +1,6 @@
-requiremetns
+lxml
+requests
+pandas
+deep-translator
+textblob
+python-telegram-bot
