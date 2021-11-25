@@ -82,7 +82,7 @@ A way to ensure the faith in the method is directly linked to the probability of
 
 We need to estimate propertly the probability of ELS generated sequences , is normal appears 100 symbols repetly ? , or long sentence describing modern cities ?, how plausible is something ?
 
-Many uninitiated in kabala might think the results are gimmicks or casual . A math indicators 
+Many uninitiated in kabala might think the results are gimmicks or casual . A math indicators will convince the unitiated .
 
 ## Probable encoded sentences
 
