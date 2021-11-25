@@ -143,7 +143,6 @@ def mainload(chatid,txt,btdat,update):
 
             if "/restart" == txt or "/restart" in btdat or "/start" in txt:
 
-              #  reply_keyboard = [['/ayuda_emergencia'],["/diagnostico_rapido"],["/ayuda_economica"],["/ayuda_bot"]]
 
                 keyboard = [[InlineKeyboardButton("Search", callback_data='/search '+str(chatid)),
                     InlineKeyboardButton("searchnum", callback_data='/searchnum '+str(chatid))],                    [InlineKeyboardButton("Talk", callback_data='/talk '+str(chatid))],[InlineKeyboardButton("Help", callback_data='/help '+str(chatid))]]
@@ -160,29 +159,19 @@ def mainload(chatid,txt,btdat,update):
                 
 
             if "/search" in txt or "/search" in btdat:
-                
-                pndg = validate_register(chatid)
-                if pndg==True:
-                    msg.sendmsg(chatid,txt2.finalizar_kyc,False)
-                else:
-                    msg.sendmsg(chatid,txt2.pending+"\n\n"+pndg,False)
+                msg.sendmsg(chatid,txt2.search+"\n\n"+pndg,False)
 
 
-            if "/searchnum" in txt or "/video" in btdat:
+            if "/numsearch" in txt or "/numsearch" in btdat:
 
                 s = files.get_random("modules/asimov_sentences.db")
 
-                msg.sendmsg(chatid,txt2.challange+"\n\n"+s+" \n\n Isaac Asimov . Escritor.",False)
+                msg.sendmsg(chatid,txt2.numsearch+"\n\n"+s+" \n\n\",False)
 
 
             if "/talk" in txt or "/talk" in btdat or "/talk" in btdat or "talk" in btdat:
+                            
                 msg.sendmsg(chatid,txt2.registro_enfermos,False)
-                
-                keyboard = [[InlineKeyboardButton("Envía tu foto", callback_data='/foto '+str(chatid))],[InlineKeyboardButton("Envía tu localización", callback_data='/localizacion '+str(chatid))],[InlineKeyboardButton("Video", callback_data='/video '+str(chatid))],[InlineKeyboardButton("Foto Cédula", callback_data="/cedula "+str(chatid))],[InlineKeyboardButton("Comparte Robot",callback_data="/robot "+str(chatid) )],[InlineKeyboardButton("Finalizar", callback_data='/finalizar_kyc '+str(chatid))]]
-               
-                reply_markup = InlineKeyboardMarkup(keyboard)
-
-                msg.sendmsg(chatid,"Seleccione una opción",reply_markup)
 
 
 
