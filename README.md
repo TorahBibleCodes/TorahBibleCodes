@@ -33,8 +33,42 @@ Convert words to numbers in gamatry, sums and executes ELS function over sumator
 
 - Publish, load and share on a blockchain your search results to provide data for a search engine
 
+## Equidistant Letter Sequences (ELS)
+
+<br />Witztum, Rips, and Rosenberg (WRR) define an Equidistant Letter Sequence (ELS) as a sequence of letters in the text whose positions - not counting spaces - form an arithmetic progression. That is to say the letters are found at the positions
+
+n, n + d, n + 2d, ..., n + (k - 1)d
+
+WRR define n as the start, d as the skip between letters in the search-term, and k as the length of the ELS. These three parameters uniquely identify the ELS which is denoted (n, d, k).
+
+## Probability of sequence existence
+
+A way to ensure the faith in the method is directly linked to the probability of generate common sense sentences from the ELS algorithm, is not the same search words of 8 digits than 16 inside the same number of characters (each book)
+
+Is the reason because estimate propertly the probability of ELS generated sequences, is normal appears 100 symbols repetly , or long sentence describing modern cities , how plausible is something ?
+
+many uninitiated in kabala might think the results are gimmicks or casual 
+
+## Probable encoded sentences
+
+- The sencente have a logical estructure and can be True Or False
+
+- The sentence gamatria sumatory value respect to the global number of characters need to be smaller than 10, you can adjust the percentege to ensure the results over the random entropy of the data .
 
 
+
+## XGboost pattern (XG-ELS, search for unprobable patterns basen on linear regresions
+
+- Convert word to gematria sequence , extend sequence with xgboost prediction until user selection number of loops, sum sequence, search for ELS
+
+- Load book, extend him until user selection , search by ELS
+
+## Probnet deterministic geometrical or arthmetic functions sequencces
+
+- Convert word to gematria sequence , extend sequence with xgboost prediction until user selection number of loops, sum sequence, search for ELS
+
+- Load book, extend him until user selection , search by ELS
+- 
 ## Original Code
 
 Torah Bible Codes - Open-Source Python
@@ -55,23 +89,4 @@ Add issues please
 
 Active Development: In Progress
 
-## Equidistant Letter Sequences (ELS)
-
-<br />Witztum, Rips, and Rosenberg (WRR) define an Equidistant Letter Sequence (ELS) as a sequence of letters in the text whose positions - not counting spaces - form an arithmetic progression. That is to say the letters are found at the positions
-
-n, n + d, n + 2d, ..., n + (k - 1)d
-
-WRR define n as the start, d as the skip between letters in the search-term, and k as the length of the ELS. These three parameters uniquely identify the ELS which is denoted (n, d, k).
-
-## XGboost pattern (XG-ELS, search for unprobable patterns basen on linear regresions
-
-- Convert word to gematria sequence , extend sequence with xgboost prediction until user selection number of loops, sum sequence, search for ELS
-
-- Load book, extend him until user selection , search by ELS
-
-## Probnet deterministic geometrical or arthmetic functions sequencces
-
-- Convert word to gematria sequence , extend sequence with xgboost prediction until user selection number of loops, sum sequence, search for ELS
-
-- Load book, extend him until user selection , search by ELS
 
