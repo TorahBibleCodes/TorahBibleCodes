@@ -60,41 +60,6 @@ def menu(update, context):
             print(txt)
             
 
-            ## Check images and location
-
-            locate = update.message.location
-            if "None" == str(txt) and str(locate)=="None":
-        
-                ## check photos
-                fa=files.photo(update,context)
-                
-                ## check faces in photos
-                fa=files.faces("datos/"+str(chatid)+"/tmp.jpg")
-
-                if fa == 2 or fa == 1:
-                    msg.sendmsg(chatid,txt2.photo,False)
-                    os.system("cp datos/"+str(chatid)+"/tmp.jpg datos/"+str(chatid)+"/selfie.jpg")
-
-                if fa == 0:
-                    msg.sendmsg(chatid,txt2.photo_no,False)
-
-                if fa > 2:
-                    msg.sendmsg(chatid,txt2.photo_mas,False)
-                
-                imst = str(files.imgstr("datos/"+str(chatid)+"/tmp.jpg")).strip()
-                print("-"+imst+"-") 
-                #print(files.metadata("datos/"+str(chainid)+"/tmp.jpg"))
-
-                if imst !=str("") and fa==2 or fa==1:
-                    msg.sendmsg(chatid,txt2.correcto+"\n\n"+str(imst),False)
-                    os.system("cp datos/"+str(chatid)+"/tmp.jpg datos/"+str(chatid)+"/cedulaA.jpg")
-                    os.system("cp datos/"+str(chatid)+"/tmp.jpg datos/"+str(chatid)+"/cedulaB.jpg")
-
-
-            if str("None") == str(txt) and str(locate)!=str("None"):
-                print ("Locate "+str(locate))
-                files.save_txt("datos/"+str(chatid)+"/locate.db",str(locate),chatid) 
-                msg.sendmsg(chatid,txt2.localizacion,False)
         except:
             pass
         
@@ -111,30 +76,15 @@ def menu(update, context):
         ## LOAD MODULES
         if "None" !=str(txt):
         
-            emergencias.load(chatid,txt,btdat,update)
-        
-        
-            municipio.load(chatid,txt,btdat)
-        
-        
-            economicas.load(chatid,txt,btdat)
-        
-        
-            sanidad.load(chatid,txt,btdat,update)
-        
-            mainload(chatid,txt,btdat,update)
-
-            pay.load(chatid,txt,btdat)
-
-            identity.load(chatid,txt,btdat)
+#            identity.load(chatid,txt,btdat)
 
 
         return (range(1))
 
 def cancel(update, context):
     user = update.message.from_user
-    logger.info("El usuario %s canceló la conversación.", user.first_name)
-    update.message.reply_text('Nos vemos pronto.',
+    logger.info("The user %s stops conversations.", user.first_name)
+    update.message.reply_text('See you soon.',
                               reply_markup=ReplyKeyboardRemove())
 
     return ConversationHandler.END
@@ -173,49 +123,6 @@ def is_validated(chatid):
 
     return (path.exists("datos/"+str(chatid)+"/mrcert_"+chatid+".pem"))
 
-
-def validate_register(chatid):
-    ## check
-    ## cedula cara A, face & data
-    ## cedula cara B, data
-    ## localizacion, localizacion
-    ## Selfie , face
-    ## Video , time,and face
-    userpath="datos/"+str(chatid)+"/"
-    cedulaA=path.exists(userpath+"cedulaA.jpg")
-    cedulaB=path.exists(userpath+"cedulaB.jpg")
-    selfie =path.exists(userpath+"selfie.jpg")
-    loca = path.exists(userpath+'locate.db')
-    #videoface = path.exists(userpath+'videoface.mkv')
-
-    listcheck = [("Cédula cara A",cedulaA),("Cédula cara B",cedulaB),("Selfie",selfie),("Localización",loca)]
-
-    if cedulaA==True and cedulaB==True and selfie==True and loca==True:
-
-        return True
-    
-    else:
-        pending=""
-        for (x,y) in listcheck:
-            if y != True:
-                pending+=x+"\n\n"
-        print (pending)
-        return pending
-
-def check_new_user(fstname,chatid):
-    
-    pchk = path.exists("datos/"+str(chatid)+"/"+str(fstname)+".bonosolidario.balance")
-    userpath="datos/"+str(chatid)+"/"
-    if pchk != True:
-        try:
-            os.mkdir("datos/"+str(chatid))
-        except OSError:
-            pass
-        
-        files.save_txt(userpath+fstname+".bonosolidario.balance","0",chatid)
-        files.save_txt(userpath+fstname+".monedero.balance","0",chatid)
-        #files.save_txt(userpath+fstname+".municipio.balance","0",chatid)
-        #files.save_txt(userpath+fstname+".parking.balance","0",chatid)
 
 
 
