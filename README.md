@@ -71,7 +71,7 @@ Convert words to numbers in gematria, sums and executes ELS function over sumato
 
 - Big Data , Elasticsearch & Kibana Module
 
-- Telegram Baphomet Bot
+- Baphomet Telegram Bot
 
 ![image](https://user-images.githubusercontent.com/60758685/143425642-e4178251-70a3-45c3-b695-6f47cdd3841f.png)
 
