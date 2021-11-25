@@ -8,6 +8,15 @@ An understandable multilanguaje and multithreading bible codes . Study the Torah
 
 ![image](https://user-images.githubusercontent.com/60758685/143392985-377da397-a4df-4ce6-a718-262cd1bab8e1.png)
 
+## Simple use from your Telegram Chat
+
+- Add @Baphomet_telegram_bot on your telegram
+
+Write
+
+`/start`
+
+you are ready !! 
 
 ## Install
 
@@ -17,7 +26,7 @@ An understandable multilanguaje and multithreading bible codes . Study the Torah
 
 `cd TorahBibleCodes`
 
-`chmod +x install.sh && chmod +x unox`
+`chmod +x install.sh`
 
 `./install.sh`
 
@@ -25,6 +34,7 @@ An understandable multilanguaje and multithreading bible codes . Study the Torah
 ## Install on system
 
 `chmod +x install_system.sh`
+
 `./install_system.sh`
 
 ## Usage
@@ -48,11 +58,24 @@ Convert words to numbers in gematria, sums and executes ELS function over sumato
 ## Modules
 
 - Conversions , search and make conversion
+   
+   - Multihread ELS search
 
-- Publish, load and share on a blockchain your search results to provide data for a search engine
+   - XGBOOST sequences ELS search
+
+   - PROBNET sequences ELS search
+
+   - Words to gamatria and viceversa
+
+   - Search over the raw books.
 
 - Big Data , Elasticsearch & Kibana Module
-- 
+
+- Baphomet Telegram Bot
+
+![image](https://user-images.githubusercontent.com/60758685/143425642-e4178251-70a3-45c3-b695-6f47cdd3841f.png)
+
+ 
 ## Equidistant Letter Sequences (ELS)
 
 <br />Witztum, Rips, and Rosenberg (WRR) define an Equidistant Letter Sequence (ELS) as a sequence of letters in the text whose positions - not counting spaces - form an arithmetic progression. That is to say the letters are found at the positions
@@ -67,7 +90,7 @@ A way to ensure the faith in the method is directly linked to the probability of
 
 We need to estimate propertly the probability of ELS generated sequences , is normal appears 100 symbols repetly ? , or long sentence describing modern cities ?, how plausible is something ?
 
-Many uninitiated in kabala might think the results are gimmicks or casual . A math indicators 
+Many uninitiated in kabala might think the results are gimmicks or casual . A math indicators will convince the unitiated .
 
 ## Probable encoded sentences
 
@@ -79,7 +102,7 @@ Many uninitiated in kabala might think the results are gimmicks or casual . A ma
 
 ## Holy Books Forecasting
 
-Artificial intelligence methods allow us to make more comples calculations over pre trained models, or extract the functiona informacion of a dataset to compose a function.
+Artificial intelligence methods allow us to make more complex calculations over pre trained models, or extract the functiona informacion of a dataset to compose a function.
 
 By this way we can extend the ELS methods as a infinite data series . 
 
@@ -156,3 +179,9 @@ Active Development: In Progress
 Citrix
 
 Hecathomb
+
+TorahBibleCodes - https://github.com/TorahBibleCodes/TorahBibleCodes
+
+## License 
+
+GOD
