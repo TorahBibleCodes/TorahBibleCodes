@@ -138,9 +138,22 @@ def mainload(chatid,txt,btdat,update):
             if "/search" in txt or "/search" in btdat:
                 text_user = 0
                 if len(txt) > len(btdat):
+                    
                     text_user = txt.replace('/search ','')
+                    text_user = text_user.replace('/search','')
+                    text_user = text_user.replace(str(chatid),'')
+                    print('text_user')
+                    print(text_user)
+
                 else:
+
                     text_user = btdat.replace('/search ','')
+                    text_user = text_user.replace('/search','')
+                    text_user = text_user.replace(str(chatid),'')
+                    print('text_user')
+                    print(text_user)
+                print(len(text_user) )
+
                 if len(text_user) > 0:
                 #print(text_user)
                     msg.sendmsg(chatid,"Calculating...Wait...\n\n",False)
