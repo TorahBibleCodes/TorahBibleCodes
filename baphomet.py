@@ -49,7 +49,7 @@ def searchAll(q, number, chatid):
             rett = torah.func_translate('iw', langout, ret)
             retp = torah.func_ParseTranslation(rett,langout, ptrans)
             if not retp == 0:
-                print(retp)
+                #print(retp)
                 msgqueue[chatid] = msgqueue[chatid] + '\n' +retp
                 q.task_done()
             else:
@@ -65,7 +65,7 @@ def search(text, chatid):
     listform = ''
     options = text.split(' ')
     for string in options:
-        print(string)
+        #print(string)
         translated = torah.func_translate(langin, 'iw', string)
         listform = listform +translated
     mod_num = torah.mod_9GetNumberValues.fn_GetNumberValues(listform,options)
@@ -79,11 +79,11 @@ def search(text, chatid):
         worker = threading.Thread(target=searchAll, args=(jobs, sed, chatid,))
         worker.start()
 
-    print("waiting for ", str(jobs.qsize())+'/43', "tasks")
+    #print("waiting for ", str(jobs.qsize())+'/43', "tasks")
     jobs.join()
     if not msgqueue[chatid] == '':
         msg.sendmsg(chatid,msgqueue[chatid]+"\n\n",False)
-    print('Done.')
+    #print('Done.')
 
 def searchnumber(number,chatid):
     global jobs, langin, langout, threads, msgqueue
@@ -97,11 +97,11 @@ def searchnumber(number,chatid):
         worker = threading.Thread(target=searchAll, args=(jobs, number, chatid,))
         worker.start()
 
-    print("waiting for ", str(jobs.qsize())+'/43', "tasks")
+    #print("waiting for ", str(jobs.qsize())+'/43', "tasks")
     jobs.join()
     if not msgqueue[chatid] == '':
         msg.sendmsg(chatid,msgqueue[chatid]+"\n\n",False)
-    print('Done.')
+    #print('Done.')
 
 
 def mainload(chatid,txt,btdat,update):
