@@ -159,19 +159,19 @@ def mainload(chatid,txt,btdat,update):
                 
 
             if "/search" in txt or "/search" in btdat:
+              
                 msg.sendmsg(chatid,txt2.search+"\n\n"+pndg,False)
 
 
             if "/numsearch" in txt or "/numsearch" in btdat:
 
-                s = files.get_random("modules/asimov_sentences.db")
 
                 msg.sendmsg(chatid,txt2.numsearch+"\n\n"+s+" \n\n\",False)
 
 
             if "/talk" in txt or "/talk" in btdat or "/talk" in btdat or "talk" in btdat:
                             
-                msg.sendmsg(chatid,txt2.registro_enfermos,False)
+                msg.sendmsg(chatid,txt2.inicio,False)
 
 
 
