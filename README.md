@@ -63,7 +63,7 @@ WRR define n as the start, d as the skip between letters in the search-term, and
 
 A way to ensure the faith in the method is directly linked to the probability of generate common sense sentences from the ELS algorithm, is not the same search words of 8 digits than 16 inside the same number of characters (each book)
 
-Is the reason because estimate propertly the probability of ELS generated sequences, is normal appears 100 symbols repetly , or long sentence describing modern cities , how plausible is something ?
+We need to estimate propertly the probability of ELS generated sequences , is normal appears 100 symbols repetly ? , or long sentence describing modern cities ?, how plausible is something ?
 
 Many uninitiated in kabala might think the results are gimmicks or casual . A math indicators 
 
