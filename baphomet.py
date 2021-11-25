@@ -142,17 +142,12 @@ def mainload(chatid,txt,btdat,update):
                     text_user = txt.replace('/search ','')
                     text_user = text_user.replace('/search','')
                     text_user = text_user.replace(str(chatid),'')
-                    print('text_user')
-                    print(text_user)
 
                 else:
 
                     text_user = btdat.replace('/search ','')
                     text_user = text_user.replace('/search','')
                     text_user = text_user.replace(str(chatid),'')
-                    print('text_user')
-                    print(text_user)
-                print(len(text_user) )
 
                 if len(text_user) > 0:
                 #print(text_user)
@@ -168,8 +163,12 @@ def mainload(chatid,txt,btdat,update):
                 text_user = 0
                 if len(txt) > len(btdat):
                     text_user = txt.replace('/numsearch ','')
+                    text_user = text_user.replace('/numsearch','')
+                    text_user = text_user.replace(str(chatid),'')
                 else:
                     text_user = btdat.replace('/numsearch ','')
+                    text_user = text_user.replace('/numsearch','')
+                    text_user = text_user.replace(str(chatid),'')
                 if len(text_user) > 0:
                     msg.sendmsg(chatid,"Calculating...Wait...\n\n",False)
                     workmsg = threading.Thread(target=searchnumber, args=(text_user, chatid,))
