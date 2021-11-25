@@ -47,7 +47,7 @@ A way to ensure the faith in the method is directly linked to the probability of
 
 Is the reason because estimate propertly the probability of ELS generated sequences, is normal appears 100 symbols repetly , or long sentence describing modern cities , how plausible is something ?
 
-many uninitiated in kabala might think the results are gimmicks or casual 
+Many uninitiated in kabala might think the results are gimmicks or casual . A math indicators 
 
 ## Probable encoded sentences
 
@@ -55,6 +55,23 @@ many uninitiated in kabala might think the results are gimmicks or casual
 
 - The sentence gamatria sumatory value respect to the global number of characters need to be smaller than 10, you can adjust the percentege to ensure the results over the random entropy of the data .
 
+- H(n*book_chars) == H(n*Random)
+
+## Holy Books Forecasting
+
+Artificial intelligence methods allow us to make more comples calculations over pre trained models, or extract the functiona informacion of a dataset to compose a function.
+
+By this way we can extend the ELS methods as a infinite data series . 
+
+### AI ELS methods
+
+- Extending books
+
+Pre train a model with a holy book, and generate alternative futures over the end .
+
+- Extending gamatria
+
+Converting words to gamatria and extending to infinite as a sequence
 
 
 ## XGboost pattern (XG-ELS, search for unprobable patterns basen on linear regresions
