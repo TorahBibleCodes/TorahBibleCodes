@@ -9,9 +9,27 @@ A understandable multilanguaje and multithreading bible codes . Study the bible 
 ![image](https://user-images.githubusercontent.com/87866580/143170803-cfd4527d-232e-42df-80de-cd7c44fa9fac.png)
 
 
+## Install
+
+`apt install git`
+
+`git clone git@github.com:pedroelbanquero/TorahBibleCodes.git`
+
+`cd TorahBibleCodes`
+
+`chmod +x install.sh && chmod +x unox`
+
+`./install.sh`
+
+
+## Install on system
+
+`chmod +x install_system.sh`
+`./install_system.sh`
+
 ## Usage
 
-`python3 TBC.py`
+`python3 TBC.py` or `tbc` on terminal if install on system
 
 Run main program
 
