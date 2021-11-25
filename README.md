@@ -111,11 +111,11 @@ Converting words to gamatria and extending to infinite as a sequence
 
 - Load book, extend him until user selection , search by ELS
 
-- Gamatria gemoetric classificator
+- Gamatria geometric classificator
 
 - Gamatria arithmetic classificator
 
-
+https://github.com/pedroelbanquero/TorahBibleCodes/blob/master/README.md
 ## Baphomet AI model
 
 - XGBOOST (Work on progress training models over linear regresion)
