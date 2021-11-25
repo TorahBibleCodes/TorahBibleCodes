@@ -10,7 +10,7 @@ An understandable multilanguaje and multithreading bible codes . Study the Torah
 
 ## Simple use from your Telegram Chat
 
-- Add @Baphomet_telegram_bot to your telegram
+- Add @Baphomet_telegram_bot on your telegram
 
 Write
 
