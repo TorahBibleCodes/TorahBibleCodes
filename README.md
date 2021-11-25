@@ -1,6 +1,6 @@
 # TorahBibleCodes - Jeremiah Visions edition
 
-A understandable multilanguaje and multithreading bible codes . Study the bible as never before
+An understandable multilanguaje and multithreading bible codes . Study the bible as never before
 
 ![image](https://user-images.githubusercontent.com/60758685/143378238-d73ee93b-7ba6-4093-83ac-a859fa11461a.png)
 
