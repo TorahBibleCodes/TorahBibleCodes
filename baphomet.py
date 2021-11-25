@@ -140,7 +140,7 @@ def mainload(chatid,txt,btdat,update):
                     text_user = txt.replace('/search ','')
                 else:
                     text_user = btdat.replace('/search ','')
-                if not text_user == '':
+                if text_user != '':
                 #print(text_user)
                     msg.sendmsg(chatid,"Calculating...Wait...\n\n",False)
                     workmsg = threading.Thread(target=search, args=(text_user, chatid,))
@@ -155,7 +155,7 @@ def mainload(chatid,txt,btdat,update):
                     text_user = txt.replace('/numsearch ','')
                 else:
                     text_user = btdat.replace('/numsearch ','')
-                if not text_user == '':
+                if text_user != '':
                     msg.sendmsg(chatid,"Calculating...Wait...\n\n",False)
                     workmsg = threading.Thread(target=searchnumber, args=(text_user, chatid,))
                     workmsg.start()
@@ -165,6 +165,20 @@ def mainload(chatid,txt,btdat,update):
 
 
             if "/talk" in txt or "/talk" in btdat or "/talk" in btdat or "talk" in btdat:
+                # get last ask and train with user response
+                # get last user ask and train with the best response
+
+                ## take decision
+                ## sum all times appears sentence words , this is the word weight
+                ## get all entries who sum near word sums +- precision margin
+                ## get word with less word lenght in input and in output
+                ## sum to all entries the minimum weight in input and outputs
+
+                ## when input is ambiguous ... is nor refered to a subject , word with less weight , output will be ambiougus, no subjects in the outputs
+                ## when is not ambious , subjects in input and output will be balanced
+                ## global input weight will generate hipotesis of global ouput weight
+
+                ## when output is similar to holy writings sentence, baphumet replace the sentence by holy writing sentenc plus cordenates to find in holy writings.
 
                 msg.sendmsg(chatid,txt2.inicio,False)
 
