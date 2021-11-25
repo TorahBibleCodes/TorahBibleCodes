@@ -100,6 +100,8 @@ Converting words to gamatria and extending to infinite as a sequence
 
 - Gamatria refressor classificator and forecasting
 
+- Support for Missing Data
+
 ![image](https://user-images.githubusercontent.com/60758685/143395534-9b688fbc-fc27-47a2-b268-fdbee609c09b.png)
 
 
