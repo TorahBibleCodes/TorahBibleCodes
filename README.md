@@ -52,6 +52,11 @@ Convert words to numbers in gematria, sums and executes ELS function over sumato
 - Publish, load and share on a blockchain your search results to provide data for a search engine
 
 - Big Data , Elasticsearch & Kibana Module
+
+- Telegram Baphomet Bot
+
+![image](https://user-images.githubusercontent.com/60758685/143425642-e4178251-70a3-45c3-b695-6f47cdd3841f.png)
+
  
 ## Equidistant Letter Sequences (ELS)
 
