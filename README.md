@@ -102,7 +102,7 @@ Many uninitiated in kabala might think the results are gimmicks or casual . A ma
 
 ## Holy Books Forecasting
 
-Artificial intelligence methods allow us to make more complex calculations over pre trained models, or extract the functiona informacion of a dataset to compose a function.
+Artificial intelligence methods allow us to make more complex calculations over pre trained models, or extract the function informacion of a dataset to compose a function.
 
 By this way we can extend the ELS methods as a infinite data series . 
 
@@ -112,7 +112,7 @@ By this way we can extend the ELS methods as a infinite data series .
 
 Pre train a model with a holy book, and generate alternative futures over the end .
 
-- Extending gamatria
+- Extending gamatria datasets
 
 Converting words to gamatria and extending to infinite as a sequence
 
@@ -147,9 +147,32 @@ Converting words to gamatria and extending to infinite as a sequence
 
 - XGBOOST (Work on progress training models over linear regresion)
 
-  Pretained genesis and original repository books of tora bible code
+  Pretained genesis and original repository books of Torah Bible Code
 
-  Allow to generate new book ends and order permutations . 
+  Allow to generate new book ends and order permutations .
+  
+  An artificial intelligence algorithm can priorize order combinations with the trained common sense of the "pre ordered Torah", reducing computation costs to find results .
+
+## Torah encoding analisys
+
+- Language symbols
+
+- Geometry
+
+- Gematria
+
+- Symbol Frequency in Holy writings
+
+- Shannon's Entropy
+
+- Functional encoding patterns
+
+- Information density
+
+- Kabala derivations
+
+- Past, Present and Future
+
 
 
 
