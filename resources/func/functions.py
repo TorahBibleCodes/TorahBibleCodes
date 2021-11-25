@@ -30,7 +30,7 @@ from textblob import TextBlob
 ## k = LENGTH OF ELS: i.e. SEARCH TERM // USER INPUT 2
 
 def func_checklang(word, lang):
-	return True
+	#return True
 
 	b = TextBlob(word)
 	
@@ -58,14 +58,17 @@ def func_translate(lang_in, lang_out, data):
 	return translated
 
 
-def func_ParseTranslation(translated, lang):
+def func_ParseTranslation(translated, lang, active):
 	abd = 'abcdefghijklmnñopqrstuvwxyz'
 	str_split = translated.split(' ')
 	str_final = ''
 	for word in str_split:
 		try:
 			if word[0].lower() in abd:
-				if func_checklang(word, lang) == True:
+				if active == 'true':
+					if func_checklang(word, lang) == True:
+						str_final = str_final+ word+' '
+				else:
 					str_final = str_final+ word+' '
 		except:
 			pass

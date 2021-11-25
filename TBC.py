@@ -297,23 +297,43 @@ def commandHandler(command):
 
 				if option[0] == command or command.startswith(option[0]):
 					try: 
+						updateModule = getattr(currentModuleFile, "save")
+						updateModule(moduleOptions)
 						ExecCmdExtend = getattr(currentModuleFile, option[0])
 						command = command.replace(option[0] + " ", "")
 						commands = command.split()
 						ExecCmdExtend(commands)
-					except:
+					except Exception as e:
+						print(RED + "\n[!] TBC crashed...\n[!] Debug info: \n")
+						print(traceback.format_exc())
+						print("\n" + END)
 						pass
 				   
 		else:
 			print(RED + "[!] Unknown command: '" + YELLOW + command + RED + "'. Type '" + YELLOW + "help" + RED + "' for all available commands." + END)
 
 parser = argparse.ArgumentParser(description="TBC")
+parser.add_argument("--run", action='store_true')
 parser.add_argument("--test", action='store_true')
-args, leftovers = parser.parse_known_args()
+parser.add_argument('--module', action='store', type=str, required=False)
+parser.add_argument('--options', action='store', type=str, required=False)
+#args, leftovers = parser.parse_known_args()
+args = parser.parse_args()
 
 if args.test:
 	print("Test build detected. Exiting...")
 	exit()
+if args.module:
+	print(args.module)
+	commandHandler('use '+args.module)
+if args.options:
+
+	for op in args.options.split(';'):
+		commandHandler(op)
+
+if args.run:
+	commandHandler('run')
+
 
 header = """
 
