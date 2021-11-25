@@ -63,13 +63,13 @@ n, n + d, n + 2d, ..., n + (k - 1)d
 
 WRR define n as the start, d as the skip between letters in the search-term, and k as the length of the ELS. These three parameters uniquely identify the ELS which is denoted (n, d, k).
 
-## XGboost pattern (XG-ELS, search for unprobable patterns basen on linear regresions, pending iface)
+## XGboost pattern (XG-ELS, search for unprobable patterns basen on linear regresions
 
 - Convert word to gematria sequence , extend sequence with xgboost prediction until user selection number of loops, sum sequence, search for ELS
 
 - Load book, extend him until user selection , search by ELS
 
-## Probnet deterministic patterns from 100 % accuracy geometrical or arthmetic functions sequencces, (pending iface)
+## Probnet deterministic geometrical or arthmetic functions sequencces
 
 - Convert word to gematria sequence , extend sequence with xgboost prediction until user selection number of loops, sum sequence, search for ELS
 
