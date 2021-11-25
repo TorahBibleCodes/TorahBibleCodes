@@ -43,7 +43,7 @@ Search ELS at x space distance .
 
 `search words`
 
-Convert words to numbers in gamatry, sums and executes ELS function over sumatory distances.
+Convert words to numbers in gematria, sums and executes ELS function over sumatory distances.
 
 ## Modules
 
