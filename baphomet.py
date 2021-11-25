@@ -9,7 +9,6 @@ from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters,Callb
 import modules.config as config
 
 import modules.msg as msg
-import modules.files as files
 import modules.txt as txt2
 import logging
 
@@ -28,6 +27,67 @@ logger = logging.getLogger(__name__)
 
 
 START  = range(1)
+
+
+def mainload(chatid,txt,btdat,update):
+
+
+      if ""=="" :
+            if "/help" in txt or "/help" in btdat:
+                #print(update.message)
+                msg.sendmsg(chatid,txt2.presentacion+'\n\n'+'Baphomet Bot\n\n'+'/search \n\n'+'/searchnum \n\n'+'/talk sentence \n\n'+'/help \n\n'+'/start \n\n',False)
+
+            if "/restart" == txt or "/restart" in btdat or "/start" in txt:
+
+
+                keyboard = [[InlineKeyboardButton("search", callback_data='/search '+str(chatid))],[InlineKeyboardButton("number search", callback_data='/numsearch '+str(chatid))],[InlineKeyboardButton("talk", callback_data='/talk '+str(chatid))],[InlineKeyboardButton("help", callback_data='/help '+str(chatid))]]
+
+                #keyboard = [[InlineKeyboardButton("Ayuda Emergencia", callback_data='/ayuda_emergencia '+str(chatid)),
+                 #   InlineKeyboardButton("Ayuda Económica", callback_data='/ayuda_economica '+str(chatid))],                    [InlineKeyboardButton("Trámites municipio", callback_data='/municipio '+str(chatid))],[InlineKeyboardButton("Identidad Digital", callback_data='/identidad '+str(chatid))],[InlineKeyboardButton("Monedero", callback_data='/monedero '+str(chatid))],[InlineKeyboardButton("Diagnóstico Médico", callback_data='/diagnostico_rapido '+str(chatid))]]
+                
+                reply_markup = InlineKeyboardMarkup(keyboard)
+                print(update)
+                
+                update.message.reply_text(
+                    txt2.inicio+"\n\n"+txt2.presentacion,
+                    reply_markup=reply_markup)
+
+
+                #reply_markup = InlineKeyboardMarkup(keyboard)
+
+               # update.message.reply_text(txt2.inicio+"\n\n"+txt2.presentacion)
+
+                return (range(1))
+
+
+            if "/search" in txt or "/search" in btdat:
+
+                msg.sendmsg(chatid,txt2.search+"\n\n",False)
+
+
+            if "/numsearch" in txt or "/numsearch" in btdat:
+                msg.sendmsg(chatid,txt2.numsearch,False)
+
+
+            if "/talk" in txt or "/talk" in btdat or "/talk" in btdat or "talk" in btdat:
+
+                msg.sendmsg(chatid,txt2.inicio,False)
+
+
+
+
+            if "/cancel" in txt:
+                #os.popen("killall ")
+                update.message.reply_text("Servico parado")
+
+
+
+            return range(1)
+
+      else:
+        update.message.reply_text("Not Allow")
+
+
 
 def menu(update, context):
         chatid=0
@@ -74,9 +134,9 @@ def menu(update, context):
 
 
         ## LOAD MODULES
-        if "None" !=str(txt):
+        #if "None" !=str(txt):
         
-#            identity.load(chatid,txt,btdat)
+        mainload(chatid,txt,btdat,update)
 
 
         return (range(1))
@@ -91,6 +151,10 @@ def cancel(update, context):
 
 def nada() :
     return ""
+
+
+
+
 
 
 
@@ -117,74 +181,12 @@ if __name__ == '__main__':
     main()
 
 
+main()
 
 def is_validated(chatid):
     #check if user has been validated
 
     return (path.exists("datos/"+str(chatid)+"/mrcert_"+chatid+".pem"))
-
-
-
-
-def mainload(chatid,txt,btdat,update):
-
-
-      if ""=="" :
-            if "/ayuda_bot" in txt or "/ayuda_bot" in btdat:
-                print(update.message)
-                update.message.reply_text(
-                    'Baphomet Bot\n\n'
-                    '/search \n\n'
-                    '/searchnum \n\n'
-                    '/talk sentence \n\n'
-                    '/help \n\n'
-                    '/start \n\n'
-                    )
-
-            if "/restart" == txt or "/restart" in btdat or "/start" in txt:
-
-
-                keyboard = [[InlineKeyboardButton("Search", callback_data='/search '+str(chatid)),
-                    InlineKeyboardButton("searchnum", callback_data='/searchnum '+str(chatid))],                    [InlineKeyboardButton("Talk", callback_data='/talk '+str(chatid))],[InlineKeyboardButton("Help", callback_data='/help '+str(chatid))]]
-                
-                reply_markup = InlineKeyboardMarkup(keyboard)
-                print(update)
-                check_new_user(update.message.chat.first_name,chatid)
-                
-                update.message.reply_text(
-                    txt2.inicio+"\n\n"+txt2.presentacion,
-                    reply_markup=reply_markup, one_time_keyboard=True)
-
-                return (range(1)) 
-                
-
-            if "/search" in txt or "/search" in btdat:
-              
-                msg.sendmsg(chatid,txt2.search+"\n\n"+pndg,False)
-
-
-            if "/numsearch" in txt or "/numsearch" in btdat:
-
-
-                msg.sendmsg(chatid,txt2.numsearch+"\n\n"+s+" \n\n\",False)
-
-
-            if "/talk" in txt or "/talk" in btdat or "/talk" in btdat or "talk" in btdat:
-                            
-                msg.sendmsg(chatid,txt2.inicio,False)
-
-
-
-
-            if "/cancel" in txt:
-                #os.popen("killall ")
-                update.message.reply_text("Servico parado")
-                
-
-            return range(1)
-
-      else:
-        update.message.reply_text("Not Allow")
 
 
 

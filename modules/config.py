@@ -18,7 +18,7 @@ telegram= True
 # MAIN ADMIN CHAT ID
 chat_id={}
 
-chat_id["admin"]=-1001332084750
+chat_id["admin"]=-744610713
 
 ## ELASTIC SEARCH CONFIG
 
