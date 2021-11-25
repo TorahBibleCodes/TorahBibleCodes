@@ -74,7 +74,11 @@ def searchnumber(options):
 	jobs.join()
 	#print("all done")
 
+def xgboost():
+	print('Coming soon')
 
+def probnet():
+	print('Coming soon')
 
 def coreOptions():
 	options = [["langin", "Translation Lang  In", "en"],["langout", "Translation Lang  Out", "es"],["threads", "Number of threads from search", "20"],["parse", "parse translation", "true"]]
@@ -82,7 +86,7 @@ def coreOptions():
 
 ## Extend command usage instructions 
 def ExtendCommands():
-	commands = [["searchnumber","search number space"],["search","search termsexp"]]
+	commands = [["searchnumber","search number space"],["search","search termsexp"],["xgboost"," XGBOOST"],["probnet","PROBNET"]]
 	return commands
 
 
