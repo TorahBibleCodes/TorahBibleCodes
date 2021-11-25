@@ -124,11 +124,6 @@ Converting words to gamatria and extending to infinite as a sequence
 
   Allow to generate new book ends and order permutations . 
 
-- NLP (Work on progress)
-
-  Pretrained with genesis and original repository books of Torah Bible Code
-
-  Allow to talk with Baphomet engine with the word of GOD
 
 
 ## Original Code
