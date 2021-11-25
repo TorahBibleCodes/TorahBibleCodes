@@ -1,4 +1,4 @@
-# TorahBibleCodes 
+# TorahBibleCodes - Jeremiah Visions edition
 
 A understandable multilanguaje and multithreading bible codes . Study the bible as never before
 
