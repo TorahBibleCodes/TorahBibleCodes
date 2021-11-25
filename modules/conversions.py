@@ -16,67 +16,6 @@ ptrans = True
 threads = 0
 jobs = Queue()
 
-def file(options):
-	global TextChosen
-	TextChosen = torah.mod_1GetUserInput1.fn_GetUserInput1()
-	reload()
-def search2(options):
-	exp = options[0]
-	print(exp)
-	#print(D)
-	for (z,b,y) in D:
-		m = re.search(exp, D[z,b,y])
-		#print (D[z,b,y])
-		try:
-			print(m.group(0))
-			print(D[z,b,y])
-		except:
-			pass
-
-
-
-def get_space(options):
-	pattern = options[0]
-	srun = options[1]
-	plist = [char for char in pattern]
-	#for a in plist:
-	#    get_space([]
-
-	print (plist)
-
-def elsf(options):
-	space = options[1]
-	i=1
-	rese=""
-	for (z,b,y) in D:
-		#m = re.search(exp, D[z,b,y])
-		#print (D[z,b,y])
-		try:
-		 #   print(m.group(0))
-			#print(D[z,b,y])
-			res=""
-			for char in D[z,b,y]:
-				if (i % int(space)) == 0:
-					res=(char)+res
-
-				i=i+1
-			rese=rese+" "+res
-			#print(res)
-		except:
-			pass
-
-
-def tt(options):
-	listform = ''
-	for string in options:
-		listform = listform +string
-	#ListOfLetters = options[0].split(",")
-	mod_num = torah.mod_9GetNumberValues.fn_GetNumberValues(listform,options)
-	#print (mod_num)
-
-	sed = [0, mod_num[1][0]]
-	els(sed)
-
 
 def searchAll(q, number):
 	global langout, ptrans
@@ -136,59 +75,23 @@ def searchnumber(options):
 	#print("all done")
 
 
-def searchnumber2(options):
-	global langout
-	number = options[0]
-	ret = torah.func_GettextFromNumber(1,number)
-	print(len(ret))
-	rett = torah.func_translate('iw', langout, ret)
-	rett = torah.func_ParseTranslation(rett,langout)
-	print(rett)
-
-
-def tonum(options):
-	listform = ''
-	for string in options:
-		listform = listform +string
-	#ListOfLetters = options[0].split(",")
-
-	print (torah.mod_9GetNumberValues.fn_GetNumberValues(listform,options))
-
-
-## get data from loaded dictionary
-def get(options):
-	a = options[0]
-	b = options[1]
-	c = options[2]
-	print(D[int(a),int(b),int(c)])
-
 
 def coreOptions():
-	options = [["langin", "Translation Lang  In", "en"],["langout", "Translation Lang  Out", "es"],["query", "query db ", "El"], ["modelist", "(simple, full) ", "full"],["threads", "Number of threads from search", "20"],["parse", "parse translation", "true"]]
+	options = [["langin", "Translation Lang  In", "en"],["langout", "Translation Lang  Out", "es"],["threads", "Number of threads from search", "20"],["parse", "parse translation", "true"]]
 	return options
 
 ## Extend command usage instructions 
 def ExtendCommands():
-	commands = [["tte","els words space"],["tt","els words space"],["searchnumber","search number space"],["elsa","els words space"],["select","select file"],["search","search termsexp"],["get","get book verse number"],["tonum","tonum (sentence or word)"],["toword","toword \"1,2,3,4,5\""],["get_space","get_spaces sentence"]]
+	commands = [["searchnumber","search number space"],["search","search termsexp"]]
 	return commands
 
 
 def core(moduleOptions):
-	global langin, langout, threads, ptrans
-	langin = moduleOptions[0][2]
-	langout = moduleOptions[1][2]
-	query = moduleOptions[2][2]
-	modelist = moduleOptions[3][2]
-	threads = moduleOptions[4][2]
-	ptrans = moduleOptions[5][2]
-
 	print('Command run disabled on current module')
 
 def save(moduleOptions):
 	global langin, langout, threads, ptrans
 	langin = moduleOptions[0][2]
 	langout = moduleOptions[1][2]
-	query = moduleOptions[2][2]
-	modelist = moduleOptions[3][2]
-	threads = moduleOptions[4][2]
-	ptrans = moduleOptions[5][2]
+	threads = moduleOptions[2][2]
+	ptrans = moduleOptions[3][2]

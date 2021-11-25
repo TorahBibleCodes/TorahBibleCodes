@@ -298,27 +298,7 @@ def commandHandler(command):
 		else:
 			print(RED + "[!] Unknown command: '" + YELLOW + command + RED + "'. Type '" + YELLOW + "help" + RED + "' for all available commands." + END)
 
-parser = argparse.ArgumentParser(description="TBC")
-parser.add_argument("--run", action='store_true')
-parser.add_argument("--test", action='store_true')
-parser.add_argument('--module', action='store', type=str, required=False)
-parser.add_argument('--options', action='store', type=str, required=False)
-#args, leftovers = parser.parse_known_args()
-args = parser.parse_args()
 
-if args.test:
-	print("Test build detected. Exiting...")
-	exit()
-if args.module:
-	print(args.module)
-	commandHandler('use '+args.module)
-if args.options:
-
-	for op in args.options.split(';'):
-		commandHandler(op)
-
-if args.run:
-	commandHandler('run')
 
 
 header = """
@@ -371,7 +351,29 @@ for module in allModules:
 		moduleList += "\n"
 	moduleList = moduleList + YELLOW + module[0] + GREEN + ", "
 moduleList = moduleList[:-2]
-print(GREEN + "Loaded modules: " + moduleList + "\n")
+print(GREEN + "Loaded modules: " + moduleList + END+"\n")
+
+parser = argparse.ArgumentParser(description="TBC")
+parser.add_argument("--run", action='store_true')
+parser.add_argument("--test", action='store_true')
+parser.add_argument('--module', action='store', type=str, required=False)
+parser.add_argument('--options', action='store', type=str, required=False)
+#args, leftovers = parser.parse_known_args()
+args = parser.parse_args()
+
+if args.test:
+	print("Test build detected. Exiting...")
+	exit()
+if args.module:
+	print(args.module)
+	commandHandler('use '+args.module)
+if args.options:
+
+	for op in args.options.split(';'):
+		commandHandler(op)
+
+if args.run:
+	commandHandler('run')
 
 while True:
 	if inModule:
