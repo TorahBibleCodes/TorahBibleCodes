@@ -25,6 +25,7 @@ An understandable multilanguaje and multithreading bible codes . Study the Torah
 ## Install on system
 
 `chmod +x install_system.sh`
+
 `./install_system.sh`
 
 ## Usage
