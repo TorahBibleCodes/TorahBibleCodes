@@ -4,7 +4,7 @@ A understandable multilanguaje and multithreading bible codes . Study the bible 
 
 ![image](https://user-images.githubusercontent.com/60758685/143378238-d73ee93b-7ba6-4093-83ac-a859fa11461a.png)
 
-![image](https://user-images.githubusercontent.com/60758685/143378190-34f6f315-58e8-4008-9337-1c079940ab31.png)
+![image](https://user-images.githubusercontent.com/60758685/143389909-c4f9af35-0027-467e-b8e1-2875ad0f5e81.png)
 
 ![image](https://user-images.githubusercontent.com/87866580/143170803-cfd4527d-232e-42df-80de-cd7c44fa9fac.png)
 
@@ -98,12 +98,14 @@ Converting words to gamatria and extending to infinite as a sequence
 
 - Load book, extend him until user selection , search by ELS
 
+
 ## Probnet deterministic geometrical or arthmetic functions sequencces
 
 - Convert word to gematria sequence , extend sequence with xgboost prediction until user selection number of loops, sum sequence, search for ELS
 
 - Load book, extend him until user selection , search by ELS
-- 
+
+
 ## Original Code
 
 Torah Bible Codes - Open-Source Python
