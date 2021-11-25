@@ -18,7 +18,7 @@ def fn_GetNumberValues(SequenceOfLetters, ListOfWords):
 
     ListTemp = []
     ListSum = []
-
+    value = 0
     ## CREATE EMPTY DICT TO STORE VALUES
     #DictOfNumberValues = {}
 

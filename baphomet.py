@@ -1,15 +1,17 @@
 ## BAPHOMET BOT , tora bible codes , jeremiah edition 0.1
-import modules.imports as i
+import modules.resources.imports as i
 import telegram
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import (ReplyKeyboardMarkup, ReplyKeyboardRemove,KeyboardButton)
 from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters,CallbackQueryHandler,ConversationHandler)
+import threading, time
+from queue import Queue
+import resources.func.functions as torah
 
+import modules.resources.config as config
 
-import modules.config as config
-
-import modules.msg as msg
-import modules.txt as txt2
+import modules.resources.msg as msg
+import modules.resources.txt as txt2
 import logging
 
 
@@ -27,6 +29,79 @@ logger = logging.getLogger(__name__)
 
 
 START  = range(1)
+
+langin = 'en'
+langout = 'es'
+ptrans = True
+threads = 10
+
+msgqueue = {}
+
+
+def searchAll(q, number, chatid):
+    global langout, ptrans, msgqueue
+    #if not q.empty():
+    #print('init '+ str(number))
+    while not q.empty():
+        try:
+            value = q.get()
+            ret = torah.func_GettextFromNumber(value,number)
+            rett = torah.func_translate('iw', langout, ret)
+            retp = torah.func_ParseTranslation(rett,langout, ptrans)
+            if not retp == 0:
+                print(retp)
+                msgqueue[chatid] = msgqueue[chatid] + '\n' +retp
+                q.task_done()
+            else:
+                q.task_done()
+        except:
+            q.task_done()
+            pass
+
+def search(text, chatid):
+    global langin, langout, threads, msgqueue
+    jobs = Queue()
+    msgqueue[chatid] = ''
+    listform = ''
+    options = text.split(' ')
+    for string in options:
+        print(string)
+        translated = torah.func_translate(langin, 'iw', string)
+        listform = listform +translated
+    mod_num = torah.mod_9GetNumberValues.fn_GetNumberValues(listform,options)
+
+    sed = mod_num[1][0]
+
+    for i in range(1,43):
+        jobs.put(i)
+
+    for i in range(int(threads)):
+        worker = threading.Thread(target=searchAll, args=(jobs, sed, chatid,))
+        worker.start()
+
+    print("waiting for ", str(jobs.qsize())+'/43', "tasks")
+    jobs.join()
+    if not msgqueue[chatid] == '':
+        msg.sendmsg(chatid,msgqueue[chatid]+"\n\n",False)
+    print('Done.')
+
+def searchnumber(number,chatid):
+    global jobs, langin, langout, threads, msgqueue
+    jobs = Queue()
+    msgqueue[chatid] = ''
+
+    for i in range(1,43):
+        jobs.put(i)
+
+    for i in range(int(threads)):
+        worker = threading.Thread(target=searchAll, args=(jobs, number, chatid,))
+        worker.start()
+
+    print("waiting for ", str(jobs.qsize())+'/43', "tasks")
+    jobs.join()
+    if not msgqueue[chatid] == '':
+        msg.sendmsg(chatid,msgqueue[chatid]+"\n\n",False)
+    print('Done.')
 
 
 def mainload(chatid,txt,btdat,update):
@@ -61,12 +136,32 @@ def mainload(chatid,txt,btdat,update):
 
 
             if "/search" in txt or "/search" in btdat:
-
-                msg.sendmsg(chatid,txt2.search+"\n\n",False)
+                if len(txt) > len(btdat):
+                    text_user = txt.replace('/search ','')
+                else:
+                    text_user = btdat.replace('/search ','')
+                if not text_user == '':
+                #print(text_user)
+                    msg.sendmsg(chatid,"Calculating...Wait...\n\n",False)
+                    workmsg = threading.Thread(target=search, args=(text_user, chatid,))
+                    workmsg.start()
+                #data_search = search(text_user)
+                else:
+                    msg.sendmsgerror(chatid,"Error: Need string...\n\n",False)
 
 
             if "/numsearch" in txt or "/numsearch" in btdat:
-                msg.sendmsg(chatid,txt2.numsearch,False)
+                if len(txt) > len(btdat):
+                    text_user = txt.replace('/numsearch ','')
+                else:
+                    text_user = btdat.replace('/numsearch ','')
+                if not text_user == '':
+                    msg.sendmsg(chatid,"Calculating...Wait...\n\n",False)
+                    workmsg = threading.Thread(target=searchnumber, args=(text_user, chatid,))
+                    workmsg.start()
+                else:
+                    msg.sendmsgerror(chatid,"Error: Need number...\n\n",False)
+
 
 
             if "/talk" in txt or "/talk" in btdat or "/talk" in btdat or "talk" in btdat:

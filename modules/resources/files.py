@@ -1,6 +1,6 @@
 import glob
 import os
-import modules.msg as msg
+import modules.resources.msg as msg
 import logging
 
 from telegram import (ReplyKeyboardMarkup, ReplyKeyboardRemove)

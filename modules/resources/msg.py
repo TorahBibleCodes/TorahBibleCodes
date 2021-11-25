@@ -2,8 +2,12 @@ import telegram
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import (ReplyKeyboardMarkup, ReplyKeyboardRemove,KeyboardButton)
 from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters,CallbackQueryHandler,ConversationHandler)
-import modules.config as config
-import modules.files as files
+import modules.resources.config as config
+import modules.resources.files as files
+
+def sendmsgerror(chatid,msg,btns):
+
+    sendmsg_internal(chatid,msg,btns)
 
 def sendmsg(chatid,msg,btns):
 
