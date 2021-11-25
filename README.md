@@ -51,6 +51,8 @@ Convert words to numbers in gematria, sums and executes ELS function over sumato
 
 - Publish, load and share on a blockchain your search results to provide data for a search engine
 
+- Big Data , Elasticsearch & Kibana Module
+- 
 ## Equidistant Letter Sequences (ELS)
 
 <br />Witztum, Rips, and Rosenberg (WRR) define an Equidistant Letter Sequence (ELS) as a sequence of letters in the text whose positions - not counting spaces - form an arithmetic progression. That is to say the letters are found at the positions
