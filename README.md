@@ -109,13 +109,13 @@ Converting words to gamatria and extending to infinite as a sequence
 
 ## Baphomet AI model
 
-- XGBOOST
+- XGBOOST (Work on progress training models over linear regresion)
 
   Pretained genesis and original repository books of tora bible code
 
   Allow to generate new book ends and order permutations . 
 
-- NLP
+- NLP (Work on progress)
 
   Pretrained with genesis and original repository books of Torah Bible Code
 
