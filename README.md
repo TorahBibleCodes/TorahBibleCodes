@@ -98,7 +98,7 @@ Converting words to gamatria and extending to infinite as a sequence
 
 - Load book, extend him until user selection , search by ELS
 
-- Gamatria refressor classificator and forecasting
+- Gamatria regressor classificator and forecasting
 
 - Support for Missing Data
 
