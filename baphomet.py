@@ -58,7 +58,7 @@ def searchAll(q, number, chatid):
             q.task_done()
             pass
 
-def search(text, chatid):
+def search(text, chatid, update):
     global langin, langout, threads, msgqueue
     jobs = Queue()
     msgqueue[chatid] = ''
@@ -82,10 +82,10 @@ def search(text, chatid):
     #print("waiting for ", str(jobs.qsize())+'/43', "tasks")
     jobs.join()
     if not msgqueue[chatid] == '':
-        msg.sendmsg(chatid,msgqueue[chatid]+"\n\n",False)
+        msg.sendmsg(chatid,msgqueue[chatid]+"\n\n",False, update)
     #print('Done.')
 
-def searchnumber(number,chatid):
+def searchnumber(number,chatid, update):
     global jobs, langin, langout, threads, msgqueue
     jobs = Queue()
     msgqueue[chatid] = ''
@@ -100,7 +100,7 @@ def searchnumber(number,chatid):
     #print("waiting for ", str(jobs.qsize())+'/43', "tasks")
     jobs.join()
     if not msgqueue[chatid] == '':
-        msg.sendmsg(chatid,msgqueue[chatid]+"\n\n",False)
+        msg.sendmsg(chatid,msgqueue[chatid]+"\n\n",False, update)
     #print('Done.')
 
 
@@ -151,12 +151,13 @@ def mainload(chatid,txt,btdat,update):
 
                 if len(text_user) > 0:
                 #print(text_user)
-                    msg.sendmsg(chatid,"Calculating...Wait...\n\n",False)
-                    workmsg = threading.Thread(target=search, args=(text_user, chatid,))
+                    
+                    msg.sendmsguser(chatid,"Calculating...Wait...\n\n",False)
+                    workmsg = threading.Thread(target=search, args=(text_user, chatid, update))
                     workmsg.start()
                 #data_search = search(text_user)
                 else:
-                    msg.sendmsgerror(chatid,"Error: Need string...\n\n",False)
+                    msg.sendmsguser(chatid,"Error: Need string...\n\n",False)
 
 
             if "/numsearch" in txt or "/numsearch" in btdat:
@@ -170,17 +171,18 @@ def mainload(chatid,txt,btdat,update):
                     text_user = text_user.replace('/numsearch','')
                     text_user = text_user.replace(str(chatid),'')
                 if len(text_user) > 0:
-                    msg.sendmsg(chatid,"Calculating...Wait...\n\n",False)
-                    workmsg = threading.Thread(target=searchnumber, args=(text_user, chatid,))
+            
+                    msg.sendmsguser(chatid,"Calculating...Wait...\n\n",False)
+                    workmsg = threading.Thread(target=searchnumber, args=(text_user, chatid, update))
                     workmsg.start()
                 else:
-                    msg.sendmsgerror(chatid,"Error: Need number...\n\n",False)
+                    msg.sendmsguser(chatid,"Error: Need number...\n\n",False)
 
 
 
             if "/talk" in txt or "/talk" in btdat or "/talk" in btdat or "talk" in btdat:
 
-                msg.sendmsg(chatid,txt2.inicio,False)
+                msg.sendmsg(chatid,txt2.inicio,False, update)
 
 
 
