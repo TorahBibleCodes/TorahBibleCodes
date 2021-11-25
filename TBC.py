@@ -19,7 +19,6 @@ try:
 	#import lib.nc as nc
 	# MODULE IMPORT
 	from modules import *
-	from publish import *
 	#from active_modules import *
 except KeyboardInterrupt:
 	print(GREEN + "\n[I] Shutting down..." + END)
@@ -35,12 +34,11 @@ except Exception as e:
 #allModules = []
 #textToModule = []
 
-allModules = [["conversions", conversions]
-]
+
+allModules = [["conversions","conversions Torah"]]
 
 
-textToModule = [["conversions", conversions]
-]
+textToModule = [["conversions", conversions]]
 
 inModule = False
 currentModule = ""
