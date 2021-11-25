@@ -98,6 +98,8 @@ Converting words to gamatria and extending to infinite as a sequence
 
 - Load book, extend him until user selection , search by ELS
 
+- Gamatria automathic classificator and forecasting
+
 ![image](https://user-images.githubusercontent.com/60758685/143395534-9b688fbc-fc27-47a2-b268-fdbee609c09b.png)
 
 
@@ -106,6 +108,11 @@ Converting words to gamatria and extending to infinite as a sequence
 - Convert word to gematria sequence , extend sequence with xgboost prediction until user selection number of loops, sum sequence, search for ELS
 
 - Load book, extend him until user selection , search by ELS
+
+- Gamatria gemoetric classificator
+
+- Gamatria arithmetic classificator
+
 
 ## Baphomet AI model
 
