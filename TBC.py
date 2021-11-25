@@ -35,23 +35,11 @@ except Exception as e:
 #allModules = []
 #textToModule = []
 
-allModules = [["search",search],
-    ["conversions", conversions], 
-    ["parser", parser],
-    ["mappings",mappings],
-    ["maps", maps],
-    ["monitor",monitor],
-    ["publish",publish]
+allModules = [["conversions", conversions]
 ]
 
 
-textToModule = [["search", search],
-["conversions", conversions], 
-["parser", parser], 
-["mappings",mappings],
-["maps", maps],
-["monitor",monitor],
-["publish",publish]
+textToModule = [["conversions", conversions]
 ]
 
 inModule = False
