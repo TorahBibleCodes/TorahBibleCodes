@@ -58,6 +58,16 @@ Convert words to numbers in gematria, sums and executes ELS function over sumato
 ## Modules
 
 - Conversions , search and make conversion
+   
+   - Multihread ELS search
+
+   - XGBOOST sequences ELS search
+
+   - PROBNET sequences ELS search
+
+   - Words tu gamatria and viceversa
+
+   - Search over the raw books.
 
 - Big Data , Elasticsearch & Kibana Module
 
