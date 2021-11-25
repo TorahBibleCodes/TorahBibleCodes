@@ -10,25 +10,33 @@ import resources.func.functions as torah
 from deep_translator import GoogleTranslator
 import re
 
+tracert = 'false'
 langin = 'en'
 langout = 'es'
-ptrans = True
+ptrans = 'true'
 threads = 0
+totalvalue = 0
 jobs = Queue()
 
 
 def searchAll(q, number):
-	global langout, ptrans
+	global langout, ptrans, totalvalue, tracert
 	#if not q.empty():
 	#print('init '+ str(number))
 	while not q.empty():
 		try:
 			value = q.get()
-			ret = torah.func_GettextFromNumber(value,number)
-			rett = torah.func_translate('iw', langout, ret)
+			ret, tvalue = torah.func_GettextFromNumber(value,number, tracert=tracert)
+			#ret = ret.replace('\n', '')
+			ret2 = re.sub('\s+', ' ', ret)
+			totalvalue = totalvalue + tvalue
+
+			rett = torah.func_translate('iw', langout, ret2)
 			retp = torah.func_ParseTranslation(rett,langout, ptrans)
 			if not retp == 0:
+				#print(ret)
 				print(retp)
+				
 				q.task_done()
 			else:
 				q.task_done()
@@ -47,30 +55,37 @@ def search(options):
 
 	sed = mod_num[1][0]
 
-	for i in range(1,43):
-	    jobs.put(i)
+	#for i in range(40,41):
+	for i in range(1,44):
+		#print(i)
+		jobs.put(i)
 
 	for i in range(int(threads)):
-	    worker = threading.Thread(target=searchAll, args=(jobs, sed,))
-	    worker.start()
+		worker = threading.Thread(target=searchAll, args=(jobs, sed,))
+		worker.start()
 
-	print("waiting for ", str(jobs.qsize())+'/43', "tasks")
+	poolsize = 43 - int(jobs.qsize())
+	print("waiting for ", str(poolsize)+'/43', "tasks")
+
 	jobs.join()
-	#print("all done")
+	#print('total', totalvalue)
+	print("all done")
 
 
 def searchnumber(options):
 	global jobs, langin, langout, threads
 	number = options[0]
 
-	for i in range(1,43):
-	    jobs.put(i)
+	for i in range(1,44):
+		jobs.put(i)
 
 	for i in range(int(threads)):
-	    worker = threading.Thread(target=searchAll, args=(jobs, number,))
-	    worker.start()
+		worker = threading.Thread(target=searchAll, args=(jobs, number,))
+		worker.start()
 
-	print("waiting for ", str(jobs.qsize())+'/43', "tasks")
+	poolsize = int(jobs.qsize())
+	print("waiting for ", str(poolsize)+'/43', "tasks")
+
 	jobs.join()
 	#print("all done")
 
@@ -81,7 +96,7 @@ def probnet(options):
 	print('Coming soon')
 
 def coreOptions():
-	options = [["langin", "Translation Lang  In", "en"],["langout", "Translation Lang  Out", "es"],["threads", "Number of threads from search", "20"],["parse", "parse translation", "true"]]
+	options = [["langin", "Translation Lang  In", "en"],["langout", "Translation Lang  Out", "es"],["threads", "Number of threads from search", "40"],["parse", "parse translation", "true"],["tracert", "Tracert Search", "false"]]
 	return options
 
 ## Extend command usage instructions 
@@ -94,8 +109,9 @@ def core(moduleOptions):
 	print('Command run disabled on current module')
 
 def save(moduleOptions):
-	global langin, langout, threads, ptrans
+	global langin, langout, threads, ptrans, tracert
 	langin = moduleOptions[0][2]
 	langout = moduleOptions[1][2]
 	threads = moduleOptions[2][2]
 	ptrans = moduleOptions[3][2]
+	tracert = moduleOptions[4][2]

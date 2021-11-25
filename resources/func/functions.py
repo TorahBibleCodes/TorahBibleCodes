@@ -78,7 +78,7 @@ def func_ParseTranslation(translated, lang, active):
 	else:
 		return 0
 
-def func_GettextFromNumber(torahNumber, number):
+def func_GettextFromNumber(torahNumber, number, tracert='false'):
 
 	## CALL MODULE.FUNCTION() #1 - GET USER INPUT 1 - CHOOSE TEXT TO SEARCH
 	TextChosen = torahNumber #mod_1GetUserInput1.fn_GetUserInput1()
@@ -118,20 +118,37 @@ def func_GettextFromNumber(torahNumber, number):
 
 	## CALL MODULE.FUNCTION() #99 = OUTPUT/WRITE TO CSV FILE ALL WORDS OF SELECTED TEXT(S) WITH EACH WORD'S GEMATRIA VALUE
 	OP = mod_99WriteOutputToCSVFile_WordsAndGematriaValues.fn_WriteOutputToCSVFile_WordsAndGematriaValues(W)
-
+	#print(D[int(1),int(1),int(1)])
+	#print(D[int(1),int(2),int(1)])
+	#print(D[int(1),int(1),int(2)])
+	#print(D[int(2),int(1),int(1)])
+	#print('--')
 	space = number
 	abd = 'abcdefghijklmnñopqrstuvwxyz'
 	i=1
 	rese=""
+	totalvalue = 0
 	for (z,b,y) in D:
 		try:
+			charnum = 0
 			res=""
+			#print('----')
+			#print(D[int(z),int(b),int(y)])
+			#print('----')
 			for char in D[z,b,y]:
+				charnum = charnum+1
 				if (i % int(space)) == 0:
-					res=(char)+res
+					
+					if tracert == 'true':
+						totalvalue = totalvalue + int(charnum)
+						print('Source:',int(z),'chapter:', int(b),'Verse:', int(y),'CharNum:',int(charnum),'Char:', char)
+					#print(char)
+					#res=(char)+res
+					res=res+char
 
 				i=i+1
 			rese=rese+" "+res
 		except:
 			pass
-	return rese.strip()
+	#print('Total', totalvalue)
+	return rese.strip(), totalvalue
