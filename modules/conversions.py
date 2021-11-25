@@ -74,10 +74,10 @@ def searchnumber(options):
 	jobs.join()
 	#print("all done")
 
-def xgboost():
+def xgboost(options):
 	print('Coming soon')
 
-def probnet():
+def probnet(options):
 	print('Coming soon')
 
 def coreOptions():
