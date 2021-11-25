@@ -107,6 +107,15 @@ Converting words to gamatria and extending to infinite as a sequence
 
 - Load book, extend him until user selection , search by ELS
 
+## Baphomet AI model
+
+- XGBOOST
+
+  Pretained genesis and original repository books of tora bible code
+
+- NLP
+
+  - Pretrained with genesis and original repository books of Torah Bible Code
 
 
 ## Original Code
