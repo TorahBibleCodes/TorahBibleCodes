@@ -8,8 +8,6 @@ A understandable bible codes .
 
 ![image](https://user-images.githubusercontent.com/60758685/143378190-34f6f315-58e8-4008-9337-1c079940ab31.png)
 
-![image](https://user-images.githubusercontent.com/60758685/142779321-c0be35b9-6d19-4f63-8014-d48ca800c7ad.png)
-
 ![image](https://user-images.githubusercontent.com/87866580/143170803-cfd4527d-232e-42df-80de-cd7c44fa9fac.png)
 
 
