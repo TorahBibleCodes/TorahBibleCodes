@@ -115,7 +115,9 @@ Converting words to gamatria and extending to infinite as a sequence
 
 - Gamatria arithmetic classificator
 
-https://github.com/pedroelbanquero/TorahBibleCodes/blob/master/README.md
+![image](https://user-images.githubusercontent.com/60758685/143404139-bdec0a17-c552-4218-968b-a697aa8e9c4e.png)
+
+
 ## Baphomet AI model
 
 - XGBOOST (Work on progress training models over linear regresion)
