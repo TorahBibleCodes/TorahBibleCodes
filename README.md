@@ -65,7 +65,7 @@ Convert words to numbers in gematria, sums and executes ELS function over sumato
 
    - PROBNET sequences ELS search
 
-   - Words tu gamatria and viceversa
+   - Words to gamatria and viceversa
 
    - Search over the raw books.
 
