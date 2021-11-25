@@ -59,8 +59,6 @@ Convert words to numbers in gematria, sums and executes ELS function over sumato
 
 - Conversions , search and make conversion
 
-- Publish, load and share on a blockchain your search results to provide data for a search engine
-
 - Big Data , Elasticsearch & Kibana Module
 
 - Telegram Baphomet Bot
