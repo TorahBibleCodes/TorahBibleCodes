@@ -65,6 +65,13 @@ WRR define n as the start, d as the skip between letters in the search-term, and
 
 ## XGboost pattern (XG-ELS, search for unprobable patterns basen on linear regresions, pending iface)
 
+- Convert word to gematria sequence , extend sequence with xgboost prediction until user selection number of loops, sum sequence, search for ELS
+
+- Load book, extend him until user selection , search by ELS
+
 ## Probnet deterministic patterns from 100 % accuracy geometrical or arthmetic functions sequencces, (pending iface)
 
-## Pandas , panda sequences (pending iface)
+- Convert word to gematria sequence , extend sequence with xgboost prediction until user selection number of loops, sum sequence, search for ELS
+
+- Load book, extend him until user selection , search by ELS
+
