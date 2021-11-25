@@ -84,7 +84,7 @@ Many uninitiated in kabala might think the results are gimmicks or casual . A ma
 
 ## Holy Books Forecasting
 
-Artificial intelligence methods allow us to make more comples calculations over pre trained models, or extract the functiona informacion of a dataset to compose a function.
+Artificial intelligence methods allow us to make more complex calculations over pre trained models, or extract the functiona informacion of a dataset to compose a function.
 
 By this way we can extend the ELS methods as a infinite data series . 
 
