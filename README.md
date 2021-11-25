@@ -17,7 +17,7 @@ An understandable multilanguaje and multithreading bible codes . Study the Torah
 
 `cd TorahBibleCodes`
 
-`chmod +x install.sh && chmod +x unox`
+`chmod +x install.sh`
 
 `./install.sh`
 
