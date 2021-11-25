@@ -6,7 +6,7 @@ A understandable multilanguaje and multithreading bible codes . Study the bible 
 
 ![image](https://user-images.githubusercontent.com/60758685/143389909-c4f9af35-0027-467e-b8e1-2875ad0f5e81.png)
 
-![image](https://user-images.githubusercontent.com/87866580/143170803-cfd4527d-232e-42df-80de-cd7c44fa9fac.png)
+![image](https://user-images.githubusercontent.com/60758685/143392985-377da397-a4df-4ce6-a718-262cd1bab8e1.png)
 
 
 ## Install
