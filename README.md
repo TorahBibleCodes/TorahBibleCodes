@@ -1,8 +1,6 @@
-
-
 # TorahBibleCodes 
 
-A understandable bible codes . 
+A understandable multithreading bible codes . Study the bible as never before
 
 ![image](https://user-images.githubusercontent.com/60758685/143378238-d73ee93b-7ba6-4093-83ac-a859fa11461a.png)
 
@@ -32,6 +30,9 @@ Convert words to numbers in gamatry, sums and executes ELS function over sumator
 ## Modules
 
 - Conversions , search and make conversion
+
+- Publish, load and share on a blockchain your search results to provide data for a search engine
+
 
 
 ## Original Code
