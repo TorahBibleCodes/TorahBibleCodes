@@ -115,7 +115,7 @@ Converting words to gamatria and extending to infinite as a sequence
 
 - NLP
 
-  - Pretrained with genesis and original repository books of Torah Bible Code
+  Pretrained with genesis and original repository books of Torah Bible Code
 
 
 ## Original Code
