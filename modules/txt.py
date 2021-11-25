@@ -6,5 +6,6 @@ inicio = "Baphomet Bot is a comprehensive application of Kabala, solve your ques
 presentacion="Im Baphomet, your Lord. Choose a option"
 
 
+search= "Introduce the term to search in the Kabala"
 
-
+numsearch= "Introduce the term to search in the Kabala"
