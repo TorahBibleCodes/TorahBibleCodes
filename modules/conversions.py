@@ -65,6 +65,31 @@ def searchAll(q, number):
 			#print(e)
 			pass
 
+def tonum(options):
+	global langin, langout, threads, totalresult
+	listform = ''
+	print(options[0])
+	if len(options) > 1:
+		for string in options:
+			listform = listform+' '+string
+		if langin == 'iw':
+			sed = gematria_to_int(listform)
+		else:
+			sed = torah.gematrix(listform)
+	else:
+		#print(options[0])
+		if langin == 'iw':
+			sed = gematria_to_int(u''+options[0].strip())
+		else:
+			try:
+				sed = torah.gematria(options[0].strip())
+			except Exception as e:
+				pass
+				print(e)
+
+	print(sed)
+
+
 def search(options):
 	global langin, langout, threads, totalresult
 	listform = ''
@@ -75,15 +100,15 @@ def search(options):
 		for string in options:
 			listform = listform+' '+string
 		if langin == 'iw':
-			sed = torah.gematria_iw_int(listform)
+			sed = gematria_to_int(listform)
 		else:
 			sed = torah.gematrix(listform)
 	else:
-
+		#print(options[0])
 		if langin == 'iw':
-			sed = torah.gematria_iw_int(listform)
+			sed = gematria_to_int(u''+options[0].strip())
 		else:
-			sed = torah.gematria(options[0])
+			sed = torah.gematria(options[0].strip())
 
 	for i in books.booklist():
 		#print(i)
@@ -137,7 +162,7 @@ def coreOptions():
 
 ## Extend command usage instructions 
 def ExtendCommands():
-	commands = [["tt","search number space"],["searchnumber","search number space"],["search","search termsexp"],["xgboost"," XGBOOST"],["probnet","PROBNET"]]
+	commands = [["tonum","get number"],["tt","search number space"],["searchnumber","search number space"],["search","search termsexp"],["xgboost"," XGBOOST"],["probnet","PROBNET"]]
 	return commands
 
 
