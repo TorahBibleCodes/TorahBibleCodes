@@ -173,6 +173,7 @@ Converting words to gamatria and extending to infinite as a sequence
 
 - Past, Present and Future
 
+- Similar sentences to other antique books
 
 
 
