@@ -1,6 +1,30 @@
 ## FUNCTION () #2 - TEXT FILE OPEN
 ## FUNCTION () #2 - TEXT FILE OPEN
 ## FUNCTION () #2 - TEXT FILE OPEN
+from os import listdir
+from os.path import isfile, join
+#if file.endswith(".docx"):
+
+
+class BibleBooks():
+    def __init__(self):
+        self.folder = 'resources/data/'
+        self.book = {}
+    def load(self):
+        
+        for f in listdir(self.folder):
+            if isfile(join(self.folder, f)) and f.endswith(".json"):
+                fn = f.split('.')
+                print('Load', fn[0])
+                with open(self.folder+f, encoding="utf-8-sig") as File:
+                    self.book[fn[0]] = File.read()
+
+    def rawdata(self, bookname):
+        return self.book[bookname]
+
+    def booklist(self):
+        return list(self.book.keys())
+
 def fn_TextFileOpen(TextChosen):
 
     ## TEST PRINT OUTPUT

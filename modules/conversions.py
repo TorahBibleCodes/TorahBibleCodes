@@ -6,7 +6,8 @@ import shlex
 import pandas as pd
 import threading, time
 from queue import Queue
-import resources.func.functions as torah
+from resources.func.torah import *
+import modules.resources.xgboost as xgb
 from deep_translator import GoogleTranslator
 import re
 
@@ -16,47 +17,75 @@ langout = 'es'
 ptrans = 'true'
 threads = 0
 totalvalue = 0
-jobs = Queue()
+totalresult = 0
 
+torah = Torah()
+
+books.load()
+
+def tt(options):
+	global langin, langout, threads, totalresult
+	listform = ''
+	#totalresult = 0
+	#jobs = Queue()
+	#for string in options:
+	#	translated = torah.func_translate(langin, 'iw', string)
+	#	listform = listform +translated
+	#mod_num = torah.func_getnumber(listform,options)
+
+	#sed = mod_num[1][0]
+	#print(mod_num)
+	#print(sed)
+	#ret = gematria_to_int(translated)
+	#print(ret)
+	#xgb.predict(mod_num[0])
 
 def searchAll(q, number):
-	global langout, ptrans, totalvalue, tracert
-	#if not q.empty():
-	#print('init '+ str(number))
+	global langout, ptrans, totalvalue, tracert, totalresult
 	while not q.empty():
 		try:
 			value = q.get()
-			ret, tvalue = torah.func_GettextFromNumber(value,number, tracert=tracert)
-			#ret = ret.replace('\n', '')
-			ret2 = re.sub('\s+', ' ', ret)
+			
+			ret, tvalue = torah.els(value, number, tracert=tracert)
 			totalvalue = totalvalue + tvalue
 
-			rett = torah.func_translate('iw', langout, ret2)
+			rett = torah.func_translate('iw', langout, ret)
 			retp = torah.func_ParseTranslation(rett,langout, ptrans)
 			if not retp == 0:
 				#print(ret)
+				totalresult = totalresult+1
+				print('\nBook:',value)
 				print(retp)
 				
 				q.task_done()
 			else:
 				q.task_done()
-		except:
+		except Exception as e:
 			q.task_done()
+			#print(e)
 			pass
 
 def search(options):
-	global jobs, langin, langout, threads
+	global langin, langout, threads, totalresult
 	listform = ''
+	totalresult = 0
+	jobs = Queue()
 
-	for string in options:
-		translated = torah.func_translate(langin, 'iw', string)
-		listform = listform +translated
-	mod_num = torah.mod_9GetNumberValues.fn_GetNumberValues(listform,options)
+	if len(options) > 1:
+		for string in options:
+			listform = listform+' '+string
+		if langin == 'iw':
+			sed = torah.gematria_iw_int(listform)
+		else:
+			sed = torah.gematrix(listform)
+	else:
 
-	sed = mod_num[1][0]
+		if langin == 'iw':
+			sed = torah.gematria_iw_int(listform)
+		else:
+			sed = torah.gematria(options[0])
 
-	#for i in range(40,41):
-	for i in range(1,44):
+	for i in books.booklist():
 		#print(i)
 		jobs.put(i)
 
@@ -64,30 +93,37 @@ def search(options):
 		worker = threading.Thread(target=searchAll, args=(jobs, sed,))
 		worker.start()
 
-	poolsize = 43 - int(jobs.qsize())
-	print("waiting for ", str(poolsize)+'/43', "tasks")
+	poolsize = 39 - int(jobs.qsize())
+	pooltotal = 39
+	print("waiting for ", str(poolsize)+'/'+str(pooltotal), "tasks")
 
 	jobs.join()
 	#print('total', totalvalue)
+	print('\nFound', totalresult, 'Results')
 	print("all done")
 
 
 def searchnumber(options):
-	global jobs, langin, langout, threads
+	global langin, langout, threads, totalresult
 	number = options[0]
-
-	for i in range(1,44):
+	#threads = 1
+	totalresult = 0
+	jobs = Queue()
+	for i in books.booklist():
+		#print(i)
 		jobs.put(i)
 
 	for i in range(int(threads)):
 		worker = threading.Thread(target=searchAll, args=(jobs, number,))
 		worker.start()
 
-	poolsize = int(jobs.qsize())
-	print("waiting for ", str(poolsize)+'/43', "tasks")
+	poolsize = 39 - int(jobs.qsize())
+	pooltotal = 39
+	print("waiting for ", str(poolsize)+'/'+str(pooltotal), "tasks")
 
 	jobs.join()
-	#print("all done")
+	print('\nFound', totalresult, 'Results')
+	print("all done")
 
 def xgboost(options):
 	print('Coming soon')
@@ -96,12 +132,12 @@ def probnet(options):
 	print('Coming soon')
 
 def coreOptions():
-	options = [["langin", "Translation Lang  In", "en"],["langout", "Translation Lang  Out", "es"],["threads", "Number of threads from search", "40"],["parse", "parse translation", "true"],["tracert", "Tracert Search", "false"]]
+	options = [["langin", "Translation Lang  In", "en"],["langout", "Translation Lang  Out", "es"],["threads", "Number of threads from search", "20"],["parse", "parse translation", "true"],["tracert", "Tracert Search", "false"]]
 	return options
 
 ## Extend command usage instructions 
 def ExtendCommands():
-	commands = [["searchnumber","search number space"],["search","search termsexp"],["xgboost"," XGBOOST"],["probnet","PROBNET"]]
+	commands = [["tt","search number space"],["searchnumber","search number space"],["search","search termsexp"],["xgboost"," XGBOOST"],["probnet","PROBNET"]]
 	return commands
 
 
