@@ -49,6 +49,36 @@ Load module
 
 `searchnumber x`
 
+Example 
+
+````
+
+conversions> searchnumber 33
+
+Book: joshua
+Yahweh, the God of the Father, the Father of Jesus
+
+Book: jonah
+The three-year-old is not the religion of the Reich. 
+
+Book: job
+From the time of his death, he was delayed in the procession 
+
+Book: lamentations
+In it, there is no doubt that the power of the motherfucker is to increase the number of people who are in need of help. 
+
+
+Book: judges
+They are the first two days in the history of the Lord of Hosts.
+
+In the case of a subdivision, a new law applies to the daughter of the one who is still living in the city, and in the case of the Rishon LeZion, there is a plan for the army
+
+
+Book: IIkings
+In the name of the Lord of the Covenant, the Lord of Hosts, Yes, I will speak to the great thunder of the thunder, and I will hear the voice of the Lord
+
+````
+
 Search ELS at x space distance .
 
 `search words`
