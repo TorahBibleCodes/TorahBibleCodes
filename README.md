@@ -117,7 +117,7 @@ Pre train a model with a holy book, and generate alternative futures over the en
 Converting words to gamatria and extending to infinite as a sequence
 
 
-## XGboost pattern (XG-ELS, search for unprobable patterns basen on linear regresions
+## XGboost pattern (XG-ELS, search for unprobable patterns based on linear regresions
 
 - Convert word to gematria sequence , extend sequence with xgboost prediction until user selection number of loops, sum sequence, search for ELS
 
