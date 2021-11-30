@@ -32,7 +32,7 @@ logger = logging.getLogger(__name__)
 START  = range(1)
 
 langin = 'en'
-langout = 'es'
+langout = 'en'
 ptrans = 'true'
 threads = 10
 tracert = 'false'
@@ -69,11 +69,13 @@ def searchAll(q, number, chatid):
             pass
 
 def search(text, chatid, update):
-    global langin, langout, threads, msgqueue
+    global langout, threads, msgqueue
     jobs = Queue()
     msgqueue[chatid] = ''
     listform = ''
+    user = update.message.from_user
     options = text.split(' ')
+    langin = user['language_code']
     if len(options) > 1:
         for string in options:
             listform = listform+' '+string
