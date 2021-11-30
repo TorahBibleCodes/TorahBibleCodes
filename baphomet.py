@@ -126,12 +126,12 @@ def mainload(chatid,txt,btdat,update):
       if ""=="" :
             if "/help" in txt or "/help" in btdat:
                 #print(update.message)
-                msg.sendmsg(chatid,txt2.presentacion+'\n\n'+'Baphomet Bot\n\n'+'/search \n\n'+'/searchnum \n\n'+'/talk sentence \n\n'+'/help \n\n'+'/start \n\n',False)
+                msg.sendmsguser(chatid,txt2.presentacion+'\n\n'+'Baphomet Bot\n\n'+'/search text\n\n'+'/searchnum num\n\n'+'/help \n\n'+'/start \n\n',False)
 
             if "/restart" == txt or "/restart" in btdat or "/start" in txt:
 
 
-                keyboard = [[InlineKeyboardButton("search", callback_data='/search '+str(chatid))],[InlineKeyboardButton("number search", callback_data='/numsearch '+str(chatid))],[InlineKeyboardButton("talk", callback_data='/talk '+str(chatid))],[InlineKeyboardButton("help", callback_data='/help '+str(chatid))]]
+                keyboard = [[InlineKeyboardButton("search", callback_data='/search '+str(chatid))],[InlineKeyboardButton("number search", callback_data='/numsearch '+str(chatid))],[InlineKeyboardButton("help", callback_data='/help '+str(chatid))]]
 
                 #keyboard = [[InlineKeyboardButton("Ayuda Emergencia", callback_data='/ayuda_emergencia '+str(chatid)),
                  #   InlineKeyboardButton("Ayuda Económica", callback_data='/ayuda_economica '+str(chatid))],                    [InlineKeyboardButton("Trámites municipio", callback_data='/municipio '+str(chatid))],[InlineKeyboardButton("Identidad Digital", callback_data='/identidad '+str(chatid))],[InlineKeyboardButton("Monedero", callback_data='/monedero '+str(chatid))],[InlineKeyboardButton("Diagnóstico Médico", callback_data='/diagnostico_rapido '+str(chatid))]]
