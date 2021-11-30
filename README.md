@@ -1,4 +1,4 @@
-# TorahBibleCodes - Jeremiah Visions Edition 0.1
+#  TorahBibleCodes - Jeremiah Visions Edition 0.1
 
 An understandable multilanguaje and multithreading bible codes . Study the Torah as never before
 
@@ -48,6 +48,36 @@ Run main program
 Load module
 
 `searchnumber x`
+
+Example 
+
+````
+
+conversions> searchnumber 33
+
+Book: joshua
+Yahweh, the God of the Father, the Father of Jesus
+
+Book: jonah
+The three-year-old is not the religion of the Reich. 
+
+Book: job
+From the time of his death, he was delayed in the procession 
+
+Book: lamentations
+In it, there is no doubt that the power of the motherfucker is to increase the number of people who are in need of help. 
+
+
+Book: judges
+They are the first two days in the history of the Lord of Hosts.
+
+In the case of a subdivision, a new law applies to the daughter of the one who is still living in the city, and in the case of the Rishon LeZion, there is a plan for the army
+
+
+Book: IIkings
+In the name of the Lord of the Covenant, the Lord of Hosts, Yes, I will speak to the great thunder of the thunder, and I will hear the voice of the Lord
+
+````
 
 Search ELS at x space distance .
 
@@ -117,7 +147,7 @@ Pre train a model with a holy book, and generate alternative futures over the en
 Converting words to gamatria and extending to infinite as a sequence
 
 
-## XGboost pattern (XG-ELS, search for unprobable patterns basen on linear regresions
+## XGboost pattern (XG-ELS, search for unprobable patterns based on linear regresions
 
 - Convert word to gematria sequence , extend sequence with xgboost prediction until user selection number of loops, sum sequence, search for ELS
 
@@ -173,6 +203,7 @@ Converting words to gamatria and extending to infinite as a sequence
 
 - Past, Present and Future
 
+- Similar sentences to other antique books
 
 
 
