@@ -106,18 +106,18 @@ def searchnumber(number,chatid, update):
     jobs = Queue()
     msgqueue[chatid] = ''
 
-    for i in range(1,43):
+    for i in books.booklist():
         jobs.put(i)
 
     for i in range(int(threads)):
         worker = threading.Thread(target=searchAll, args=(jobs, number, chatid,))
         worker.start()
 
-    #print("waiting for ", str(jobs.qsize())+'/43', "tasks")
+    print("waiting for ", str(jobs.qsize())+'/43', "tasks")
     jobs.join()
     if not msgqueue[chatid] == '':
         msg.sendmsg(chatid,msgqueue[chatid]+"\n\n",False, update)
-    #print('Done.')
+    print('Done.')
 
 
 def mainload(chatid,txt,btdat,update):
