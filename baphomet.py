@@ -6,8 +6,9 @@ from telegram import (ReplyKeyboardMarkup, ReplyKeyboardRemove,KeyboardButton)
 from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters,CallbackQueryHandler,ConversationHandler)
 import threading, time
 from queue import Queue
-import resources.func.functions as torah
-
+#import resources.func.functions as torah
+from resources.func.torah import *
+import modules.resources.xgboost as xgb
 import modules.resources.config as config
 
 import modules.resources.msg as msg
@@ -32,10 +33,17 @@ START  = range(1)
 
 langin = 'en'
 langout = 'es'
-ptrans = True
+ptrans = 'true'
 threads = 10
+tracert = 'false'
 
+torah = Torah()
+
+books.load()
 msgqueue = {}
+
+def predict(arrayIn):
+    xgb.predict(arrayIn)
 
 
 def searchAll(q, number, chatid):
@@ -45,7 +53,8 @@ def searchAll(q, number, chatid):
     while not q.empty():
         try:
             value = q.get()
-            ret = torah.func_GettextFromNumber(value,number)
+            ret, tvalue = torah.els(value, number, tracert=tracert)
+
             rett = torah.func_translate('iw', langout, ret)
             retp = torah.func_ParseTranslation(rett,langout, ptrans)
             if not retp == 0:
@@ -54,7 +63,8 @@ def searchAll(q, number, chatid):
                 q.task_done()
             else:
                 q.task_done()
-        except:
+        except Exception as e:
+            print('ERROR:', e)
             q.task_done()
             pass
 
@@ -64,26 +74,32 @@ def search(text, chatid, update):
     msgqueue[chatid] = ''
     listform = ''
     options = text.split(' ')
-    for string in options:
-        #print(string)
-        translated = torah.func_translate(langin, 'iw', string)
-        listform = listform +translated
-    mod_num = torah.mod_9GetNumberValues.fn_GetNumberValues(listform,options)
+    if len(options) > 1:
+        for string in options:
+            listform = listform+' '+string
+        if langin == 'iw':
+            sed = gematria_to_int(listform)
+        else:
+            sed = torah.gematrix(listform)
+    else:
+        #print(options[0])
+        if langin == 'iw':
+            sed = gematria_to_int(u''+options[0].strip())
+        else:
+            sed = torah.gematria(options[0].strip())
 
-    sed = mod_num[1][0]
-
-    for i in range(1,43):
+    for i in books.booklist():
         jobs.put(i)
 
     for i in range(int(threads)):
         worker = threading.Thread(target=searchAll, args=(jobs, sed, chatid,))
         worker.start()
 
-    #print("waiting for ", str(jobs.qsize())+'/43', "tasks")
+    print("waiting for ", str(jobs.qsize())+'/43', "tasks")
     jobs.join()
     if not msgqueue[chatid] == '':
         msg.sendmsg(chatid,msgqueue[chatid]+"\n\n",False, update)
-    #print('Done.')
+    print('Done.')
 
 def searchnumber(number,chatid, update):
     global jobs, langin, langout, threads, msgqueue
