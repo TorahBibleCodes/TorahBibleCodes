@@ -5,7 +5,7 @@ import json
 
 ## TELEGRAM API TOKEN CONFIGURATION
 
-TOKEN="2142668916:AAF9floEz5r5NgYBVydyKnsuplnoze5MIcA"
+TOKEN=""
 bot = telegram.Bot(TOKEN)
 
 
