@@ -10,7 +10,7 @@ https://github.com/torahbiblecodes
 https://stackoverflow.com/users/8911652/torahbiblecodes
 
 # Known Bugs and Open Issues
-None
+https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 
 # Current Development Status
 
