@@ -16,6 +16,10 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 
 <br />Active Development: In Progress
 
+# Updates
+
+<br /> Support for .ipynb Notebook Files and Google Colab
+
 # Equidistant Letter Sequences (ELS)
 
 <br />Witztum, Rips, and Rosenberg (WRR) define an Equidistant Letter Sequence (ELS) as a sequence of letters in the text whose positions - not counting spaces - form an arithmetic progression. That is to say the letters are found at the positions
