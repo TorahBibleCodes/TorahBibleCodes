@@ -6,7 +6,36 @@ from textblob import TextBlob
 from os import listdir
 from os.path import isfile, join
 import re
+import time
+import random
+from curtsies import FullscreenWindow, Input, FSArray
+from curtsies.fmtfuncs import red, bold, green, blue, yellow
 
+BLUE, RED, WHITE, YELLOW, MAGENTA, GREEN, END = '\33[1;94m', '\033[1;91m', '\33[1;97m', '\33[1;93m', '\033[1;35m', '\033[1;32m', '\033[0m'
+ORANGE  = '\033[1;33m' # orange
+
+
+class DisplayFx():
+	def __init__(self):
+		self.window = FullscreenWindow()
+		self.input_generator = Input()
+		self.a = FSArray(self.window.height, self.window.width)
+
+	def print(self, letra):
+		
+		s = letra#repr(c)
+		row = random.choice(range(self.window.height))
+		column = random.choice(range(self.window.width-len(s)))
+		color = random.choice([red, green, blue, yellow])
+		self.a[row, column:column+len(s)] = [color(s)]
+		self.window.render_to_terminal(self.a)
+
+	def clear(self):
+		self.a = FSArray(self.window.height, self.window.width)
+		self.window.render_to_terminal(self.a)
+
+
+dfx = DisplayFx()
 
 
 
@@ -117,7 +146,7 @@ class Torah():
 			return str_final
 		else:
 			return 0
-	def els(self, namebook, number, tracert='false'):
+	def els(self, namebook, number, tracert='false', visualice=False):
 		space = number
 		abd = 'abcdefghijklmnñopqrstuvwxyz'
 		i=1
@@ -134,7 +163,8 @@ class Torah():
 				for char in D[z,b,y]:
 					charnum = charnum+1
 					if (i % int(space)) == 0:
-						
+						if visualice:
+							dfx.print(char)
 						if tracert == 'true':
 							totalvalue = totalvalue + int(charnum)
 							print('Source:',int(z),'chapter:', int(b),'Verse:', int(y),'CharNum:',int(charnum),'Char:', char)

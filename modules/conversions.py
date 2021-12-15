@@ -10,18 +10,28 @@ from resources.func.torah import *
 import modules.resources.xgboost as xgb
 from deep_translator import GoogleTranslator
 import re
+from resources.func.thread import *
+
+
+BLUE, RED, WHITE, YELLOW, MAGENTA, GREEN, END = '\33[1;94m', '\033[1;91m', '\33[1;97m', '\33[1;93m', '\033[1;35m', '\033[1;32m', '\033[0m'
+ORANGE  = '\033[1;33m' # orange
+
 
 tracert = 'false'
 langin = 'en'
 langout = 'es'
 ptrans = 'true'
+visualice = False
 threads = 0
 totalvalue = 0
 totalresult = 0
-
+res_data = []
+res_book = []
 torah = Torah()
-
+jobstrans = Jobs()
 books.load()
+
+
 
 def tt(options):
 	global langin, langout, threads, totalresult
@@ -40,28 +50,86 @@ def tt(options):
 	#print(ret)
 	#xgb.predict(mod_num[0])
 
+def ttranslator():
+	global langout, ptrans, totalvalue, tracert, totalresult, jobstrans
+
+	while True:#not jobstrans.empty():
+		#print('\nFound', int(jobstrans.queue.qsize()))
+		tchunk = jobstrans.get()
+		tchunk = tchunk.split('*')
+		dchunk = tchunk[0]
+		n = 100
+		text_chunk = [dchunk[i:i+n] for i in range(0, len(dchunk), n)]
+		lenchunk = len(text_chunk)
+		text_trans = ''
+		nch = 0
+		
+		try:
+			print(GREEN, 'chunk size: ', lenchunk, END)
+			for chunks in range(0, lenchunk):
+				#print(ORANGE + chunks + END+ '\n')
+				nch = nch +1
+				#jobstrans.add(dchunk[chunks]+'*'+value)
+				#print(BLUE, 'n', str(nch), END, 'chunk', text_chunk[chunks])
+				rett = torah.func_translate('iw', langout, text_chunk[chunks])
+				retp = torah.func_ParseTranslation(rett,langout, ptrans)
+				text_trans = str(text_trans) + str(retp)
+				if not retp == 0: 
+					totalresult = totalresult+1
+			print('\nBook:',tchunk[1])
+					#print('\nn',nch)
+					#print(ORANGE + str(retp) + END)
+			print(GREEN + str(text_trans) + END)
+
+			jobstrans.done()
+			#time.sleep(1)
+		except Exception as e:
+			#print('ee t')
+			#print(e)
+			jobstrans.done()
+			pass
+			#print('nNN', str(nch))
+
 def searchAll(q, number):
-	global langout, ptrans, totalvalue, tracert, totalresult
+	global langout, ptrans, totalvalue, tracert, totalresult, jobstrans
 	while not q.empty():
 		try:
 			value = q.get()
-			
+			text_chunk = ''
 			ret, tvalue = torah.els(value, number, tracert=tracert)
 			totalvalue = totalvalue + tvalue
 
-			rett = torah.func_translate('iw', langout, ret)
-			retp = torah.func_ParseTranslation(rett,langout, ptrans)
-			if not retp == 0:
+			text_trans= ''
+			len_chunk = len(text_chunk)
+			#print(GREEN, 'chunk size: ', len_chunk, END)
+			nch = 0
+			
+
+			jobstrans.add(str(ret)+'*'+value)
+			#print('\nBook:',value)
+			#print('\ndata', ret)
+			#print('\nFounda', int(jobstrans.count()))
+
+			#jobstrans.join()
+			q.task_done()
+			#rett = torah.func_translate('iw', langout, ret)
+			#retp = torah.func_ParseTranslation(rett,langout, ptrans)
+			#if not retp == 0:
 				#print(ret)
-				totalresult = totalresult+1
-				print('\nBook:',value)
-				print(retp)
-				
-				q.task_done()
-			else:
-				q.task_done()
+			#	totalresult = totalresult+1
+			#	print('\nBook:',value)
+			#	print(retp)
+				#dfx.clear()
+				#res_book.append(value)
+				#res_data.append(retp)
+			#	q.task_done()
+			#else:
+			#	q.task_done()
 		except Exception as e:
 			q.task_done()
+			#print(ORANGE + retp + END)
+			print(RED,"Exception: {}".format(type(e).__name__),END)
+			print(ORANGE,"Exception message: {}".format(e),END)
 			#print(e)
 			pass
 
@@ -95,7 +163,8 @@ def search(options):
 	listform = ''
 	totalresult = 0
 	jobs = Queue()
-
+	if visualice:
+		dfx.clear()
 	if len(options) > 1:
 		for string in options:
 			listform = listform+' '+string
@@ -120,23 +189,32 @@ def search(options):
 
 	poolsize = 39 - int(jobs.qsize())
 	pooltotal = 39
-	print("waiting for ", str(poolsize)+'/'+str(pooltotal), "tasks")
+	#print("waiting for ", str(poolsize)+'/'+str(pooltotal), "tasks")
 
 	jobs.join()
-	#print('total', totalvalue)
+	if visualice:
+		dfx.clear()
+	for impr in range(0, len(res_book)):
+		print('\nBook:',res_book[impr])
+		print(res_data[impr])
 	print('\nFound', totalresult, 'Results')
 	print("all done")
 
 
 def searchnumber(options):
-	global langin, langout, threads, totalresult
+	global langin, langout, threads, totalresult, jobstrans
 	number = options[0]
 	#threads = 1
 	totalresult = 0
+
 	jobs = Queue()
-	for i in books.booklist():
+
+	bfor = books.booklist()
+	#for i in bfor:
+	for i in range(0, 3):
 		#print(i)
-		jobs.put(i)
+		tjobs = bfor[i]
+		jobs.put(tjobs)
 
 	for i in range(int(threads)):
 		worker = threading.Thread(target=searchAll, args=(jobs, number,))
@@ -147,9 +225,15 @@ def searchnumber(options):
 	print("waiting for ", str(poolsize)+'/'+str(pooltotal), "tasks")
 
 	jobs.join()
-	print('\nFound', totalresult, 'Results')
+	if visualice:
+		dfx.clear()
+	for impr in range(0, len(res_book)):
+		print('\nBook:',res_book[impr])
+		print(res_data[impr])
+	print('\nFound', int(jobstrans.queue.qsize()), 'Results')
 	print("all done")
-
+	#worker = Threads(func=ttranslator, ntask=50)
+	#worker.start()
 def xgboost(options):
 	print('Coming soon')
 
@@ -176,3 +260,6 @@ def save(moduleOptions):
 	threads = moduleOptions[2][2]
 	ptrans = moduleOptions[3][2]
 	tracert = moduleOptions[4][2]
+
+worker = Threads(func=ttranslator, ntask=50)
+worker.start()
