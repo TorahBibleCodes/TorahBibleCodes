@@ -7,7 +7,7 @@ import pandas as pd
 import threading, time
 from queue import Queue
 from resources.func.torah import *
-import modules.resources.xgboost as xgb
+#import modules.resources.xgboost as xgb
 from deep_translator import GoogleTranslator
 import re
 from resources.func.thread import *
@@ -58,14 +58,15 @@ def ttranslator():
 		tchunk = jobstrans.get()
 		tchunk = tchunk.split('*')
 		dchunk = tchunk[0]
-		n = 100
+		n = 2000
 		text_chunk = [dchunk[i:i+n] for i in range(0, len(dchunk), n)]
 		lenchunk = len(text_chunk)
 		text_trans = ''
 		nch = 0
 		
 		try:
-			print(GREEN, 'chunk size: ', lenchunk, END)
+			#print(GREEN, 'chunk size: ', lenchunk, END)
+			#print('\nBook:',tchunk[1])
 			for chunks in range(0, lenchunk):
 				#print(ORANGE + chunks + END+ '\n')
 				nch = nch +1
@@ -73,8 +74,9 @@ def ttranslator():
 				#print(BLUE, 'n', str(nch), END, 'chunk', text_chunk[chunks])
 				rett = torah.func_translate('iw', langout, text_chunk[chunks])
 				retp = torah.func_ParseTranslation(rett,langout, ptrans)
-				text_trans = str(text_trans) + str(retp)
+				
 				if not retp == 0: 
+					text_trans = str(text_trans) + str(retp)
 					totalresult = totalresult+1
 			print('\nBook:',tchunk[1])
 					#print('\nn',nch)
@@ -84,7 +86,7 @@ def ttranslator():
 			jobstrans.done()
 			#time.sleep(1)
 		except Exception as e:
-			#print('ee t')
+			print('ee t')
 			#print(e)
 			jobstrans.done()
 			pass
@@ -110,7 +112,7 @@ def searchAll(q, number):
 			#print('\ndata', ret)
 			#print('\nFounda', int(jobstrans.count()))
 
-			#jobstrans.join()
+			jobstrans.join()
 			q.task_done()
 			#rett = torah.func_translate('iw', langout, ret)
 			#retp = torah.func_ParseTranslation(rett,langout, ptrans)
@@ -210,11 +212,11 @@ def searchnumber(options):
 	jobs = Queue()
 
 	bfor = books.booklist()
-	#for i in bfor:
-	for i in range(0, 3):
+	for i in bfor:
+	#for i in range(0, 3):
 		#print(i)
-		tjobs = bfor[i]
-		jobs.put(tjobs)
+		#tjobs = bfor[i]
+		jobs.put(i)
 
 	for i in range(int(threads)):
 		worker = threading.Thread(target=searchAll, args=(jobs, number,))
