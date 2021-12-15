@@ -75,13 +75,14 @@ def ttranslator():
 				rett = torah.func_translate('iw', langout, text_chunk[chunks])
 				retp = torah.func_ParseTranslation(rett,langout, ptrans)
 				
-				if not retp == 0: 
+				if not retp == 0 and not retp == '': 
 					text_trans = str(text_trans) + str(retp)
 					totalresult = totalresult+1
 			print('\nBook:',tchunk[1])
 					#print('\nn',nch)
 					#print(ORANGE + str(retp) + END)
-			print(GREEN + str(text_trans) + END)
+			print(GREEN + str(text_trans) + END+'\n')
+			print(BLUE + str(text_chunk) + END)
 
 			jobstrans.done()
 			#time.sleep(1)
@@ -196,9 +197,9 @@ def search(options):
 	jobs.join()
 	if visualice:
 		dfx.clear()
-	for impr in range(0, len(res_book)):
-		print('\nBook:',res_book[impr])
-		print(res_data[impr])
+	#for impr in range(0, len(res_book)):
+	#	print('\nBook:',res_book[impr])
+	#	print(res_data[impr])
 	print('\nFound', totalresult, 'Results')
 	print("all done")
 
@@ -229,9 +230,9 @@ def searchnumber(options):
 	jobs.join()
 	if visualice:
 		dfx.clear()
-	for impr in range(0, len(res_book)):
-		print('\nBook:',res_book[impr])
-		print(res_data[impr])
+	#for impr in range(0, len(res_book)):
+	#	print('\nBook:',res_book[impr])
+	#	print(res_data[impr])
 	print('\nFound', int(jobstrans.queue.qsize()), 'Results')
 	print("all done")
 	#worker = Threads(func=ttranslator, ntask=50)
