@@ -81,7 +81,11 @@ class Torah():
 			return True
 		return False
 
-
+	def numtobook(self, number):
+		for x in books.booklist():
+			xt = re.findall("[-+]?[.]?[\d]+(?:,\d\d\d)*[\.]?\d*(?:[eE][-+]?\d+)?", x)
+			if xt[0] == str(number):
+				return x
 	def func_translate(self, lang_in, lang_out, data):
 		translated = GoogleTranslator(source=lang_in, target=lang_out).translate(data.strip()) 
 		return translated

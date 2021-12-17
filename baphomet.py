@@ -8,9 +8,9 @@ import threading, time
 from queue import Queue
 #import resources.func.functions as torah
 from resources.func.torah import *
-import modules.resources.xgboost as xgb
+#import modules.resources.xgboost as xgb
 import modules.resources.config as config
-
+from resources.func.thread import *
 import modules.resources.msg as msg
 import modules.resources.txt as txt2
 import logging
@@ -31,14 +31,14 @@ logger = logging.getLogger(__name__)
 
 START  = range(1)
 
-langin = 'en'
+#langin = 'en'
 langout = 'en'
 ptrans = 'true'
 threads = 10
 tracert = 'false'
 
 torah = Torah()
-
+jobstrans = Jobs()
 books.load()
 msgqueue = {}
 
@@ -46,23 +46,84 @@ def predict(arrayIn):
     xgb.predict(arrayIn)
 
 
-def searchAll(q, number, chatid):
-    global langout, ptrans, msgqueue
+def ttranslator():
+    global langout, ptrans, totalvalue, tracert, totalresult, jobstrans, msgqueue
+
+    while True:#not jobstrans.empty():
+        #print('\nFound', int(jobstrans.queue.qsize()))
+        tchunk = jobstrans.get()
+        tchunk = tchunk.split('*')
+        dchunk = tchunk[0]
+        n = 2000
+        text_chunk = [dchunk[i:i+n] for i in range(0, len(dchunk), n)]
+        lenchunk = len(text_chunk)
+        text_trans = ''
+        nch = 0
+        chatid = int(tchunk[2])
+        langOut = tchunk[3]
+        print(chatid)
+        try:
+            #print(GREEN, 'chunk size: ', lenchunk, END)
+            #print('\nBook:',tchunk[1])
+            for chunks in range(0, lenchunk):
+                #print(ORANGE + chunks + END+ '\n')
+                nch = nch +1
+                #jobstrans.add(dchunk[chunks]+'*'+value)
+                #print(BLUE, 'n', str(nch), END, 'chunk', text_chunk[chunks])
+                rett = torah.func_translate('iw', langOut, text_chunk[chunks])
+                retp = torah.func_ParseTranslation(rett,langOut, ptrans)
+                #retp = text_chunk[chunks]
+                if not retp == 0 and not retp == '': 
+                    text_trans = str(text_trans) + str(retp)
+                    #totalresult = totalresult+1
+            #print('\nBook:',tchunk[1])
+                    #print('\nn',nch)
+                    print(ORANGE + str(retp) + END)
+            print(GREEN + str(text_trans) + END+'\n')
+           # print(BLUE + str(text_chunk[chunks]) + END)
+            if not retp == 0:
+                #print(retp)
+                AS=''
+                msgqueue[chatid] = msgqueue[chatid] + '\n' +str(text_trans)
+            jobstrans.done()
+        except Exception as e:
+            print('ee t')
+            print(e)
+            jobstrans.done()
+            pass
+
+
+def searchAll(q, number, chatid, langOut):
+    global langout, ptrans, msgqueue, jobstrans
     #if not q.empty():
     #print('init '+ str(number))
+    #print(langOut)
+    retp = ''
     while not q.empty():
         try:
             value = q.get()
             ret, tvalue = torah.els(value, number, tracert=tracert)
 
-            rett = torah.func_translate('iw', langout, ret)
-            retp = torah.func_ParseTranslation(rett,langout, ptrans)
-            if not retp == 0:
+
+            jobstrans.add(str(ret)+'*'+value+'*'+str(chatid)+'*'+str(langOut))
+            jobstrans.join()
+            q.task_done()
+
+            #dchunk = ret
+            #n = 2000
+            #text_chunk = [dchunk[i:i+n] for i in range(0, len(dchunk), n)]
+            #lenchunk = len(ret)
+            #print(lenchunk)
+            
+            #rett = torah.func_translate('iw', langOut, ret)
+           # retp = torah.func_ParseTranslation(rett,langOut, ptrans)
+            #print(retp)
+            #if not retp == 0:
                 #print(retp)
-                msgqueue[chatid] = msgqueue[chatid] + '\n' +retp
-                q.task_done()
-            else:
-                q.task_done()
+            #    msgqueue[chatid] = msgqueue[chatid] + '\n' +retp
+            #    q.task_done()
+            #else:
+            #    q.task_done()
         except Exception as e:
             print('ERROR:', e)
             q.task_done()
@@ -74,8 +135,10 @@ def search(text, chatid, update):
     msgqueue[chatid] = ''
     listform = ''
     user = update.message.from_user
-    options = text.split(' ')
     langin = user['language_code']
+    print(langin)
+    options = text.split(' ')
+    
     if len(options) > 1:
         for string in options:
             listform = listform+' '+string
@@ -94,32 +157,47 @@ def search(text, chatid, update):
         jobs.put(i)
 
     for i in range(int(threads)):
-        worker = threading.Thread(target=searchAll, args=(jobs, sed, chatid,))
+        worker = threading.Thread(target=searchAll, args=(jobs, sed, chatid, langin,))
         worker.start()
 
     print("waiting for ", str(jobs.qsize())+'/43', "tasks")
     jobs.join()
     if not msgqueue[chatid] == '':
-        msg.sendmsg(chatid,msgqueue[chatid]+"\n\n",False, update)
+        dchunk = msgqueue[chatid]
+        n = 3000
+
+        text_chunk = [dchunk[i:i+n] for i in range(0, len(dchunk), n)]
+        lenchunk = len(text_chunk)
+        for chunks in range(0, lenchunk):
+            msg.sendmsg(chatid,text_chunk[chunks]+"\n\n",False, update)
     print('Done.')
+    msg.sendmsg(chatid,'Done.'+"\n\n",False, update)
 
 def searchnumber(number,chatid, update):
-    global jobs, langin, langout, threads, msgqueue
+    global jobs, langout, threads, msgqueue
     jobs = Queue()
     msgqueue[chatid] = ''
-
+    user = update.message.from_user
+    langin = user['language_code']
     for i in books.booklist():
         jobs.put(i)
 
     for i in range(int(threads)):
-        worker = threading.Thread(target=searchAll, args=(jobs, number, chatid,))
+        worker = threading.Thread(target=searchAll, args=(jobs, number, chatid, langin,))
         worker.start()
 
     print("waiting for ", str(jobs.qsize())+'/43', "tasks")
     jobs.join()
     if not msgqueue[chatid] == '':
-        msg.sendmsg(chatid,msgqueue[chatid]+"\n\n",False, update)
+        dchunk = msgqueue[chatid]
+        n = 3000
+
+        text_chunk = [dchunk[i:i+n] for i in range(0, len(dchunk), n)]
+        lenchunk = len(text_chunk)
+        for chunks in range(0, lenchunk):
+            msg.sendmsg(chatid,text_chunk[chunks]+"\n\n",False, update)
     print('Done.')
+    msg.sendmsg(chatid,'Done.'+"\n\n",False, update)
 
 
 def mainload(chatid,txt,btdat,update):
@@ -319,6 +397,10 @@ def main():
     dp.add_handler(conv_handler)
     updater.start_polling()
     updater.idle()
+
+
+worker = Threads(func=ttranslator, ntask=50)
+worker.start()
 
 
 if __name__ == '__main__':

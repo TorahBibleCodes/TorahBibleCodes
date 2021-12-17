@@ -213,11 +213,11 @@ def searchnumber(options):
 	jobs = Queue()
 
 	bfor = books.booklist()
-	for i in bfor:
-	#for i in range(0, 3):
+	#for i in bfor:
+	for i in range(0, 1):
 		#print(i)
-		#tjobs = bfor[i]
-		jobs.put(i)
+		tjobs = bfor[i]
+		jobs.put(tjobs)
 
 	for i in range(int(threads)):
 		worker = threading.Thread(target=searchAll, args=(jobs, number,))
