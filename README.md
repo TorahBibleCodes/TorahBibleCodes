@@ -110,6 +110,14 @@ Angelical coordenates to modern time space.
 
   - As the information of the book was made from the point of view who oberves the firmament we can calculate where was write the book, rotate the earth until the accuracy is improved to the book description, and this is the place .
 
+Documented in Raziel book as spells , we can observe during pages and pages all names to invoke god, they changes depending the year epoch and constelation ages, state of the moon and the sun . 
+
+Is like latin languages who encodes in the verbal form not just the time, present past and future, encodes who are doing the action, me , you, he ,they etc ...
+
+In English, a verb contain the time, in spanish contain the time and who realizes the action, this is the same, depending the moment at the year and astrological moment the name changes, this is the reason because god or Elohim have diferent names , depending of the age month and day.
+
+
+
 ### Usage
 
 `angeltotimespace gabriel miguel raziel --format date|unix`
@@ -119,11 +127,16 @@ Angelical coordenates to modern time space.
 
   - Contemporaneous
 
+   http://torahcode.us/torah_codes/gematria/gematria1.shtml
+
   - Old (Authentic gematria)
 
 - Encoding and information theory
 
+
 - The divine mandate
+
+
 
 ## Aleph and Beth . The main constelations
 
