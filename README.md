@@ -196,6 +196,8 @@ In English, a verb contain the time, in spanish contain the time and who realize
 
 - Do not worship false gods 
 
+- Humility, purity, reverence, holiness 
+
 
 ## Catharism
 
