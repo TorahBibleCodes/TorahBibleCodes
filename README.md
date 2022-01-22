@@ -93,8 +93,29 @@ The spells are important also to create the civilization, are indications to kno
 
 - All was write in the holy scriptures , present past and future (the stars cycles)
 
-- The art of coding makes a man a man , Adan was the first man the first encoder
+- The art of coding makes the man a man 
 
+- Adan was the first man the first encoder, and was encoding the names of all things in 6 days over clay
+
+- The unique god is the universe who contain all things, and is part from all
+
+- The name of the God have 72 characters, and each one is the first letter of each Hebrew Antique constelations .
+
+- The knowleadge of how works the universe is the Ein Soft, the ultimate wisdom 
+
+- The cataclysms of the solar system and on earth are cyclical 
+
+- The mind of the uninitiated can be corrupted 
+
+- The division of men is the only way to the truth 
+
+- Knowledge of sin is the path to wisdom   
+
+- The dreams are the will of the universe
+
+- Baptism is an ancient healing mechanism 
+
+- Divide el huerto del Eden cuando no haya sabiduria y pasala de generacion en generacion , unifica el jardin cuando llegue la sabiduria
 
 
 ## The main laws
@@ -102,6 +123,9 @@ The spells are important also to create the civilization, are indications to kno
 - As up is down
 
 - You will not steal 
+
+- Do not worship false gods 
+
 
 ## Catharism
 
