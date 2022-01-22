@@ -1,3 +1,36 @@
+# The book of Atzeemov
+## the book of the secret, the name of god
+
+the spirit of the book is to adapt the original scriptures from which all later religious works in the world derivating into contemporary language.
+
+For this, the instructions embodied in the sacred book, the cosmos, interpreted by the first man, who discovered the encoding and the repetitive and pseudo-infinite cycles of the universe, will be followed in a contemporary way.
+
+For this, it will be required to demonstrate in an indubitable way through the scriptures, the known history, and the science developed as it was prophesied in the past.
+
+In addition, we will demonstrate without place the origin of the encoding of the constellations and in the known ancient texts and the oral tradition.
+
+we will analyze and update the mechanisms and old "magics"
+
+- hypnosis or marketing
+
+- encoding and prophecy
+
+- timeless asynchronous spells or communications
+
+- stellar gps
+
+we will add to the codification the new sciences prophesied in the past
+
+- physical
+  - thermodynamics
+
+  - chemistry
+
+  - quantum mechanics
+
+
+This is the book delivered by Atzeemov (Aquarius) in Dan Ben Zelateh (time date and place, ALL) to the 12 lords of the staff gathered by the Nepesh (Destiny) 
+
 #  Torah Bible Codes - David Ben Zelateh v0.1
 
 An understandable multilanguaje and multithreading bible codes . Study the Torah as never before
