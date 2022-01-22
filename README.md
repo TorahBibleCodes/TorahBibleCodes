@@ -71,17 +71,47 @@ The spells are important also to create the civilization, are indications to kno
 
 22 symbols to define the hebrew alphabet and 10 hidden sefirot defined literally as NOTHING . 
 
-22 constelations defined by Adan , and 10 spaces among them with literally NOTHING
+22 constelations defined by Adan , and 10 spaces among them with literally NOTHING, the void among constelations
 
 Distribution in the firmament was described literraly . 
 
 Values in gematria are made of his fractions, as a method to describe a proportion in any mathematical system, the sumatory of proportions of gematria are PI, because is the expression of the circle in the firmament .
 
+3.1416548=1/1+1/2+1/3+1/4+1/5+1/6+1/7+1/8+1/9+
+          1/10+1/20+1/30+1/40+1/50+1/60+1/70+1/80+1/90+
+          1/100+1/200+1/300+1/400+1/500+1/600+1/700+1/800+1/900+
+          1/1000+1/2000 ..... 
+          
+This is modern gematria table manipulated in the time centuries after Raziels book, in Raziel book just 22 symbols for the encoding and fractions from PI .
+
+3*7*12 - (3+7+12-1) , 231 combinations in the weels
+              
 The source is Sefer Yetzira, the training book . 
 
 - Time-Space 
 
 ![image](https://user-images.githubusercontent.com/60758685/150645810-076ad016-98a4-420b-bf22-b9f19c8e4591.png)
+
+The anciant writter was knowing the way to define the time and space, this was encoded in the name of god, represented with the initial character of each moment in the time, by this way generation by generation share's the infromation in oral tradition, and was preserved until today .
+
+32 paths to the ultimate wisdom described in Sefer Yetzira
+
+The name of each angel and arcangel, stars constelations, comets and meteorites remembered generation after generation, formulating according to the stellar moment, the time of the year, the state of the moon or the sun in each of the spells to grow each type of vegetable or fruit, sowing, harvesting and maintenance and each type of animal and its best mating time. All this is essential to have excess food to produce civilization. Missed after the great cataclysm that eliminated the previous habitants of the Garden of Eden (The Earth) . The knowleadge of the time and the coding make man 
+
+Documented in SEPHER HAMELBOSH, the dress book , inside Raziel book , page 1,2,3,4
+
+Angelical cordenates to modern time space. 
+
+  - Identify each constelation and star to angel and arcangel , and principe
+
+  - Move time until fractions described in the book have the better coincidence with the stellar cartografy, this is the date when the book was write
+
+  - As the information of the book was made from the point of view who oberves the firmament we can calculate where was write the book, rotate the earth until the accuracy is improved to the book description, and this is the place .
+
+### Usage
+
+`angeltotimespace gabriel miguel raziel --format date|unix`
+
 
 - Gematria 
 
