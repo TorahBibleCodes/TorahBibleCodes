@@ -107,7 +107,7 @@ http://oeis.org/A062069
 
 The anciant writter was knowing the way to define the time and space, this was encoded in the name of god, represented with the initial character of each moment in the time, by this way generation by generation share's the infromation in oral tradition, and was preserved until today .
 
-32 paths to the ultimate wisdom described in Sefer Yetzira, the interpretation of the image is really wrong, 32 paths are made of maths, 3+7+12+10 = 32 nothing more .
+32 paths to the ultimate wisdom described in Sefer Yetzira, the interpretation of the image is really wrong, 32 paths are made of maths, 3+7+12+10 = 32 , seems un-re-discovered relation among primes and powers.
 
 The name of each angel and arcangel, stars constelations, comets and meteorites remembered generation after generation, formulating according to the stellar moment, the time of the year, the state of the moon or the sun in each of the spells to grow each type of vegetable or fruit, sowing, harvesting and maintenance and each type of animal and its best mating time. All this is essential to have excess food to produce civilization. Missed after the great cataclysm that eliminated the previous habitants of the Garden of Eden (The Earth) . The knowleadge of the time and the coding make man 
 
