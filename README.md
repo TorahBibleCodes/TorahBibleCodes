@@ -81,7 +81,9 @@ Values in gematria are made of his fractions, as a method to describe a proporti
           1/10+1/20+1/30+1/40+1/50+1/60+1/70+1/80+1/90+
           1/100+1/200+1/300+1/400+1/500+1/600+1/700+1/800+1/900+
           1/1000+1/2000 ..... 
-          
+
+Source : http://torahcode.us/torah_codes/gematria/gematria1.shtml
+
 This is modern gematria table manipulated in the time centuries after Raziels book, in Raziel book just 22 symbols for the encoding and fractions from PI .
 
 3*7*12 - (3+7+12-1) , 231 combinations in the weels
