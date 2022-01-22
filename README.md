@@ -312,4 +312,5 @@ TorahBibleCodes - https://github.com/TorahBibleCodes/TorahBibleCodes
 
 ## License 
 
-GOD
+Elohim Open Source
+
