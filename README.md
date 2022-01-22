@@ -33,10 +33,13 @@ we will add to the codification the new sciences prophesied in the past
 
   - eletromagnetism
 
-  - AI
+  - AI (Maths)
+    
     - linear regresion
      
     - geometric and erithmetic extrapolation
+
+    - Chaos
 
 This is the book delivered by Atzeemov (Aquarius) in Dan Ben Zelateh (time date and place, ALL) to the 22 (3,7,12) lords of the staff gathered by the Nepesh (Destiny) 
 
