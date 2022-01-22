@@ -102,7 +102,7 @@ The name of each angel and arcangel, stars constelations, comets and meteorites 
 
 Documented in SEPHER HAMELBOSH, the dress book , inside Raziel book , page 1,2,3,4
 
-Angelical cordenates to modern time space. 
+Angelical coordenates to modern time space. 
 
   - Identify each constelation and star to angel and arcangel , and principe
 
