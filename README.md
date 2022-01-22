@@ -89,6 +89,17 @@ The spells are important also to create the civilization, are indications to kno
 
 ## Catharism
 
+## Ra'mon LLull , Ramon el ojo
+
+Ramon Llull[a] TOSF (Catalan: [rəˈmoɲ ˈʎuʎ]; c. 1232[4] – c. 1315/16) was a philosopher, theologian, poet, missionary, and Christian apologist from the Kingdom of Majorca.
+
+He invented a philosophical system known as the Art, conceived as a type of universal logic to prove the truth of Christian doctrine to interlocutors of all faiths and nationalities. The Art consists of a set of general principles and combinatorial operations. It is illustrated with diagrams. 
+
+https://en.wikipedia.org/wiki/Ramon_Llull#Ars_Magna
+
+
+![image](https://user-images.githubusercontent.com/60758685/150651348-880703f4-ad20-47a1-acaf-07d17aadca17.png)
+
 ## Asimov
 
 ## Deulofeu & Dalí
