@@ -57,10 +57,13 @@ this book will show you that it is the way
 
 ![image](https://user-images.githubusercontent.com/60758685/150645810-076ad016-98a4-420b-bf22-b9f19c8e4591.png)
 
-
-- Encoding 
-
 - Gematria 
+
+  - Contemporaneous
+
+  - Old (Authentic gematria)
+
+- Encoding and information theory
 
 - The divine mandate
 
