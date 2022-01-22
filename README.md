@@ -90,6 +90,17 @@ This is modern gematria table manipulated in the time centuries after Raziels bo
               
 The source is Sefer Yetzira, the training book . 
 
+The sequence 3,7,12 is related with the knowleadge of SIGMA, the sumatory of divisors of N or the modulo 6 series .
+
+As all math people known all is made by 6, nprime^2 mod 6 = 1
+
+Mysteriously no one has attributed this discovery in history and it is known that its origin is very very old 
+
+http://oeis.org/A083031
+
+http://oeis.org/A062069
+
+
 - Time-Space 
 
 ![image](https://user-images.githubusercontent.com/60758685/150645810-076ad016-98a4-420b-bf22-b9f19c8e4591.png)
