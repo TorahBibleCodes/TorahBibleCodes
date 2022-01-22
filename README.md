@@ -79,8 +79,14 @@ The spells are important also to create the civilization, are indications to kno
 
 - The divine mandate
 
+## Aleph and Beth . The main constelations
+
+![image](https://user-images.githubusercontent.com/60758685/150653826-05fa202d-cb84-4b6b-ae76-9f1ac9aa3430.png)
+
 ## The dogma graph
 
+
+- 
 
 ## The main laws
 
