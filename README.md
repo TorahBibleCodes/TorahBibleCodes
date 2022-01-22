@@ -22,12 +22,21 @@ we will analyze and update the mechanisms and old "magics"
 we will add to the codification the new sciences prophesied in the past
 
 - physical
+  
   - thermodynamics
 
   - chemistry
 
   - quantum mechanics
+  
+  - energy
 
+  - eletromagnetism
+
+  - AI
+    - linear regresion
+     
+    - geometric and erithmetic extrapolation
 
 This is the book delivered by Atzeemov (Aquarius) in Dan Ben Zelateh (time date and place, ALL) to the 12 lords of the staff gathered by the Nepesh (Destiny) 
 
