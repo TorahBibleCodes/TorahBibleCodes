@@ -185,8 +185,7 @@ In English, a verb contain the time, in spanish contain the time and who realize
 
 - Baptism is an ancient healing mechanism 
 
-- Divide el huerto del Eden cuando no haya sabiduria y pasala de generacion en generacion , unifica el jardin cuando llegue la sabiduria
-
+- Divide the garden of Eden when there is no wisdom and pass it from generation to generation, unify the garden when wisdom comes 
 
 ## The main laws
 
