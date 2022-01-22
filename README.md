@@ -1,4 +1,4 @@
-# The book of Atzeemov
+# The book of Atzeemov (WORKING IN PROGRESS, DRAFT)
 ## the book of the secret, the name of god
 
 To understand this grimoire is needed read The book of Raziel and Sefer Yetzira
