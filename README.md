@@ -23,6 +23,7 @@ we will add to the codification the new sciences prophesied in the past
 
 - physical
   
+  
   - thermodynamics
 
   - chemistry
@@ -40,6 +41,8 @@ we will add to the codification the new sciences prophesied in the past
     - geometric and erithmetic extrapolation
 
     - Chaos
+  
+    - Ars Magna
 
 This is the book delivered by Atzeemov (Aquarius) in Dan Ben Zelateh (time date and place, ALL) to the 22 (3,7,12) lords of Bordon gathered by the Nepesh (Destiny) 
 
