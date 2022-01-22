@@ -90,7 +90,7 @@ The spells are important also to create the civilization, are indications to kno
 
 ## Catharism
 
-## Ra'mon LLull , Ramon el ojo
+## Ra'mon LLull , Ramon el ojo , Ra - Amon - The Eye
 
 Ramon Llull[a] TOSF (Catalan: [rəˈmoɲ ˈʎuʎ]; c. 1232[4] – c. 1315/16) was a philosopher, theologian, poet, missionary, and Christian apologist from the Kingdom of Majorca.
 
