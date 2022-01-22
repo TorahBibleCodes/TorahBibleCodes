@@ -40,7 +40,9 @@ we will add to the codification the new sciences prophesied in the past
 
 This is the book delivered by Atzeemov (Aquarius) in Dan Ben Zelateh (time date and place, ALL) to the 22 (3,7,12) lords of the staff gathered by the Nepesh (Destiny) 
 
-The book in contemporary times will be software just as the prophet asimov wrote. clearly inspired by the holy scriptures. who knows asimov will know that this is the way it is and this book will show that it is the way 
+The book in contemporary times will be software just as the prophet asimov wrote. clearly inspired by the holy scriptures. who knows asimov will know that this is the way it is
+
+this book will show you that it is the way 
 
 #  Torah Bible Codes - David Ben Zelateh v0.1
 
