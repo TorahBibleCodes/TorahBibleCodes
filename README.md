@@ -51,7 +51,12 @@ this book will show you that it is the way
 
 - Star Map 
 
+![image](https://user-images.githubusercontent.com/60758685/150645791-2807dfb4-4477-44f2-8ec4-a7931d1d0d53.png)
+
 - Time-Space 
+
+![image](https://user-images.githubusercontent.com/60758685/150645810-076ad016-98a4-420b-bf22-b9f19c8e4591.png)
+
 
 - Encoding 
 
