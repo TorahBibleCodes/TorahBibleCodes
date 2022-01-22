@@ -75,6 +75,22 @@ Spells are the ancestral mechanism to transmit knowledge, fervent faith ensures 
 
 - The divine mandate
 
+## The dogma graph
+
+
+## The main laws
+
+- As up is down
+
+- You will not steal 
+
+## Catharism
+
+## Asimov
+
+## Deulofeu & Dalí
+
+
 
 
 #  The Torah Bible Codes - David Ben Zelateh v0.1
