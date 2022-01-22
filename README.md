@@ -142,6 +142,10 @@ https://en.wikipedia.org/wiki/Ramon_Llull#Ars_Magna
 
 ![image](https://user-images.githubusercontent.com/60758685/150651348-880703f4-ad20-47a1-acaf-07d17aadca17.png)
 
+### Ars Magna Datasheet 
+
+https://dialnet.unirioja.es/descarga/articulo/5377622.pdf
+
 ## Asimov
 
 ## Deulofeu & Dalí
