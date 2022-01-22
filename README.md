@@ -52,6 +52,8 @@ this book will show you that it is the way
 
 - Spells 
 
+Spells are the ancestral mechanism to transmit knowledge, fervent faith ensures the transmission of knowledge from father to son and the conservation of the stellar encoding 
+
 - Star Map 
 
 ![image](https://user-images.githubusercontent.com/60758685/150645791-2807dfb4-4477-44f2-8ec4-a7931d1d0d53.png)
