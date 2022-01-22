@@ -44,7 +44,24 @@ The book in contemporary times will be software just as the prophet asimov wrote
 
 this book will show you that it is the way 
 
-#  Torah Bible Codes - David Ben Zelateh v0.1
+
+# The book of raziel - Sefer Raziel Hamalaj + Sefer Letzirá (6 original books) 
+
+- Spells 
+
+- Star Map 
+
+- Time-Space 
+
+- Encoding 
+
+- Gematria 
+
+- The divine mandate
+
+
+
+#  The Torah Bible Codes - David Ben Zelateh v0.1
 
 An understandable multilanguaje and multithreading bible codes . Study the Torah as never before
 
