@@ -1,6 +1,8 @@
 # The book of Atzeemov
 ## the book of the secret, the name of god
 
+To understand this grimoire is needed read The book of Raziel and Sefer Yetzira
+
 the spirit of the book is to adapt the original scriptures from which all later religious works in the world derivating into contemporary language.
 
 For this, the instructions embodied in the sacred book, the cosmos, interpreted by the first man, who discovered the encoding and the repetitive and pseudo-infinite cycles of the universe, will be followed in a contemporary way.
@@ -82,6 +84,7 @@ The spells are important also to create the civilization, are indications to kno
 ## Aleph and Beth . The main constelations
 
 ![image](https://user-images.githubusercontent.com/60758685/150653826-05fa202d-cb84-4b6b-ae76-9f1ac9aa3430.png)
+
 
 ## The dogma graph
 
