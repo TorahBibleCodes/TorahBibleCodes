@@ -89,7 +89,11 @@ The spells are important also to create the civilization, are indications to kno
 ## The dogma graph
 
 
-- 
+- Alpeh and Beth , the good and evil makes all information as Godel demonstrates is imposible create from just one thing .
+
+- All was write in the holy scriptures , present past and future (the stars cycles)
+
+
 
 ## The main laws
 
