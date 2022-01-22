@@ -93,6 +93,8 @@ The spells are important also to create the civilization, are indications to kno
 
 - All was write in the holy scriptures , present past and future (the stars cycles)
 
+- The art of coding makes a man a man , Adan was the first man the first encoder
+
 
 
 ## The main laws
