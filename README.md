@@ -132,7 +132,9 @@ Is like latin languages who encodes in the verbal form not just the time, presen
 
 In English, a verb contain the time, in spanish contain the time and who realizes the action, this is the same, depending the moment at the year and astrological moment the name changes, this is the reason because god or Elohim have diferent names , depending of the age month and day.
 
+### Angel to constelation reference table
 
+TODO (detailed in raziel book)
 
 ### Usage
 
@@ -159,6 +161,10 @@ In English, a verb contain the time, in spanish contain the time and who realize
 ![image](https://user-images.githubusercontent.com/60758685/150656452-c72963fa-0214-48e5-aa1d-0f6bd1535d4e.png)
 
 ![image](https://user-images.githubusercontent.com/60758685/150656472-b6254e70-b3a5-4a77-82de-2502bb1d99ad.png)
+
+Here proof of traditional acentral knowleage who remains generation over generation by oral tradition.
+
+https://thecalltojordan.com/2019/03/04/the-stars-revealed/
 
 
 ## The dogma graph
