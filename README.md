@@ -86,7 +86,7 @@ Source : http://torahcode.us/torah_codes/gematria/gematria1.shtml
 
 This is modern gematria table manipulated in the time centuries after Raziels book, in Raziel book just 22 symbols for the encoding and fractions from PI .
 
-3*7*12 - (3+7+12-1) , 231 combinations in the weels
+3 * 7 * 12 - (3+7+12-1) , 231 combinations in the weels
               
 The source is Sefer Yetzira, the training book . 
 
