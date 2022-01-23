@@ -158,7 +158,7 @@ https://www.researchgate.net/publication/284346810_The_Hebrew_Astronomical_Codex
 
 ### Usage
 
-`angeltotimespace gabriel miguel raziel --format date|unix`
+`angeltotimespace --age cancer --angels gabriel miguel raziel --moon|--sun --format date|unix`
 
 
 - Gematria 
