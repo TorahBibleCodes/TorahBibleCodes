@@ -119,13 +119,13 @@ A control error code was revelead in the book with 24 symbols and order of the n
 
 The anciant writter was knowing the way to define the time and space, this was encoded in the name of god, represented with the initial character of each moment in the time, by this way generation by generation share's the infromation in oral tradition, and was preserved until today .
 
-32 paths to the ultimate wisdom described in Sefer Yetzira, the interpretation of the image is really wrong, 32 paths are made of maths, 3+7+12+10 = 32 , seems re-discovered relation among primes and powers. RSA function . m = powMod m Prime N = mc = powMod mc (carmichael N) N = m
+32 paths to the ultimate wisdom described in Sefer Yetzira, the interpretation of the image is really wrong, 32 paths are made of maths, 3+7+12+10 = 32 , seems re-discovered relation among primes and powers. 
 
-Interestingly, 3 Hebrews founded the cryptography and cybersecurity company that controls the world in this matter 
+Distribution are sum of divisors of powers
 
-Providence or Copied ? Seems nobody invent nothing in the history, just re discovered, re used a re manipulated .
+1,3,7,12,(31) -> 2 4 8 16 32
 
-sumdivisors(2n) + spaces = power ? TODO investigate
+32, the way of knowleadge implies know about prime numbers and relation with powers .
 
 The name of each angel and arcangel, stars constelations, comets and meteorites remembered generation after generation, formulating according to the stellar moment, the time of the year, the state of the moon or the sun in each of the spells to grow each type of vegetable or fruit, sowing, harvesting and maintenance and each type of animal and its best mating time. All this is essential to have excess food to produce civilization. Missed after the great cataclysm that eliminated the previous habitants of the Garden of Eden (The Earth) . The knowleadge of the time and the coding make man 
 
