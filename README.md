@@ -100,6 +100,8 @@ http://oeis.org/A083031
 
 http://oeis.org/A062069
 
+http://oeis.org/A062731
+
 The permutations of angels of each month, 3, with the moon or sun, x 2, are 6 , per 12 months are 72 names of god who describes time during a year . Source book of Raziel
 
 A control error code was revelead in the book with 24 symbols and order of the name of Elohim, and the name was preserved by oral tadition also in the 12 tribes .
@@ -116,6 +118,8 @@ The anciant writter was knowing the way to define the time and space, this was e
 Interestingly, 3 Hebrews founded the cryptography and cybersecurity company that controls the world in this matter 
 
 Providence or Copied ? Seems nobody invent nothing in the history, just re discovered, re used a re manipulated .
+
+sumdivisors(2n) + spaces = power ? TODO investigate
 
 The name of each angel and arcangel, stars constelations, comets and meteorites remembered generation after generation, formulating according to the stellar moment, the time of the year, the state of the moon or the sun in each of the spells to grow each type of vegetable or fruit, sowing, harvesting and maintenance and each type of animal and its best mating time. All this is essential to have excess food to produce civilization. Missed after the great cataclysm that eliminated the previous habitants of the Garden of Eden (The Earth) . The knowleadge of the time and the coding make man 
 
