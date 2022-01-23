@@ -167,8 +167,7 @@ Here proof of traditional acentral knowleage who remains generation over generat
 https://thecalltojordan.com/2019/03/04/the-stars-revealed/
 
 
-## The dogma graph
-
+## The dogma graph (node edge , stars, time TODO)
 
 - Alpeh and Beth , the good and evil makes all information as Godel demonstrates is imposible create from just one thing .
 
