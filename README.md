@@ -147,6 +147,15 @@ In English, a verb contain the time, in spanish contain the time and who realize
 
 TODO (detailed in raziel book)
 
+Previous investigation by Tzvi Langermann from Bar Ilan University
+
+https://www.researchgate.net/publication/284346810_The_Hebrew_Astronomical_Codex_MS_Sassoon_823
+
+![image](https://user-images.githubusercontent.com/60758685/150678305-35d9f374-de32-45cb-98c0-c3c96d301da4.png)
+
+![image](https://user-images.githubusercontent.com/60758685/150678324-7df95583-00e8-4ba6-8ffd-3c17de8ea7dd.png)
+
+
 ### Usage
 
 `angeltotimespace gabriel miguel raziel --format date|unix`
