@@ -151,6 +151,9 @@ TODO (detailed in raziel book)
 
 ![image](https://user-images.githubusercontent.com/60758685/150693459-74ee9876-04b2-41d2-bf00-9c2792b9a860.png)
 
+![image](https://user-images.githubusercontent.com/60758685/150693508-b88f2413-8c5d-4c1f-838d-e0018509cb83.png)
+
+
 Previous investigation by Tzvi Langermann from Bar Ilan University
 
 https://www.researchgate.net/publication/284346810_The_Hebrew_Astronomical_Codex_MS_Sassoon_823
