@@ -155,6 +155,8 @@ https://www.researchgate.net/publication/284346810_The_Hebrew_Astronomical_Codex
 
 ![image](https://user-images.githubusercontent.com/60758685/150678324-7df95583-00e8-4ba6-8ffd-3c17de8ea7dd.png)
 
+![image](https://user-images.githubusercontent.com/60758685/150679793-3331b65a-b4da-4421-84af-b6ba1fbdf310.png)
+
 
 ### Usage
 
