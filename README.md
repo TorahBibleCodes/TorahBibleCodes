@@ -56,14 +56,14 @@ The ultimate goal is to demonstrate the unity of all ancient astral religions an
 
 # The book of raziel - Sefer Raziel Hamalaj + Sefer Letzirá (6 original books) 
 
-- Spells 
+### Spells 
 
 Spells are the ancestral mechanism to transmit knowledge, fervent faith ensures the transmission of knowledge from father to son and the conservation of the stellar encoding 
 
 The spells are important also to create the civilization, are indications to know when cultivate or establish animal reproduction at the year
 
 
-- Star Map 
+### Star Map 
 
 ![image](https://user-images.githubusercontent.com/60758685/150645791-2807dfb4-4477-44f2-8ec4-a7931d1d0d53.png)
 
@@ -113,7 +113,7 @@ The permutations of angels of each month, 3, with the moon or sun, x 2, are 6 , 
 A control error code was revelead in the book with 24 symbols and order of the name of Elohim, and the name was preserved by oral tadition also in the 12 tribes .
 
 
-- Time-Space 
+### Time-Space 
 
 ![image](https://user-images.githubusercontent.com/60758685/150645810-076ad016-98a4-420b-bf22-b9f19c8e4591.png)
 
@@ -164,6 +164,9 @@ https://www.researchgate.net/publication/284346810_The_Hebrew_Astronomical_Codex
 
 ![image](https://user-images.githubusercontent.com/60758685/150679793-3331b65a-b4da-4421-84af-b6ba1fbdf310.png)
 
+Here proof of traditional acentral knowleage who remains generation over generation by oral tradition.
+
+https://thecalltojordan.com/2019/03/04/the-stars-revealed/
 
 ### Usage
 
@@ -182,18 +185,6 @@ https://www.researchgate.net/publication/284346810_The_Hebrew_Astronomical_Codex
 
 
 - The divine mandate
-
-
-
-## Aleph and Beth . The main constelations
-
-![image](https://user-images.githubusercontent.com/60758685/150656452-c72963fa-0214-48e5-aa1d-0f6bd1535d4e.png)
-
-![image](https://user-images.githubusercontent.com/60758685/150656472-b6254e70-b3a5-4a77-82de-2502bb1d99ad.png)
-
-Here proof of traditional acentral knowleage who remains generation over generation by oral tradition.
-
-https://thecalltojordan.com/2019/03/04/the-stars-revealed/
 
 
 ## The dogma graph (node edge , stars, time TODO)
@@ -358,7 +349,7 @@ Convert words to numbers in gematria, sums and executes ELS function over sumato
 
    - PROBNET sequences ELS search
 
-   - Words to gamatria and viceversa
+   - Words to gematria and viceversa
 
    - Search over the raw books.
 
@@ -423,7 +414,7 @@ Converting words to gamatria and extending to infinite as a sequence
 ![image](https://user-images.githubusercontent.com/60758685/143395534-9b688fbc-fc27-47a2-b268-fdbee609c09b.png)
 
 
-## Probnet deterministic geometric or arthmetic functions sequencces
+## Probnet deterministic geometric or arithmetic functions sequences
 
 - Convert word to gematria sequence , extend sequence with xgboost prediction until user selection number of loops, sum sequence, search for ELS
 
