@@ -67,7 +67,7 @@ The spells are important also to create the civilization, are indications to kno
 
 ![image](https://user-images.githubusercontent.com/60758685/150645791-2807dfb4-4477-44f2-8ec4-a7931d1d0d53.png)
 
-3 in the first wheel, 7 in the second 12 in the biggest
+3 in the first wheel, 7 in the second 12 in the third
 
 22 symbols to define the hebrew alphabet and 10 hidden sefirot defined literally as NOTHING . 
 
