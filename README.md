@@ -149,8 +149,7 @@ In English, a verb contain the time, in spanish contain the time and who realize
 
 TODO (detailed in raziel book)
 
-![image](https://user-images.githubusercontent.com/60758685/150686262-9a4eac35-8221-4e51-99be-296c2f78fe3f.png)
-
+![image](https://user-images.githubusercontent.com/60758685/150693459-74ee9876-04b2-41d2-bf00-9c2792b9a860.png)
 
 Previous investigation by Tzvi Langermann from Bar Ilan University
 
