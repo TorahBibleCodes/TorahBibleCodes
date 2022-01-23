@@ -119,11 +119,13 @@ A control error code was revelead in the book with 24 symbols and order of the n
 
 The anciant writter was knowing the way to define the time and space, this was encoded in the name of god, represented with the initial character of each moment in the time, by this way generation by generation share's the infromation in oral tradition, and was preserved until today .
 
-32 paths to the ultimate wisdom described in Sefer Yetzira, the interpretation of the image is really wrong, 32 paths are made of maths, 3+7+12+10 = 32 , seems re-discovered relation among primes and powers. 
+32 paths to the ultimate wisdom described in Sefer Yetzira, 32 paths are made of maths, 3+7+12+10 = 32 , seems re-discovered relation among primes and powers. 
 
 Distribution are sum of divisors of powers
 
-1,3,7,12,(31) -> 2 4 8 16 32
+1,3,7,12,(24,48) -> 2 4 8 16 32 64
+
+for example 4 is a power and can be divided by 2 and 1
 
 32, the way of knowleadge implies know about prime numbers and relation with powers .
 
