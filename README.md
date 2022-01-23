@@ -73,6 +73,10 @@ The spells are important also to create the civilization, are indications to kno
 
 22 constelations defined by Adan , and 10 spaces among them with literally NOTHING, the void among constelations
 
+(1+(7-3)+(12-7)) = 10
+
+Sefirot = 1 - (present-past) - (future-present) = SPACE 
+
 Distribution in the firmament was described literraly . 
 
 Values in gematria are made of his fractions, as a method to describe a proportion in any mathematical system, the sumatory of proportions of gematria are PI, because is the expression of the circle in the firmament .
