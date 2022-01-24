@@ -76,6 +76,13 @@ The condition to spell a soccery always is do in the poper time in the year and 
 
 ### Star Map 
 
+![image](https://user-images.githubusercontent.com/60758685/150871125-0cb9b8d9-6888-48fc-b444-21ccff754fb2.png)
+
+
+### Usage
+
+`starmap year month day hour latitude longitude`
+
 ![image](https://user-images.githubusercontent.com/60758685/150645791-2807dfb4-4477-44f2-8ec4-a7931d1d0d53.png)
 
 3 in the first wheel, 7 in the second 12 in the third
