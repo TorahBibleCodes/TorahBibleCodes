@@ -62,9 +62,9 @@ Spells are the ancestral mechanism to transmit knowledge, fervent faith ensures 
 
 The spells are important also to create the civilization, are indications to know when cultivate or establish animal reproduction at the year
 
-| Month | Angel | Action |
-| ----- | ----- | ------ |
-||||
+| Month | Angel | Action | Type |
+| ----- | ----- | ------ | ----- |
+|||||
 
 
 ### Star Map 
