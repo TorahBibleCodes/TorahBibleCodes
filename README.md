@@ -134,7 +134,7 @@ The anciant writter was knowing the way to define the time and space, this was e
 
 Distribution are sum of divisors of powers
 
-1,3,7,12,(24,48) -> 2 4 8 16 32 64
+1,3,7,12,(31) -> 2 4 8 16 (32)
 
 
 32, the way of knowleadge implies know about prime numbers and relation with powers .
