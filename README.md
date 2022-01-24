@@ -64,9 +64,20 @@ The spells are important also to create the civilization, are indications to kno
 
 The condition to spell a soccery always is do in the poper time in the year and to the correct "ANGEL" , you can make any spell if you know what "ANGEL" manage each event .
 
-| Month | Old index | Modern Index |Angels | Action | Event |
+| Month | Zodiac | Raziel | Angels | Action | Event |
 | ----- | ----- | ------ | ----- | -----| ----- |
-| |||| | |
+| APR | Aries | Nisan || | |
+| Feb | Tauro | Ayir || | |
+| JUN | Geminis | Sivan || | |
+| JUL | Cancer| Tamuz|| | |
+| AUG | Leo | Av|| | |
+| SEP | Virgo | Alul|| | |
+| OCT | Libra | Tishri || | |
+| NOV | Escropio | Marheshvan|| | |
+| DEC | Sagitario | Kislev || | |
+| JAN | Capricornio | Tevet || | |
+| FEB | Acuario | Shevet || | |
+| MAR | Piscis | Adar|| | |
 
 ### Usage 
 
