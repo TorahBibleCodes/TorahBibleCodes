@@ -66,7 +66,7 @@ The condition to spell a soccery always is do in the poper time in the year and 
 
 | Month | Angel | Action | Event |
 | ----- | ----- | ------ | ----- |
-|||||
+| ||||
 
 ### Usage 
 
