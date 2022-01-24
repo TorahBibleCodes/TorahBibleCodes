@@ -392,7 +392,7 @@ Many uninitiated in kabala might think the results are gimmicks or casual . A ma
 
 - The sencente have a logical estructure and can be True Or False
 
-- The sentence gamatria sumatory value respect to the global number of characters need to be smaller than 10, you can adjust the percentege to ensure the results over the random entropy of the data .
+- The sentence gematria sumatory value respect to the global number of characters need to be smaller than 10, you can adjust the percentege to ensure the results over the random entropy of the data .
 
 - H(n*book_chars) == H(n*Random)
 
@@ -408,9 +408,9 @@ By this way we can extend the ELS methods as a infinite data series .
 
 Pre train a model with a holy book, and generate alternative futures over the end .
 
-- Extending gamatria datasets
+- Extending gematria datasets
 
-Converting words to gamatria and extending to infinite as a sequence
+Converting words to gematria and extending to infinite as a sequence
 
 
 ## XGboost pattern (XG-ELS, search for unprobable patterns based on linear regresions
@@ -419,7 +419,7 @@ Converting words to gamatria and extending to infinite as a sequence
 
 - Load book, extend him until user selection , search by ELS
 
-- Gamatria regressor classificator and forecasting
+- Gematria regressor classificator and forecasting
 
 - Support for Missing Data
 
@@ -432,9 +432,9 @@ Converting words to gamatria and extending to infinite as a sequence
 
 - Load book, extend him until user selection , search by ELS
 
-- Gamatria geometric classificator
+- Gematria geometric classificator
 
-- Gamatria arithmetic classificator
+- Gematria arithmetic classificator
 
 ![image](https://user-images.githubusercontent.com/60758685/143404139-bdec0a17-c552-4218-968b-a697aa8e9c4e.png)
 
