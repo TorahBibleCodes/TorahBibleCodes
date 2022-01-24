@@ -64,9 +64,9 @@ The spells are important also to create the civilization, are indications to kno
 
 The condition to spell a soccery always is do in the poper time in the year and to the correct "ANGEL" , you can make any spell if you know what "ANGEL" manage each event .
 
-| Month | Angel | Action | Event |
-| ----- | ----- | ------ | ----- |
-| ||||
+| Month | Old index | Modern Index |Angels | Action | Event |
+| ----- | ----- | ------ | ----- | -----| ----- |
+| |||| | |
 
 ### Usage 
 
