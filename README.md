@@ -46,7 +46,7 @@ we will add to the codification the new sciences prophesied in the past
   
     - Ars Magna
 
-This is the book delivered by Atzeemov Tishri (Aquarius) in Dan Ben Zelateh (time date and place, ALL) to the 22 (3,7,12) lords of Bordon gathered by the Nepesh (Destiny) 
+This is the book delivered by Atzeemov Shevet (Aquarius) in Dan Ben Zelateh (time date and place, ALL) to the 22 (3,7,12) lords of Bordon gathered by the Nepesh (Destiny) 
 
 The book in contemporary times will be software just as the prophet asimov wrote. clearly inspired by the holy scriptures. who knows asimov will know that this is the way it is
 
@@ -64,9 +64,9 @@ The spells are important also to create the civilization, are indications to kno
 
 The condition to spell a soccery always is do in the poper time in the year and to the correct "ANGEL" , you can make any spell if you know what "ANGEL" manage each event .
 
-| Month | Zodiac | Raziel | Angels | Action | Event |
+| Month | Zodiac | Raziel | Station |  Angel | Action | Event |
 | ----- | ----- | ------ | ----- | -----| ----- |
-| APR | Aries | Nisan || | |
+| APR | Aries | Nisan | | | | |
 | Feb | Tauro | Ayir || | |
 | JUN | Geminis | Sivan || | |
 | JUL | Cancer| Tamuz|| | |
@@ -78,6 +78,42 @@ The condition to spell a soccery always is do in the poper time in the year and 
 | JAN | Capricornio | Tevet || | |
 | FEB | Acuario | Shevet || | |
 | MAR | Piscis | Adar|| | |
+
+COMO SIGNOS
+
+Primera temporada
+
+aries 1 sha'aphon 2 behemoth 3 bekemesheb/bekemekesheb qotzien
+
+tauro 1 dierenavor 2 heniethebol 3 siemegedel 4 morepheker
+
+geminis 1 sheneron 2 phelehedien 3 volereked 4 akeneseb
+
+Segunda temporada
+
+Tercera temporada
+
+Cuarta temporada
+
+
+COMO MESES
+
+Primera temporada
+
+Nisan 1 Asegesenek 2 Mesokenek 3 Deriegemon 4 Shethenovesenov
+
+Ayer 1 Phemetor 2 Qotenebial 3 Ma'agol 4 Goberethial
+
+Sivan 1 Senediem 2 Tzoveh 3 Tziyer 4 Qoseqomial
+
+Segunda temporada
+
+Tercera temporada
+
+Cuarta temporada
+
+
+
 
 ### Usage 
 
