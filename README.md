@@ -67,7 +67,7 @@ The condition to spell a soccery always is do in the poper time in the year and 
 | Month | Zodiac | Raziel | Station |  Angel | Action | Event |
 | ----- | ----- | ------ | ----- | -----| ----- |
 | APR | Aries | Nisan | | | | |
-| Feb | Tauro | Ayir || | |
+| MAY | Tauro | Ayir || | |
 | JUN | Geminis | Sivan || | |
 | JUL | Cancer| Tamuz|| | |
 | AUG | Leo | Av|| | |
@@ -89,11 +89,33 @@ tauro 1 dierenavor 2 heniethebol 3 siemegedel 4 morepheker
 
 geminis 1 sheneron 2 phelehedien 3 volereked 4 akeneseb
 
+
 Segunda temporada
+
+
+Cancer 1 Qedoqoredi 2 Qoheleren 3 Phereshetial 4 Memenial
+
+Leo 1 Bephopher 2 Lieshebeker 3 Shehenen 4 shehelekek
+
+Virgo 1 Siemosial 2 Sebodeh 3 Siegel 4 Teremothiteh
+
 
 Tercera temporada
 
+Libra 1 A'ariegol 2 Mereton 3 Qa'aberi 4 Legoshmelek
+
+Escorpio 1 Therepiethz 2 Phetza'an 3 Shemophethen 4 Thokesed
+
+Sagitario INCOMPLETO
+
+
 Cuarta temporada
+
+Capricornio 1 2 3 4
+
+Acuario 1 2 3 4
+
+Piscis 1 2 3 4
 
 
 COMO MESES
@@ -108,11 +130,28 @@ Sivan 1 Senediem 2 Tzoveh 3 Tziyer 4 Qoseqomial
 
 Segunda temporada
 
+Tamuz 1 Zemieda 2  Incompleto 3 A'aphierepheleh 4 Ma'ava'aqobebov
+
+Ab 1 Kedoremot 2 Hetheledemi 3 Qonezerema'a 4 Hehemekel
+
+Elul 1 Phelietepheter 2 Thesedegeb 3 Nephesa'ar 4 Qomoval
+
+
 Tercera temporada
+
+Thisri 1 Derek 2 Mezeredeter 3 Neqocheda 4 Asepheres
+
+Marheshavan 1 Beqosh 2 Pheladen 3 Sherenar 4 Kebod
+
+Kislev 1 Phelestos 2 Kether 3 Henek 4 Phonetos Lobenos
 
 Cuarta temporada
 
+Teveth 
 
+Shevet
+
+Adar
 
 
 ### Usage 
