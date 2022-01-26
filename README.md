@@ -111,11 +111,11 @@ Sagitario INCOMPLETO
 
 Cuarta temporada
 
-Capricornio 1 2 3 4
+Capricornio 1 Ameni 2 Bieker 3 Depheri 4 Menelial
 
-Acuario 1 2 3 4
+Acuario 1 Meta'am 2 Theberien 3 Shethoqoeh 4 Danial
 
-Piscis 1 2 3 4
+Piscis 1 Qomietzon 2 Qeheregen  3 Tzeletzel 4 Amenial
 
 
 COMO MESES
@@ -147,11 +147,15 @@ Kislev 1 Phelestos 2 Kether 3 Henek 4 Phonetos Lobenos
 
 Cuarta temporada
 
-Teveth 
+Tebeth 1 Naphenietz 2 Sekeberiem 3 Senekeros 4 Bekerba'al 
 
-Shevet
+Shevet 1 Pholekemon 2 Qeronega 3 Shelomieth 4 Yavorer
 
-Adar
+Adar 1 Koneled 2 Ba'aren 3 Sebiebekera'a 4 Qoromeqoreb
+
+
+
+
 
 
 ### Usage 
