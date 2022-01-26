@@ -79,7 +79,35 @@ The condition to spell a soccery always is do in the poper time in the year and 
 | FEB | Acuario | Shevet || | |
 | MAR | Piscis | Adar|| | |
 
-COMO SIGNOS
+COMO SIGNOS POR ESTACION
+
+Primera
+
+Aries - Shaitan
+Tauro - Debechen
+Geminis - Shegeresi
+
+Segunda
+
+Cancer - Qeheder
+Leo - Shehenom
+Virgo - Yiehierieh
+
+Tercera
+
+Libra - Theshegekon 
+Escorpio - Bietheron
+Sagitario - Aketen
+
+Cuarta
+
+Capricornio - Shegerelovi
+Acuario - Aketheral
+Piscis - Qohemera
+
+
+
+COMO SIGNOS POR TEMPORADA
 
 Primera temporada
 
@@ -118,7 +146,7 @@ Acuario 1 Meta'am 2 Theberien 3 Shethoqoeh 4 Danial
 Piscis 1 Qomietzon 2 Qeheregen  3 Tzeletzel 4 Amenial
 
 
-COMO MESES
+COMO MESES POR TEMPOARADA
 
 Primera temporada
 
