@@ -173,6 +173,18 @@ Not clear contemporaneous day equivalence for now .
 | 5 | Kedemenor | Avoreberien | Qovephethem | Bariebererov |
 | 6 | Qola'azeran | Deremthok | Akethenor | Arieh |
 
+### EARTH NAMES BY STATION
+
+| EARTH NAME | STATION 1 | STATION 2 | STATION 3 | STATION 4 |
+|---|---|---|---|---|
+||||||
+||||||
+||||||
+||||||
+||||||
+
+
+
 ### Source Proofs 
 
 - In holy texts
