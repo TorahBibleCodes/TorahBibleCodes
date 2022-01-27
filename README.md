@@ -160,7 +160,20 @@ The condition to spell a soccery always is do in the poper time in the year and 
 | Piscis | Sha'aphenen | Aniesien | Sethered| Qohemehogov |
 
 
-### Proofs 
+### DAYS BY STATION
+
+Not clear contemporaneous day equivalence for now .
+
+| DAY | STATION 1 | STATION 2 | STATION 3 | STATION 4 |
+|---|---|---|---|---|
+| 1 | Phiegenochen | Tenekien | Kophethenien | Makeleched |
+| 2 | Tga'sher | Menechethor | Qoleneheren | Shegedon |
+| 3 | Sheriyachetz | Qohebereneden | Pherezen | Hegelomoth |
+| 4 | Pheniov Lavor | Miyeshor | Degiem | Betheroqa |
+| 5 | Kedemenor | Avoreberien | Qovephethem | Bariebererov |
+| 6 | Qola'azeran | Deremthok | Akethenor | Arieh |
+
+### Source Proofs 
 
 - In holy texts
 
