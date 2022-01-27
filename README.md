@@ -109,15 +109,12 @@ Primera temporada
 | Aries | sha'aphon | behemoth | bekemesheb/bekemekesheb | qotzien|
 | Tauro | dierenavor | heniethebol | siemegedel | morepheker |
 | Geminis | sheneron | phelehedien | volereked | akeneseb |
-| --- | --- | --- | --- | --- |
 |Cancer | Qedoqoredi | Qoheleren | Phereshetial | Memenial |
 |Leo | Bephopher | Lieshebeker | Shehenen | shehelekek |
 | Virgo | Siemosial | Sebodeh | Siegel | Teremothiteh|
-| --- | --- | --- | --- | --- |
 | Libra | A'ariegol | Mereton | Qa'aberi | Legoshmelek |
 |Escorpio | Therepiethz | Phetza'an | Shemophethen | Thokesed |
 | Sagitario |||||
-| --- | --- | --- | --- | --- |
 | Capricornio | Ameni | Bieker | Depheri | Menelial |
 | Acuario | Meta'am | Theberien | Shethoqoeh | Danial |
 | Piscis | Qomietzon | Qeheregen  | Tzeletzel | Amenial |
