@@ -102,39 +102,37 @@ COMO SIGNOS POR TEMPORADA
 
 Primera temporada
 
-aries 1 sha'aphon 2 behemoth 3 bekemesheb/bekemekesheb qotzien
+### ZODIAC BY STATION
 
-tauro 1 dierenavor 2 heniethebol 3 siemegedel 4 morepheker
+| ZODIAC | STATION 1 | STATION 2 | STATION 3 | STATION 4 |
+| --- | --- | --- | --- | --- |
+| Aries | sha'aphon | behemoth | bekemesheb/bekemekesheb | qotzien
 
-geminis 1 sheneron 2 phelehedien 3 volereked 4 akeneseb
+| tauro | dierenavor | heniethebol | siemegedel | morepheker |
 
+| geminis | sheneron | phelehedien | volereked | akeneseb |
+| --- | --- | --- | --- | --- |
 
-Segunda temporada
+|Cancer | Qedoqoredi | Qoheleren | Phereshetial | Memenial |
+ 
+|Leo | Bephopher | Lieshebeker | Shehenen | shehelekek |
+| Virgo | Siemosial | Sebodeh | Siegel | Teremothiteh|
 
+| --- | --- | --- | --- | --- |
 
-Cancer 1 Qedoqoredi 2 Qoheleren 3 Phereshetial 4 Memenial
+| Libra | A'ariegol | Mereton | Qa'aberi | Legoshmelek |
 
-Leo 1 Bephopher 2 Lieshebeker 3 Shehenen 4 shehelekek
+|Escorpio | Therepiethz | Phetza'an | Shemophethen | Thokesed |
 
-Virgo 1 Siemosial 2 Sebodeh 3 Siegel 4 Teremothiteh
+| Sagitario |||||
 
+| --- | --- | --- | --- | --- |
 
-Tercera temporada
+| Capricornio | Ameni | Bieker | Depheri | Menelial |
 
-Libra 1 A'ariegol 2 Mereton 3 Qa'aberi 4 Legoshmelek
+| Acuario | Meta'am | Theberien | Shethoqoeh | Danial |
 
-Escorpio 1 Therepiethz 2 Phetza'an 3 Shemophethen 4 Thokesed
-
-Sagitario INCOMPLETO
-
-
-Cuarta temporada
-
-Capricornio 1 Ameni 2 Bieker 3 Depheri 4 Menelial
-
-Acuario 1 Meta'am 2 Theberien 3 Shethoqoeh 4 Danial
-
-Piscis 1 Qomietzon 2 Qeheregen  3 Tzeletzel 4 Amenial
+| Piscis | Qomietzon | Qeheregen  | Tzeletzel | Amenial |
 
 
 COMO MESES POR TEMPOARADA
