@@ -209,18 +209,18 @@ NOMBRES QUE MINISTRAN LA LUNA
 
 | ZODIAC SIGN | STATION 1 | STATION 2 | STATION 3 | STATION 4 |
 | --- | ---| --- | --- | --- |
-| Aries | Zerem | Behemi | | | 
-| Tauro | Deketon | Mezekerien | | |
-| Geminis | Shegeron | Biehereron | | |
-| Cancer| Mekerechiem | Qoheder | | |
-| Leo | Letzoneber | Shegeher | | |
-| Virgo | A'anem Qenek  | Yiehedieh | | |
-| Libra | Tzedequiel | Sheqothiek | | |
-| Escropio | Rehecho| Menedeber | | |
-| Sagitario | Tzoqor | Reberon | | |
-| Capricornio | Meshegeriem | Yieshieshieh | | |
-| Acuario | Maasheniem | Aberedon | | |
-| Piscis | Sha'aphenen | Aniesien | | |
+| Aries | Zerem | Behemi | Pheloneh | Qonosh | 
+| Tauro | Deketon | Mezekerien | Thederenael | Amiena |
+| Geminis | Shegeron | Biehereron | Yielebek | Ashegerien |
+| Cancer| Mekerechiem | Qoheder | Keresivon | Mehiemeten |
+| Leo | Letzoneber | Shegeher | A'avoqor | Ayiethebien|
+| Virgo | A'anem Qenek  | Yiehedieh | Kenedeni | Shegeton |
+| Libra | Tzedequiel | Sheqothiek | Theshegekon | Shecheqon|
+| Escropio | Rehecho| Menedeber | Kotheben | Bedod Besher |
+| Sagitario | Tzoqor | Reberon | Abenor | Keniepena |
+| Capricornio | Meshegeriem | Yieshieshieh | Shebiebiek | Shegerelovi |
+| Acuario | Maasheniem | Aberedon | Mesepher| A'anethera |
+| Piscis | Sha'aphenen | Aniesien | Sethered| Qohemehogov |
 
 ### Usage 
 
