@@ -83,27 +83,18 @@ COMO SIGNOS POR ESTACION
 
 Primera
 
-Aries - Shaitan
-Tauro - Debechen
-Geminis - Shegeresi
-
-Segunda
-
-Cancer - Qeheder
-Leo - Shehenom
-Virgo - Yiehierieh
-
-Tercera
-
-Libra - Theshegekon 
-Escorpio - Bietheron
-Sagitario - Aketen
-
-Cuarta
-
-Capricornio - Shegerelovi
-Acuario - Aketheral
-Piscis - Qohemera
+| Aries | Shaitan | 1  |
+| Tauro | Debechen | 1 |
+| Geminis | Shegeresi | 1 |
+| Cancer | Qeheder | 2 |
+| Leo | Shehenom | 2 |
+| Virgo | Yiehierieh | 2 |
+| Libra | Theshegekon | 3 | 
+| Escorpio | Bietheron | 3 | 
+| Sagitario | Aketen | 3 |
+| Capricornio | Shegerelovi | 4 |
+| Acuario | Aketheral | 4 |
+| Piscis | Qohemera | 4 |
 
 
 
