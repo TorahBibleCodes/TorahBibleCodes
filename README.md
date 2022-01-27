@@ -65,7 +65,7 @@ The spells are important also to create the civilization, are indications to kno
 The condition to spell a soccery always is do in the poper time in the year and to the correct "ANGEL" , you can make any spell if you know what "ANGEL" manage each event .
 
 | Month | Zodiac | Raziel | Station |  Angel | Action | Event |
-| ----- | ----- | ------ | ----- | -----| ----- |
+| ----- | ----- | ------ | ----- | -----| ----- | --- |
 | APR | Aries | Nisan | | | | |
 | MAY | Tauro | Ayir || | |
 | JUN | Geminis | Sivan || | |
@@ -182,7 +182,15 @@ Shevet 1 Pholekemon 2 Qeronega 3 Shelomieth 4 Yavorer
 Adar 1 Koneled 2 Ba'aren 3 Sebiebekera'a 4 Qoromeqoreb
 
 
-NOMBRES QUE MINISTRAN EN LAS ESTACIONES CON LA LUNA 
+NOMBRES QUE MINISTRAN EN LAS ESTACIONES CON LA LUNA  EN SIGNOS DE ZODIACO POR ESTACION
+
+PRIMERA
+
+SEGUNDA
+
+TERCERA
+
+CUARTA
 
 primera temporada shaitan therezien sheneremi -> principe --> Gabrial
                                               -> moon name --> Leberenieth
@@ -195,8 +203,24 @@ tercera temporada Phelayiem , Ketherenial , ? --> principe --> Rebenial
                                               
 cuarta temporada Biyom , Bieth, Rothep --> Principe --> danial
                                        --> moon name --> Sheherieph
-                                       
+   
+NOMBRES QUE MINISTRAN LA LUNA 
 
+
+| ZODIAC SIGN | STATION 1 | STATION 2 | STATION 3 | STATION 4 |
+| --- | ---| --- | --- | --- |
+| APR | Aries | Zerem | | | | 
+| MAY | Tauro | Deketon || | |
+| JUN | Geminis | Shegeron || | |
+| JUL | Cancer| Mekerechiem || | |
+| AUG | Leo | Letzoneber || | |
+| SEP | Virgo | A'anem Qenek  || | |
+| OCT | Libra | Tzedequiel || | |
+| NOV | Escropio | Rehecho|| | |
+| DEC | Sagitario | Tzoqor || | |
+| JAN | Capricornio | Meshegeriem || | |
+| FEB | Acuario | Maasheniem || | |
+| MAR | Piscis | Sha'aphenen || | |
 
 ### Usage 
 
