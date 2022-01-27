@@ -182,8 +182,20 @@ Shevet 1 Pholekemon 2 Qeronega 3 Shelomieth 4 Yavorer
 Adar 1 Koneled 2 Ba'aren 3 Sebiebekera'a 4 Qoromeqoreb
 
 
+NOMBRES QUE MINISTRAN EN LAS ESTACIONES CON LA LUNA 
 
+primera temporada shaitan therezien sheneremi -> principe --> Gabrial
+                                              -> moon name --> Leberenieth
 
+segunda temporada Yieshieshieh , Abererehon, Sheheqonek --> principe --> Bal Menael
+                                                        -->  moon name --> Seletheleb
+
+tercera temporada Phelayiem , Ketherenial , ? --> principe --> Rebenial
+                                              --> moon name --> Yieshegeron
+                                              
+cuarta temporada Biyom , Bieth, Rothep --> Principe --> danial
+                                       --> moon name --> Sheherieph
+                                       
 
 
 ### Usage 
