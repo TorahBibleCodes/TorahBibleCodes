@@ -120,66 +120,34 @@ Primera temporada
 | Piscis | Qomietzon | Qeheregen  | Tzeletzel | Amenial |
 
 
-COMO MESES POR TEMPOARADA
+### MONTHS BY STATION
 
-Primera temporada
-
-Nisan 1 Asegesenek 2 Mesokenek 3 Deriegemon 4 Shethenovesenov
-
-Ayer 1 Phemetor 2 Qotenebial 3 Ma'agol 4 Goberethial
-
-Sivan 1 Senediem 2 Tzoveh 3 Tziyer 4 Qoseqomial
-
-Segunda temporada
-
-Tamuz 1 Zemieda 2  Incompleto 3 A'aphierepheleh 4 Ma'ava'aqobebov
-
-Ab 1 Kedoremot 2 Hetheledemi 3 Qonezerema'a 4 Hehemekel
-
-Elul 1 Phelietepheter 2 Thesedegeb 3 Nephesa'ar 4 Qomoval
-
-
-Tercera temporada
-
-Thisri 1 Derek 2 Mezeredeter 3 Neqocheda 4 Asepheres
-
-Marheshavan 1 Beqosh 2 Pheladen 3 Sherenar 4 Kebod
-
-Kislev 1 Phelestos 2 Kether 3 Henek 4 Phonetos Lobenos
-
-Cuarta temporada
-
-Tebeth 1 Naphenietz 2 Sekeberiem 3 Senekeros 4 Bekerba'al 
-
-Shevet 1 Pholekemon 2 Qeronega 3 Shelomieth 4 Yavorer
-
-Adar 1 Koneled 2 Ba'aren 3 Sebiebekera'a 4 Qoromeqoreb
+| Month | STATION 1 | STATION 2 | STATION 3 | STATION 4 |
+| --- | --- | --- | --- | --- |
+|Nisan | Asegesenek | Mesokenek | Deriegemon | Shethenovesenov |
+| Ayer | Phemetor | Qotenebial | Ma'agol | Goberethial |
+| Sivan | Senediem | Tzoveh | Tziyer | Qoseqomial |
+| Tamuz | Zemieda |  Incompleto | A'aphierepheleh | Ma'ava'aqobebov |
+| Ab | Kedoremot | Hetheledemi | Qonezerema'a | Hehemekel |
+| Elul | Phelietepheter | Thesedegeb | Nephesa'ar | Qomoval |
+| Thisri | Derek | Mezeredeter | Neqocheda | Asepheres |
+| Marheshavan | Beqosh | Pheladen | Sherenar | Kebod |
+| Kislev | Phelestos | Kether | Henek | Phonetos Lobenos |
+| Tebeth | Naphenietz | Sekeberiem | Senekeros | Bekerba'al | 
+| Shevet | Pholekemon | Qeronega | Shelomieth | Yavorer |
+| Adar | Koneled | Ba'aren | Sebiebekera'a | Qoromeqore |
 
 
-NOMBRES QUE MINISTRAN EN LAS ESTACIONES CON LA LUNA  EN SIGNOS DE ZODIACO POR ESTACION
+### MOON MINISTERS BY STATION
 
-PRIMERA
-
-SEGUNDA
-
-TERCERA
-
-CUARTA
-
-primera temporada shaitan therezien sheneremi -> principe --> Gabrial
-                                              -> moon name --> Leberenieth
-
-segunda temporada Yieshieshieh , Abererehon, Sheheqonek --> principe --> Bal Menael
-                                                        -->  moon name --> Seletheleb
-
-tercera temporada Phelayiem , Ketherenial , ? --> principe --> Rebenial
-                                              --> moon name --> Yieshegeron
-                                              
-cuarta temporada Biyom , Bieth, Rothep --> Principe --> danial
-                                       --> moon name --> Sheherieph
-   
-NOMBRES QUE MINISTRAN LA LUNA 
-
+| MOON NAME | SIGN 1 | SIGN 2 | SIGN 3 | PRINCE |
+| --- | --- | --- | --- | --- |
+|Leberenieth|shaitan |therezien |sheneremi|Gabrial|
+|Seletheleb|Yieshieshieh | Abererehon| Sheheqonek|Bal Menael|
+|Yieshegeron |Phelayiem | Ketherenial | ? | Rebenial |                                              
+|Sheherieph | Biyom | Bieth | Rothep | Danial |
+                    
+### NAMES WHO MINISTER THE MOON
 
 | ZODIAC SIGN | STATION 1 | STATION 2 | STATION 3 | STATION 4 |
 | --- | ---| --- | --- | --- |
