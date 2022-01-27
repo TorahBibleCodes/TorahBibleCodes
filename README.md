@@ -177,12 +177,12 @@ Not clear contemporaneous day equivalence for now .
 
 | EARTH NAME | STATION 1 | STATION 2 | STATION 3 | STATION 4 |
 |---|---|---|---|---|
-||||||
-||||||
-||||||
-||||||
-||||||
-
+| EARTH | Memegien | Yibesheh | Thebel|  Hezeh Dovem |
+| SPIRIT | Mechemed Lov - Prince Yihov Yihov Ayin |  Bel Ached - Prince  Yihemelieh Mavoth | | Avok Berek - Pince Yibavobavoth |
+| EAST SPIRIT |  Aseberon | Akeberon | Arial | Siederehon - Pinces (Gabrial,Raphal, Avorial)|
+| WEST SPIRIT | Qohelorek | Siemephov | Sechemor | Mephenieh - Princes (Derial, Yoval y Samal)|
+| NORTH SPIRIT | Amoniem | Deseleni| Arehieh | Mephenial - Princes (A'azrial , Zebedial , Shema'aial) |
+| SOUTH SPIRIT | Mepheni Shesher | Baledenien  | Aphosien  | Yihelederek - Princes ( Kokebial , Sherial , Michal) |
 
 
 ### Source Proofs 
