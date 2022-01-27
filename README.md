@@ -97,11 +97,6 @@ The condition to spell a soccery always is do in the poper time in the year and 
 | Piscis | Qohemera | 4 |
 
 
-
-COMO SIGNOS POR TEMPORADA
-
-Primera temporada
-
 ### ZODIAC BY STATION
 
 | ZODIAC | STATION 1 | STATION 2 | STATION 3 | STATION 4 |
