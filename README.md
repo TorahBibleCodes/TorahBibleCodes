@@ -159,6 +159,17 @@ The condition to spell a soccery always is do in the poper time in the year and 
 | Acuario | Maasheniem | Aberedon | Mesepher| A'anethera |
 | Piscis | Sha'aphenen | Aniesien | Sethered| Qohemehogov |
 
+
+### Proofs 
+
+- In holy texts
+
+  Read SEFER HAMELBOSH
+
+- In gematria encoding
+
+  ELS 33 CYLINDER 1
+
 ### Usage 
 
 `spell time wish`
