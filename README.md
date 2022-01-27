@@ -184,8 +184,22 @@ Not clear contemporaneous day equivalence for now .
 | NORTH SPIRIT | Amoniem | Deseleni| Arehieh | Mephenial - Princes (A'azrial , Zebedial , Shema'aial) |
 | SOUTH SPIRIT | Mepheni Shesher | Baledenien  | Aphosien  | Yihelederek - Princes ( Kokebial , Sherial , Michal) |
 
+### MALECHIEM BY STATION
 
+| EARTH NAME | STATION 1 | STATION 2 | STATION 3 | STATION 4 |
+|---|---|---|---|---|
+| EAST SPIRIT | Akeberon | Qoherok | Aberieth | Beriekoch |
+| NORTH SPIRIT | Amereneh | Aberiek | Gezorophed | Kephor |
+| WEST SPIRIT | Mazeniem | Siegor | Zerezor | Avor |
+| SOUT SPIRIT | Meneshor  | Pheniemor | Themekor | ? |
+
+### SEA BY STATION
+
+| SEA NAME | STATION 1 | STATION 2 | STATION 3 | STATION 4 |
+|---|---|---|---|---|
 ### Source Proofs 
+
+
 
 - In holy texts
 
