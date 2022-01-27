@@ -106,7 +106,7 @@ Primera temporada
 
 | ZODIAC | STATION 1 | STATION 2 | STATION 3 | STATION 4 |
 | --- | --- | --- | --- | --- |
-| Aries | sha'aphon | behemoth | bekemesheb/bekemekesheb | qotzien
+| Aries | sha'aphon | behemoth | bekemesheb/bekemekesheb | qotzien|
 
 | tauro | dierenavor | heniethebol | siemegedel | morepheker |
 
