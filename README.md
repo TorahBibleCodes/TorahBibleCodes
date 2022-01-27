@@ -209,18 +209,18 @@ NOMBRES QUE MINISTRAN LA LUNA
 
 | ZODIAC SIGN | STATION 1 | STATION 2 | STATION 3 | STATION 4 |
 | --- | ---| --- | --- | --- |
-| APR | Aries | Zerem | | | | 
-| MAY | Tauro | Deketon || | |
-| JUN | Geminis | Shegeron || | |
-| JUL | Cancer| Mekerechiem || | |
-| AUG | Leo | Letzoneber || | |
-| SEP | Virgo | A'anem Qenek  || | |
-| OCT | Libra | Tzedequiel || | |
-| NOV | Escropio | Rehecho|| | |
-| DEC | Sagitario | Tzoqor || | |
-| JAN | Capricornio | Meshegeriem || | |
-| FEB | Acuario | Maasheniem || | |
-| MAR | Piscis | Sha'aphenen || | |
+| Aries | Zerem | | | | 
+| Tauro | Deketon || | |
+| Geminis | Shegeron || | |
+| Cancer| Mekerechiem || | |
+| Leo | Letzoneber || | |
+| Virgo | A'anem Qenek  || | |
+| Libra | Tzedequiel || | |
+| Escropio | Rehecho|| | |
+| Sagitario | Tzoqor || | |
+| Capricornio | Meshegeriem || | |
+| Acuario | Maasheniem || | |
+| Piscis | Sha'aphenen || | |
 
 ### Usage 
 
