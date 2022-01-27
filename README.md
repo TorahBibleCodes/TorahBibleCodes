@@ -79,10 +79,10 @@ The condition to spell a soccery always is do in the poper time in the year and 
 | FEB | Acuario | Shevet || | |
 | MAR | Piscis | Adar|| | |
 
-COMO SIGNOS POR ESTACION
+### ZODIAC TO NAME BY STATION
 
-Primera
-
+| SIGN | NAME | STATION |
+|--- | --- | ---|
 | Aries | Shaitan | 1  |
 | Tauro | Debechen | 1 |
 | Geminis | Shegeresi | 1 |
