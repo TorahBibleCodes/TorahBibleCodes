@@ -275,6 +275,7 @@ Six Earth Rouch per each station 6 x 4 = 24
 
 The name of God 48 + 24 = 72
 
+Name of god will be made of initial symbol of each "ANGEL" as is write in Raziel Book
 
 
 A control error code was revelead in the book with 24 symbols and order of the name of Elohim, and the name was preserved by oral tadition also in the 12 tribes .
