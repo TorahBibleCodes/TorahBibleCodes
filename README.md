@@ -316,7 +316,7 @@ In English, a verb contain the time, in spanish contain the time and who realize
 
 - In holy texts
 
-  Read SEFER HAMELBOSH and SEFER ...
+  Read SEFER HAMELBOSH and SEFER YETZIRA
 
 - In gematria encoding
 
