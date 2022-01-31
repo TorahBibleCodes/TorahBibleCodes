@@ -1,6 +1,8 @@
 # The book of Atzeemov (WORKING IN PROGRESS, DRAFT)
 ## the book of the secret, the name of god
 
+![image](https://user-images.githubusercontent.com/60758685/151809649-543844f6-4159-48ee-9cb3-8946a6a22b55.png)
+
 To understand this grimoire is needed read The book of Raziel and Sefer Yetzira
 
 the spirit of the book is to adapt the original scriptures from which all later religious works in the world derivating into contemporary language.
