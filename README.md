@@ -58,6 +58,24 @@ The ultimate goal is to demonstrate the unity of all ancient astral religions an
 
 # The book of raziel - Sefer Raziel Hamalaj + Sefer Letzirá (6 original books) 
 
+
+### The trail of sacred names 
+
+- This is the holy name. Is revealed by the combination that comes out of the initial scriptures in the Torah 
+
+- Knowledge of the wisdom of the torah completes the names of god 
+
+- Rows of marks reveal knowledge and wisdom is received 
+
+- Prophesy the life of the ancestors for them 
+
+- 3 groups of 24 are divided by 10 divisions and seven in each division 
+
+- Of the secret of the 10 sefirot reveal the secret and the sublime glory 
+
+- The 72 names come from the mouth of the high priest 
+
+
 ### Spells 
 
 Spells are the ancestral mechanism to transmit knowledge, fervent faith ensures the transmission of knowledge from father to son and the conservation of the stellar encoding 
