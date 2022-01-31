@@ -259,11 +259,9 @@ As all math people known all is made by 6, nprime^2 mod 6 = 1
 
 Mysteriously no one has attributed this discovery in history and it is known that its origin is very very old 
 
-http://oeis.org/A083031
-
-http://oeis.org/A062069
-
 http://oeis.org/A062731
+
+This implies to know about prime numbers if this is the sequence, anothers can be related with piramids . In this case implies knowledge of calculus . Is a math distribution crearly maybe unknown .
 
 
 
