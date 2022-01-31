@@ -269,6 +269,14 @@ http://oeis.org/A062731
 
 The permutations of angels of each month, 3, with the moon or sun, x 2, are 6 , per 12 months are 72 names of god who describes time during a year . Source book of Raziel
 
+Twelve names in each station in the year 12 x 4 = 48
+
+Six Earth Rouch per each station 6 x 4 = 24
+
+The name of God 48 + 24 = 72
+
+
+
 A control error code was revelead in the book with 24 symbols and order of the name of Elohim, and the name was preserved by oral tadition also in the 12 tribes .
 
 
