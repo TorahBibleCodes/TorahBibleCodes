@@ -312,6 +312,17 @@ Is like latin languages who encodes in the verbal form not just the time, presen
 
 In English, a verb contain the time, in spanish contain the time and who realizes the action, this is the same, depending the moment at the year and astrological moment the name changes, this is the reason because god or Elohim have diferent names , depending of the age month and day.
 
+### Source Proofs 
+
+- In holy texts
+
+  Read SEFER HAMELBOSH and SEFER ...
+
+- In gematria encoding
+
+  ELS 33 CYLINDER 1
+
+
 ### Angel to constelation reference table
 
 TODO (detailed in raziel book)
@@ -332,6 +343,17 @@ https://www.researchgate.net/publication/284346810_The_Hebrew_Astronomical_Codex
 ![image](https://user-images.githubusercontent.com/60758685/150679793-3331b65a-b4da-4421-84af-b6ba1fbdf310.png)
 
 Here proof of traditional acentral knowleage who remains generation over generation by oral tradition.
+
+### Source Proofs 
+
+- In holy texts
+
+  Read SEFER HAMELBOSH
+
+- In gematria encoding
+
+  ELS 33 CYLINDER 1
+
 
 https://thecalltojordan.com/2019/03/04/the-stars-revealed/
 
