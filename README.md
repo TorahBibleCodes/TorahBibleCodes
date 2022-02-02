@@ -76,6 +76,15 @@ The ultimate goal is to demonstrate the unity of all ancient astral religions an
 - The 72 names come from the mouth of the high priest 
 
 
+### A error control code to calculate name of god
+
+![image](https://user-images.githubusercontent.com/60758685/152150086-cb7a8d8f-3bfc-4744-ae4a-62cc7f768841.png)
+
+### 72 names in Raziel book - Book of names 
+
+![image](https://user-images.githubusercontent.com/60758685/152149980-bf918335-9589-48b0-bc79-1c33fc219bda.png)
+
+
 ### Spells 
 
 Spells are the ancestral mechanism to transmit knowledge, fervent faith ensures the transmission of knowledge from father to son and the conservation of the stellar encoding 
