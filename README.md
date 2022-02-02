@@ -56,7 +56,7 @@ this book will show you that it is the way
 
 The ultimate goal is to demonstrate the unity of all ancient astral religions and fulfill the prophecy to give way to the age of Aquarius and how all religions have fulfilled their mission until now 
 
-# The book of raziel - Sefer Raziel Hamalaj + Sefer Letzirá (6 original books) 
+# The book of raziel - Sefer Raziel Hamalaj + Sefer Yetzira (6 original books) 
 
 
 ### The trail of sacred names 
