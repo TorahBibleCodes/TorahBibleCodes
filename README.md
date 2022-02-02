@@ -386,6 +386,12 @@ Here proof of traditional acentral knowleage who remains generation over generat
 
 https://thecalltojordan.com/2019/03/04/the-stars-revealed/
 
+
+Same happen with modern tarot , 22 symbols with hebrew original letters to 22 cards of tarot
+
+![image](https://user-images.githubusercontent.com/60758685/152220810-221b868a-cdc8-416f-995d-f162f33530fb.png)
+
+
 ### Usage
 
 `angeltotimespace --age cancer --angels gabriel miguel raziel --moon|--sun --format date|unix`
