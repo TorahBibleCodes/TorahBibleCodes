@@ -697,6 +697,18 @@ https://github.com/torahbiblecodes
 <br />
 https://stackoverflow.com/users/8911652/torahbiblecodes
 
+## Documentation
+
+- Book of raziel
+- Sefer Yetzira
+- Alfonso X - El libro de la sabiduria astrologica
+- Grimoire of san cipriano
+- Torahcodes.net , Torahcodes.us
+- Greek astronomic manuscripts
+- Codex Sanson 823 sold in shotebys
+
+
+
 ## Known Bugs and Open Issues
 
 Add issues please
