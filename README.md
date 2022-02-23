@@ -34,35 +34,35 @@ Since the references are vast, in this chapter we will make a summary of the anc
 
 - Maths
 
-- Geometry
+  - Geometry
 
-- Calculation
+  - Calculation
 
-- Encoding and encryption
+  - Encoding and encryption
 
 - Medicine
 
-- Medicines
+  - Medicines
 
-- Practices
+  - Practices
 
 - The dream
 
-- Interpretations
+  - Interpretations
 
-- Communication with the divine
+  - Communication with the divine
 
 - The prophecy
 
-- As a governance mechanism
+  - As a governance mechanism
 
-- As an empirical test mechanism
+  - As an empirical proof mechanism
 
-- alchemy
+- Alchemy
 
-- Materials
+  - Materials
 
-- Spells
+  - Spells
 
 
 ## Contemporary magic
