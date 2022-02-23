@@ -1,5 +1,5 @@
 # The book of Atzeemov (WORKING IN PROGRESS, DRAFT)
-## the book of the secret, the name of god
+## the book of the secret
 
 ## Abstract
 
@@ -15,6 +15,66 @@ Is intelligence the fruit of chance and time? The DNA ?
 Like Hofstadter in his book The Golden Eternal Braid, we will examine the origins of knowledge and philosophy and information, we will analyze it with contemporary scientific methods, in a humble and logical way to equate modern knowledge with ancient. We will recreate ancient technology and provide "empirical" data to restore divine and magical order in communion with science.
 
 Like Hofstadter using analogies about Achilles and the tortoise and musical harmony, we will enter the field of knowledge through the sacred scriptures and return to ancient man the knowledge that belongs to him, demystifying both science and religion to return the human to Humility, purity, reverence, holiness. The humanity of him. 
+
+# Project objectives
+
+- Reconstruct the story from a coding point of view
+
+- Reconstruct history from a point of view of probabilistic relationships
+
+- Reconstruct and describe intelligence processes
+
+- Manufacture a table that can be preserved for millennia with the knowledge of humanity, ancient and contemporary.
+
+## The ancient magics
+
+Since the references are vast, in this chapter we will make a summary of the ancient magics
+
+- Astronomy and astrology
+
+- Maths
+
+- Geometry
+
+- Calculation
+
+- Encoding and encryption
+
+- Medicine
+
+- Medicines
+
+- Practices
+
+- The dream
+
+- Interpretations
+
+- Communication with the divine
+
+- The prophecy
+
+- As a governance mechanism
+
+- As an empirical test mechanism
+
+- alchemy
+
+- Materials
+
+- Spells
+
+
+## Contemporary magic
+
+- Physical
+
+- Chemistry
+
+- Quantum mechanics
+
+- Maths 
+
 
 
 ![image](https://user-images.githubusercontent.com/60758685/151809649-543844f6-4159-48ee-9cb3-8946a6a22b55.png)
