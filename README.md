@@ -1,5 +1,5 @@
-# The book of Atzeemov (WORKING IN PROGRESS, DRAFT)
-## the book of the secret
+# The grimoire of Atzeemov (WORKING IN PROGRESS, DRAFT)
+
 
 ## Abstract
 
