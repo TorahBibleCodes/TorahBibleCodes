@@ -1,7 +1,7 @@
 # The book of Atzeemov (WORKING IN PROGRESS, DRAFT)
 ## the book of the secret, the name of god
 
-##Abstract
+## Abstract
 
 In 2022 technology and data science have been established, to create the new power source of knowledge, data science recomposes the divine desires and justifies the will of the rulers in the name of the new GOD, science.
 
@@ -12,9 +12,9 @@ We constantly see how the results and interpretations of scientific data remain 
 That is why the human feels empowered, assuming judgment on the mysterious facts of the universe to give meaning to his life and justify the actions he undertakes. But are we really that wise? Or have we allowed ourselves to be influenced by the new data religion, forgetting past knowledge? Are the contemporary values proper for a multicultural society permeated by disinformation and powers?
 Is intelligence the fruit of chance and time? The DNA ?
 
-Like hofstadter in his book The Golden Eternal Braid, we will examine the origins of knowledge and philosophy and information, we will analyze it with contemporary scientific methods, in a humble and logical way to equate modern knowledge with ancient. We will recreate ancient technology and provide "empirical" data to restore divine and magical order in communion with science.
+Like Hofstadter in his book The Golden Eternal Braid, we will examine the origins of knowledge and philosophy and information, we will analyze it with contemporary scientific methods, in a humble and logical way to equate modern knowledge with ancient. We will recreate ancient technology and provide "empirical" data to restore divine and magical order in communion with science.
 
-Like hofstadter using analogies about Achilles and the tortoise and musical harmony, we will enter the field of knowledge through the sacred scriptures and return to ancient man the knowledge that belongs to him, demystifying both science and religion to return the human to Humility, purity, reverence, holiness. The humanity of him. 
+Like Hofstadter using analogies about Achilles and the tortoise and musical harmony, we will enter the field of knowledge through the sacred scriptures and return to ancient man the knowledge that belongs to him, demystifying both science and religion to return the human to Humility, purity, reverence, holiness. The humanity of him. 
 
 
 ![image](https://user-images.githubusercontent.com/60758685/151809649-543844f6-4159-48ee-9cb3-8946a6a22b55.png)
