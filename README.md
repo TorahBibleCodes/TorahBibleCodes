@@ -18,7 +18,12 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 
 # Updates
 
-<br /> Support for .ipynb Notebook Files and Google Colab
+<br /> 09 / MAY / 2020 - Please see updated CSV files of 2D Matrix protype in development.
+<br /> We are very close to completion of development of our BETA open-source program that will enable you to search for your own Torah Bible Codes in order to output your data in a scientific way for others in the community to confirm scientifically;
+<br /> We hope to upload a working BETA program before the end of May 2022, GOD-willing - all depends upon the will of GOD if He makes it possible.
+
+<br /> Please support our efforts if you can by donating BITCOIN (BTC) to the following address:
+<br /> bc1qzws4zjgzf4wll2mtztsavmyvkg72fnajfff8r7
 
 # Equidistant Letter Sequences (ELS)
 
@@ -311,11 +316,11 @@ For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or a
 <br />D5[1, 1, 1, 5, 5] --> 'י'
 <br />D5[1, 1, 1, 6, 6] --> 'ת'
 
-<br />D5[5, 34, 12, 43, 304849] --> 'י'
-<br />D5[5, 34, 12, 44, 304850] --> 'ש'
-<br />D5[5, 34, 12, 45, 304851] --> 'ר'
-<br />D5[5, 34, 12, 46, 304852] --> 'א'
-<br />D5[5, 34, 12, 47, 304853] --> 'ל'
+<br />D5[5, 34, 12, 43, 304846] --> 'י'
+<br />D5[5, 34, 12, 44, 304847] --> 'ש'
+<br />D5[5, 34, 12, 45, 304848] --> 'ר'
+<br />D5[5, 34, 12, 46, 304849] --> 'א'
+<br />D5[5, 34, 12, 47, 304850] --> 'ל'
 
 ### L Object - List of Letters
 <br />L[0:6] --> ['ב', 'ר', 'א', 'ש', 'י', 'ת']
@@ -384,7 +389,7 @@ s.str.rfind("ב")
 
 # Statistics
 ### Total Number of Verses in Torah: 5846
-### Total Number of Letters in Torah:  304853
+### Total Number of Letters in Torah:  304850
 Total Number of Letter א Aleph in Torah: 27060
 <br />Total Number of Letter ב Bet in Torah: 16345
 <br />Total Number of Letter ג Gimel in Torah: 2109
@@ -445,7 +450,7 @@ Total Number of Letter א in Book of Genesis: 7634
 <br />Total Number of Letter ת in Book of Genesis: 4152
 
 ### Total Number of Verses in Hebrew Bible: 23206
-### Total Number of Letters in Hebrew Bible: 1197120
+### Total Number of Letters in Hebrew Bible: 1197042
 
 Total Number of Letter א in Hebrew Bible: 95685
 <br />Total Number of Letter ב in Hebrew Bible: 65216
