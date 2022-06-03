@@ -47,22 +47,12 @@ def checkdb(query, result):
 
 
 
-def tt(options):
-	global langin, langout, threads, totalresult
-	listform = ''
-	#totalresult = 0
-	#jobs = Queue()
-	#for string in options:
-	#	translated = torah.func_translate(langin, 'iw', string)
-	#	listform = listform +translated
-	#mod_num = torah.func_getnumber(listform,options)
-
-	#sed = mod_num[1][0]
-	#print(mod_num)
-	#print(sed)
-	#ret = gematria_to_int(translated)
-	#print(ret)
-	#xgb.predict(mod_num[0])
+def test(options):
+	for x in range(int(options[0]), int(options[1])):
+		#worker_tg = threading.Thread(target=searchnumber, args=([x, ''],))
+		#worker_tg.start()
+		searchnumber([x, ''])
+	#searchnumber([1823, ''])
 
 def ttranslator():
 	global ptrans, totalvalue, tracert, totalresult, jobstrans
@@ -201,7 +191,7 @@ def search(options):
 
 def searchnumber(options):
 	global threads, totalresult, jobstrans
-	number = options[0]
+	number = str(options[0])
 	#threads = 1
 	totalresult = 0
 
@@ -244,7 +234,7 @@ def coreOptions():
 
 ## Extend command usage instructions 
 def ExtendCommands():
-	commands = [["tonum","get number"],["tt","search number space"],["searchnumber","search number space"],["search","search termsexp"],["xgboost"," XGBOOST"],["probnet","PROBNET"]]
+	commands = [["tonum","get number"],["test","test"],["searchnumber","search number space"],["search","search termsexp"],["xgboost"," XGBOOST"],["probnet","PROBNET"]]
 	return commands
 
 
