@@ -19,11 +19,10 @@ ORANGE  = '\033[1;33m' # orange
 
 
 tracert = 'false'
-langin = 'en'
-langout = 'es'
 ptrans = 'true'
 visualice = False
 threads = 0
+threads_trans = 50
 totalvalue = 0
 totalresult = 0
 res_data = []
@@ -31,6 +30,7 @@ res_book = []
 torah = Torah()
 jobstrans = Jobs()
 books.load()
+db.createtable()
 
 def checkdb(query, result):
 
@@ -65,7 +65,7 @@ def tt(options):
 	#xgb.predict(mod_num[0])
 
 def ttranslator():
-	global langout, ptrans, totalvalue, tracert, totalresult, jobstrans
+	global ptrans, totalvalue, tracert, totalresult, jobstrans
 
 	while True:#not jobstrans.empty():
 		#print('\nFound', int(jobstrans.queue.qsize()))
@@ -89,13 +89,14 @@ def ttranslator():
 				if fjoin == False:
 					#jobstrans.add(dchunk[chunks]+'*'+value)
 					#print(BLUE, 'n', str(nch), END, 'chunk', text_chunk[chunks])
-					rett = torah.func_translate('iw', langout, text_chunk[chunks])
-					retp = torah.func_ParseTranslation(rett,langout, ptrans)
 					rett_en = torah.func_translate('iw', 'en', text_chunk[chunks])
 					retp_en = torah.func_ParseTranslation(rett_en,'en', ptrans)
-					if not retp == 0 and not retp == '': 
+
+					if not retp_en == 0 and not retp_en == '': 
+						rett = torah.func_translate('en', 'es', str(retp_en))
+						retp = torah.func_ParseTranslation(rett,'es', ptrans)
 						text_trans = str(text_trans) + str(retp)
-						db.addText(tchunk[2], text_chunk[chunks], str(retp), str(retp_en))
+						db.addText(tchunk[2], text_chunk[chunks], str(retp), str(retp_en), str(tchunk[1]))
 						totalresult = totalresult+1
 						print('\nBook:',tchunk[1], 'Gematria:', tchunk[2]+'\n')
 						print(ORANGE+'ES: ==> '+ str(retp) + END+'\n')
@@ -122,7 +123,7 @@ def ttranslator():
 			#print('nNN', str(nch))
 
 def searchAll(q, number):
-	global langout, ptrans, totalvalue, tracert, totalresult, jobstrans
+	global ptrans, totalvalue, tracert, totalresult, jobstrans
 	while not q.empty():
 		try:
 			value = q.get()
@@ -134,28 +135,11 @@ def searchAll(q, number):
 			len_chunk = len(text_chunk)
 			#print(GREEN, 'chunk size: ', len_chunk, END)
 			nch = 0
-			
 
 			jobstrans.add(str(ret)+'*'+value+'*'+number)
-			#print('\nBook:',value)
-			#print('\ndata', ret)
-			#print('\nFounda', int(jobstrans.count()))
-
 			jobstrans.join()
 			q.task_done()
-			#rett = torah.func_translate('iw', langout, ret)
-			#retp = torah.func_ParseTranslation(rett,langout, ptrans)
-			#if not retp == 0:
-				#print(ret)
-			#	totalresult = totalresult+1
-			#	print('\nBook:',value)
-			#	print(retp)
-				#dfx.clear()
-				#res_book.append(value)
-				#res_data.append(retp)
-			#	q.task_done()
-			#else:
-			#	q.task_done()
+
 		except Exception as e:
 			q.task_done()
 			#print(ORANGE + retp + END)
@@ -171,44 +155,31 @@ def tonum(options):
 	if len(options) > 1:
 		for string in options:
 			listform = listform+' '+string
-		if langin == 'iw':
-			sed = gematria_to_int(listform)
-		else:
-			sed = torah.gematrix(listform)
+		sed = torah.gematrix(listform)
 	else:
 		#print(options[0])
-		if langin == 'iw':
-			sed = gematria_to_int(u''+options[0].strip())
-		else:
-			try:
-				sed = torah.gematria(options[0].strip())
-			except Exception as e:
-				pass
-				print(e)
+
+		try:
+			sed = torah.gematria(options[0].strip())
+		except Exception as e:
+			pass
+			print(e)
 
 	print(sed)
 
 
 def search(options):
-	global langin, langout, threads, totalresult
+	global threads, totalresult
 	listform = ''
 	totalresult = 0
 	jobs = Queue()
-	if visualice:
-		dfx.clear()
 	if len(options) > 1:
 		for string in options:
 			listform = listform+' '+string
-		if langin == 'iw':
-			sed = gematria_to_int(listform)
-		else:
-			sed = torah.gematrix(listform)
+		sed = torah.gematrix(listform)
 	else:
 		#print(options[0])
-		if langin == 'iw':
-			sed = gematria_to_int(u''+options[0].strip())
-		else:
-			sed = torah.gematria(options[0].strip())
+		sed = torah.gematria(options[0].strip())
 
 	for i in books.booklist():
 		#print(i)
@@ -223,17 +194,13 @@ def search(options):
 	#print("waiting for ", str(poolsize)+'/'+str(pooltotal), "tasks")
 
 	jobs.join()
-	if visualice:
-		dfx.clear()
-	#for impr in range(0, len(res_book)):
-	#	print('\nBook:',res_book[impr])
-	#	print(res_data[impr])
+
 	print('\nFound', totalresult, 'Results')
 	print("all done")
 
 
 def searchnumber(options):
-	global langin, langout, threads, totalresult, jobstrans
+	global threads, totalresult, jobstrans
 	number = options[0]
 	#threads = 1
 	totalresult = 0
@@ -272,7 +239,7 @@ def probnet(options):
 	print('Coming soon')
 
 def coreOptions():
-	options = [["langin", "Translation Lang  In", "en"],["langout", "Translation Lang  Out", "es"],["threads", "Number of threads from search", "20"],["parse", "parse translation", "true"],["tracert", "Tracert Search", "false"]]
+	options = [["threads", "Number of threads from search", "20"],["th_trans", "Number of threads from translate", "50"],["parse", "Parse char and detect language", "true"],["tracert", "Tracert Search", "false"]]
 	return options
 
 ## Extend command usage instructions 
@@ -285,12 +252,11 @@ def core(moduleOptions):
 	print('Command run disabled on current module')
 
 def save(moduleOptions):
-	global langin, langout, threads, ptrans, tracert
-	langin = moduleOptions[0][2]
-	langout = moduleOptions[1][2]
-	threads = moduleOptions[2][2]
-	ptrans = moduleOptions[3][2]
-	tracert = moduleOptions[4][2]
+	global threads_trans, threads, ptrans, tracert
+	threads = moduleOptions[0][2]
+	threads_trans = moduleOptions[1][2]
+	ptrans = moduleOptions[2][2]
+	tracert = moduleOptions[3][2]
 
-worker = Threads(func=ttranslator, ntask=50)
+worker = Threads(func=ttranslator, ntask=threads_trans)
 worker.start()

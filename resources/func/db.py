@@ -1,9 +1,8 @@
 import sqlite3
 import sys
 #dbpath = sys.path[0]+"/modules/tools/data.db"
-dbpath = 'data2.db'
+dbpath = 'torah.db'
 
-servers = []
 
 def createtable():
 	conn = sqlite3.connect(dbpath, timeout=10, check_same_thread=False)
@@ -14,16 +13,17 @@ def createtable():
 			query INTEGER,
 			result TEXT,
 			result_es TEXT,
-			result_en TEXT
+			result_en TEXT,
+			book TEXT
 		)
 	''')
 
 
 
-def addText(query, result, result_es, result_en):
+def addText(query, result, result_es, result_en, book):
 		conn = sqlite3.connect(dbpath, timeout=10, check_same_thread=False)
 		c = conn.cursor()
-		conn.execute("insert into tbc (query, result, result_es, result_en) values (?, ?, ?, ?)", (query, result, result_es, result_en))
+		conn.execute("insert into tbc (query, result, result_es, result_en, book) values (?, ?, ?, ?, ?)", (query, result, result_es, result_en, book))
 		conn.commit()
 		#print(c.lastrowid)
 

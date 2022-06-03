@@ -90,14 +90,6 @@ class Torah():
 
 
 	def strip_accents(self, s):
-	    """
-	    Sanitarize the given unicode string and remove all special/localized
-	    characters from it.
-	 
-	    Category "Mn" stands for Nonspacing_Mark
-
-	    (thx http://www.ultrabug.fr/convert-special-characters-to-ascii-in-python/)
-	    """
 	    try:
 	        return ''.join(
 	            c for c in unicodedata.normalize('NFD', s)
@@ -109,8 +101,10 @@ class Torah():
 
 	def gematria_iw_int(text):
 		return gematria_to_int(text)
+
+
 	def func_ParseTranslation(self, translated, lang, active):
-		abd = 'abcdefghijklmnñopqrstuvwxyz'
+		abd = 'abcdefghijklmnñopqrstuvwxyz1234567890'
 		str_split = translated.split(' ')
 		str_final = ''
 		for word in str_split:
