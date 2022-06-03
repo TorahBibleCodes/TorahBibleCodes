@@ -10,6 +10,7 @@ from resources.func.torah import *
 #import modules.resources.xgboost as xgb
 from deep_translator import GoogleTranslator
 import re
+import resources.func.db as db
 from resources.func.thread import *
 
 
@@ -30,6 +31,19 @@ res_book = []
 torah = Torah()
 jobstrans = Jobs()
 books.load()
+
+def checkdb(query, result):
+
+		ret = db.getText(query)
+		if len(ret) !=0:
+				for dbitem in ret:
+						if dbitem[2] == result:
+								return dbitem
+
+				return False
+		else:
+				return False
+
 
 
 
@@ -68,27 +82,38 @@ def ttranslator():
 			#print(GREEN, 'chunk size: ', lenchunk, END)
 			#print('\nBook:',tchunk[1])
 			for chunks in range(0, lenchunk):
+				fjoin = checkdb(tchunk[2], text_chunk[chunks])
+				#print('vava ', tchunk[2])
 				#print(ORANGE + chunks + END+ '\n')
 				nch = nch +1
-				#jobstrans.add(dchunk[chunks]+'*'+value)
-				#print(BLUE, 'n', str(nch), END, 'chunk', text_chunk[chunks])
-				rett = torah.func_translate('iw', langout, text_chunk[chunks])
-				retp = torah.func_ParseTranslation(rett,langout, ptrans)
-				
-				if not retp == 0 and not retp == '': 
-					text_trans = str(text_trans) + str(retp)
-					totalresult = totalresult+1
-			print('\nBook:',tchunk[1])
+				if fjoin == False:
+					#jobstrans.add(dchunk[chunks]+'*'+value)
+					#print(BLUE, 'n', str(nch), END, 'chunk', text_chunk[chunks])
+					rett = torah.func_translate('iw', langout, text_chunk[chunks])
+					retp = torah.func_ParseTranslation(rett,langout, ptrans)
+					rett_en = torah.func_translate('iw', 'en', text_chunk[chunks])
+					retp_en = torah.func_ParseTranslation(rett_en,'en', ptrans)
+					if not retp == 0 and not retp == '': 
+						text_trans = str(text_trans) + str(retp)
+						db.addText(tchunk[2], text_chunk[chunks], str(retp), str(retp_en))
+						totalresult = totalresult+1
+						print('\nBook:',tchunk[1], 'Gematria:', tchunk[2])
+						print(GREEN + str(retp) + END+'\n')
+				else:
+					print('\nBook:',tchunk[1], 'Gematria:', tchunk[2])
+					print(ORANGE +'ES:'+ str(fjoin[3]) + END)
+					print(BLUE +'EN:'+ str(fjoin[4]) + END)
+			#print('\nBook:',tchunk[1])
 					#print('\nn',nch)
 					#print(ORANGE + str(retp) + END)
-			print(GREEN + str(text_trans) + END+'\n')
-			print(BLUE + str(text_chunk) + END)
+			
+			#print(BLUE + str(text_chunk) + END)
 
 			jobstrans.done()
 			#time.sleep(1)
 		except Exception as e:
 			print('ee t')
-			#print(e)
+			print(e)
 			jobstrans.done()
 			pass
 			#print('nNN', str(nch))
@@ -108,7 +133,7 @@ def searchAll(q, number):
 			nch = 0
 			
 
-			jobstrans.add(str(ret)+'*'+value)
+			jobstrans.add(str(ret)+'*'+value+'*'+number)
 			#print('\nBook:',value)
 			#print('\ndata', ret)
 			#print('\nFounda', int(jobstrans.count()))
