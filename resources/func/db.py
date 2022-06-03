@@ -27,6 +27,16 @@ def addText(query, result, result_es, result_en, book):
 		conn.commit()
 		#print(c.lastrowid)
 
+def getTextOfBook(query):
+		conn = sqlite3.connect(dbpath, timeout=10, check_same_thread=False)
+		c = conn.cursor()
+		c.execute("SELECT * FROM tbc WHERE book = '" + str(query) + "'")
+		data = c.fetchall()
+		#print(c.fetchall())
+		if data is None:
+				return "Problem!"
+		else:
+				return data
 
 def getText(query):
 		conn = sqlite3.connect(dbpath, timeout=10, check_same_thread=False)
