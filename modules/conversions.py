@@ -212,7 +212,7 @@ def search(options):
 		jobs.put(i)
 
 	for i in range(int(threads)):
-		worker = threading.Thread(target=searchAll, args=(jobs, sed,))
+		worker = threading.Thread(target=searchAll, args=(jobs, str(sed),))
 		worker.start()
 
 	poolsize = 39 - int(jobs.qsize())
