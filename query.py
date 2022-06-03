@@ -15,9 +15,6 @@ def TextOfBook(query):
 						print(GREEN +'EN: ==> GE:'+str(dbitem[1])+' ==> '+ str(dbitem[4]) + END)
 						print(BLUE +'HE: ==> GE:'+str(dbitem[1])+' ==> '+ str(dbitem[2]) + END)
 
-#ret = db.getTextOfBook('text_11IIkings')
-
-
 
 def TextOfES(query):
 
@@ -30,10 +27,16 @@ def TextOfES(query):
 						print(GREEN +'EN: ==> GE:'+str(dbitem[1])+' ==> '+ str(dbitem[4]) + END)
 						print(BLUE +'HE: ==> GE:'+str(dbitem[1])+' ==> '+ str(dbitem[2]) + END)
 
-#ret = db.getTextOfBook('text_11IIkings')
+def TextOfEN(query):
 
-
-
+		ret = db.getTextOfEN(query)
+		if len(ret) !=0:
+				for dbitem in ret:
+						#print(dbitem[3]+'\n')
+						print(YELLOW +'BOOK: ==> '+str(dbitem[5]) + END)
+						print(ORANGE +'ES: ==> GE:'+str(dbitem[1])+' ==> '+str(dbitem[3]) + END)
+						print(GREEN +'EN: ==> GE:'+str(dbitem[1])+' ==> '+ str(dbitem[4]) + END)
+						print(BLUE +'HE: ==> GE:'+str(dbitem[1])+' ==> '+ str(dbitem[2]) + END)
 
 
 
@@ -45,8 +48,9 @@ def TextOfES(query):
 parser = argparse.ArgumentParser(description="TBC")
 #parser.add_argument("--run", action='store_true')
 
-parser.add_argument('--book', action='store', type=str, required=False)
-parser.add_argument('--es', action='store', type=str, required=False)
+parser.add_argument('--book', action='store', type=str, required=False, help='query book (default: python3 query.py --book text_11IIkings)')
+parser.add_argument('--es', action='store', type=str, required=False, help='query spanish lang (default: python3 query.py --es caso)')
+parser.add_argument('--en', action='store', type=str, required=False, help='query english lang (default: python3 query.py --en case)')
 args = parser.parse_args()
 
 if args.book:
@@ -54,3 +58,6 @@ if args.book:
 
 if args.es:
 	TextOfES(args.es)
+
+if args.en:
+	TextOfEN(args.en)
