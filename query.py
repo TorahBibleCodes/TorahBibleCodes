@@ -18,12 +18,39 @@ def TextOfBook(query):
 #ret = db.getTextOfBook('text_11IIkings')
 
 
+
+def TextOfES(query):
+
+		ret = db.getTextOfES(query)
+		if len(ret) !=0:
+				for dbitem in ret:
+						#print(dbitem[3]+'\n')
+						print(YELLOW +'BOOK: ==> '+str(dbitem[5]) + END)
+						print(ORANGE +'ES: ==> GE:'+str(dbitem[1])+' ==> '+str(dbitem[3]) + END)
+						print(GREEN +'EN: ==> GE:'+str(dbitem[1])+' ==> '+ str(dbitem[4]) + END)
+						print(BLUE +'HE: ==> GE:'+str(dbitem[1])+' ==> '+ str(dbitem[2]) + END)
+
+#ret = db.getTextOfBook('text_11IIkings')
+
+
+
+
+
+
+
+
+
+
+
 parser = argparse.ArgumentParser(description="TBC")
 #parser.add_argument("--run", action='store_true')
 
 parser.add_argument('--book', action='store', type=str, required=False)
-
+parser.add_argument('--es', action='store', type=str, required=False)
 args = parser.parse_args()
 
 if args.book:
 	TextOfBook(args.book)
+
+if args.es:
+	TextOfES(args.es)
