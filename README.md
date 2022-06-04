@@ -1,5 +1,3 @@
-# The grimoire of Atzeemov
-
 #  The Torah Bible Codes - David Ben Zelateh v0.1
 
 An understandable multilanguaje and multithreading bible codes . Study the Torah as never before
