@@ -8,6 +8,8 @@ An understandable multilanguaje and multithreading bible codes . Study the Torah
 
 ![image](https://user-images.githubusercontent.com/60758685/143392985-377da397-a4df-4ce6-a718-262cd1bab8e1.png)
 
+![image](https://user-images.githubusercontent.com/60758685/171998060-b82ce6a4-c0f9-49b2-b059-dbc8a0e989b2.png)
+
 ## Simple use from your Telegram Chat
 
 - Add @Baphomet_telegram_bot on your telegram
