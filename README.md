@@ -1,5 +1,4 @@
-# The grimoire of Atzeemov (WORKING IN PROGRESS, DRAFT)
-
+# The grimoire of Atzeemov
 
 #  The Torah Bible Codes - David Ben Zelateh v0.1
 
