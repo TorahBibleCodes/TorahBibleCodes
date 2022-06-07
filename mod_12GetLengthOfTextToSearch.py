@@ -15,6 +15,6 @@ def fn_GetLengthOfTextToSearch(L): ## PARAMETERS:  L (LIST OF LETTERS)
     print("WITHIN FUNCTION:  END FUNCTION #12")
     
     ## RETURN VARIABLES - LENGTH OF TEXT TO SEARCH
-    return(LengthOfTextToSearch)
+    return(LengthOfTextToSearch) ## RETURNS INTEGER
     
 ## END FUNCTION () #12 - 

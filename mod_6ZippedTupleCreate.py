@@ -1,10 +1,7 @@
 ## IMPORT MODULES
-## IMPORT MODULES
-## IMPORT MODULES
 
 ## FUNCTION () #6 - ZIPPED TUPLE CREATE
-## FUNCTION () #6 - ZIPPED TUPLE CREATE
-## FUNCTION () #6 - ZIPPED TUPLE CREATE
+
 def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONStringsParsedWithSpaces, SearchTextChosen):
 
     ## TEST PRINT OUTPUT
@@ -26,8 +23,7 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONString
             ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 5 TEXTS OF TORAH CHOSEN = ", each[0],len(each[1]))
             ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 5 TEXTS OF TORAH CHOSEN = ", type(each[0]),type(each[1]))
       
-        ## RETURN ZIPPED TUPLE
-        return(ZippedTupleNoSpaces, ZippedTupleWithSpaces)
+
         
     ## ...ELSE IF TEXT CHOSEN IS ALL TWENTY-ONE (21) TEXTS OF THE PROPHETS (NEVI'IM):
     elif len(ListOfDictsOfJSONStringsParsed) == 21:
@@ -44,8 +40,7 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONString
             ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 21 TEXTS OF THE PROPHETS CHOSEN = ", each[0],len(each[1]))
             ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 21 TEXTS OF THE PROPHETS CHOSEN = ", type(each[0]),type(each[1]))
       
-        ## RETURN ZIPPED TUPLE
-        return(ZippedTupleNoSpaces, ZippedTupleWithSpaces)
+
         
     ## ...ELSE IF TEXT CHOSEN IS ALL THIRTEEN (13) TEXTS OF THE WRITINGS (K'TUVIM):
     elif len(ListOfDictsOfJSONStringsParsed) == 13:
@@ -62,8 +57,7 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONString
             ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 13 TEXTS OF THE WRITINGS CHOSEN = ", each[0],len(each[1]))
             ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 13 TEXTS OF THE WRITINGS CHOSEN = ", type(each[0]),type(each[1]))
       
-        ## RETURN ZIPPED TUPLE
-        return(ZippedTupleNoSpaces, ZippedTupleWithSpaces)
+
         
     ## ...ELSE IF TEXT CHOSEN IS ALL THIRTY-NINE (39) TEXTS OF THE HEBREW BIBLE (TANACH):
     elif len(ListOfDictsOfJSONStringsParsed) == 39:
@@ -80,8 +74,7 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONString
             ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 39 TEXTS OF THE HEBREW BIBLE CHOSEN = ", each[0],len(each[1]))
             ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF ALL 39 TEXTS OF THE HEBREW BIBLE CHOSEN = ", type(each[0]),type(each[1]))
       
-        ## RETURN ZIPPED TUPLE
-        return(ZippedTupleNoSpaces, ZippedTupleWithSpaces)
+
         
     ## ...ELSE IF TEXT CHOSEN IS ONLY ONE (1) TEXT:
     elif len(ListOfDictsOfJSONStringsParsed) == 1:
@@ -114,19 +107,18 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONString
             ## TEST PRINT OUTPUT
             ##print("\n")  ## PRINT SPACE
                    
-        ## RETURN ZIPPED TUPLE
-        return(ZippedTupleNoSpaces, ZippedTupleWithSpaces)
         
     ## ELSE ALL OTHER CASES (NEVER CALLED)
     else:
         
         pass      
           
-
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
     print("WITHIN FUNCTION:  END FUNCTION #6 - ZIPPED TUPLE CREATE")
 
+    ## RETURN ZIPPED TUPLE
+    return(ZippedTupleNoSpaces, ZippedTupleWithSpaces)
+
 ## END FUNCTION () #6 - ZIPPED TUPLE CREATE
-## END FUNCTION () #6 - ZIPPED TUPLE CREATE
-## END FUNCTION () #6 - ZIPPED TUPLE CREATE
+

@@ -18,12 +18,13 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 
 # Updates
 
-<br /> 09 / MAY / 2020 - Please see updated CSV files of 2D Matrix protype in development.
-<br /> We are very close to completion of development of our BETA open-source program that will enable you to search for your own Torah Bible Codes in order to output your data in a scientific way for others in the community to confirm scientifically;
-<br /> We hope to upload a working BETA program before the end of May 2022, GOD-willing - all depends upon the will of GOD if He makes it possible.
-
-<br /> Please support our efforts if you can by donating BITCOIN (BTC) to the following address:
-<br /> bc1qzws4zjgzf4wll2mtztsavmyvkg72fnajfff8r7
+<br />07 / JUNE / 2022
+<br />
+<br />DEVELOPMENT UPDATE:
+<br /> BETA DEVELOPMENT PROGRAM (WORK-IN-PROGRESS) UPLOADED; More to come ASAP GOD-willing.
+<br />
+<br />Please support our efforts if you can by donating BITCOIN (BTC) to the following address:
+<br />bc1qzws4zjgzf4wll2mtztsavmyvkg72fnajfff8r7
 
 # Equidistant Letter Sequences (ELS)
 
@@ -120,33 +121,39 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 
 # How to Run the App / Program
 <ol>
-  <li>Download and Install Python on your local computer</li>
-  <li>Go to folder where the TorahBibleCodes files are saved</li>
+  <li>Download and Install Python on your local computer.</li>
+  <li>Go to folder where the TorahBibleCodes files are saved/cloned.</li>
   <li>Open Command Prompt / Command Line Interface (CLI) - WINDOWS:  SHIFT RIGHT-CLICK --> OPEN COMMAND WINDOW HERE</li>
-  <li>TYPE/RUN:  python p_els.py</li>
-  <li>A "D" Python Dictionary Object is returned to you to interact with and further develop per your needs, and we invite you to share your open-source solutions and scientific research with the community to allow confirmation of your discoveries and data, which will lead to further shared advancement and benefit.
+  <li>TYPE/RUN:  python p.py; RECOMMENDED FOR INTERACTION WITH DATA OBJECTS TO CONCEPTUALIZE DEVELOPMENT: ipython; %run p.py</li>
 </ol>
 
-# Structure of App / Program
-<br />0.) COMMAND LINE INTERFACE (CLI): #0 - RUN MAIN PROGRAM FILE p_els.py TO GET DATA AND CREATE INTERACTIVE DATA OBJECTS
-<br />1.) CALL MODULE.FUNCTION() #1 - GET USER INPUT 1 - CHOOSE TEXT TO SEARCH
-<br />2.) CALL MODULE.FUNCTION() #2 - TEXT FILE OPEN
-<br />3.) CALL MODULE.FUNCTION() #3A - TEXT FILE PREPROCESS; CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE
-<br />4.) CALL MODULE.FUNCTION() #4 - CONVERT PARSED JSON STRINGS TO DICTIONARIES; RETURN LIST OF DICTIONARIES
-<br />5.) CALL MODULE.FUNCTION() #5 - GET NUMBER OF TEXT CHOSEN; RETURNs TUPLE OF NUMBERS OF TEXTS CHOSEN
-<br />6.) CALL MODULE.FUNCTION() #6 - ZIPPED TUPLE CREATE; RETURNS ZIPPED TUPLE
-<br />7.) CALL MODULE.FUNCTION() #7 - DICTIONARY OF VERSES CREATE WITH TUPLES AS KEYS, e.g. (1,1,1) = BOOK (1) GENESIS CHAPTER 1, VERSE 1... ; RETURNS DICTIONARY OF VERSES
-<br />8.) CALL MODULE.FUNCTION() #8 - DATA OBJECTS CREATE; RETURNS 1.) STRING OF LETTERS, 2.) LIST OF LETTERS, 3.) DICT OF LETTERS, 4.) DICT OF LETTERS
-<br />9.) CALL MODULE.FUNCTION() #9 - GET NUMBER VALUE OF EACH LETTER IN STRING
-<br />10.) CALL MODULE.FUNCTION() #10 - CREATE LIST OF CUSTOM INDEXES NON-0-INDEXED / 1-INDEXED; RETURNS LIST OF CUSTOM INDEXES
-<br />11.) CALL MODULE.FUNCTION() #11 - DATA OBJECT CREATE - RETURNS TUPLE OF WORDS WITH EACH WORD'S GEMATRIA NUMBER VALUE
-<br />12.) STEP 12 IN DEVELOPMENT...
-<br />99.) ...STEP 99 CALL MODULE.FUNCTION() #99 = OUTPUT/WRITE TO CSV FILE ALL WORDS OF SELECTED TEXT(S) WITH EACH WORD'S GEMATRIA VALUE
 
-# Program Concepts:  Objects - D (DS), DL, D5, L, S, N (NW), W, ListOfWords
+# Structure of App / Program
+
+<br />After running the Python file p.py, several Python / Pandas Objects are returned to you to interact with and further develop per your needs;
+<br />We are currently developing the functionalities in the program to provide certain (many) specific data points, data objects, etc. so that scientifically repeatable (and therefore verifiable) results can be precisely measured, shared, tested, and either confirmed or disproved.
+<br />The current BETA DEVELOPMENT version of the program does the following:
+
+<ol>
+	<li>Allows the user to select any text(s) from the Torah (Instruction) / Nevi'im (Prophets) / K'tuvim (Writings) of the Tanach (Hebrew Bible).</li>
+	<li>Allows the user to choose a custom size of the 2D Matrix (X Rows by Y Columns) for the user-selected text(s) to be outputted to a CSV EXCEL file (CAUTION: Numbers approaching 1000 for X Rows will exceed the maximum allowed by EXCEL, and therefore will truncate the text).</li>
+	<li>Allows the user to choose the number of desired ELS Search-Terms.</li>
+	<li>Allows the user to input those specified ELS Search-Terms (NOTE: These must be typed in Hebrew characters, else EXCEPTION IS THROWN).</li>
+	<li>Outputs CSV EXCEL file of the 2D Matrix for the selected text(s).</li>
+	<li>Outputs CSV EXCEL file of the Gematria Number values for each word AND letter in the selected text(s)</li>
+	<li>Outputs CSV EXCEL file of the Gematria Number values for each word AND letter in the ELS Search-Terms</li>
+	<li>IN DEVELOPMENT:  Testing of several (best?) ways / algorithms for ELS Search within the text; Currently investigating REGEX, PANDAS, PURE PYTHON LINEAR SEARCH, etc.; Please see and examine the Python / Pandas Data Objects returned to see current capabilities in development.</li>
+	<li>IN DEVELOPMENT:  Outputs CSV EXCEL file of the Data Points for each letter of each of the ELS Search-Terms so that precise, exact positions, shared positions, letter-proximity, statistical probability, etc. of letters will be scientifically verifiable and reproduceable.</li>
+</ol>
+
+<br />We invite you to share your open-source (alternative/multiple?) solutions of further development of this open-source program (e.g. add-ons, additional features, functionalities, GUIs, etc.), as well as scientific research using these software research tools with the community to allow confirmation of your discoveries and data, which will lead to further shared advancement and mutual benefit for us all
+
+
+# Program Concepts:  Objects - D (DS), DL, D5, D5K, L (LLL), S (SSS), N (NW), W (DW), ListOfWords, NW4ELS, W4ELS (DW4ELS);
+
 ## "D" Object:  Dictionary of Verses Object
 
-For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all five (5) together, or all twenty-one (21) books of the Prophets, or all thirteen (13) books of the Writings, or all thirty-nine (39) books of the entire Hebrew Bible), the text is parsed and a Python dictionary "D" is created that allows one to access each verse by 3-digit Tuple Key (Book, Chapter, Verse).  After choosing the text(s) to be searched, a Python dictionary "D" is created to contain each verse - accessible by 3-digit Tuple Key.
+For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or all five (5) together, or all twenty-one (21) books of the Prophets, or all thirteen (13) books of the Writings, or all thirty-nine (39) books of the entire Hebrew Bible), the text is parsed and a Python dictionary D (and DS) is created that allows one to access each verse by 3-digit Tuple Key (Book, Chapter, Verse).  After choosing the text(s) to be searched, a Python dictionary D (and DS) is created to contain each verse - accessible by 3-digit Tuple Key.
 
 ## Each verse (and letter) of the thirty-nine (39) books of the Hebrew Bible is accessible via the Python dictionary "D" (or "DS") with a unique 3-digit Tuple Key as per following examples:
 
@@ -253,27 +260,42 @@ For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or a
 
 ## ... etc. ... etc. ... etc. ...
 
-# Python Objects
+# Python Objects - D (DS), DL, D5, D5K, L (LLL), S (SSS), ListOfWords, N (NW), W (DW), ListOfSearchTerms, DictOfSearchTerms, NW4ELS, W4ELS (DW4ELS);
 
-### Please see the file "D.py" (also run: "p_els.py") to see and interact with the "D" Object:  Python Dictionary of Verses (with No Spaces) with a 3-digit Tuple Key
+### Run the file "p.py" to see and interact with the "D" Object: Python Dictionary of Verses (with No Spaces) with a 3-digit Tuple Key
 
-### Please see the file "DS.py" (also run: "p_els.py") to see and interact with the "DS" Object:  Python Dictionary of Verses (with Spaces) with a 3-digit Tuple Key
+### Run the file "p.py" to see and interact with the "DS" Object: Python Dictionary of Verses (with Spaces) with a 3-digit Tuple Key
 
-### Please run the file "p_els.py" to see and interact with the "DL" Object:  Python Dictionary of Letters with a 4-digit Tuple Key
+### Run the file "p.py" to see and interact with the "DL" Object:  Python Dictionary of Letters with a 4-digit Tuple Key
 
-### Please run the file "p_els.py" to see and interact with the "D5" Object:  Python Dictionary of Letters with a 5-digit Tuple Key
+### Run the file "p.py" to see and interact with the "D5" Object:  Python Dictionary of Letters with a 5-digit Tuple Key
 
-### Please run the file "p_els.py" to see and interact with the "L" Object:  Python List of Letters
+### Run the file "p.py" to see and interact with the "D5K" Object:  Python Dictionary of 5-digit Tuple Key
 
-### Please run the file "p_els.py" to see and interact with the "S" Object:  Python String of Letters
+### Run the file "p.py" to see and interact with the "L" Object:  Python List of Letters of the Selected Text(s)
 
-### Please run the file "p_els.py" to see and interact with the "N" Object:  Python List of Numbers
+### Run the file "p.py" to see and interact with the "LLL" Object:  Python List of Letters of the Selected Text(s) RECALCULATED FOR POSSIBLE BLANK SPACES IN LAST ROW OF 2D MATRIX
 
-### Please run the file "p_els.py" to see and interact with the "NW" Object:  Python List of Numbers for Words
+### Run the file "p.py" to see and interact with the "S" Object:  Python String of Letters of the Selected Text(s)
 
-### Please run the file "p_els.py" to see and interact with the "W" Object:  Python Tuple of Words and Each's Gematria Value
+### Run the file "p.py" to see and interact with the "SSS" Object:  Python String of Letters of the Selected Text(s) RECALCULATED FOR POSSIBLE BLANK SPACES IN LAST ROW OF 2D MATRIX
 
-### Please run the file "p_els.py" to see and interact with the "ListOfWords" Object:  Python List of Words of the Selected Text(s)
+### Run the file "p.py" to see and interact with the "ListOfWords" Object:  Python List of Words of the Selected Text(s)
+
+### Run the file "p.py" to see and interact with the "N" Object:  Python List of Numbers for Letters of the Selected Text(s)
+
+### Run the file "p.py" to see and interact with the "NW" Object:  Python List of Numbers for Words of the Selected Text(s)
+
+### Run the file "p.py" to see and interact with the "W" Object:  Python List of Tuples of Words and Each Word's/Letter's Gematria Value
+
+### Run the file "p.py" to see and interact with the "DW" Object:  Python Dict of Words and Each Word's/Letter's Gematria Value
+
+### Run the file "p.py" to see and interact with the "ListOfSearchTerms" Object:  Python List of Words of the ELS Search-Terms
+
+### Run the file "p.py" to see and interact with the "DictOfSearchTerms" Object:  Python Dictionary of Words of the ELS Search-Terms
+
+
+
 
 
 ## Each Verse can be further subdivided into a String (or List) Sequence of many Letter Objects (i.e. Strings of one (1) Letter only) which are classes which are accessible within the ELS Search sequence, and accessible by extension of previous tuple syntax:  Book, Chapter, Verse, Letter
@@ -308,7 +330,7 @@ For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or a
 <br />DL[5,34,12,46] --> 'א'
 <br />DL[5,34,12,47] --> 'ל'
 
-### D5 Object - Dictionary of Letters (with 5-digit key) with 5th element of tuple being the position of letter in total sequence of text...(i.e. either all five (5) texts of the Torah together (304853 letters), or one (1) text only, or all twenty-one (21) texts of the Prophets, or all thirteen (13) texts of the Writings, or all thirty-nine (39) texts of the entire Hebrew Bible together)...
+### D5 Object - Dictionary of Letters (with 5-digit key) with 5th element of tuple being the position of letter in total sequence of text...(i.e. either all five (5) texts of the Torah together (304850 letters), or one (1) text only, or all twenty-one (21) texts of the Prophets, or all thirteen (13) texts of the Writings, or all thirty-nine (39) texts of the entire Hebrew Bible together)...
 <br />D5[1, 1, 1, 1, 1] --> 'ב'
 <br />D5[1, 1, 1, 2, 2] --> 'ר'
 <br />D5[1, 1, 1, 3, 3] --> 'א'
@@ -331,8 +353,9 @@ For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or a
 <br />S[-5:] --> 'ישראל'
 
 
-## N Object - List of Numbers:  Each letter's Kabbalah Numerical Gematria Value is obtainable by passing a string-sequence to a MODULE.FUNCTION() call (NOTE:  Numbers returned in the N Object are left-to-right; Hebrew letters returned in L Object are right-to-left)
-ListOfLetters =  ['ב', 'ר', 'א', 'ש', 'י', 'ת']
+## N Object - List of Numbers:  Each letter's Kabbalah Numerical Gematria Value is obtainable by passing a string-sequence to a MODULE.FUNCTION() call (NOTE:  Numbers returned in the N Object are left-to-right; In previous, older versions of Python, Hebrew letters returned in L Object were R-T-L right-to-left; However, in current our development version of Python 3.9, these same Hebrew letters returned are L-T-R left-to-right, so now the Hebrew letter order is exactly the same as all other orders in the Python Lists: L-T-R).
+<br />ListOfLetters =  ['ב', 'ר', 'א', 'ש', 'י', 'ת']
+
 <br />N = mod_9GetNumberValue.fn_GetNumberValue(ListOfLetters) --> [2, 200, 1, 300, 10, 400]
 
 ### א = 1
@@ -358,32 +381,59 @@ ListOfLetters =  ['ב', 'ר', 'א', 'ש', 'י', 'ת']
 ### 300 = ש
 ### 400 = ת
 
-# Pandas Objects: s
+# Pandas Objects: sL0 (sL) / sLLL0 (sLLL)
 
-s = pd.Series(L) --> Converts ListOfLetters to Pandas Series (~ Dictionary-like Object)
-<br />s = pd.Series(L, index=ListOfIndexesCustom) --> Converts ListOfLetters to Pandas Series (~ Dictionary-like Object) with custom indexes for keys of the PD Series starting with 1-index/key
+<br />## PD SERIES OF THE SELECTED TEXT(S); ## LETTER POSITIONS ARE DYNAMICALLY GENERATED DEPENDING UPON SPECIFIC TEXT(S) SELECTED; e.g. the 5th book selected may (or may not) be Deuteronomy as the 5th Book of Torah, or the 5th Book of the Prophets, or the 5th Book of the Writings.
+<br />
+
+<br />## CREATE PD SERIES WITH 0-INDEX FOR THE ORIGINAL TEXT LENGTH
+<br />sL0 = pd.Series(L) ## --> Converts ListOfLetters to Pandas Series (~ Dictionary-like Object)
+<br />    
+<br />## CREATE PD SERIES WITH 1-INDEX FOR THE ORIGINAL TEXT LENGTH
+<br />sL = pd.Series(L, index=ListOfIndexesCustomL) ## --> Converts ListOfLetters to Pandas Series (~ Dictionary-like Object) with custom indexes for keys of the PD Series starting with 1-index/key
+<br />
+<br />## CREATE PD SERIES WITH 0-INDEX FOR LENGTH OF THE TEXT + EMPTY SPACES IN LAST ROW 
+<br />sLLL0 = pd.Series(LLL) ## --> Converts ListOfLetters to Pandas Series (~ Dictionary-like Object)
+<br />    
+<br />## CREATE PD SERIES WITH 1-INDEX FOR LENGTH OF THE TEXT + EMPTY SPACES IN LAST ROW
+<br />sLLL = pd.Series(LLL, index=ListOfIndexesCustomLLL) ## --> Converts ListOfLetters to Pandas Series (~ Dictionary-like Object) with custom indexes for keys of the PD Series starting with 1-index/key
+
+
+# CENTRAL ELS SEARCH ALGORITHM:
+<br />n, (n + d), (n + 2d), (n + 3d)... (n + (k-1)d)
+<br />
+<br />sL[6] ## == 'ת' == (n) ## WHEN TEXT SELECTED == 1 GENESIS
+<br />sL[6+50] ## == 'ו' == (n + d)
+<br />sL[6+50+50] ## == 'ר' == (n + 2d)
+<br />sL[6+50+50+50] ## = 'ה' == (n + 3d) ## k == 4 == LengthOfELSSearchTerm
+<br />
+<br />sL[6] ## == 'ת' == (n) ## WHEN TEXT SELECTED == 1 GENESIS
+<br />sL[56] ## == 'ו' == (n + d)
+<br />sL[106] ## == 'ר' == (n + 2d)
+<br />sL[156] ## = 'ה' == (n + 3d)
+
 
 # Useful CLI Commands
-s.str.startswith("ב")
+sL.str.startswith("ב")
 --> Returns Boolean (True/False) for each match (True) and for each non-match (False)
 
-s.str.endswith("ב")
+sL.str.endswith("ב")
 --> Returns Boolean (True/False) for each match (True) and for each non-match (False)
 
-s.str.find("ב")
+sL.str.find("ב")
 --> Returns Boolean-like (0 / -1) for each match (0) and for each non-match (-1)
 
-s.str.rfind("ב")
+sL.str.rfind("ב")
 --> Returns Boolean-like (0 / -1) for each match (0) and for each non-match (-1)
 
 ### The following values are all equivalent; Each equals every other value
 <ul>
-  <li>len(s) --> Total Number of Letters in the Pandas Series s --> Equal to len(S); len(L); len(DL); len(D5); len(N)</li>
-  <li>len(S) --> Total Number of Letters in the Python String S --> Equal to len(s); len(L); len(DL); len(D5); len(N)</li>
-  <li>len(L) --> Total Number of Letters in the Python List L --> Equal to len(s); len(S); len(DL); len(D5); len(N)</li>
-  <li>len(DL) --> Total Number of Letters in the Python Dictionary DL with 4-digit Tuple Key --> Equal to len(s); len(S); len(L); len(D5); len(N)</li>
-  <li>len(D5) --> Total Number of Letters in the Python Dictionary D5 with 5-digit Tuple Key --> Equal to len(s); len(S); len(L); len(DL); len(N)</li>
-  <li>len(N) --> Total Number of Numbers in the Python List N --> Equal to len(s); len(S); len(L); len(DL); len(D5)</li>
+  <li>len(sL) --> Total Number of Letters in the Pandas Series s --> Equal to len(S); len(L); len(DL); len(D5); len(N)</li>
+  <li>len(S) --> Total Number of Letters in the Python String S --> Equal to len(sL); len(L); len(DL); len(D5); len(N)</li>
+  <li>len(L) --> Total Number of Letters in the Python List L --> Equal to len(sL); len(S); len(DL); len(D5); len(N)</li>
+  <li>len(DL) --> Total Number of Letters in the Python Dictionary DL with 4-digit Tuple Key --> Equal to len(sL); len(S); len(L); len(D5); len(N)</li>
+  <li>len(D5) --> Total Number of Letters in the Python Dictionary D5 with 5-digit Tuple Key --> Equal to len(sL); len(S); len(L); len(DL); len(N)</li>
+  <li>len(N) --> Total Number of Numbers in the Python List N --> Equal to len(sL); len(S); len(L); len(DL); len(D5)</li>
   
 </ul>
 

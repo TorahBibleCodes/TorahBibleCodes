@@ -1,9 +1,5 @@
 ## IMPORT MODULES
-## IMPORT MODULES
-## IMPORT MODULES
 
-## FUNCTION () #7 - DICTIONARY OF VERSES CREATE
-## FUNCTION () #7 - DICTIONARY OF VERSES CREATE
 ## FUNCTION () #7 - DICTIONARY OF VERSES CREATE
 
 def fn_DictionaryOfVersesCreate(ZippedTupleNoSpaces, ZippedTupleWithSpaces):
@@ -113,7 +109,6 @@ def fn_DictionaryOfVersesCreate(ZippedTupleNoSpaces, ZippedTupleWithSpaces):
             
             ChapterCounter += 1
 
-            
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
     print("WITHIN FUNCTION:  END FUNCTION #7 - DICTIONARY OF VERSES CREATE")
@@ -121,6 +116,4 @@ def fn_DictionaryOfVersesCreate(ZippedTupleNoSpaces, ZippedTupleWithSpaces):
     ## RETURN VARIABLES TO PROGRAM
     return(DictOfVersesNoSpaces, DictOfVersesWithSpaces)
 
-## END FUNCTION () #7 - DICTIONARY OF VERSES CREATE
-## END FUNCTION () #7 - DICTIONARY OF VERSES CREATE
 ## END FUNCTION () #7 - DICTIONARY OF VERSES CREATE

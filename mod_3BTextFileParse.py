@@ -1,11 +1,9 @@
 ## IMPORT MODULES
-## IMPORT MODULES
-## IMPORT MODULES
+
 import re
 
 ## FUNCTION () #3B - TEXT FILE PARSE
-## FUNCTION () #3B - TEXT FILE PARSE
-## FUNCTION () #3B - TEXT FILE PARSE
+
 def fn_TextFileParse(JSONString):
 
     ## TEST PRINT OUTPUT
@@ -21,65 +19,38 @@ def fn_TextFileParse(JSONString):
     ## print("Length of JSONString =", len(JSONString), type(JSONString))
     
     ## BEGIN TEXT FILE PARSE
-    ## BEGIN TEXT FILE PARSE
-    ## BEGIN TEXT FILE PARSE
 
     ## REMOVE HYPHENS FROM STRING
-    ## REMOVE HYPHENS FROM STRING
-    ## REMOVE HYPHENS FROM STRING
-    
 
     TextNoHyphensWithSpaces = JSONString.replace("־", " ")
-
-
-
-
 
     ## TEST PRINT OUTPUT
     ##print("\n")  ## PRINT SPACE
     ##print("Length of TextNoHyphensWithSpaces =", len(TextNoHyphensWithSpaces), type(TextNoHyphensWithSpaces))
 
     ## REMOVE BRACKETS AND CONTENTS WIHIN BRACKETS FROM STRING
-    ## REMOVE BRACKETS AND CONTENTS WIHIN BRACKETS FROM STRING
-    ## REMOVE BRACKETS AND CONTENTS WIHIN BRACKETS FROM STRING
 
     TextNoBracketsWithSpaces = re.sub("[\[].*?[\]]", "", TextNoHyphensWithSpaces)
 
+    ## TEST - 1ST GOOD ISSUE ON GITHUB
+    TextNoBracketsWithSpaces = TextNoBracketsWithSpaces.replace(u"\u200D", "")
 
-
-
-
-    
-    
     ## TEST PRINT OUTPUT
     ##print("\n")  ## PRINT SPACE
     ##print("Length of TextNoBracketsWithSpaces =", len(TextNoBracketsWithSpaces), type(TextNoBracketsWithSpaces))
 
     ## REMOVE WHITE SPACES FROM STRING
-    ## REMOVE WHITE SPACES FROM STRING
-    ## REMOVE WHITE SPACES FROM STRING
-    
 
     TextNoSpaces = TextNoBracketsWithSpaces.replace(" ", "")
 
-
-
-    
     ## TEST PRINT OUTPUT
     ##print("\n")  ## PRINT SPACE
     ##print("Length of TextNoSpaces =", len(TextNoSpaces), type(TextNoSpaces))
     
     ## CHANGE VARIABLE NAME
-    ## CHANGE VARIABLE NAME
-    ## CHANGE VARIABLE NAME
+
     TextParsedWithSpaces = TextNoBracketsWithSpaces
     TextParsedNoSpaces = TextNoSpaces
-
-
-
-
-
-
 
     ## TEST PRINT OUTPUT
     ##print("\n")  ## PRINT SPACE
@@ -89,17 +60,10 @@ def fn_TextFileParse(JSONString):
     ##print("\n")  ## PRINT SPACE
     ##print("Length of TextParsedNoSpaces =", len(TextParsedNoSpaces), type(TextParsedNoSpaces))
 
+    ## END TEXT FILE PARSE
+  
+    ## CHANGE VARIABLE NAMES
 
-    
-    
-    ## END TEXT FILE PARSE
-    ## END TEXT FILE PARSE
-    ## END TEXT FILE PARSE
-    
-    ## CHANGE VARIABLE NAMES
-    ## CHANGE VARIABLE NAMES
-    ## CHANGE VARIABLE NAMES
-    
     TextParsedWithSpaces = TextNoBracketsWithSpaces
     TextParsedNoSpaces = TextNoSpaces
     
@@ -111,5 +75,4 @@ def fn_TextFileParse(JSONString):
     return(TextParsedWithSpaces, TextParsedNoSpaces)
 
 ## END FUNCTION () #3B - TEXT FILE PARSE
-## END FUNCTION () #3B - TEXT FILE PARSE
-## END FUNCTION () #3B - TEXT FILE PARSE
+

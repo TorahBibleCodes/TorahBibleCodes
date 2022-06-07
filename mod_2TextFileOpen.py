@@ -1,6 +1,5 @@
 ## FUNCTION () #2 - TEXT FILE OPEN
-## FUNCTION () #2 - TEXT FILE OPEN
-## FUNCTION () #2 - TEXT FILE OPEN
+
 def fn_TextFileOpen(TextChosen):
 
     ## TEST PRINT OUTPUT
@@ -771,5 +770,4 @@ def fn_TextFileOpen(TextChosen):
     return(TextFile)
 
 ## END FUNCTION () #2 - TEXT FILE OPEN
-## END FUNCTION () #2 - TEXT FILE OPEN
-## END FUNCTION () #2 - TEXT FILE OPEN
+
