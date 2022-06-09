@@ -10,15 +10,7 @@ Torah Bible Codes , An understandable multilanguaje and multithreading bible cod
 
 ![image](https://user-images.githubusercontent.com/60758685/171998060-b82ce6a4-c0f9-49b2-b059-dbc8a0e989b2.png)
 
-## Simple use from your Telegram Chat
 
-- Add @Baphomet_telegram_bot on your telegram
-
-Write
-
-`/start`
-
-you are ready !! 
 
 ## Install 
 
@@ -99,6 +91,17 @@ Convert words to numbers in gematria, sums and executes ELS function over sumato
 ![image](https://user-images.githubusercontent.com/60758685/143425642-e4178251-70a3-45c3-b695-6f47cdd3841f.png)
 
  
+## Simple use from your Telegram Chat
+
+- Add @Baphomet_telegram_bot on your telegram
+
+Write
+
+`/start`
+
+you are ready !! 
+
+
 ## Equidistant Letter Sequences (ELS)
 
 <br />Witztum, Rips, and Rosenberg (WRR) define an Equidistant Letter Sequence (ELS) as a sequence of letters in the text whose positions - not counting spaces - form an arithmetic progression. That is to say the letters are found at the positions
