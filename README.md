@@ -20,7 +20,7 @@ Write
 
 you are ready !! 
 
-## Install with python
+## Install 
 
 ```
 
@@ -29,25 +29,6 @@ pip3 install torabiblecodes
 tbc-cli
 
 ```
-
-## Install
-
-`apt install git`
-
-`git clone git@github.com:pedroelbanquero/TorahBibleCodes.git`
-
-`cd TorahBibleCodes`
-
-`chmod +x install.sh`
-
-`./install.sh`
-
-
-## Install on system
-
-`chmod +x install_system.sh`
-
-`./install_system.sh`
 
 ## Usage
 
