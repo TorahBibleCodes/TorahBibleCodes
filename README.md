@@ -20,6 +20,16 @@ Write
 
 you are ready !! 
 
+## Install with python
+
+```
+
+pip`3 install torabiblecodes
+
+tbc-cli
+
+```
+
 ## Install
 
 `apt install git`
