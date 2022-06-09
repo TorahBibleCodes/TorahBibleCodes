@@ -14,7 +14,9 @@ An understandable multilanguaje and multithreading bible codes . Study the Torah
 
 - Add @Baphomet_telegram_bot on your telegram
 
+
 Write
+
 
 `/start`
 
