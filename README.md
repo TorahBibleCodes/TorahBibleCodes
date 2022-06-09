@@ -4,12 +4,7 @@ Torah Bible Codes , An understandable multilanguaje and multithreading bible cod
 
 ![image](https://user-images.githubusercontent.com/60758685/143378238-d73ee93b-7ba6-4093-83ac-a859fa11461a.png)
 
-![image](https://user-images.githubusercontent.com/60758685/143389909-c4f9af35-0027-467e-b8e1-2875ad0f5e81.png)
-
-![image](https://user-images.githubusercontent.com/60758685/143392985-377da397-a4df-4ce6-a718-262cd1bab8e1.png)
-
-![image](https://user-images.githubusercontent.com/60758685/171998060-b82ce6a4-c0f9-49b2-b059-dbc8a0e989b2.png)
-
+![image](https://user-images.githubusercontent.com/60758685/172951901-fc5d60fe-8bb5-4522-b172-4013d16d279b.png)
 
 
 ## Install 
