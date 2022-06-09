@@ -24,7 +24,7 @@ you are ready !!
 
 ```
 
-pip`3 install torabiblecodes
+pip3 install torabiblecodes
 
 tbc-cli
 
