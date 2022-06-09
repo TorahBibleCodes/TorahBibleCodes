@@ -1,5 +1,0 @@
-#!/bin/sh
-
-set -e
-cd /usr/share/TorahBibleCodes
-exec ./TBC.py "$@"

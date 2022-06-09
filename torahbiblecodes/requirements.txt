@@ -1,0 +1,9 @@
+lxml
+requests
+pandas
+deep-translator
+textblob
+python-hebrew-numbers
+xgboost
+elasticsearch
+python-telegram-bot
