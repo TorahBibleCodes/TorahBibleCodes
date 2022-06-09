@@ -1,4 +1,4 @@
-#  The Torah Bible Codes - David Ben Zelateh v0.1
+# Torah Bible Codes - David Ben Zelateh v0.1
 
 Torah Bible Codes , An understandable multilanguaje and multithreading bible codes . Study the Torah as never before
 
@@ -11,7 +11,7 @@ Torah Bible Codes , An understandable multilanguaje and multithreading bible cod
 
 ```
 
-pip3 install torabiblecodes
+pip3 install torahbiblecodes
 
 tbc-cli
 
