@@ -7,14 +7,15 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 
-long_description = read('README.md') if os.path.isfile("README.md") else ""
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
 setup(
     name='torahbiblecodes',
-    version='1.0.2',
+    version='1.0.3',
     author='torahbiblecodes',
     author_email='',
-    description='',
+    description='An understandable multilanguaje and multithreading bible codes . Study the Torah as never before Bible Codes python library . An understandable multilanguaje and multithreading bible codes . Study the Torah as never before',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='',
