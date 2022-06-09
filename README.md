@@ -19,7 +19,7 @@ tbc-cli
 
 ## Usage
 
-`python3 TBC.py` or `tbc` on terminal if install on system
+`tbc-cli` on terminal if install on system
 
 Run main program
 
