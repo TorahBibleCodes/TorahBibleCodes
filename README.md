@@ -197,7 +197,38 @@ Converting words to gematria and extending to infinite as a sequence
 - Similar sentences to other antique books
 
 
+## TorahBibleCodes python module 
 
+- Import module class
+```
+
+from torahbiblecodes.resources.func.torah import *
+
+
+torah = Torah()
+
+
+```
+
+- Gematria
+```
+response_ge = torah.gematrix(listform)
+
+response_ge = torah.gematria(options[0].strip())
+
+```
+
+- Els
+```
+response_els, tvalue = torah.els(bookNumber, gematriaNumber, tracert='false')
+
+```
+
+- Translate
+```
+text_translate = torah.func_translate('iw', 'en', response_els)
+
+```
 
 ## Authors
 
