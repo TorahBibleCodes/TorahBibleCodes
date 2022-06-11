@@ -1,6 +1,6 @@
 # Torah Bible Codes - David Ben Zelateh v1.0.5 python library
 
-Torah Bible Codes , An understandable multilanguaje and multithreading bible codes python library . Study the Torah as never before
+Torah Bible Codes , An understandable Equidistant Letter Sequence, multilanguaje and multithreading bible codes python library . Study the Torah as never before
 
 ![image](https://user-images.githubusercontent.com/60758685/143378238-d73ee93b-7ba6-4093-83ac-a859fa11461a.png)
 
