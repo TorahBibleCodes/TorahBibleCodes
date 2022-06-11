@@ -1,4 +1,4 @@
-# Torah Bible Codes - David Ben Zelateh v1.0.5 python library
+# Torah Bible Codes - David Ben Zelateh v1.0.5 Equidistant Letter Sequence Python Library
 
 Torah Bible Codes , An understandable Equidistant Letter Sequence, multilanguaje and multithreading bible codes python library . Study the Torah as never before
 
