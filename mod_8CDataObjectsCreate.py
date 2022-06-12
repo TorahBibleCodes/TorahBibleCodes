@@ -3,6 +3,10 @@
 ## FUNCTION () #8C - DATA OBJECTS CREATE
 
 def fn_DataObjectsCreate(D5):
+
+    """
+    ## MODULE.FUNCTION() #8C - DATA OBJECTS CREATE; ## RETURNS D5K == DICT OF D5 KEYS
+    """
     
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
@@ -13,24 +17,22 @@ def fn_DataObjectsCreate(D5):
     D5K = {}
 
     ## BEGIN FOR LOOP
-    ## FOR EACH KEY:VALUE PAIR IN STRING/VERSE IN DICTIONARY "DS"...
+    ## FOR EACH KEY IN DICTIONARY "D5"...
     for EachKey in D5.keys(): ## EACH VERSE
         
+        ## ADD EACH CURRENT TOTAL-LETTER-COUNT-VALUE-INDEX-POSITION-IN-D5 (I.E. EACH KEY) TO BE VALUE OF D5K WITH THE KEY OF D5K THE SAME VALUE
         D5K[LetterCounter] = EachKey
 
+        ## INCREMENT LETTER COUNTER
         LetterCounter += 1
        
-
     ## END FOR LOOP
-
-
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
     print("WITHIN FUNCTION:  END FUNCTION #8C - DATA OBJECTS CREATE")
 
     ## RETURN VARIABLES TO PROGRAM
-   
     return(D5K) 
 
 ## END FUNCTION () #8C - DATA OBJECTS CREATE

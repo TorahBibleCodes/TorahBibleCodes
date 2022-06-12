@@ -6,6 +6,10 @@ import re
 
 def fn_TextFileParse(JSONString):
 
+    """
+    ## MODULE.FUNCTION() #3B - TEXT FILE PARSE ## RETURNS TextParsedWithSpaces, TextParsedNoSpaces
+    """
+
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
     print("WITHIN FUNCTION:  BEGIN FUNCTION #3B TEXT FILE PARSE")

@@ -3,6 +3,10 @@
 ## FUNCTION () #8B - DATA OBJECTS CREATE
 
 def fn_DataObjectsCreate(DS):
+
+    """
+    ## MODULE.FUNCTION() #8B - DATA OBJECTS CREATE; ## RETURNS LIST OF WORDS
+    """
     
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE

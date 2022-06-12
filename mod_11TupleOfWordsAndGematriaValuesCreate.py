@@ -4,6 +4,10 @@
 
 def fn_TupleOfWordsAndGematriaValuesCreate(ListOfWords, NW, ListOfIndexesCustom): ## NW = TUPLE OF (LIST, INTEGER)
     
+    """
+    ## MODULE.FUNCTION() #11 - DATA OBJECT CREATE - RETURNS TUPLE OF WORDS WITH EACH WORD'S GEMATRIA NUMBER VALUE
+    """
+
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
     print("WITHIN FUNCTION:  BEGIN FUNCTION #11 - TUPLE OF WORDS AND GEMATRIA VALUES CREATE ")

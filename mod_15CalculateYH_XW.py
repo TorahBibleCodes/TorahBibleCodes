@@ -2,27 +2,34 @@
 
 def fn_CalculateYH_XW(FactorY, FactorX, ListOfFactors, L, LengthOfTextToSearch): ## PARAMETER L HERE IS ACTUALLY LLL
 
+    """
+    ## MODULE.FUNCTION() #15 - CALCULATE XW AND YH FOR THE 2D MATRIX CSV FILE - RETURNS YH, XW, L
+    """
+
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
     print("WITHIN FUNCTION:  BEGIN FUNCTION #15 - CALCULATE XW / YH")
     
+    ## TEST PRINT OUTPUT
+    print("\n")  ## PRINT SPACE
     print(f"FactorY = {FactorY}") ## 491 ## 159 ## THIS VALUE MUST BE CORRECTED IF NOT PERFECT FACTORIAL
     print(f"FactorX = {FactorX}") ## 159 ## 491 ## TEST USER CASE X50; Y1561
 
     ## TEST - FACTORS - EXAMPLE: TEXT OF BOOK OF GENESIS
     ## XXX = 159 ## NECESSARY FOR CALCULATING ABSOLUTE X BELOW
     ## YYY = 491
+
     LLL = L ## PECULAR PROPERTY OF PYTHON THAT THIS WILL ALTER THE ORIGINAL LIST L WHEN WE ALTER LLL
 
-    ## IF FACTORY AND FACTORX ARE IN LIST OF PERFECT FACTORS FOR LENGTH OF THE TEXT...
+    ## IF FACTORY AND FACTORX ARE IN LIST OF PERFECT FACTORS/DIVISORS FOR LENGTH OF THE TEXT...
     if FactorY in ListOfFactors and FactorX in ListOfFactors:
-        print("True - The X / W / #COLUMNS you have chosen is in the list of factors of this text length of {LengthOfTextToSearch} letters")
+        print(f"True - The X / W / #COLUMNS you have chosen is in the list of factors of this text length of {LengthOfTextToSearch} letters")
         YH = FactorY
         XW = FactorX
 
-    ## ELSE IF NOT IN LIST OF PERFECT FACTORS FOR LENGTH OF THE TEST...
+    ## ELSE IF NOT IN LIST OF PERFECT FACTORS/DIVISORS FOR LENGTH OF THE TEST...
     else:
-        print("False - The X / W / #COLUMNS you have chosen is NOT in the list of factors of this text length of {LengthOfTextToSearch} letters")
+        print(f"False - The X / W / #COLUMNS you have chosen is NOT in the list of factors of this text length of {LengthOfTextToSearch} letters")
         ## YH = FactorY
         ## XW = FactorX
 
@@ -42,7 +49,7 @@ def fn_CalculateYH_XW(FactorY, FactorX, ListOfFactors, L, LengthOfTextToSearch):
 
         ## GET AREA OF SYMMETRICAL 2D MATRIX FOR SELECTED TEXT  
         AreaOf2DMatrix = LengthOfTextToSearch
-        print(f"AreaOf2DMatrix BEFORE USER CHOICE OF X {AreaOf2DMatrix}")
+        print(f"AreaOf2DMatrix BEFORE USER CHOICE OF X / W / #COLUMNS {AreaOf2DMatrix}")
 
         ## GET REMAINDER FROM USER CHOICE OF FACTOR X / W / HORIZONTAL ROWS FOR 2D MATRIX CSV FILE
         RemainderAfterUserChoice = (LengthOfTextToSearch % FactorX)
@@ -70,8 +77,10 @@ def fn_CalculateYH_XW(FactorY, FactorX, ListOfFactors, L, LengthOfTextToSearch):
         ## ADD SPACES TO END OF TEXT STRING IN ORDER TO KEEP XW VS. YH CONSISTENTLY SYMMETRICAL
         while CCC < SpaceToFillInLastRow:
 
+            ## APPEND BLANK SPACE TO LIST OF LETTERS IN SELECTED TEXT (FOR THE FINAL ROW TO FILL WITH BLANK SPACES AFTER RECALCULATION)
             LLL.append(" ")
 
+            ## INCREMENT CCC COUNTER VARIABLE
             CCC += 1
         
         ## TEST PRINT OUTPUT

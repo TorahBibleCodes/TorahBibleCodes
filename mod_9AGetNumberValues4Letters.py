@@ -2,22 +2,28 @@
 
 ## FUNCTION () #9A - GET NUMBER VALUES FOR LETTERS
 def fn_GetNumberValues(SequenceOfLetters): 
+
+    """
+    ## MODULE.FUNCTION() #9A - GET NUMBER VALUE OF EACH LETTER IN LETTER STRING; ## RETURNS ListOfNumberValues4Letters
+    """
     
     ## TEST PRINT OUTPUT
     ## print("\n")  ## PRINT SPACE
     ## print("WITHIN FUNCTION:  BEGIN FUNCTION #9A - GET NUMBER VALUES FOR LETTERS") ## COMPUTATION INTENSIVE
     
+    ## TEST PRINT OUTPUT
+    ## print("\n")  ## PRINT SPACE
     ## print(SequenceOfLetters) 
 
-    ## CREATE EMPTY LIST TO STORE VALUES
+    ## DECLARE VARIABLES
+    ## CREATE EMPTY LISTS TO STORE VALUES
     ListOfNumberValues4Letters = []
-
-    ListTemp = []
-    ListSum = []
+    ListTemp = [] ## TEMPORARY LIST
+    ListSum = [] ## TEMPORARY LIST
 
     ## BEGIN FOR LOOP
 
-    ## FOR EACH ELEMENT IN SEQUENCE S, L, etc.??
+    ## FOR EACH ELEMENT IN SEQUENCE S, L, etc.
     for each in SequenceOfLetters:
 
         ## FOR EACH LETTER IN WORD SEQUENCE // STRING S
@@ -71,17 +77,24 @@ def fn_GetNumberValues(SequenceOfLetters):
         elif each == ' ':
             value = 0
 
+        ## APPEND VALUE TO THE TEMPORARY LIST
         ListTemp.append(value)
 
         ## TEST PRINT OUTPUT
         #print("\n")  ## PRINT SPACE
         #print("value = ", value)
 
+        ## SUM THE VALUES IN TEMPORARY LIST
         ListSum = sum(ListTemp)
+
+        ## APPEND THIS VALUE OF THE SUM TO THE MAIN LIST TO RETURN LATER
         ListOfNumberValues4Letters.append(ListSum)
         
-        ListTemp = [] ## RESET ListTemp
-        ListSum = [] ## RESET ListSum
+        ## RESET ListTemp
+        ListTemp = []
+
+        ## RESET ListSum
+        ListSum = []
         
         ## TEST PRINT OUTPUT
         ## print("\n")  ## PRINT SPACE
@@ -91,10 +104,10 @@ def fn_GetNumberValues(SequenceOfLetters):
 
     ## TEST PRINT OUTPUT
     ## print("\n")  ## PRINT SPACE
-    ## print("WITHIN FUNCTION:  END FUNCTION #9A - GET NUMBER VALUES FOR LETTERS")## COMPUTATION INTENSIVE
+    ## print("WITHIN FUNCTION:  END FUNCTION #9A - GET NUMBER VALUES FOR LETTERS") ## COMPUTATION INTENSIVE
 
     ## RETURN VARIABLES TO PROGRAM
     return(ListOfNumberValues4Letters)
     
-## END FUNCTION () #9A - GET NUMBER VALUES
+## END FUNCTION () #9A - GET NUMBER VALUES FOR LETTERS
 

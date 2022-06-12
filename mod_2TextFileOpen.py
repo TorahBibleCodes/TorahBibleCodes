@@ -2,6 +2,10 @@
 
 def fn_TextFileOpen(TextChosen):
 
+    """
+    ## MODULE.FUNCTION() #2 - TEXT FILE OPEN; ## RETURNS TEXT FILE STRING
+    """
+
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
     print("WITHIN FUNCTION:  BEGIN FUNCTION #2 TEXT FILE OPEN")

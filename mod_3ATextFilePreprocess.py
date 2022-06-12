@@ -6,6 +6,11 @@ import mod_3BTextFileParse ## MODULE.FUNCTION() #3B - TEXT FILE PARSE
 
 def fn_TextFilePreprocess(JSON):
     
+    """
+    ## MODULE.FUNCTION() #3A - TEXT FILE PREPROCESS; ## RETURNS ListOfJSONStringsParsed, ListOfJSONStringsParsedWithSpaces;
+    ## CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE ## RETURNS TextParsedWithSpaces, TextParsedNoSpaces
+    """
+
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
     print("WITHIN FUNCTION:  BEGIN FUNCTION #3A TEXT FILE PREPROCESS")

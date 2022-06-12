@@ -2,30 +2,30 @@
 
 def fn_GetUserInput():
 
+    """
+    ## MODULE.FUNCTION() #16 - GET USER INPUT: NUMBER OF SEARCH TERMS ## RETURNS NumberOfSearchTerms
+    """
+
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
     print("WITHIN FUNCTION:  BEGIN FUNCTION #16 - GET USER INPUT - NUMBER OF SEARCH TERMS;")
     
-    ## GET USER INPUT
+    ## GET USER INPUT ## TEXT CHOSEN = USER INPUT (TEXT STRING)
     print("\n")  ## PRINT SPACE
-    print("How many total number of ELS Search-Terms to search?")
-    
-    ## TEXT CHOSEN = USER INPUT (TEXT STRING)
-    print("\n")  ## PRINT SPACE
-    TextString = input("How many total number of ELS Search-Terms within the selected text?:\n")
+    TextString = input("How many total number of ELS Search-Terms would you like to search for within the selected text?:\n")
 
     ## CONVERT TEXT STRING TO INTEGER
-    NumberOfTextChosen = int(TextString)
+    NumberOfSearchTerms = int(TextString)
     
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print(f"You have chosen to search for {NumberOfTextChosen} ELS Search Terms")
+    print(f"You have chosen to search for {NumberOfSearchTerms} ELS Search Terms")
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
     print("WITHIN FUNCTION:  END FUNCTION #16 - GET USER INPUT - NUMBER OF SEARCH TERMS;")
 
     ## RETURN VARIABLES TO PROGRAM
-    return(NumberOfTextChosen)
+    return(NumberOfSearchTerms)
 
 ## END FUNCTION () #16 - GET USER INPUT - NUMBER OF SEARCH TERMS;

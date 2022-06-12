@@ -1,6 +1,10 @@
 ## BEGIN FUNCTION () #13 - 
 
 def fn_GetListOfFactors(LengthOfTextToSearch):
+
+    """
+    ## MODULE.FUNCTION() #13 - ## RETURNS LIST OF INTEGERS/FACTORS/DIVISORS OF THE LENGTH OF THE SELECTED TEXT
+    """
     
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
@@ -24,7 +28,7 @@ def fn_GetListOfFactors(LengthOfTextToSearch):
 
     ## END FOR LOOP
 
-    ## TEST
+    ## TEST PRINT OUTPUT
     print(f"ListOfFactors = {ListOfFactors}", len(ListOfFactors))
 
     ## TEST PRINT OUTPUT

@@ -2,6 +2,10 @@
 
 def fn_GetUserInput(NumberOfSearchTerms):
 
+    """
+    ## MODULE.FUNCTION() #17 - GET USER INPUT: INPUT DESIRED SEARCH TERMS ListOfSearchTerms, DictOfSearchTerms
+    """
+
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
     print("WITHIN FUNCTION:  BEGIN FUNCTION #17 - GET USER INPUT - ELS SEARCH TERMS;")

@@ -4,6 +4,10 @@ import json
 
 ## FUNCTION () #4 - CONVERT PARSED JSON STRINGS TO DICTIONARIES
 def fn_ConvertJSONStringsToDicts(ListOfJSONStringsParsed, ListOfJSONStringsParsedWithSpaces):
+
+    """
+    ## MODULE.FUNCTION() #4 - CONVERT PARSED JSON STRINGS TO LIST OF DICTS; ## RETURNS ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONStringsParsedWithSpaces
+    """
     
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
