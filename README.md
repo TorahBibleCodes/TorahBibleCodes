@@ -9,7 +9,8 @@ https://github.com/torahbiblecodes
 <br />
 https://stackoverflow.com/users/8911652/torahbiblecodes
 <br />
-https://www.youtube.com/channel/UCNsvtMx4JJRpNzzPq57HCqg
+TWITTER: @TorahBibleCodes https://twitter.com/TorahBibleCodes
+YOUTUBE: @TorahBibleCodes ttps://www.youtube.com/channel/UCNsvtMx4JJRpNzzPq57HCqg
 
 # Known Bugs and Open Issues
 https://github.com/TorahBibleCodes/TorahBibleCodes/issues
@@ -20,7 +21,7 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 
 # Updates
 
-<br />07 / JUNE / 2022
+<br />29 / JANUARY / 2023
 <br />
 <br />DEVELOPMENT UPDATE:
 <br /> BETA DEVELOPMENT PROGRAM (WORK-IN-PROGRESS) UPLOADED; More to come ASAP GOD-willing.
