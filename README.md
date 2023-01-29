@@ -8,6 +8,8 @@ http://www.TorahBibleCodes.com
 https://github.com/torahbiblecodes
 <br />
 https://stackoverflow.com/users/8911652/torahbiblecodes
+<br />
+https://www.youtube.com/channel/UCNsvtMx4JJRpNzzPq57HCqg
 
 # Known Bugs and Open Issues
 https://github.com/TorahBibleCodes/TorahBibleCodes/issues
