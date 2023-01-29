@@ -10,7 +10,7 @@ https://github.com/torahbiblecodes
 https://stackoverflow.com/users/8911652/torahbiblecodes
 <br />
 TWITTER: @TorahBibleCodes https://twitter.com/TorahBibleCodes
-YOUTUBE: @TorahBibleCodes ttps://www.youtube.com/channel/UCNsvtMx4JJRpNzzPq57HCqg
+YOUTUBE: @TorahBibleCodes https://www.youtube.com/channel/UCNsvtMx4JJRpNzzPq57HCqg
 
 # Known Bugs and Open Issues
 https://github.com/TorahBibleCodes/TorahBibleCodes/issues
