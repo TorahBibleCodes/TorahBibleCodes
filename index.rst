@@ -1,8 +1,8 @@
 Welcome to TorahBibleCodes's documentation!
 ===================================
 
-**TorahBibleCodes** (/lu'make/) is a Free, Open-Source Python library
-that creates recipes mixing random ingredients.
+**TorahBibleCodes** is Free, Open-Source Python 
+that allows you to search for Equidistant Letter Sequences in the Hebrew Torah and Bible.
 It allows you to... <https://TorahBibleCodes.com/>`_
 and offers a *simple* and *intuitive* API.
 
