@@ -11,7 +11,11 @@ https://stackoverflow.com/users/8911652/torahbiblecodes
 <br />
 TWITTER: @TorahBibleCodes https://twitter.com/TorahBibleCodes
 <br />
+YOUTUBE: @TorahBibleCodes https://www.youtube.com/@TorahBibleCodes
+<br />
 YOUTUBE: @TorahBibleCodes https://www.youtube.com/channel/UCNsvtMx4JJRpNzzPq57HCqg
+<br />
+GIVESENDGO: @TorahBibleCodes https://www.givesendgo.com/torahbiblecodes
 
 # Known Bugs and Open Issues
 https://github.com/TorahBibleCodes/TorahBibleCodes/issues
@@ -22,14 +26,18 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 
 # Updates
 
-<br />29 / JANUARY / 2023
+<br />11 / APRIL / 2023
 <br />
 <br />DEVELOPMENT UPDATE:
 <br />TWITTER: @TorahBibleCodes https://twitter.com/TorahBibleCodes
+<br />YOUTUBE: @TorahBibleCodes https://www.youtube.com/@TorahBibleCodes
 <br />YOUTUBE: @TorahBibleCodes https://www.youtube.com/channel/UCNsvtMx4JJRpNzzPq57HCqg
 <br /> BETA DEVELOPMENT PROGRAM (WORK-IN-PROGRESS) UPLOADED; More to come ASAP GOD-willing.
 <br />
-<br />Please support our efforts if you can by donating BITCOIN (BTC) to the following address:
+<br />Please support our efforts if you can by donating via GIVESENDGO: 
+<br />https://www.givesendgo.com/torahbiblecodes
+<br />
+<br />OR via BITCOIN (BTC) to the following addresses:
 <br />bc1qzws4zjgzf4wll2mtztsavmyvkg72fnajfff8r7
 
 # Equidistant Letter Sequences (ELS)
