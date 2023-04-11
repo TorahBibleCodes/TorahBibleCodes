@@ -1,5 +1,6 @@
 Welcome to TorahBibleCodes's documentation!
 ===================================
+TEST DEVELOPMENT - BETA
 
 **TorahBibleCodes** is Free, Open-Source Python 
 that allows you to search for Equidistant Letter Sequences in the Hebrew Torah and Bible.
