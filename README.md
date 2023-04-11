@@ -1,9 +1,9 @@
 # TorahBibleCodes
 Torah Bible Codes - Open-Source Python
 
-http://TorahBibleCodes.com
+https://TorahBibleCodes.com
 <br />
-http://www.TorahBibleCodes.com
+https://www.TorahBibleCodes.com
 <br />
 https://github.com/torahbiblecodes
 <br />
