@@ -5,11 +5,11 @@ HOMEPAGE URL: https://TorahBibleCodes.com
 <br />
 https://www.TorahBibleCodes.com
 <br />
-GITHUB: https://github.com/torahbiblecodes
+GITHUB: @TorahBibleCodes https://github.com/torahbiblecodes
 <br />
-READ THE DOCS: https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
+READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
 <br />
-STACKOVERFLOW: https://stackoverflow.com/users/8911652/torahbiblecodes
+STACKOVERFLOW: @TorahBibleCodes https://stackoverflow.com/users/8911652/torahbiblecodes
 <br />
 TWITTER: @TorahBibleCodes https://twitter.com/TorahBibleCodes
 <br />
