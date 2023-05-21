@@ -278,37 +278,39 @@ For any text chosen (e.g. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, or a
 
 # Python Objects - D (DS), DL, D5, D5K, L (LLL), S (SSS), ListOfWords, N (NW), W (DW), ListOfSearchTerms, DictOfSearchTerms, NW4ELS, W4ELS (DW4ELS);
 
-### Run the file "p.py" to see and interact with the "D" Object: Python Dictionary of Verses (with No Spaces) with a 3-digit Tuple Key
+### Run the file "p.py" to see and interact with the following Python Objects:
 
-### Run the file "p.py" to see and interact with the "DS" Object: Python Dictionary of Verses (with Spaces) with a 3-digit Tuple Key
+### "D" Object: Python Dictionary of Verses (with No Spaces) with a 3-digit Tuple Key
 
-### Run the file "p.py" to see and interact with the "DL" Object:  Python Dictionary of Letters with a 4-digit Tuple Key
+### "DS" Object: Python Dictionary of Verses (with Spaces) with a 3-digit Tuple Key
 
-### Run the file "p.py" to see and interact with the "D5" Object:  Python Dictionary of Letters with a 5-digit Tuple Key
+### "DL" Object:  Python Dictionary of Letters with a 4-digit Tuple Key
 
-### Run the file "p.py" to see and interact with the "D5K" Object:  Python Dictionary of 5-digit Tuple Key
+### "D5" Object:  Python Dictionary of Letters with a 5-digit Tuple Key
 
-### Run the file "p.py" to see and interact with the "L" Object:  Python List of Letters of the Selected Text(s)
+### "D5K" Object:  Python Dictionary of 5-digit Tuple Key
 
-### Run the file "p.py" to see and interact with the "LLL" Object:  Python List of Letters of the Selected Text(s) RECALCULATED FOR POSSIBLE BLANK SPACES IN LAST ROW OF 2D MATRIX
+### "L" Object:  Python List of Letters of the Selected Text(s)
 
-### Run the file "p.py" to see and interact with the "S" Object:  Python String of Letters of the Selected Text(s)
+### "LLL" Object:  Python List of Letters of the Selected Text(s) RECALCULATED FOR POSSIBLE BLANK SPACES IN LAST ROW OF 2D MATRIX
 
-### Run the file "p.py" to see and interact with the "SSS" Object:  Python String of Letters of the Selected Text(s) RECALCULATED FOR POSSIBLE BLANK SPACES IN LAST ROW OF 2D MATRIX
+### "S" Object:  Python String of Letters of the Selected Text(s)
 
-### Run the file "p.py" to see and interact with the "ListOfWords" Object:  Python List of Words of the Selected Text(s)
+### "SSS" Object:  Python String of Letters of the Selected Text(s) RECALCULATED FOR POSSIBLE BLANK SPACES IN LAST ROW OF 2D MATRIX
 
-### Run the file "p.py" to see and interact with the "N" Object:  Python List of Numbers for Letters of the Selected Text(s)
+### "ListOfWords" Object:  Python List of Words of the Selected Text(s)
 
-### Run the file "p.py" to see and interact with the "NW" Object:  Python List of Numbers for Words of the Selected Text(s)
+### "N" Object:  Python List of Numbers for Letters of the Selected Text(s)
 
-### Run the file "p.py" to see and interact with the "W" Object:  Python List of Tuples of Words and Each Word's/Letter's Gematria Value
+### "NW" Object:  Python List of Numbers for Words of the Selected Text(s)
 
-### Run the file "p.py" to see and interact with the "DW" Object:  Python Dict of Words and Each Word's/Letter's Gematria Value
+### "W" Object:  Python List of Tuples of Words and Each Word's/Letter's Gematria Value
 
-### Run the file "p.py" to see and interact with the "ListOfSearchTerms" Object:  Python List of Words of the ELS Search-Terms
+### "DW" Object:  Python Dict of Words and Each Word's/Letter's Gematria Value
 
-### Run the file "p.py" to see and interact with the "DictOfSearchTerms" Object:  Python Dictionary of Words of the ELS Search-Terms
+### "ListOfSearchTerms" Object:  Python List of Words of the ELS Search-Terms
+
+### "DictOfSearchTerms" Object:  Python Dictionary of Words of the ELS Search-Terms
 
 
 
