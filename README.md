@@ -67,72 +67,105 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Text%20Only.json
 
 ## 6.) Joshua
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 7.) Judges
 
 ## 8.) I Samuel
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 9.) II Samuel
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 10.) I Kings
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 11.) II Kings
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 12.) Isaiah
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 13.) Jeremiah
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 14.) Ezekiel
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 15.) Hosea
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 16.) Joel
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 17.) Amos
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 18.) Obadiah
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 19.) Jonah
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 20.) Micah
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 21.) Nahum
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 22.) Habakkuk
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 23.) Zephaniah
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 24.) Haggai
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 25.) Zechariah
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 26.) Malachi
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 27.) Psalms
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 28.) Proverbs
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 29.) Job
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 30.) Song of Songs
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 31.) Ruth
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 32.) Lamentations
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 33.) Ecclesiastes
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 34.) Esther
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 35.) Daniel
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 36.) Ezra
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 37.) Nehemiah
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 38.) I Chronicles
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 39.) II Chronicles
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 
 # How to Run the App / Program
