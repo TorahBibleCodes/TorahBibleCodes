@@ -70,6 +70,7 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 7.) Judges
+https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 ## 8.) I Samuel
 https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
