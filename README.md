@@ -173,7 +173,7 @@ https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
 
 READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
 
-# TEST DEVELOPMENT: MOVE TO --> READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
+## TEST DEVELOPMENT (BETA): MOVE TO --> READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
 # Structure of App / Program
 
 <br />After running the Python file p.py, several Python / Pandas Objects are returned to you to interact with and further develop per your needs;
@@ -227,7 +227,7 @@ READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en
 
 
 
-## IN DEVELOPMENT (BETA):
+## TEST DEVELOPMENT (BETA): MOVE TO --> READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
 
 # CENTRAL ELS SEARCH ALGORITHM:
 <br />n, (n + d), (n + 2d), (n + 3d)... (n + (k-1)d)
