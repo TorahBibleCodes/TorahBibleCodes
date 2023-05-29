@@ -136,12 +136,8 @@ https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/
 
 
 # How to Run the App / Program
-<ol>
-  <li>Download and Install Python on your local computer.</li>
-  <li>Go to folder where the TorahBibleCodes files are saved/cloned.</li>
-  <li>Open Command Prompt / Command Line Interface (CLI) - WINDOWS:  SHIFT RIGHT-CLICK --> OPEN COMMAND WINDOW HERE</li>
-  <li>TYPE/RUN:  python p.py; RECOMMENDED FOR INTERACTION WITH DATA OBJECTS TO CONCEPTUALIZE DEVELOPMENT: ipython; %run p.py</li>
-</ol>
+
+READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
 
 
 # Structure of App / Program
