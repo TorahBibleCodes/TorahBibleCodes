@@ -168,8 +168,8 @@ READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en
 # Hebrew Gematria Number Values
 
 
-### א = 1
-### ב = 2
+### 1 = א
+### 2 = ב
 ### 3 = ג
 ### 4 = ד
 ### 5 = ה
