@@ -9,6 +9,8 @@ GITHUB: @TorahBibleCodes https://github.com/torahbiblecodes
 <br />
 READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
 <br />
+ACADEMIA: https://www.academia.edu/104334275
+<br />
 STACKOVERFLOW: @TorahBibleCodes https://stackoverflow.com/users/8911652/torahbiblecodes
 <br />
 TWITTER: @TorahBibleCodes https://twitter.com/TorahBibleCodes
