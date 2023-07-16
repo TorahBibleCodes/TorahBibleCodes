@@ -30,9 +30,14 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 
 # Updates
 
-<br />11 / APRIL / 2023
+<br />16 / JULY / 2023
 <br />
 <br />DEVELOPMENT UPDATE:
+
+<br />POC (BETA) WORKING HEBREW BIBLE RESEARCH TOOLS NOW AVAILABLE FOR DOWNLOAD.
+
+<br />ACADEMIC WHITE PAPER EXPLAINING HOW TORAH BIBLE CODES SOFTWARE WORKS: https://www.academia.edu/104334275
+
 <br />TWITTER: @TorahBibleCodes https://twitter.com/TorahBibleCodes
 <br />YOUTUBE: @TorahBibleCodes https://www.youtube.com/@TorahBibleCodes
 <br />YOUTUBE: @TorahBibleCodes https://www.youtube.com/channel/UCNsvtMx4JJRpNzzPq57HCqg
@@ -190,8 +195,8 @@ READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en
 	<li>Outputs CSV EXCEL file of the 2D Matrix for the selected text(s).</li>
 	<li>Outputs CSV EXCEL file of the Gematria Number values for each word AND letter in the selected text(s)</li>
 	<li>Outputs CSV EXCEL file of the Gematria Number values for each word AND letter in the ELS Search-Terms</li>
-	<li>IN DEVELOPMENT:  Testing of several (best?) ways / algorithms for ELS Search within the text; Currently investigating REGEX, PANDAS, PURE PYTHON LINEAR SEARCH, etc.; Please see and examine the Python / Pandas Data Objects returned to see current capabilities in development.</li>
-	<li>IN DEVELOPMENT:  Outputs CSV EXCEL file of the Data Points for each letter of each of the ELS Search-Terms so that precise, exact positions, shared positions, letter-proximity, statistical probability, etc. of letters will be scientifically verifiable and reproduceable.</li>
+	<li>Outputs CSV EXCEL file of the ELS Search Term Matches (both POSITIVE and NEGATIVE):  Testing of several (best?) ways / algorithms for ELS Search within the text; Currently investigating REGEX, PANDAS, PURE PYTHON LINEAR SEARCH, etc.; Please see and examine the Python / Pandas Data Objects returned to see current capabilities in development.</li>
+	<li>IN DEVELOPMENT:  Outputs CSV EXCEL file of the Data Points for each letter and each word of each of the ELS Search-Terms so that precise, exact positions, shared positions, letter-proximity, statistical probability, etc. of letters will be scientifically verifiable and reproduceable.</li>
 </ol>
 
 <br />We invite you to share your open-source (alternative/multiple?) solutions of further development of this open-source program (e.g. add-ons, additional features, functionalities, GUIs, etc.), as well as scientific research using these software research tools with the community to allow confirmation of your discoveries and data, which will lead to further shared advancement and mutual benefit for us all

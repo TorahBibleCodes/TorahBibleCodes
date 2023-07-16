@@ -5,7 +5,7 @@ import math
 def fn_GetMatchesPerIntegerValue(NW4ELS, NumpyArrayOfNumberValuesOfEntireText):
 
     """
-    ## MODULE.FUNCTION() #19 - 
+    ## MODULE.FUNCTION() #19 - RETURNS: DictOfMatches4ELS
     """
 
     ## TEST PRINT OUTPUT
@@ -29,7 +29,7 @@ def fn_GetMatchesPerIntegerValue(NW4ELS, NumpyArrayOfNumberValuesOfEntireText):
         ## LetterCounter = 0 ## FOR 0-BASED LIST 
 
         ## FOUNDATION FOR CENTRAL SEARCH ALGORITHM: 
-        ## 1.) FIND ALL MATCHES OF FIRST LETTER ONLY:
+        ## 1.) FIND ALL MATCHES OF FIRST LETTER ONLY OF EACH ELS:
         ## 2.) FOR EACH INDEX POSITION n:
         ## 3.) CHECK FOR EACH SKIP DISTANCE d THAT VALUES RETRIEVED FOR EACH ELS INDEX POSITION n ARE EQUAL TO VALUE OF THE ELS: [40, 300, 10, 8] ====== [ח, י, ש, מ] ====== [מ, ש, י, ח]
         

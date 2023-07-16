@@ -5,7 +5,7 @@ import numpy as np
 def fn_NumpyArrayOfNumberValuesCreate(N):
 
     """
-    ## MODULE.FUNCTION() #18 - 
+    ## MODULE.FUNCTION() #18 - RETURNS: NumpyArrayOfNumberValuesOfEntireText
     """
 
     ## TEST PRINT OUTPUT

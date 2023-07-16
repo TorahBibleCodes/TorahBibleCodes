@@ -1,7 +1,7 @@
 ## IMPORT MODULES
 
 ## FUNCTION () #98 - FILE NAMES CREATE
-def fn_FileNamesCreate(XW, YH, NumberOfTextChosen):
+def fn_FileNamesCreate(XW, YH, NumberOfTextChosen, NumberOfCodexChosen):
 
     """
     ## MODULE.FUNCTION() #98 - 
@@ -16,6 +16,14 @@ def fn_FileNamesCreate(XW, YH, NumberOfTextChosen):
 
     YHString = str(YH)
 
+    ## BEGIN MATCH CASE
+    match NumberOfCodexChosen:
+
+        case 1:
+            CodexTitle = "Koren"
+        case 2:
+            CodexTitle = "Leningrad"
+    ## END MATCH CASE
    
     ## BEGIN IF ELSE BLOCK
 
@@ -148,24 +156,24 @@ def fn_FileNamesCreate(XW, YH, NumberOfTextChosen):
     elif NumberOfTextChosen == 43:
         TextTitle = "TANACH_HebrewBible"
          
-    
+
     ## ELSE ALL OTHER CASES (NEVER CALLED)
     else:
         pass
 
-
     ## CREATE DYNAMIC FILE NAME FOR CSV . XLSX FILES
-    FileNameForMatrixXLSX = f"USER_FILE_Matrix2D_{NumberOfTextChosen}{TextTitle}_{XWString}x{YHString}.xlsx"
-    FileNameForMatrixCSV = f"USER_FILE_Matrix2D_{NumberOfTextChosen}{TextTitle}_{XWString}x{YHString}.csv"
-    FileNameForGematriaTexts = f"USER_FILE_WordsOfSelectedTexts_LetterPositions_GematriaValues_{NumberOfTextChosen}{TextTitle}_{XWString}x{YHString}.csv"
-    FileNameForGematriaELSs = f"USER_FILE_WordsOfELSs_GematriaValues_{NumberOfTextChosen}{TextTitle}_{XWString}x{YHString}.csv"
-   
+    FileNameForMatrixXLSX = f"USER_FILE_Matrix2D_{CodexTitle}_{NumberOfTextChosen}{TextTitle}_{XWString}x{YHString}.xlsx"
+    FileNameForMatrixCSV = f"USER_FILE_Matrix2D_{CodexTitle}_{NumberOfTextChosen}{TextTitle}_{XWString}x{YHString}.csv"
+    FileNameForGematriaTexts = f"USER_FILE_WordsOfSelectedTexts_LetterPositions_GematriaValues_{CodexTitle}_{NumberOfTextChosen}{TextTitle}_{XWString}x{YHString}.csv"
+    FileNameForELSMatchesDataSummary = f"USER_FILE_WordsOfELSs_ELSMatches_DATASUMMARY_{CodexTitle}_{NumberOfTextChosen}{TextTitle}_{XWString}x{YHString}.csv"
+    FileNameForELSMatchesPositive = f"USER_FILE_WordsOfELSs_ELSMatches_POSITIVE_ALL_{CodexTitle}_{NumberOfTextChosen}{TextTitle}_{XWString}x{YHString}.csv"
+    FileNameForELSMatchesNegative = f"USER_FILE_WordsOfELSs_ELSMatches_NEGATIVE_ALL_{CodexTitle}_{NumberOfTextChosen}{TextTitle}_{XWString}x{YHString}.csv"
    
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
     print("WITHIN FUNCTION:  END FUNCTION #98 - FILE NAMES CREATE")
 
     ## RETURN VARIABLES TO PROGRAM
-    return(FileNameForMatrixXLSX, FileNameForMatrixCSV, FileNameForGematriaTexts, FileNameForGematriaELSs)
+    return(FileNameForMatrixXLSX, FileNameForMatrixCSV, FileNameForGematriaTexts, FileNameForELSMatchesDataSummary,  FileNameForELSMatchesPositive,  FileNameForELSMatchesNegative)
 
 ## END FUNCTION () #98- FILE NAMES CREATE

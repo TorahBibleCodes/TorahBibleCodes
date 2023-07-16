@@ -1,0 +1,39 @@
+## IMPORT MODULES
+
+## FUNCTION () #8E - DATA OBJECTS CREATE
+
+def fn_DataObjectsCreate(DWT):
+
+    """
+    ## MODULE.FUNCTION() #8E - DATA OBJECTS CREATE; ## RETURNS DWTK == DICT OF DWT KEYS
+    """
+    
+    ## TEST PRINT OUTPUT
+    print("\n")  ## PRINT SPACE
+    print("WITHIN FUNCTION:  BEGIN FUNCTION #8E - DATA OBJECTS CREATE")
+    
+    ## DECLARE VARIABLES 
+    WordCounter = 1
+    DWTK = {}
+
+    ## BEGIN FOR LOOP
+    ## FOR EACH KEY IN DICTIONARY "D5"...
+    for EachKey in DWT.keys(): ## EACH VERSE
+        
+        ## ADD EACH CURRENT TOTAL-WORD-COUNT-VALUE-INDEX-POSITION-IN-DWT (I.E. EACH KEY) TO BE VALUE OF DWTK WITH THE KEY OF DWTK THE SAME VALUE
+        DWTK[WordCounter] = EachKey
+
+        ## INCREMENT WORD COUNTER
+        WordCounter += 1
+       
+    ## END FOR LOOP
+
+    ## TEST PRINT OUTPUT
+    print("\n")  ## PRINT SPACE
+    print("WITHIN FUNCTION:  END FUNCTION #8E - DATA OBJECTS CREATE")
+
+    ## RETURN VARIABLES TO PROGRAM
+    return(DWTK) 
+
+## END FUNCTION () #8E - DATA OBJECTS CREATE
+

@@ -20,7 +20,7 @@ def fn_DataObjectsCreate(D):
     D5 = {} ## EMPTY DICTIONARY TO HOLD KEYS + VERSES  
     L = [] ## EMPTY LIST TO HOLD LIST OF LETTERS
     DictOfLetterObjects = {} ## EMPTY DICTIONARY TO HOLD KEY OF LETTER OBJECT: DICTIONARY OF LETTER OBJECTS
-    
+
     VerseLetterCounter = 1
     TotalLetterCounter = 1
     
@@ -60,8 +60,9 @@ def fn_DataObjectsCreate(D):
             ## CREATE DICTIONARY OF LETTERS - 5-DIGIT TUPLE-KEY
             D5[key5] = letter
 
+            ## ADD KEY FOR DS FOR EACH LETTER TO LETTER OBJECT
             ## INITIALIZE / CREATE INSTANCE OF CLASS: LETTER OBJECT ## ALL OTHER VALUES SET TO DEFAULT NONE
-            lo = LO(Letter=letter, LetterPositionIndex=TotalLetterCounter, LetterCoordinatesD5K=key5, LetterCoordinatesDL=key4)
+            lo = LO(Letter=letter, LetterPositionIndex=TotalLetterCounter, LetterCoordinatesD5K=key5, LetterCoordinatesDL=key4, VerseCoordinatesDS=key)
 
             ## CREATE KEY IN DICT + ADD INSTANCE OF EACH LETTER OBJECT CLASS OF ENTIRE TEXT
             DictOfLetterObjects[TotalLetterCounter] = lo

@@ -4,7 +4,7 @@ import csv
 
 ## DECLARE VARIABLES
 
-## headers = ["Word", "Gematria Number Values"]
+headers = ["WordCoordinatesDWTK", "Word in Text", "Letter Positions (n)", "(Word#, [Gematria LetterValues], Gematria WordTotal)"]
 
 ## rows = []
 
@@ -20,7 +20,7 @@ def fn_WriteOutputToFile(W, FileNameForGematria):
     with open(FileNameForGematria,'w', encoding="utf-8", newline='') as f:
 
         f_csv = csv.writer(f, delimiter=';')
-        ## f_csv.writerow(headers) ## HEADERS OPTIONAL - REMOVE COMMENTS BEFORE f_csv.writerow(headers) IF YOU WANT CSV FILE TO CONTAIN HEADERS
+        f_csv.writerow(headers) ## HEADERS OPTIONAL - REMOVE COMMENTS BEFORE f_csv.writerow(headers) IF YOU WANT CSV FILE TO CONTAIN HEADERS
         f_csv.writerows(W)
 
     ## return() - RETURNS NOTHING

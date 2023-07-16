@@ -2,7 +2,7 @@
 
 ## DEFINE FUNCTION
 ## FUNCTION () #11B - 
-def fn_AssignWordNumberToEachLetterObject(DLO, DW):
+def fn_AssignWordNumberToEachLetterObject(DLO, DW, DWTK):
 
     """
     ## MODULE.FUNCTION() #11B - 
@@ -23,6 +23,9 @@ def fn_AssignWordNumberToEachLetterObject(DLO, DW):
             if EachIndexPosition == DLO[EachIndexPosition].LetterPositionIndex:
 
                 DLO[EachIndexPosition].WordNumber = key
+
+                ## TEST
+                DLO[EachIndexPosition].WordCoordinatesDWT = DWTK[key]
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE

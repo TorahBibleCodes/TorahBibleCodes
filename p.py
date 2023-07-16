@@ -4,11 +4,19 @@
 import numpy as np
 import pandas as pd
 ## import matplotlab.pyplot as plt
-## import tkinter as tk
+import tkinter as tk
 
-import mod_1_GetUserInput_TextToSearch ## MODULE.FUNCTION() #1 - GET USER INPUT; CHOOSE TEXT TO SEARCH; ## RETURNS INTEGER
-import mod_2_TextFileOpen ## MODULE.FUNCTION() #2 - TEXT FILE OPEN; ## RETURNS TEXT FILE STRING
-import mod_3A_TextFilePreprocess ## MODULE.FUNCTION() #3A - TEXT FILE PREPROCESS; ## RETURNS ListOfJSONStringsParsed, ListOfJSONStringsParsedWithSpaces; ## CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE ## RETURNS TextParsedWithSpaces, TextParsedNoSpaces
+import mod_0_GetUserInput_CodexToSearch ## MODULE.FUNCTION() #0 - GET USER INPUT; CHOOSE CODEX TO SEARCH; ## RETURNS INTEGER
+import mod_1A_GetUserInput_TextToSearch_Koren ## MODULE.FUNCTION() #1A - GET USER INPUT; CHOOSE TEXT TO SEARCH; ## RETURNS INTEGER
+import mod_1B_GetUserInput_TextToSearch_Leningrad ## MODULE.FUNCTION() #1B - GET USER INPUT; CHOOSE TEXT TO SEARCH; ## RETURNS INTEGER
+import mod_2A_TextFileOpen_Koren ## MODULE.FUNCTION() #2A - TEXT FILE OPEN; ## RETURNS TEXT FILE STRING
+import mod_2B_TextFileOpen_Leningrad ## MODULE.FUNCTION() #2B - TEXT FILE OPEN; ## RETURNS TEXT FILE STRING
+import mod_3A1_TextFilePreprocess_Koren_ExtractStrings ## MODULE.FUNCTION() #3A1 - TEXT FILE PREPROCESS; ## RETURNS ListOfStringsParsed, ListOfStringsParsedWithSpaces; ## CALLS MODULE.FUNCTION() #3A - TEXT FILE PARSE ## RETURNS TextParsedWithSpaces, TextParsedNoSpaces
+## import mod_3A2_TextFilePreprocess_Koren_ExtractKeysAndWords ## MODULE.FUNCTION #3A2 - 
+import mod_3A3_TextFilePreprocess_Koren_FixKeys ## MODULE.FUNCTION #3A3 - 
+import mod_3A4_TextFilePreprocess_Koren_FixLines ## MODULE.FUNCTION #3A4 - 
+import mod_3AA_TextFileParse_Koren ## MODULE.FUNCTION() #3AA - TEXT FILE PARSE
+import mod_3B_TextFilePreprocess_Leningrad ## MODULE.FUNCTION() #3B - TEXT FILE PREPROCESS; ## RETURNS ListOfJSONStringsParsed, ListOfJSONStringsParsedWithSpaces; ## CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE ## RETURNS TextParsedWithSpaces, TextParsedNoSpaces
 import mod_4_ConvertJSONStringsToDicts ## MODULE.FUNCTION() #4 - CONVERT PARSED JSON STRINGS TO LIST OF DICTS; ## RETURNS ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONStringsParsedWithSpaces
 import mod_5_GetNumberOfTextChosen ## MODULE.FUNCTION() #5 - GET NUMBER OF TEXT CHOSEN ## RETURNS TUPLE OF INTEGER NUMBER OF TEXT CHOSEN
 import mod_6_ZippedTupleCreate ## MODULE.FUNCTION() #6 - CREATE ZIPPED TUPLE OF (BOOK NUMBER, BOOK NAME; ## RETURNS ZippedTupleNoSpaces, ZippedTupleWithSpaces
@@ -17,6 +25,7 @@ import mod_8A_DataObjectsCreate ## MODULE.FUNCTION() #8A - DATA OBJECTS CREATE; 
 import mod_8B_DataObjectsCreate ## MODULE.FUNCTION() #8B - DATA OBJECTS CREATE; ## RETURNS LIST OF WORDS
 import mod_8C_DataObjectsCreate ## MODULE.FUNCTION() #8C - DATA OBJECTS CREATE; ## RETURNS
 import mod_8D_DataObjectsCreate ## MODULE.FUNCTION() #8D - DATA OBJECTS CREATE; ## RETURNS D5K == DICT OF D5 KEYS
+import mod_8E_DataObjectsCreate ## MODULE.FUNCTION() #8E - DATA OBJECTS CREATE; ## RETURNS DWTK == DICT OF DWT KEYS
 
 ## MOD_9A and MOD_9B CALLED MULTIPLE TIMES BY VARIOUS DATA OBJECTS; ## MOD_9B ALWAYS CALLS MOD_9A;
 import mod_9A_GetNumberValues4Letters ## MODULE.FUNCTION() #9A - GET NUMBER VALUE OF EACH LETTER IN STRING-OF-LETTERS; ## RETURNS ListOfNumberValues4Letters
@@ -39,6 +48,19 @@ import mod_17_GetUserInput_ELSSearchTerms ## MODULE.FUNCTION() #17 - GET USER IN
 import mod_18_NumpyArrayOfNumberValuesCreate ## MODULE.FUNCTION() #18 - 
 import mod_19_GetMatchesPerIntegerValue ## MODULE.FUNCTION() #19 - RETURNS MATCHES FOR EACH LETTER IN EACH WORD OF ELS SEARCH TERM WITHIN TEXT
 import mod_20_DictOfELSObjectsCreate ## MODULE.FUNCTION() #20 - CREATE DICTIONARY OF ELS SEARCH OBJECTS: 
+import mod_21_PandasObjectsCreate ## MODULE.FUNCTION() #21 - 
+import mod_22_ELSSearchPositive ## MODULE.FUNCTION() - RETURNS ELS MATCHES WITH POSITIVE SKIP DISTANCES d
+import mod_23_ELSSearchNegative ## MODULE.FUNCTION() - RETURNS ELS MATCHES WITH NEGATIVE SKIP DISTANCES d
+import mod_24_AddSearchResultsToDELSO ## MODULE.FUNCTION() - RETURNS DELSO
+import mod_25_UpdateW4ELS ## MODULE.FUNCTION() - RETURNS W4ELS
+import mod_26_UpdateW ## MODULE.FUNCTION() - RETURNS W
+import mod_26_GatherData4ELSMatches ## MODULE.FUNCTION() - RETURNS
+
+## TEST DEVELOPMENT MODULES
+## import mod_90_AddELSMatchesToLetterObjects ## MODULE.FUNCTION() - RETURNS
+
+## MODULES FOR COMPARISON OF CODICES
+## import mod_97_CompareCodices ## MODULE.FUNCTION() - RETURNS
 
 ## MODULES FOR FINAL STEPS OF PROGRAM TO OUTPUT DATA AS CSV AND EXCEL FILES
 import mod_98_FilesNamesCreate ## MODULE.FUNCTION()
@@ -46,13 +68,14 @@ import mod_99_Matrix2DOfLettersCreate ## MODULE.FUNCTION()
 import mod_99_WriteOutputToFileXLSX_2DMatrix ## MODULE.FUNCTION() -
 import mod_99_WriteOutputToFileCSV_2DMatrix ## MODULE.FUNCTION()
 import mod_99_WriteOutputToFileCSV_WordsAndGematriaValues ## MODULE.FUNCTION() #99 - 
+import mod_99_WriteOutputToFileCSV_ELSMatches_DATASUMMARY ## MODULE.FUNCTION() #99 - 
+import mod_99_WriteOutputToFileCSV_ELSMatches ## MODULE.FUNCTION() #99 - 
 
 ## TEST DEVELOPMENT
 import mod_90_ConvertELSQueryToRegex ## MODULE.FUNCTION() - RETURNS ListOfRegex4ELSSearchTerms
 import mod_91_SearchForELSSearchTerms ## MODULE.FUNCTION() - RETURNS 
 ## import mod_100_GetListOfFirstsAndLasts4ELS ## MODULE.FUNCTION() - RETURNS LIST OF TUPLES FOR EACH WORD OF ELS SEARCH TERMS
 
-## import mod_100XXX_Test
 ## END IMPORT MODULES
 
 ## BEGIN IMPORT CLASSES
@@ -84,8 +107,27 @@ while IsGameOver == False and IsTextSelected == False:
     ## BEGIN CALL MODULES.FUNCTIONS()
 
     ## GET USER INPUT
-    ## CALL MODULE.FUNCTION() #1 - GET USER INPUT 1 - CHOOSE TEXT TO SEARCH
-    NumberOfTextChosen = mod_1_GetUserInput_TextToSearch.fn_GetUserInput()
+    ## CALL MODULE.FUNCTION() #1A - GET USER INPUT 1A - CHOOSE CODEX TO SEARCH
+    NumberOfCodexChosen = mod_0_GetUserInput_CodexToSearch.fn_GetUserInput()
+
+    ## BEGIN MATCH CASE - DEAL WITH CHOICE OF TEXT(S)
+    match NumberOfCodexChosen:
+
+        ## KOREN CODEX
+        case 1:
+        
+            ## GET USER INPUT
+            ## CALL MODULE.FUNCTION() #1A - GET USER INPUT 1A - CHOOSE TEXT TO SEARCH - KOREN CODEX
+            NumberOfTextChosen = mod_1A_GetUserInput_TextToSearch_Koren.fn_GetUserInput()
+        
+        ## LENINGRAD CODEX
+        case 2:
+
+            ## GET USER INPUT
+            ## CALL MODULE.FUNCTION() #1B - GET USER INPUT 1B - CHOOSE TEXT TO SEARCH - LENINGRAD CODEX
+            NumberOfTextChosen = mod_1B_GetUserInput_TextToSearch_Leningrad.fn_GetUserInput()
+            
+    ## END MATCH CASE - DEAL WITH CHOICE OF TEXT(S)
 
     ## BEGIN IF/ELIF/ELSE BLOCK
     ## IF USER CHOOSES NUMBER 0 TO QUIT PROGRAM
@@ -103,38 +145,81 @@ while IsGameOver == False and IsTextSelected == False:
 
         ## THEN THE TEXT FILE(S) SELECTED WILL BE PRE-PROCESSED AND PARSED...
 
-        ## CALL MODULE.FUNCTION() #2 - TEXT FILE OPEN
-        JSON = mod_2_TextFileOpen.fn_TextFileOpen(NumberOfTextChosen)
+        ## BEGIN MATCH CASE - DEAL WITH CHOICE OF CODEX
+        match NumberOfCodexChosen:
 
-        ## CALL MODULE.FUNCTION() #3A - TEXT FILE PREPROCESS; CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE
-        ListOfJSONStringsParsed, ListOfJSONStringsParsedWithSpaces = mod_3A_TextFilePreprocess.fn_TextFilePreprocess(JSON)
+            ## KOREN CODEX
+            case 1:
 
-        ## CALL MODULE.FUNCTION() #4 - CONVERT PARSED JSON STRINGS TO DICTIONARIES; RETURN LIST OF DICTIONARIES
-        ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONStringsParsedWithSpaces = mod_4_ConvertJSONStringsToDicts.fn_ConvertJSONStringsToDicts(ListOfJSONStringsParsed, ListOfJSONStringsParsedWithSpaces)
+                ## CALL MODULE.FUNCTION() #2A - TEXT FILE OPEN
+                TextKoren = mod_2A_TextFileOpen_Koren.fn_TextFileOpen(NumberOfTextChosen)
 
-        ## CALL MODULE.FUNCTION() #5 - GET NUMBER OF TEXT CHOSEN
-        SearchTextChosen = mod_5_GetNumberOfTextChosen.fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed)
+                ## CALL MODULE.FUNCTION() #3A1 - TEXT FILE PREPROCESS - EXTRACT STRINGS (STRING OR TUPLE); ## CALLS MODULE.FUNCTION() #3A2
+                ListOfTupleKeysToFix, ListOfWordsInLine = mod_3A1_TextFilePreprocess_Koren_ExtractStrings.fn_ExtractStrings(TextKoren)
 
-        ## CALL MODULE.FUNCTION() #6 - ZIPPED TUPLE(S) CREATE
-        ZippedTupleNoSpaces, ZippedTupleWithSpaces = mod_6_ZippedTupleCreate.fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONStringsParsedWithSpaces, SearchTextChosen)
+                ## CALL MODULE.FUNCTION() #3A3 - TEXT FILE PREPROCESS - FIX KEYS (DOUBLE INSTANCES WITH VERSE SPLIT BETWEEN THE TWO LINES)
+                ListOfTupleKeysForKoren = mod_3A3_TextFilePreprocess_Koren_FixKeys.fn_FixKeys(ListOfTupleKeysToFix)
 
-        ## THEN SOME INITIAL (AND DERIVATIVE) DATA OBJECTS WILL BE CREATED...
+                ## CALL MODULE.FUNCTION() #3A4 - TEXT FILE PREPROCESS - FIX LINES / VERSES (DOUBLE INSTANCES WITH VERSE SPLIT BETWEEN THE TWO LINES)
+                DVK = mod_3A4_TextFilePreprocess_Koren_FixLines.fn_FixLines(ListOfTupleKeysForKoren, ListOfWordsInLine)
 
-        ## CALL MODULE.FUNCTION() #7 - DICTIONARY OF VERSES CREATE - RETURNS 1.) DICTIONARY OF VERSES WITH NO SPACES; 2.) DICTIONARY OF VERSES WITH SPACES
-        D, DS = mod_7_DictionaryOfVersesCreate.fn_DictionaryOfVersesCreate(ZippedTupleNoSpaces, ZippedTupleWithSpaces)
+                ## CALL MODULE.FUNCTION() #3AA - TEXT FILE PARSE - PARSE ## (Koren DVKH ~ DS Leningrad); (Koren DVKHS ~ DS Leningrad)
+                LW4AV, DVKH, DVKHS, VerseCountTotal, WordCountTotal, LetterCountTotal = mod_3AA_TextFileParse_Koren.fn_TextFileParse(DVK)
+                
+                ## TODO TESTHANDLE LW4AV ABOVE
+
+                ## TODO CREATE MODULE.FUNCTION(): CREATE TUPLE OF ONE INTEGER ONLY FOR SEARCH TEXT CHOSEN
+                x = []
+                x.append(NumberOfCodexChosen)
+                SearchTextChosen = tuple(x)
+
+                ## AFTER CHOICE OF CODEX + PARSING TEXT
+                ## THEN SOME INITIAL (AND DERIVATIVE) DATA OBJECTS WILL BE CREATED...
+
+                ## INTEGRATE KOREN DICTIONARIES INTO OJBECTS: D AND DS
+                D, DS = DVKH, DVKHS
+
+            ## LENINGRAD CODEX
+            case 2:
+
+                ## CALL MODULE.FUNCTION() #2B - TEXT FILE OPEN
+                JSON = mod_2B_TextFileOpen_Leningrad.fn_TextFileOpen(NumberOfTextChosen)
+
+                ## CALL MODULE.FUNCTION() #3B - TEXT FILE PREPROCESS; CALLS MODULE.FUNCTION() #3B - TEXT FILE PARSE
+                ListOfJSONStringsParsed, ListOfJSONStringsParsedWithSpaces = mod_3B_TextFilePreprocess_Leningrad.fn_TextFilePreprocess(JSON)
+
+                ## CALL MODULE.FUNCTION() #4 - CONVERT PARSED JSON STRINGS TO DICTIONARIES; RETURN LIST OF DICTIONARIES
+                ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONStringsParsedWithSpaces = mod_4_ConvertJSONStringsToDicts.fn_ConvertJSONStringsToDicts(ListOfJSONStringsParsed, ListOfJSONStringsParsedWithSpaces)
+
+                ## CALL MODULE.FUNCTION() #5 - GET NUMBER OF TEXT CHOSEN
+                SearchTextChosen = mod_5_GetNumberOfTextChosen.fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed)
+
+                ## CALL MODULE.FUNCTION() #6 - ZIPPED TUPLE(S) CREATE
+                ZippedTupleNoSpaces, ZippedTupleWithSpaces = mod_6_ZippedTupleCreate.fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONStringsParsedWithSpaces, SearchTextChosen)
+
+                ## AFTER CHOICE OF CODEX + PARSING TEXT
+                ## THEN SOME INITIAL (AND DERIVATIVE) DATA OBJECTS WILL BE CREATED...
+
+                ## CALL MODULE.FUNCTION() #7 - DICTIONARY OF VERSES CREATE - RETURNS 1.) DICTIONARY OF VERSES WITH NO SPACES; 2.) DICTIONARY OF VERSES WITH SPACES
+                D, DS = mod_7_DictionaryOfVersesCreate.fn_DictionaryOfVersesCreate(ZippedTupleNoSpaces, ZippedTupleWithSpaces)
+
+        ## END MATCH CASE - DEAL WITH CHOICE OF CODEX
 
         ## CREATE DATA OBJECTS + CREATE DICTIONARY OF CUSTOM LETTER OBJECTS (DLO)
         ## CALL MODULE.FUNCTION() #8A - DATA OBJECTS CREATE - RETURNS 1.) STRING OF LETTERS; 2.) LIST OF LETTERS; 3.) DICT OF LETTERS WITH 4-DIGIT TUPLE KEY; 4.) DICT OF LETTERS WITH 5-DIGIT TUPLE KEY; 5.) DICT OF INSTANCES OF LETTER OBJECTS
         S, L, DL, D5, DLO = mod_8A_DataObjectsCreate.fn_DataObjectsCreate(D)
 
         ## CALL MODULE.FUNCTION() #8B - DATA OBJECTS CREATE - RETURNS LIST OF [1.) WORD # IN TEXT; 2.) GEMATRIA VALUES FOR EACH LETTER; 3.) GEMATRIA VALUE FOR ENTIRE WORD]
-        LW = mod_8B_DataObjectsCreate.fn_DataObjectsCreate(DS) ## RETURNS ListOfWords
+        LW, LNWEV, DWV, DWT = mod_8B_DataObjectsCreate.fn_DataObjectsCreate(DS) ## RETURNS ListOfWords, ListOfNumbersOfWordsEachVerse, DictionaryOfWordsEachVerse
 
         ## CALL MODULE.FUNCTION() #8C - DATA OBJECTS CREATE - RETURNS 
         ListOfIndexes4LettersInEachWord = mod_8C_DataObjectsCreate.fn_DataObjectsCreate(LW)
 
         ## CALL MODULE.FUNCTION() #8D - DATA OBJECTS CREATE - RETURNS DICT OF D5 KEYS AS VALUES WITH 1-INDEXED KEY FOR # OF LETTERS IN TEXT
         D5K = mod_8D_DataObjectsCreate.fn_DataObjectsCreate(D5)
+
+        ## CALL MODULE.FUNCTION() #8E - DATA OBJECTS CREATE - RETURNS DICT OF DWT KEYS AS VALUES WITH 1-INDEXED KEY FOR # OF WORDS IN TEXT
+        DWTK = mod_8E_DataObjectsCreate.fn_DataObjectsCreate(DWT)
 
         ## CALL MODULE.FUNCTION() #9A - GET NUMBER VALUE FOR LETTERS - RETURNS LIST OF NUMBER VALUES FOR EACH LETTER OF STRING
         N = mod_9A_GetNumberValues4Letters.fn_GetNumberValues(S) ## RETURNS ListOfNumberValues4Letters
@@ -157,10 +242,10 @@ while IsGameOver == False and IsTextSelected == False:
 
         ## 1ST TIME MODULE.FUNCTION() #11 IS CALLED
         ## CALL MODULE.FUNCTION() #11 - DATA OBJECT CREATE - RETURNS TUPLE OF WORDS WITH EACH WORD'S GEMATRIA NUMBER VALUE
-        W , DW = mod_11_TupleOfWordsAndGematriaValuesCreate.fn_TupleOfWordsAndGematriaValuesCreate(LW, NW, ListOfIndexesCustom, ListOfIndexes4LettersInEachWord)
+        W, DW = mod_11_TupleOfWordsAndGematriaValuesCreate.fn_TupleOfWordsAndGematriaValuesCreate(LW, NW, ListOfIndexesCustom, ListOfIndexes4LettersInEachWord)
 
         ## CALL MODULE.FUNCTION() ## 11B-- ASSIGN WORD NUMBER TO EACH LETTER OBJECT IN SELECT TEXT
-        DLO = mod_11B_AssignWordNumberToEachLetterObject.fn_AssignWordNumberToEachLetterObject(DLO, DW) 
+        DLO = mod_11B_AssignWordNumberToEachLetterObject.fn_AssignWordNumberToEachLetterObject(DLO, DW, DWTK) 
 
         ## CREATE MATCH PER LETTER GEMATRIA NUMBER VALUE
         ## NPA = np.where(NumpyArrayOfNumberValuesOfEntireText==2) ## RETURN TUPLE OF MATCHES FOR LETTER BET ב
@@ -198,15 +283,93 @@ while IsGameOver == False and IsTextSelected == False:
         ## CALL MODULE.FUNCTION() #17 - GET USER INPUT: INPUT OF SPECIFIED SEARCH TERMS
         ListOfSearchTerms, DictOfSearchTerms = mod_17_GetUserInput_ELSSearchTerms.fn_GetUserInput(NumberOfSearchTerms)
 
+        ###########################################
         ## 2ND TIME MODULE.FUNCTION() #9B IS CALLED
-        ## CALL MODULE.FUNCTION() #9B - GET NUMBER VALUE - RETURNS LIST OF NUMBER VALUES FOR EACH LETTER OF STRING
-        nw = mod_9B_GetNumberValues4Words.fn_GetNumberValues(ListOfSearchTerms) ## CALLS MODULE.FUNCTION() #9A; ## RETURNS LIST OF TUPLES OF GEMATRIA VALUES FOR ('WORD', [L,E,T,T,E,R,S], SUM)
+        ## CALL MODULE.FUNCTION() #9B - GET NUMBER VALUE FOR WORDS - RETURNS LIST OF TUPLES OF NUMBER VALUES FOR EACH LETTER OF STRING
+        NW4ELS = mod_9B_GetNumberValues4Words.fn_GetNumberValues(ListOfSearchTerms) ## CALLS MODULE.FUNCTION() #9A; ## RETURNS LIST OF TUPLES OF GEMATRIA VALUES FOR ('WORD', [L,E,T,T,E,R,S], SUM)
+
+        ## 2ND TIME MODULE.FUNCTION() #10 IS CALLED
+        ## CALL MODULE.FUNCTION() #10 - CREATE LIST OF CUSTOM INDEXES NON-0-INDEXED / 1-INDEXED RETURNS LIST OF CUSTOM INDEXES
+        ListOfIndexesCustom = mod_10_ListOfIndexesCustomCreate.fn_ListOfIndexesCustomCreate(ListOfSearchTerms)
+
+        ## 2ND TIME MODULE.FUNCTION() #11 IS CALLED
+        ## CALL MODULE.FUNCTION() #11 - DATA OBJECT CREATE - RETURNS TUPLE OF WORDS WITH EACH WORD'S GEMATRIA NUMBER VALUE
+        W4ELS, DW4ELS = mod_11_TupleOfWordsAndGematriaValuesCreate.fn_TupleOfWordsAndGematriaValuesCreate(ListOfSearchTerms, NW4ELS, ListOfIndexesCustom, ListOfIndexes4LettersInEachWord=[]) ## PASS EMPTY LIST FOR ELSs B/C NO INDEX POSITIONS FOR THESE
         
+        ## CALL MODULE.FUNCTION() #18 ## TODO: CREATE SEPARATE MODULE TO CONTAIN THIS ONE NUMPY FUNCTION
+        ## CREATE NUMPY ARRAY OF NUMBER VALUES
+        NPANV = mod_18_NumpyArrayOfNumberValuesCreate.fn_NumpyArrayOfNumberValuesCreate(N) ## RETURNS: NumpyArrayOfNumberValuesOfEntireText
+
+        ## CALL MODULE.FUNCTION() #19- DATA OBJECT CREATE - RETURNS DICT OF MATCHES FOR EACH FIRST LETTER OF EACH ELS SEARCH TERM
+        DictOfMatches4ELS = mod_19_GetMatchesPerIntegerValue.fn_GetMatchesPerIntegerValue(NW4ELS, NPANV)
+
+        ## CREATE ELS OBJECTS - CREATE DICTIONARY OF ELS [USER-SEARCH-TERM] OBJECTS
+        ## CALL MODULE.FUNCTION() #20 - DATA OBJECT CREATE - RETURNS DICT OF ELS OBJECTS (DELSO)
+        DELSO = mod_20_DictOfELSObjectsCreate.fn_DictOfELSObjectsCreate(DictOfMatches4ELS)
+
+        ## 3RD TIME MODULE.FUNCTION() #10 IS CALLED
+        ## CALL MODULE.FUNCTION() #10 - CREATE LIST OF CUSTOM INDEXES NON-0-INDEXED / 1-INDEXED RETURNS LIST OF CUSTOM INDEXES
+        ListOfIndexesCustomL = mod_10_ListOfIndexesCustomCreate.fn_ListOfIndexesCustomCreate(L)
+
+        ## 4TH TIME MODULE.FUNCTION() #10 IS CALLED
+        ## CREATE NEW INDEX TO ACCOUNT FOR THE EXTRA SPACES OF LAST LINE IF USER CHOOSES XW/#COLUMNS THAT IS NOT PERFECT FACTOR/DIVISO
+        ## CALL MODULE.FUNCTION() #10 - CREATE LIST OF CUSTOM INDEXES NON-0-INDEXED / 1-INDEXED RETURNS LIST OF CUSTOM INDEXES
+        ListOfIndexesCustomLLL = mod_10_ListOfIndexesCustomCreate.fn_ListOfIndexesCustomCreate(LLL)
+
+        #########################################################################################################################
         ## TEST DEVELOPMENT
-        ## TEST IF NOT NECESSARY HERE SINCE FUNCTION() #9B CALLS FUNCTION() #9A FROM WITHIN
-        ## CALL MODULE.FUNCTION() #9A - GET NUMBER VALUE - RETURNS LIST OF NUMBER VALUES FOR EACH LETTER OF STRING
-        # n = mod_9AGetNumberValues4Letters.fn_GetNumberValues(ELSSearchTerm) ## TEST FOR OA - LIST OF WORDS
-       
+        ## IF LLL IS LONGER THAN L
+        ## THEN USER HAS CHOSEN NON-PERFECT FACTOR/DIVISOR OF LENGTH OF TEXT FOR THE SIZE OF X COLUMNS IN 2D MATRIX;
+        ## THEREFORE BLANK SPACES NEED TO BE APPENDED TO THE TEXT STRING TO COMPENSATE FOR NON-PERFECT FACTORS/DIVISORS THAT USER INPUTS
+
+        ## BEGIN IF / ELIF BLOCK
+        if LLL > L: ## USER HAS CHOSEN A NON-PERFECT FACTOR/DIVISOR
+
+            ## CALL MODULE.FUNCTION() #91 RETURNS LIST OF SERIES OF BOOLEAN MATCHES FOR EACH LETTER IN EACH WORD OF ELS SEARCH TERM WITHIN TEXT
+            ListOfPDSeries4ELSs = mod_91_SearchForELSSearchTerms.fn_SearchForELSSearchTerms(ListOfSearchTerms, LLL, ListOfIndexesCustomLLL)
+
+        elif LLL == L: ## USER HAS CHOSEN A PERFECT FACTOR/DIVISOR
+            
+            ## CALL MODULE.FUNCTION() #91 RETURNS LIST OF SERIES OF BOOLEAN MATCHES FOR EACH LETTER IN EACH WORD OF ELS SEARCH TERM WITHIN TEXT
+            ListOfPDSeries4ELSs = mod_91_SearchForELSSearchTerms.fn_SearchForELSSearchTerms(ListOfSearchTerms, L, ListOfIndexesCustomL)
+
+        ## END BEGIN IF / ELIF BLOCK
+        ########################################################################################################################
+
+        ## CALL MODULE.FUNCTION() #21
+        sL0, sL, sLLL0, sLLL, sN0, sN = mod_21_PandasObjectsCreate.fn_PandasObjectsCreate(L, LLL, N, ListOfIndexesCustomL, ListOfIndexesCustomLLL)
+
+        ## CALL MODULE.FUNCTION() #22
+        DELSMP = mod_22_ELSSearchPositive.fn_ELSSearch(sL, sN, DELSO, DLO)
+
+        ## CALL MODULE.FUNCTION() #23
+        DELSMN = mod_23_ELSSearchNegative.fn_ELSSearch(sL, sN, DELSO, DLO)
+
+        ## UPDATE ELSO OBJECTS
+        ## CALL MODULE.FUNCTION() #24
+        DELSO = mod_24_AddSearchResultsToDELSO.fn_AddSearchResultsToDELSO(DELSO, DELSMP, DELSMN)
+
+        ## UPDATE W4ELS OBJECT
+        ## CALL MODULE.FUNCTION() #25
+        W4ELS = mod_25_UpdateW4ELS.fn_UpdateW4ELS(W4ELS, DELSO)
+
+        ## UPDATE W OBJECT
+        ## CALL MODULE.FUNCTION() #26
+        W = mod_26_UpdateW.fn_UpdateW(W, DWTK)
+
+        ## CALL MODULE.FUNCTION() #26
+        LTM4ELS_POS = mod_26_GatherData4ELSMatches.fn_GatherData4ELSMatches(DictOfSearchTerms, DLO, DW, DELSO, DELSMP, DS) ## EXTRACT MATCHES POSITIVE
+        
+        ## CALL MODULE.FUNCTION() #26
+        LTM4ELS_NEG = mod_26_GatherData4ELSMatches.fn_GatherData4ELSMatches(DictOfSearchTerms, DLO, DW, DELSO, DELSMN, DS) ## EXTRACT MATCHES NEGATIVE
+
+        ## BEGIN TEST DEVELOPMENT
+
+        ## TEST DEVELOPMENT
+        ## UPDATE LETTER OBJECTS
+        ## CALL MODULE.FUNCTION() #90 - ADD LETTER GEMATRIA NUMBER VALUE TO EACH INSTANCE OF LETTER OBJECT; ## RETURNS DICTIONARY OF LETTER OBJECTS
+        ## DLO = mod_90_AddELSMatchesToLetterObjects.fn_AddELSMatchesToLetterObjects(DLO, DELSMP, DELSMN)
+
         #########################################################################################################################
         ## TEST DEVELOPMENT
         ## TEST FOR TEXT STRING
@@ -217,62 +380,9 @@ while IsGameOver == False and IsTextSelected == False:
         ## CALL MODULE.FUNCTION() #90 - CONVERT EACH LETTER IN ELS SEARCH QUERY TO REGULAR EXPRESSIONS (REGEX)
         ListOfRegex4ELSSearchTerms = mod_90_ConvertELSQueryToRegex.fn_ConvertELSQueryToRegex(ListOfSearchTerms) ## RETURNS LIST OF LISTS OF LETTERS
         #########################################################################################################################
-        
-        ## TEST DEVELOPMENT
-        ## 2ND TIME MODULE.FUNCTION() #10 IS CALLED
-        ## CREATE NEW INDEX TO ACCOUNT FOR THE EXTRA SPACES OF LAST LINE IF USER CHOOSES XW/#COLUMNS THAT IS NOT PERFECT FACTOR/DIVISOR
-        ## CALL MODULE.FUNCTION() #10 - CREATE LIST OF CUSTOM INDEXES NON-0-INDEXED / 1-INDEXED RETURNS LIST OF CUSTOM INDEXES
-        ListOfIndexesCustom = mod_10_ListOfIndexesCustomCreate.fn_ListOfIndexesCustomCreate(LLL)
 
-        ## TEST DEVELOPMENT
-        ## IF LLL IS LONGER THAN L
-        ## THEN USER HAS CHOSEN NON-PERFECT FACTOR/DIVISOR OF LENGTH OF TEXT FOR THE SIZE OF X COLUMNS IN 2D MATRIX;
-        ## THEREFORE BLANK SPACES NEED TO BE APPENDED TO THE TEXT STRING TO COMPENSATE FOR NON-PERFECT FACTORS/DIVISORS THAT USER INPUTS
+        ## END TEST DEVELOPMENT
 
-        ## BEGIN IF / ELIF BLOCK
-        if LLL > L: ## USER HAS CHOSEN A NON-PERFECT FACTOR/DIVISOR
-
-            ## CALL MODULE.FUNCTION() #91 RETURNS LIST OF SERIES OF BOOLEAN MATCHES FOR EACH LETTER IN EACH WORD OF ELS SEARCH TERM WITHIN TEXT
-            ListOfPDSeries4ELSs = mod_91_SearchForELSSearchTerms.fn_SearchForELSSearchTerms(ListOfSearchTerms, LLL, ListOfIndexesCustom)
-
-        elif LLL == L: ## USER HAS CHOSEN A PERFECT FACTOR/DIVISOR
-            
-            ## CALL MODULE.FUNCTION() #91 RETURNS LIST OF SERIES OF BOOLEAN MATCHES FOR EACH LETTER IN EACH WORD OF ELS SEARCH TERM WITHIN TEXT
-            ListOfPDSeries4ELSs = mod_91_SearchForELSSearchTerms.fn_SearchForELSSearchTerms(ListOfSearchTerms, L, ListOfIndexesCustom)
-
-        ## END BEGIN IF / ELIF BLOCK
-
-        ## BEGIN TEST FOR ELS TERMS
-
-        ## 3RD TIME MODULE.FUNCTION() #9B IS CALLED
-        ## CALL MODULE.FUNCTION() #9B - GET NUMBER VALUE FOR WORDS - RETURNS LIST OF TUPLES OF NUMBER VALUES FOR EACH LETTER OF STRING
-        NW4ELS = mod_9B_GetNumberValues4Words.fn_GetNumberValues(ListOfSearchTerms)
-
-        ## 3RD TIME MODULE.FUNCTION() #10 IS CALLED
-        ## CALL MODULE.FUNCTION() #10 - CREATE LIST OF CUSTOM INDEXES NON-0-INDEXED / 1-INDEXED RETURNS LIST OF CUSTOM INDEXES
-        ListOfIndexesCustom = mod_10_ListOfIndexesCustomCreate.fn_ListOfIndexesCustomCreate(ListOfSearchTerms)
-
-        ## 2ND TIME MODULE.FUNCTION() #11 IS CALLED
-        ## CALL MODULE.FUNCTION() #11 - DATA OBJECT CREATE - RETURNS TUPLE OF WORDS WITH EACH WORD'S GEMATRIA NUMBER VALUE
-        W4ELS, DW4ELS = mod_11_TupleOfWordsAndGematriaValuesCreate.fn_TupleOfWordsAndGematriaValuesCreate(ListOfSearchTerms, NW4ELS, ListOfIndexesCustom, ListOfIndexes4LettersInEachWord=[]) ## PASS EMPTY LIST FOR ELSs B/C NO INDEX POSITIONS FOR THESE
-        
-        
-        ## CALL MODULE.FUNCTION() #18 ## TODO: CREATE SEPARATE MODULE TO CONTAIN THIS ONE NUMPY FUNCTION
-        ## CREATE NUMPY ARRAY OF NUMBER VALUES
-        NumpyArrayOfNumberValuesOfEntireText = mod_18_NumpyArrayOfNumberValuesCreate.fn_NumpyArrayOfNumberValuesCreate(N)
-
-        ## CALL MODULE.FUNCTION() #19- DATA OBJECT CREATE - RETURNS DICT OF MATCHES FOR EACH FIRST LETTER OF EACH ELS SEARCH TERM
-        DictOfMatches4ELS = mod_19_GetMatchesPerIntegerValue.fn_GetMatchesPerIntegerValue(NW4ELS, NumpyArrayOfNumberValuesOfEntireText)
-
-        ## CREATE ELS OBJECTS - CREATE DICTIONARY OF ELS [USER-SEARCH-TERM] OBJECTS
-        ## CALL MODULE.FUNCTION() #20 - DATA OBJECT CREATE - RETURNS DICT OF ELS OBJECTS (DELSO)
-        DELSO = mod_20_DictOfELSObjectsCreate.fn_DictOfELSObjectsCreate(DictOfMatches4ELS)
-
-        ## TEST DEVELOPMENT
-
-        ## END TEST FOR ELS TERMS
-
-        ## TEST DEVELOPMENT
         ## TEST CREATE 2D MATRIX HERE OR MOVE BELOW TO MODULES FOR FINAL STEPS(?)
         ## CALL MODULE.FUNCTION() #99 - 2D MATRIX CREATE FOR OUTPUT
         ListOfRowsOfLetters = mod_99_Matrix2DOfLettersCreate.fn_Matrix2DOfLettersCreate(SSS, YH, XW, D5K) 
@@ -280,14 +390,20 @@ while IsGameOver == False and IsTextSelected == False:
         ## MODULES FOR FINAL STEPS OF PROGRAM TO OUTPUT DATA AS CSV FILES
 
         ## CALL MODULE.FUNCTION() #98
-        FileNameForMatrixXLSX, FileNameForMatrixCSV, FileNameForGematriaTexts, FileNameForGematriaELSs = mod_98_FilesNamesCreate.fn_FileNamesCreate(XW, YH, NumberOfTextChosen)
+        FileNameForMatrixXLSX, FileNameForMatrixCSV, FileNameForGematriaTexts, FileNameForELSMatchesDataSummary, FileNameForELSMatchesPositive, FileNameForELSMatchesNegative = mod_98_FilesNamesCreate.fn_FileNamesCreate(XW, YH, NumberOfTextChosen, NumberOfCodexChosen)
        
         ## CALL MODULE.FUNCTION() #99 = OUTPUT/WRITE TO CSV FILE ALL WORDS OF SELECTED TEXT(S) WITH EACH WORD'S GEMATRIA VALUE
         _ = mod_99_WriteOutputToFileCSV_WordsAndGematriaValues.fn_WriteOutputToFile(W, FileNameForGematriaTexts)
 
         ## CALL MODULE.FUNCTION() #99 = OUTPUT/WRITE TO CSV FILE ALL WORDS OF ELSs WITH EACH WORD'S GEMATRIA VALUE
-        _ = mod_99_WriteOutputToFileCSV_WordsAndGematriaValues.fn_WriteOutputToFile(W4ELS, FileNameForGematriaELSs)
+        _ = mod_99_WriteOutputToFileCSV_ELSMatches_DATASUMMARY.fn_WriteOutputToFile(W4ELS, FileNameForELSMatchesDataSummary)
 
+        ## CALL MODULE.FUNCTION() #99 = OUTPUT/WRITE TO CSV FILE ALL MATCHES OF ELS WITH POSITIVE SKIPDISTANCES (d)
+        _ = mod_99_WriteOutputToFileCSV_ELSMatches.fn_WriteOutputToFile(LTM4ELS_POS, FileNameForELSMatchesPositive)
+
+        ## CALL MODULE.FUNCTION() #99 = OUTPUT/WRITE TO CSV FILE ALL MATCHES OF ELS WITH NEGATIVE SKIPDISTANCES (d)
+        _ = mod_99_WriteOutputToFileCSV_ELSMatches.fn_WriteOutputToFile(LTM4ELS_NEG, FileNameForELSMatchesNegative)
+        
         ## CALL MODULE.FUNCTION() #99 = OUTPUT/WRITE TO CSV FILE 2D MATRIX
         _ = mod_99_WriteOutputToFileCSV_2DMatrix.fn_WriteOutputToFile(ListOfRowsOfLetters, FileNameForMatrixCSV)
 
@@ -310,43 +426,17 @@ while IsGameOver == False and IsTextSelected == False:
     ## TEST DEVELOPMENT
     ## BEGIN TEST CODE BELOW THIS POINT
 
-    ## 4TH TIME MODULE.FUNCTION() #10 IS CALLED
-    ## CALL MODULE.FUNCTION() #10 - CREATE LIST OF CUSTOM INDEXES NON-0-INDEXED / 1-INDEXED RETURNS LIST OF CUSTOM INDEXES
-    ListOfIndexesCustomL = mod_10_ListOfIndexesCustomCreate.fn_ListOfIndexesCustomCreate(L)
-
-    ## 5TH TIME MODULE.FUNCTION() #10 IS CALLED
-    ## CALL MODULE.FUNCTION() #10 - CREATE LIST OF CUSTOM INDEXES NON-0-INDEXED / 1-INDEXED RETURNS LIST OF CUSTOM INDEXES
-    ListOfIndexesCustomLLL = mod_10_ListOfIndexesCustomCreate.fn_ListOfIndexesCustomCreate(LLL)
-
     ## END CALL MODULES.FUNCTIONS()
-
-
-    ## TEST DEVELOPMENT
-    ## CREATE PD SERIES WITH 0-INDEX FOR THE ORIGINAL TEXT LENGTH
-    sL0 = pd.Series(L) ## --> Converts ListOfLetters to Pandas Series (~ Dictionary-like Object)
     
-    ## CREATE PD SERIES WITH 1-INDEX FOR THE ORIGINAL TEXT LENGTH
-    sL = pd.Series(L, index=ListOfIndexesCustomL) ## --> Converts ListOfLetters to Pandas Series (~ Dictionary-like Object) with custom indexes for keys of the PD Series starting with 1-index/key
-
-    ## CREATE PD SERIES WITH 0-INDEX FOR LENGTH OF THE TEXT + EMPTY SPACES IN LAST ROW 
-    sLLL0 = pd.Series(LLL) ## --> Converts ListOfLetters to Pandas Series (~ Dictionary-like Object)
-    
-    ## CREATE PD SERIES WITH 1-INDEX FOR LENGTH OF THE TEXT + EMPTY SPACES IN LAST ROW
-    sLLL = pd.Series(LLL, index=ListOfIndexesCustomLLL) ## --> Converts ListOfLetters to Pandas Series (~ Dictionary-like Object) with custom indexes for keys of the PD Series starting with 1-index/key
-
-    ## TEST DEVELOPMENT
-    ## CREATE PD SERIES WITH 0-INDEX FOR THE ORIGINAL TEXT LENGTH
-    sN0 = pd.Series(N) ## --> Converts ListOfNumbers (N) to Pandas Series (~ Dictionary-like Object)
-    
-    ## CREATE PD SERIES WITH 1-INDEX FOR THE ORIGINAL TEXT LENGTH
-    sN = pd.Series(N, index=ListOfIndexesCustomL) ## --> Converts ListOfNumbers (N) to Pandas Series (~ Dictionary-like Object) with custom indexes for keys of the PD Series starting with 1-index/key
-
     ## TEST DEVELOPMENT
     ## q = mod_100_Test.fn_Test(sL, NW4ELS, ListOfPDSeries4ELSs, ListOfRegex4ELSSearchTerms)
     ## LM0, LM1, D0, D1 = mod_100XXX_Test.fn_Test(sL, S, ListOfRegex4ELSSearchTerms)
     
     ## TEST DEVELOPMENT CALL FUNCTION
     ## DictOfMatches = fn_Search4ELSs(DELSO, sN, N)
+
+    ## DEVELOPMENT
+    ## LM0, LM1, D0, D1 = mod_100XXX_Test.fn_Test(sL, S, ListOfRegex4ELSSearchTerms)
                     
     ## TEST DEVELOPMENT - CREATE OBJECT INSTANCE OF GSO() = GLOBAL SEARCH OBJECT: GSO
     ## CREATE NEW OBJECT INSTANCE OF CLASS: GLOBAL SEARCH OBJECT
@@ -400,7 +490,14 @@ while IsGameOver == False and IsTextSelected == False:
     gso.sN0 = sN0 ## 0-BASED INDEX POSITIONS
     gso.sN = sN ## 1-BASED INDEX POSITIONS
 
-    gso.NumpyArrayOfNumberValuesOfEntireText = NumpyArrayOfNumberValuesOfEntireText ## 0-BASED INDEX POSITIONS
+    gso.NPANV = NPANV ## 0-BASED INDEX POSITIONS
+
+    ## END GSO
+
+    ## BEGIN TEST
+    
+
+    ## END TEST
     
     ## END TEST CODE BELOW THIS POINT
     ## TEST DEVELOPMENT
@@ -420,7 +517,6 @@ print(f"Length of Dictionary : {len(DictOfSearchTerms)}")
 
 ## TEST DEVELOPMENT
 
-
 ## TEST CLASS OBJECT
         
 print("TEST gso")
@@ -428,7 +524,6 @@ print("TEST gso")
 # print(f"TEST gso : {gso.LengthOfTextToSearch}")
 # print(f"TEST gso : {gso.ListOfSearchTerms}")
 # print(f"TEST gso : {gso.DictOfSearchTerms}")
-
 
 ## TEST PRINT OUTPUT
 print("\n") ## PRINT SPACE

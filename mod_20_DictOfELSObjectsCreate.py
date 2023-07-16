@@ -6,7 +6,7 @@ from mod_cls_ELSObject import cls_ELSObject as ELSO
 def fn_DictOfELSObjectsCreate(DictOfMatches4ELS):
 
     """
-    ## MODULE.FUNCTION() #20 - 
+    ## MODULE.FUNCTION() #20 - RETURNS: DELSO
     """
 
     ## TEST PRINT OUTPUT

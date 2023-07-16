@@ -2,7 +2,7 @@
 class cls_GlobalSearchObject():
 
     """
-    ## CLASS FOR GLOBAL SEARCH OBJECT
+    ## CLASS FOR GLOBAL SEARCH OBJECT - GSO() - gso
     """
     
     def __init__(self, SearchTextChosen=None, LengthOfTextToSearch=None, D=None, DS=None, \
@@ -14,7 +14,7 @@ class cls_GlobalSearchObject():
             ListOfFactors=None, YH=None, XW=None, LLL=None, \
             ListOfIndexesCustomL=None, ListOfIndexesCustomLLL=None, \
             sL0=None, sL=None, sLLL0=None, sLLL=None, sN0=None, sN=None, \
-            NumpyArrayOfNumberValuesOfEntireText=None, ListOfFirstsAndLasts4ELS=None, ListOfBooleanMatches4ELS=None):
+            NPANV=None, ListOfFirstsAndLasts4ELS=None, ListOfBooleanMatches4ELS=None):
 
         self.SearchTextChosen = SearchTextChosen ## 1-DIGIT TUPLE ## (12,)
         self.LengthOfTextToSearch = LengthOfTextToSearch ## INTEGER
@@ -65,7 +65,7 @@ class cls_GlobalSearchObject():
         self.sN0 = sN0 ## 0-BASED INDEX POSITIONS
         self.sN = sN ## 1-BASED INDEX POSITIONS
 
-        self.NumpyArrayOfNumberValuesOfEntireText = NumpyArrayOfNumberValuesOfEntireText ## 0-BASED INDEX POSITIONS
+        self.NPANV = NPANV ## 0-BASED INDEX POSITIONS
 
         ## TEST DEVELOPMENT
         ## self.ListOfFirstsAndLasts4ELS = ListOfFirstsAndLasts4ELS
