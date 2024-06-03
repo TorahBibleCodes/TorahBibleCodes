@@ -29,6 +29,15 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 <br />Active Development: In Progress
 
 # Updates
+<br />03 / JUNE / 2024
+<br />
+<br />DEVELOPMENT UPDATE: COMING SOON: SOFTWARE UPDATE
+<br />
+<br />Please support our efforts if you can by donating via GIVESENDGO: 
+<br />https://www.givesendgo.com/torahbiblecodes
+<br />
+<br />OR via BITCOIN (BTC) to the following addresses:
+<br />bc1qzws4zjgzf4wll2mtztsavmyvkg72fnajfff8r7
 
 <br />16 / JULY / 2023
 <br />
