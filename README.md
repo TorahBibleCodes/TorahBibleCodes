@@ -41,9 +41,7 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 
 <br />16 / JULY / 2023
 <br />
-<br />DEVELOPMENT UPDATE:
-
-<br />POC (BETA) WORKING: TorahBibleCodes: Free, Open-Source Python Equidistant Letter Sequences (ELS) Hebrew Bible Search Software
+<br />DEVELOPMENT UPDATE: POC (BETA) WORKING: TorahBibleCodes: Free, Open-Source Python Equidistant Letter Sequences (ELS) Hebrew Bible Search Software
 
 <br />ACADEMIC WHITE PAPER EXPLAINING HOW TORAH BIBLE CODES SOFTWARE WORKS: https://www.academia.edu/104334275
 
