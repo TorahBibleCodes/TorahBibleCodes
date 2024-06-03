@@ -327,8 +327,10 @@ sL.str.rfind("ב")
 </ul>
 
 # Statistics
-### Total Number of Verses in Torah: 5846
-### Total Number of Letters in Torah:  304850
+### Total Number of Verses in Torah (LENINGRAD CODEX): 5846
+### Total Number of Verses in Torah (KOREN CODEX): 5846 (excluding error of Numbers 25:19 in Michigan Claremont Transliteration)
+<br />
+### Total Number of Letters in Torah (LENINGRAD CODEX):  304850
 Total Number of Letter א Aleph in Torah: 27060
 <br />Total Number of Letter ב Bet in Torah: 16345
 <br />Total Number of Letter ג Gimel in Torah: 2109
@@ -357,10 +359,10 @@ Total Number of Letter א Aleph in Torah: 27060
 <br />Total Number of Letter ש Shin in Torah: 15595
 <br />Total Number of Letter ת Taf in Torah: 17950
 
-### Total Number of Verses in Genesis:  1533
-### Total Number of Letters in Genesis:  78069
+### Total Number of Verses in Genesis (LENINGRAD CODEX):  1533
+### Total Number of Letters in Genesis (LENINGRAD CODEX):  78069
 
-Total Number of Letter א in Book of Genesis: 7634
+Total Number of Letter א in Book of Genesis (LENINGRAD CODEX): 7634
 <br />Total Number of Letter ב in Book of Genesis: 4332
 <br />Total Number of Letter ג in Book of Genesis: 577
 <br />Total Number of Letter ד in Book of Genesis: 1848
@@ -388,8 +390,8 @@ Total Number of Letter א in Book of Genesis: 7634
 <br />Total Number of Letter ש in Book of Genesis: 3574
 <br />Total Number of Letter ת in Book of Genesis: 4152
 
-### Total Number of Verses in Hebrew Bible: 23206
-### Total Number of Letters in Hebrew Bible: 1197042
+### Total Number of Verses in Hebrew Bible (LENINGRAD CODEX): 23206
+### Total Number of Letters in Hebrew Bible (LENINGRAD CODEX): 1197042
 
 Total Number of Letter א in Hebrew Bible: 95685
 <br />Total Number of Letter ב in Hebrew Bible: 65216
