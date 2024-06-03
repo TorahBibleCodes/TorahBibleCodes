@@ -66,14 +66,14 @@ WRR define n as the start, d as the skip between letters in the search-term, and
 
 # The Texts Used:
 ## 1.) Genesis
-LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Text%20Only.json
-KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
-Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Text%20Only.json
+<br />KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
+<br />Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
 
 ## 2.) Exodus
-LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Text%20Only.json
-KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
-Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Text%20Only.json
+<br />KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
+<br />Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
 
 ## 3.) Leviticus
 LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Text%20Only.json
