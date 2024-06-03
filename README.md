@@ -329,7 +329,6 @@ sL.str.rfind("ב")
 # Statistics
 ### Total Number of Verses in Torah (LENINGRAD CODEX): 5846
 ### Total Number of Verses in Torah (KOREN CODEX): 5846 (excluding error of Numbers 25:19 in Michigan Claremont Transliteration)
-<br />
 ### Total Number of Letters in Torah (LENINGRAD CODEX):  304850
 Total Number of Letter א Aleph in Torah: 27060
 <br />Total Number of Letter ב Bet in Torah: 16345
