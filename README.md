@@ -40,8 +40,6 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 <br />5. Custom Skip Distances (d) according to User Input.
 <br />6. Spaces in ELS Search Terms are elegantly handled by the program. 
 <br />
-<br />
-<br />
 <br />Please support our efforts if you can by donating via GIVESENDGO: 
 <br />https://www.givesendgo.com/torahbiblecodes
 <br />
