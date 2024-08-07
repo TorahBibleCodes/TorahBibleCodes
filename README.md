@@ -39,6 +39,7 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 <br />4. Search Progress Bar with count of search terms, measurement of search time per search term, as well as estimation of total search time.
 <br />5. Custom Skip Distances (d) according to User Input.
 <br />6. Spaces in ELS Search Terms are elegantly handled by the program. 
+<br />7. Letter Statistics for every text for every search.
 <br />
 <br />Please support our efforts if you can by donating via GIVESENDGO: 
 <br />https://www.givesendgo.com/torahbiblecodes
