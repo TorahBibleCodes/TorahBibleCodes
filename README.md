@@ -31,7 +31,7 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 # Updates
 <br />27 / AUGUST / 2024
 <br />
-<br />DEVELOPMENT UPDATE: COMING SOON: UPCOMING SOFTWARE UPDATE
+<br />DEVELOPMENT UPDATE: COMING SOON: UPCOMING SOFTWARE UPDATE VERSION 0.2
 <br />
 <br />1. Choice of Codices (i.e. Collections of Manuscripts): A. Koren; B. Leningrad; C. Miqra According to Masorah (MAM) - based on the Aleppo Codex.
 <br />2. Possibility to search several texts as one complete book (as they were in antiquity): A. Samuel; B. Kings; C. Ezra-Nehemiah; D. Chronicles.
@@ -49,7 +49,7 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 
 <br />16 / JULY / 2023
 <br />
-<br />DEVELOPMENT UPDATE: POC (BETA) WORKING: TorahBibleCodes: Free, Open-Source Python Equidistant Letter Sequences (ELS) Hebrew Bible Search Software
+<br />DEVELOPMENT UPDATE: POC (BETA) VERSION 0.1 WORKING: TorahBibleCodes: Free, Open-Source Python Equidistant Letter Sequences (ELS) Hebrew Bible Search Software
 
 <br />ACADEMIC WHITE PAPER EXPLAINING HOW TORAH BIBLE CODES SOFTWARE WORKS: https://www.academia.edu/104334275
 
