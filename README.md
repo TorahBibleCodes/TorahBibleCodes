@@ -76,164 +76,164 @@ WRR define n as the start, d as the skip between letters in the search-term, and
 ## 1.) Genesis
 <br />A. KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Text%20Only.json
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 2.) Exodus
 <br />A. KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Text%20Only.json
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 3.) Leviticus
 <br />A. KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Text%20Only.json
 KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 4.) Numbers
 <br />A. KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Text%20Only.json
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 5.) Deuteronomy
 <br />A. KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Text%20Only.json
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 6.) Joshua
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 7.) Judges
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 8.) I Samuel
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 9.) II Samuel
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 10.) I Kings
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 11.) II Kings
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 12.) Isaiah
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 13.) Jeremiah
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 14.) Ezekiel
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 15.) Hosea
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 16.) Joel
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 17.) Amos
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 18.) Obadiah
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 19.) Jonah
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 20.) Micah
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 21.) Nahum
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 22.) Habakkuk
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 23.) Zephaniah
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 24.) Haggai
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 25.) Zechariah
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 26.) Malachi
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 27.) Psalms
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 28.) Proverbs
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 29.) Job
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 30.) Song of Songs
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 31.) Ruth
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 32.) Lamentations
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 33.) Ecclesiastes
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 34.) Esther
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 35.) Daniel
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 36.) Ezra
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 37.) Nehemiah
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 38.) I Chronicles
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 ## 39.) II Chronicles
 <br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) CODEX: (COMING SOON)
+<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
 
 # How to Run the App / Program
@@ -336,7 +336,7 @@ sL.str.rfind("ב")
 
 # Statistics
 ### Total Number of Verses in Torah (LENINGRAD CODEX): 5846
-### Total Number of Verses in Torah (KOREN CODEX): 5846 (excluding error of Numbers 25:19 in Michigan Claremont Transliteration)
+### Total Number of Verses in Torah (KOREN CODEX): 5846 (excluding error of Numbers 25:19 in Claremont Michigan Transliteration)
 ### Total Number of Letters in Torah (LENINGRAD CODEX):  304850
 Total Number of Letter א Aleph in Torah: 27060
 <br />Total Number of Letter ב Bet in Torah: 16345
