@@ -29,17 +29,18 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 <br />Active Development: In Progress
 
 # Updates
-<br />27 / AUGUST / 2024
+<br />15 / SEPTEMBER / 2024
 <br />
 <br />DEVELOPMENT UPDATE: COMING SOON: UPCOMING SOFTWARE UPDATE VERSION 0.2
 <br />
 <br />1. Choice of Codices (i.e. Collections of Manuscripts): A. Koren; B. Leningrad; C. Miqra According to Masorah (MAM) - based on the Aleppo Codex.
 <br />2. Possibility to search several texts as one complete book (as they were in antiquity): A. Samuel; B. Kings; C. Ezra-Nehemiah; D. Chronicles.
 <br />3. Multiple Batch ELSs Searches via simple EXCEL / CSV user-input file with UNLIMITED ELS SEARCH TERMS.
-<br />4. Search Progress Bar with count of search terms, measurement of search time per search term, as well as estimation of total search time.
-<br />5. Custom Skip Distances (d) according to User Input.
-<br />6. Spaces in ELS Search Terms are elegantly handled by the program: Search for Longer, Multiple-Word Names and Phrases. 
-<br />7. Letter Statistics for every text for every search.
+<br />4. Individual CSV Data File for each ELS term with all word positions, letter positions, and verses where the ELS is found.
+<br />5. Search Progress Bar with count of search terms, measurement of search time per search term, as well as estimation of total search time.
+<br />6. Custom Skip Distances (d) according to User Input.
+<br />7. Spaces in ELS Search Terms are elegantly handled by the program: Search for Longer, Multiple-Word Names and Phrases. 
+<br />8. Letter Statistics for every text for every search.
 <br />
 <br />Please support our efforts if you can by donating via GIVESENDGO: 
 <br />https://www.givesendgo.com/torahbiblecodes
