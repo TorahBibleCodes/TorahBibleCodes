@@ -1,18 +1,16 @@
 ## IMPORT MODULES
-
 import re
 
-## FUNCTION () #3B - TEXT FILE PARSE
-
+## FUNCTION () #3BB - TEXT FILE PARSE
 def fn_TextFileParse(JSONString):
 
     """
-    ## MODULE.FUNCTION() #3B - TEXT FILE PARSE ## RETURNS TextParsedWithSpaces, TextParsedNoSpaces
+    ## MODULE.FUNCTION() #3BB - TEXT FILE PARSE ## RETURNS TextParsedWithSpaces, TextParsedNoSpaces
     """
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #3B TEXT FILE PARSE")
+    print("WITHIN FUNCTION:  BEGIN FUNCTION #3BB - TEXT FILE PARSE")
          
     ## TEST PRINT OUTPUT
     ## print("\n")  ## PRINT SPACE
@@ -73,10 +71,10 @@ def fn_TextFileParse(JSONString):
     
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #3B - TEXT FILE PARSE")
+    print("WITHIN FUNCTION:  END FUNCTION #3BB - TEXT FILE PARSE")
 
     ## RETURN VARIABLES TO PROGRAM - RETURNS TUPLE OF TWO TEXTS (LISTS):  1.) WITH SPACES; 2.) WITH NO SPACES
     return(TextParsedWithSpaces, TextParsedNoSpaces)
 
-## END FUNCTION () #3B - TEXT FILE PARSE
+## END FUNCTION () #3BB - TEXT FILE PARSE ##
 

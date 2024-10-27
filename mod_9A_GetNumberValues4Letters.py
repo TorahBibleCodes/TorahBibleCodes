@@ -1,6 +1,6 @@
 ## IMPORT MODULES
 
-## FUNCTION () #9A - GET NUMBER VALUES FOR LETTERS
+## FUNCTION () #9A - GET NUMBER VALUES FOR LETTERS #
 def fn_GetNumberValues(SequenceOfLetters): 
 
     """
@@ -75,6 +75,15 @@ def fn_GetNumberValues(SequenceOfLetters):
 
         ## DEAL WITH POTENTIAL SPACES IN THE ELS SEARCH TERMS
         elif each == ' ':
+            value = 0
+
+        ## TEST DEVELOPMENT
+        ## DEAL WITH POTENTIAL EM-DASH IN THE MAM CODEX AFTER PARSING IN THE PROPHETS SECTION (JOSHUA) WORD (1-INDEXED) #8362 AND #8363 == EM DASH ## "\u2014" 
+        ## 8360 EachWord : השרגמ    
+        ## 8361 EachWord : םירע
+        ## 8362 EachWord : עברא
+        ## 8363 EachWord : —
+        elif each == '—':
             value = 0
 
         ## APPEND VALUE TO THE TEMPORARY LIST

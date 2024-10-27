@@ -1,16 +1,15 @@
 ## IMPORT MODULES
 
-## FUNCTION () #3A - TEXT FILE PREPROCESS - FIX LINES
-
+## FUNCTION () #3A4 - TEXT FILE PREPROCESS - FIX LINES ##
 def fn_FixLines(ListOfTupleKeysForKoren, ListOfWordsForEachLine):
     
     """
-    ## MODULE.FUNCTION() #3A - TEXT FILE PREPROCESS - FIX LINES; ## RETURNS DictOfVersesForKoren
+    ## MODULE.FUNCTION() #3A4 - TEXT FILE PREPROCESS - FIX LINES; ## RETURNS DictOfVersesForKoren
     """
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #3A TEXT FILE PREPROCESS - FIX LINES")
+    print("WITHIN FUNCTION:  BEGIN FUNCTION #3A4 - TEXT FILE PREPROCESS - FIX LINES")
 
     ## DECLARE VARIABLES
     DictOfVersesForKoren = {}
@@ -84,7 +83,7 @@ def fn_FixLines(ListOfTupleKeysForKoren, ListOfWordsForEachLine):
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #3A - TEXT FILE PREPROCESS - FIX LINES")
+    print("WITHIN FUNCTION:  END FUNCTION #3A4 - TEXT FILE PREPROCESS - FIX LINES")
 
     ## RETURN VARIABLES TO PROGRAM
     return(DictOfVersesForKoren)

@@ -1,14 +1,14 @@
-## FUNCTION () #2 - TEXT FILE OPEN
+## FUNCTION () #2B - TEXT FILE OPEN ##
 
 def fn_TextFileOpen(TextChosen):
 
     """
-    ## MODULE.FUNCTION() #2 - TEXT FILE OPEN; ## RETURNS TEXT FILE STRING
+    ## MODULE.FUNCTION() #2B - TEXT FILE OPEN; ## RETURNS TEXT FILE STRING ##
     """
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #2 TEXT FILE OPEN")
+    print("WITHIN FUNCTION:  BEGIN FUNCTION - #2B TEXT FILE OPEN")
           
     ## OPEN TEXT FILE
     ## IF TEXT CHOSEN IS ONLY ONE (1) TEXT...
@@ -765,13 +765,86 @@ def fn_TextFileOpen(TextChosen):
                     TextFile31, TextFile32, TextFile33, TextFile34, TextFile35, \
                     TextFile36, TextFile37, TextFile38, TextFile39)
         
+    ## ELSE IF TEXT CHOSEN IS BOTH BOOKS OF SAMUEL TOGETHER...
+    elif TextChosen == 44:
+
+        ## READ STRING FILE TO TEXT FILE VARIABLE
+        with open("texts/text_leningrad_8Isamuel.json", encoding="utf-8-sig") as File:
             
+            ## TEXT CHOSEN: 8 I SAMUEL
+            TextFile1 = File.read()
+            
+        ## READ STRING FILE TO TEXT FILE VARIABLE
+        with open("texts/text_leningrad_9IIsamuel.json", encoding="utf-8-sig") as File:
+            
+            ## TEXT CHOSEN: 9 II SAMUEL
+            TextFile2 = File.read()
+
+        ## ...THEN CREATE A TUPLE OF TEXT/STRING FILES
+        TextFile = (TextFile1, TextFile2) 
+        
+    ## ELSE IF TEXT CHOSEN IS BOTH BOOKS OF KINGS TOGETHER...
+    elif TextChosen == 45:
+
+        ## READ STRING FILE TO TEXT FILE VARIABLE
+        with open("texts/text_leningrad_10Ikings.json", encoding="utf-8-sig") as File:
+            
+            ## TEXT CHOSEN: 10 I KINGS
+            TextFile1 = File.read()
+            
+        ## READ STRING FILE TO TEXT FILE VARIABLE
+        with open("texts/text_leningrad_11IIkings.json", encoding="utf-8-sig") as File:
+            
+            ## TEXT CHOSEN: 11 II KINGS
+            TextFile2 = File.read()
+
+        ## ...THEN CREATE A TUPLE OF TEXT/STRING FILES
+        TextFile = (TextFile1, TextFile2) 
+        
+    ## ELSE IF TEXT CHOSEN IS BOTH BOOKS OF EZRA AND NEHEMIAH TOGETHER...
+    elif TextChosen == 46:
+
+        ## READ STRING FILE TO TEXT FILE VARIABLE
+        with open("texts/text_leningrad_36ezra.json", encoding="utf-8-sig") as File:
+            
+            ## TEXT CHOSEN: 36 EZRA
+            TextFile1 = File.read()
+            
+        ## READ STRING FILE TO TEXT FILE VARIABLE
+        with open("texts/text_leningrad_37nehemiah.json", encoding="utf-8-sig") as File:
+            
+            ## TEXT CHOSEN: 37 NEHEMIAH
+            TextFile2 = File.read()
+
+        ## ...THEN CREATE A TUPLE OF TEXT/STRING FILES
+        TextFile = (TextFile1, TextFile2) 
+
+    ## ELSE IF TEXT CHOSEN IS BOTH BOOKS OF CHRONICLES TOGETHER...
+    elif TextChosen == 47:
+
+        ## READ STRING FILE TO TEXT FILE VARIABLE
+        with open("texts/text_leningrad_38Ichronicles.json", encoding="utf-8-sig") as File:
+            
+            ## TEXT CHOSEN: 38 I CHRONICLES
+            TextFile1 = File.read()
+            
+        ## READ STRING FILE TO TEXT FILE VARIABLE
+        with open("texts/text_leningrad_39IIchronicles.json", encoding="utf-8-sig") as File:
+            
+            ## TEXT CHOSEN: 39 II CHRONICLES
+            TextFile2 = File.read()
+
+        ## ...THEN CREATE A TUPLE OF TEXT/STRING FILES
+        TextFile = (TextFile1, TextFile2) 
+
+    ## END IF ELSE BLOCK
+             
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #2 - TEXT FILE OPEN")
+    print("WITHIN FUNCTION:  END FUNCTION #2B - TEXT FILE OPEN")
 
     ## RETURN VARIABLES TO PROGRAM
     return(TextFile)
 
-## END FUNCTION () #2 - TEXT FILE OPEN
+## END FUNCTION () #2B - TEXT FILE OPEN
 

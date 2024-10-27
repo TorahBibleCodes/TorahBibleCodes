@@ -1,17 +1,16 @@
 ## IMPORT MODULES
 import mod_3A2_TextFilePreprocess_Koren_ExtractKeysAndWords
 
-## FUNCTION () #3A1 - TEXT FILE PREPROCESS - EXTRACT KEY STRINGS
-
+## FUNCTION () #3A1 - TEXT FILE PREPROCESS - EXTRACT KEY STRINGS ##
 def fn_ExtractStrings(TextKoren):
     
     """
-    ## MODULE.FUNCTION() #3A1 - TEXT FILE PREPROCESS - EXTRACT KEY STRINGS; ## RETURNS ListOfTupleKeysToFix
+    ## MODULE.FUNCTION() #3A1 - TEXT FILE PREPROCESS - EXTRACT KEY STRINGS; ## RETURNS ListOfTupleKeysToFix ##
     """
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #3A1 TEXT FILE PREPROCESS - EXTRACT KEY STRINNS")
+    print("WITHIN FUNCTION:  BEGIN FUNCTION #3A1 - TEXT FILE PREPROCESS - EXTRACT KEY STRINGS")
 
     ## DECLARE VARIABLES
     ListOfLines = []
@@ -25,8 +24,8 @@ def fn_ExtractStrings(TextKoren):
         ## ...THEN CALL MODULE.FUNCTION() #3A2 
         ListOfTupleKeysToFix, ListOfWordsInLine = mod_3A2_TextFilePreprocess_Koren_ExtractKeysAndWords.fn_ExtractKeysAndWords(TextKoren)
 
-        print(f"Hello")
-        print(f"ListOfTupleKeysToFix : {ListOfTupleKeysToFix}")
+        ## TEST PRINT OUTPUT
+        ## print(f"ListOfTupleKeysToFix : {ListOfTupleKeysToFix}")
         
         ## TEST PRINT OUTPUT
         ## print("\n")
@@ -45,13 +44,15 @@ def fn_ExtractStrings(TextKoren):
         ## BEGIN FOR LOOP
         for EachTuple in TextKoren:
 
-            print(f"EachTuple : {EachTuple}")
+            ## TEST PRINT OUTPUT
+            ## print(f"EachTuple : {EachTuple}")
 
+            ## 
             TextString = TextString + EachTuple
 
             ## TEST PRINT OUTPUT
-            print("\n")
-            print("TextKoren = ", len(TextKoren), type(TextKoren))
+            ## print("\n")
+            ## print("TextKoren = ", len(TextKoren), type(TextKoren))
            
         ## END FOR LOOP
 

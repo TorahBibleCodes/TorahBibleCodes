@@ -1,7 +1,7 @@
 import numpy as np
 import math
 
-## BEGIN FUNCTION () #19 -
+## BEGIN FUNCTION () #19 - ##
 def fn_GetMatchesPerIntegerValue(NW4ELS, NumpyArrayOfNumberValuesOfEntireText):
 
     """
@@ -10,7 +10,7 @@ def fn_GetMatchesPerIntegerValue(NW4ELS, NumpyArrayOfNumberValuesOfEntireText):
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #19")
+    print("WITHIN FUNCTION:  BEGIN FUNCTION #19 - GET MATCHES PER INTEGER VALUE")
 
     ## DECLARE VARIABLES
     DictOfMatches4ELS = {} ## EMPTY DICTIONARY TO HOLD ALL MATCHES
@@ -73,7 +73,7 @@ def fn_GetMatchesPerIntegerValue(NW4ELS, NumpyArrayOfNumberValuesOfEntireText):
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #19")
+    print("WITHIN FUNCTION:  END FUNCTION #19 - GET MATCHES PER INTEGER VALUE")
 
     ## RETURN VARIABLES
     return(DictOfMatches4ELS)

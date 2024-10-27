@@ -1,5 +1,4 @@
 ## IMPORT MODULES
-
 import csv
 
 ## DECLARE VARIABLES
@@ -12,7 +11,7 @@ def fn_WriteOutputToFile(ListOfRows, FileNameForMatrix):
     """
 
     ## OPEN (IF EXISTS) / CREATE (IF NOT EXISTS) CSV FILE; WRITE OUTPUT TO CSV FILE
-    with open(FileNameForMatrix,'w', encoding="utf-8", newline='') as f:
+    with open("USER_GENERATED_FILES/" + FileNameForMatrix,'w', encoding="utf-8", newline='') as f:
 
         f_csv = csv.writer(f, delimiter=';')
         ## f_csv.writerow(headers) ## HEADERS OPTIONAL - REMOVE COMMENTS BEFORE f_csv.writerow(headers) IF YOU WANT CSV FILE TO CONTAIN HEADERS

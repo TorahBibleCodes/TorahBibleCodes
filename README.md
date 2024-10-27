@@ -29,9 +29,9 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 <br />Active Development: In Progress
 
 # Updates
-<br />15 / SEPTEMBER / 2024
+<br />27 / SEPTEMBER / 2024
 <br />
-<br />DEVELOPMENT UPDATE: COMING SOON: UPCOMING SOFTWARE UPDATE VERSION 0.2
+<br />SOFTWARE UPDATE: NOW AVAILABLE SOFTWARE UPDATE VERSION 0.2
 <br />
 <br />1. Choice of Codices (i.e. Collections of Manuscripts): A. Koren; B. Leningrad; C. Miqra According to Masorah (MAM) - based on the Aleppo Codex.
 <br />2. Possibility to search several texts as one complete book (as they were in antiquity): A. Samuel; B. Kings; C. Ezra-Nehemiah; D. Chronicles.

@@ -1,7 +1,6 @@
 ## IMPORT MODULES
 
-## FUNCTION () #8B - DATA OBJECTS CREATE
-
+## FUNCTION () #8B - DATA OBJECTS CREATE ##
 def fn_DataObjectsCreate(DS):
 
     """
@@ -20,7 +19,6 @@ def fn_DataObjectsCreate(DS):
     DWV = {} ## DictionaryOfWordsInVerse
     DWT = {} ## DictionaryOfWordsTotal
 
-    
     TotalWordCounter = 1
     
     ## BEGIN FOR LOOP
@@ -42,7 +40,7 @@ def fn_DataObjectsCreate(DS):
         NumberOfWordsEachVerse = len(ListOfWordsEachVerse)
 
         ## TEST PRINT OUTPUT
-        print(f"ListOfWordsEachVerse : {ListOfWordsEachVerse}")
+        ## print(f"ListOfWordsEachVerse : {ListOfWordsEachVerse}")
 
         VerseWordCounter = 1
 
@@ -89,5 +87,5 @@ def fn_DataObjectsCreate(DS):
     ## RETURN LIST OF WORDS
     return(ListOfWords, ListOfNumbersOfWordsEachVerse, DWV, DWT) 
 
-## END FUNCTION () #8 - DATA OBJECTS CREATE
+## END FUNCTION () #8B - DATA OBJECTS CREATE
 

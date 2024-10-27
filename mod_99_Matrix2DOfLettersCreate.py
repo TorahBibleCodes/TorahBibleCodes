@@ -1,5 +1,4 @@
-## BEGIN FUNCTION () #99 - MATRIX 2D OF LETTERS CREATE
-
+## BEGIN FUNCTION () #99 - MATRIX 2D OF LETTERS CREATE ##
 def fn_Matrix2DOfLettersCreate(S, YH, XW, D5K):
 
     """
@@ -38,7 +37,7 @@ def fn_Matrix2DOfLettersCreate(S, YH, XW, D5K):
 
     ## TEST
     a = M
-    print(len(M), type(M))
+    ## print(len(M), type(M))
 
     ListOfRows = []
     ListOfLettersInRow = []
@@ -98,9 +97,9 @@ def fn_Matrix2DOfLettersCreate(S, YH, XW, D5K):
                 KeyOfFirstLetterInRow = D5K[D5KCountUp]
                 ## KeyOfLastLetterInRow = D5K[D5KCountUpLeft]
 
-                print(f"Key of D5 / D5K in D5K.keys() is {KeyOfFirstLetterInRow} ")
+                ## print(f"Key of D5 / D5K in D5K.keys() is {KeyOfFirstLetterInRow} ")
                 ## print(f"Last Letter Index in D5K.keys() is {KeyOfLastLetterInRow} ")
-                print(f"len(S) Length of Matrix = {len(S)}")
+                print(f"len(SSS) Length of Matrix = {len(S)}")
                 print(f"len(D5K) Length Of Text = {len(D5K)}")
 
                 ## GET LAST VALUE OF D5K VALUE (SAME AS KEY OF D5)

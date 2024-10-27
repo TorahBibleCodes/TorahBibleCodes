@@ -1,7 +1,6 @@
 ## IMPORT MODULES
 
-## FUNCTION () #7 - DICTIONARY OF VERSES CREATE
-
+## FUNCTION () #7 - DICTIONARY OF VERSES CREATE ##
 def fn_DictionaryOfVersesCreate(ZippedTupleNoSpaces, ZippedTupleWithSpaces):
 
     """
@@ -106,11 +105,41 @@ def fn_DictionaryOfVersesCreate(ZippedTupleNoSpaces, ZippedTupleWithSpaces):
                 ## TEST PRINT OUTPUT
                 ## print("KeyTuple = ", KeyTuple)
                 ## print("Verse = ", Verse)
+
+                ## TEST DEVELOPMENT - BEGIN
+                ## BEGIN DEAL WITH DOUBLE WHITE SPACES
+                ## CONVERT STRING WITH SPACES TO LIST
+                ## DECLARE VARIABLE TO DEAL WITH THE "WORDS" WITH EMPTY STRINGS
+                ListOfWords = []
+
+                ## SPLIT TEXT INTO INDIVIDUAL WORDS: CREATES LIST OF WORDS
+                ListOfWordsInVerse = list(Verse.split(" "))
+
+                ## BEGIN FOR LOOP
+                for each in ListOfWordsInVerse:
+
+                    ## BEGIN IF / ELSE... DEAL WITH THE "WORDS" WITH EMPTY STRINGS TO FILTER OUR DOUBLE-SPACES
+                    if each =='':
+                        pass
+                    else: 
+                        ListOfWords.append(each)
+                    ## END IF / ELSE
+
+                ## END FOR LOOP
                 
+                ## JOIN LIST OF WORDS
+                Verse = " ".join(ListOfWords)
+
+                ## END DEAL WITH DOUBLE WHITE SPACES
+                ## TEST DEVELOPMENT - END
+
+                ## ASSIGN EACH VERSE TO EACH 3-INTEGER TUPLE-KEY --> DS[1,1,1] or DS[(1,1,1)] 
                 DictOfVersesWithSpaces[KeyTuple] = Verse
                 
+                ## INCREMENT VERSE COUNTER
                 VerseCounter += 1
             
+            ## INCREMENT CHAPTER COUNTER
             ChapterCounter += 1
 
     ## TEST PRINT OUTPUT
@@ -120,4 +149,4 @@ def fn_DictionaryOfVersesCreate(ZippedTupleNoSpaces, ZippedTupleWithSpaces):
     ## RETURN VARIABLES TO PROGRAM
     return(DictOfVersesNoSpaces, DictOfVersesWithSpaces)
 
-## END FUNCTION () #7 - DICTIONARY OF VERSES CREATE
+## END FUNCTION() #7 - DICTIONARY OF VERSES CREATE

@@ -1,7 +1,6 @@
 ## IMPORT MODULES
 
-## FUNCTION () #8E - DATA OBJECTS CREATE
-
+## FUNCTION () #8E - DATA OBJECTS CREATE ##
 def fn_DataObjectsCreate(DWT):
 
     """

@@ -1,5 +1,4 @@
 ## IMPORT MODULES
-
 import xlsxwriter
 
 ## DECLARE VARIABLES
@@ -19,7 +18,7 @@ def fn_WriteOutputToFile(YH, XW, ListOfRowsOfLetters, FileNameForMatrixXLSX):
     print(f"YH = {YH}; XW = {XW}")
 
     ## PURE XLSXWRITER CODE; ## NO PANDAS PROXY
-    workbook = xlsxwriter.Workbook(FileNameForMatrixXLSX)
+    workbook = xlsxwriter.Workbook("USER_GENERATED_FILES/" + FileNameForMatrixXLSX)
     worksheet = workbook.add_worksheet()
 
     ## DEFINE FORMATS

@@ -1,5 +1,6 @@
-## BEGIN FUNCTION () #13 - 
+## IMPORT MODULES
 
+## BEGIN FUNCTION() #13 - ##
 def fn_GetListOfFactors(LengthOfTextToSearch):
 
     """
@@ -29,7 +30,7 @@ def fn_GetListOfFactors(LengthOfTextToSearch):
     ## END FOR LOOP
 
     ## TEST PRINT OUTPUT
-    print(f"ListOfFactors = {ListOfFactors}", len(ListOfFactors))
+    print(f"The are {len(ListOfFactors)} perfect factors in the text(s) that you selected: {ListOfFactors}")
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
@@ -38,4 +39,4 @@ def fn_GetListOfFactors(LengthOfTextToSearch):
     ## RETURN LIST OF FACTORS
     return(ListOfFactors)
 
-## END FUNCTION () #13 - 
+## END FUNCTION() #13 - 

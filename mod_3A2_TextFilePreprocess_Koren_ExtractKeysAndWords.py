@@ -1,16 +1,15 @@
 ## IMPORT MODULES
 
-## FUNCTION () #3A2 - TEXT FILE PREPROCESS - EXTRACT KEYS AND WORDS
-
+## FUNCTION () #3A2 - TEXT FILE PREPROCESS - EXTRACT KEYS AND WORDS ##
 def fn_ExtractKeysAndWords(TextKoren):
     
     """
-    ## MODULE.FUNCTION() #3A2 - TEXT FILE PREPROCESS - EXTRACT KEYS AND WORDS; ## RETURNS ListOfTupleKeysToFix
+    ## MODULE.FUNCTION() #3A2 - TEXT FILE PREPROCESS - EXTRACT KEYS AND WORDS; ## RETURNS ListOfTupleKeysToFix ##
     """
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #3A2 TEXT FILE PREPROCESS - EXTRACT KEYS AND WORDS")
+    print("WITHIN FUNCTION:  BEGIN FUNCTION #3A2 - TEXT FILE PREPROCESS - EXTRACT KEYS AND WORDS")
 
     ## DECLARE VARIABLES
     ListOfLines = []
@@ -22,8 +21,8 @@ def fn_ExtractKeysAndWords(TextKoren):
     if isinstance(TextKoren, str):
         
         ## TEST PRINT OUTPUT
-        print("\n")
-        print("TextKoren = ", len(TextKoren), type(TextKoren))
+        ## print("\n")
+        ## print("TextKoren = ", len(TextKoren), type(TextKoren))
 
         ## SPLIT THE STRING AT THE NEW LINE \N CHARACTER
         ListOfStrings = TextKoren.split("\n")

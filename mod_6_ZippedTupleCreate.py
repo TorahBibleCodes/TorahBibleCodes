@@ -1,7 +1,6 @@
 ## IMPORT MODULES
 
-## FUNCTION () #6 - ZIPPED TUPLE CREATE
-
+## FUNCTION () #6 - ZIPPED TUPLE CREATE ##
 def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONStringsParsedWithSpaces, SearchTextChosen):
 
     """
@@ -10,8 +9,23 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONString
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #6 - ZIPPED TUPLE CREATE")
+    print("WITHIN FUNCTION:  BEGIN FUNCTION #6 - ZIPPED TUPLE CREATE ")
     
+        ## IF TEXT CHOSEN IS BOTH BOOKS TOGETHER (SAMUEL, KINGS, EZRA-NEHEMIAH, CHRONICLES)
+    if len(ListOfDictsOfJSONStringsParsed) == 2:
+        
+        ## CREATE ZIPPED TUPLE OF SEARCH TEXT CHOSEN // DICT OF JSON STRING PARSED 
+        ZippedTupleNoSpaces = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsed))
+        ZippedTupleWithSpaces = tuple(zip(SearchTextChosen, ListOfDictsOfJSONStringsParsedWithSpaces))
+
+        ## LOOP THROUGH TUPLE - TEST PRINT OUTPUT
+        ## for each in ZippedTupleNoSpaces:
+            
+            ## TEST PRINT OUTPUT
+            ## print("\n")  ## PRINT SPACE
+            ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF BOTH TEXTS OF ??? CHOSEN = ", each[0],len(each[1]))
+            ## print("EACH IN ZIPPED TUPLE IN FUNCTION 6 ONLY IF BOTH TEXTS OF ??? CHOSEN = ", type(each[0]),type(each[1]))
+
     ## IF TEXT CHOSEN IS ALL FIVE (5) TEXTS OF TORAH...
     if len(ListOfDictsOfJSONStringsParsed) == 5:
         
@@ -124,5 +138,5 @@ def fn_ZippedTupleCreate(ListOfDictsOfJSONStringsParsed, ListOfDictsOfJSONString
     ## RETURN ZIPPED TUPLE
     return(ZippedTupleNoSpaces, ZippedTupleWithSpaces)
 
-## END FUNCTION () #6 - ZIPPED TUPLE CREATE
+## END FUNCTION() #6 - ZIPPED TUPLE CREATE
 

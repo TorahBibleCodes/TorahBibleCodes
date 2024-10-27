@@ -1,8 +1,7 @@
 ## IMPORT MODULES
 import mod_9A_GetNumberValues4Letters ## MODULE.FUNCTION() #9A - GET NUMBER VALUE OF EACH LETTER IN STRING
 
-## FUNCTION () #9B - GET NUMBER VALUES FOR EACH WORDSTRING IN LIST OF WORDS
-
+## FUNCTION() #9B - GET NUMBER VALUES FOR EACH WORDSTRING IN LIST OF WORDS ##
 def fn_GetNumberValues(ListOfWords):
 
     """
@@ -20,6 +19,9 @@ def fn_GetNumberValues(ListOfWords):
     ## BEGIN FOR LOOP
     ## FOR EACH ELEMENT IN SEQUENCE S, L, etc.??
     for EachWord in ListOfWords:
+
+        ## TEST PRINT OUTPUT
+        ## print(f"{WordCounter} EachWord : {EachWord[::-1]}")
 
         ## CALL FUNCTION - 
         NumberValuesForEachWord = mod_9A_GetNumberValues4Letters.fn_GetNumberValues(EachWord)
@@ -65,5 +67,5 @@ def fn_GetNumberValues(ListOfWords):
     ## RETURN VARIABLES TO PROGRAM
     return(ListOfNumberValues4Words) ## LIST OF TUPLES
     
-## END FUNCTION () #9B - GET NUMBER VALUES FOR EACH WORDSTRING IN LIST OF WORDS
+## END FUNCTION() #9B - GET NUMBER VALUES FOR EACH WORDSTRING IN LIST OF WORDS
 

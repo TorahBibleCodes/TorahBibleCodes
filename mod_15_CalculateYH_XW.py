@@ -1,5 +1,6 @@
-## BEGIN FUNCTION () #15 - 
+## IMPORT MODULES
 
+## BEGIN FUNCTION() #15 - ##
 def fn_CalculateYH_XW(FactorY, FactorX, ListOfFactors, L, LengthOfTextToSearch): ## PARAMETER L HERE IS ACTUALLY LLL
 
     """
@@ -94,4 +95,4 @@ def fn_CalculateYH_XW(FactorY, FactorX, ListOfFactors, L, LengthOfTextToSearch):
     ## RETURN VARIABLES TO PROGRAM
     return(YH, XW, L)
 
-## END FUNCTION () #15
+## END FUNCTION() #15

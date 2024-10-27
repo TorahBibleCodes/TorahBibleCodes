@@ -1,14 +1,14 @@
-## FUNCTION () #2 - TEXT FILE OPEN
+## FUNCTION () #2A - TEXT FILE OPEN ##
 
 def fn_TextFileOpen(TextChosen):
 
     """
-    ## MODULE.FUNCTION() #2A - TEXT FILE OPEN; ## RETURNS TEXT FILE STRING
+    ## MODULE.FUNCTION() #2A - TEXT FILE OPEN; ## RETURNS TEXT FILE STRING ##
     """
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #2 TEXT FILE OPEN")
+    print("WITHIN FUNCTION:  BEGIN FUNCTION #2A TEXT FILE OPEN")
           
     ## OPEN TEXT FILE
     ## IF TEXT CHOSEN IS ONLY ONE (1) TEXT...
@@ -44,6 +44,8 @@ def fn_TextFileOpen(TextChosen):
     
         with open("texts/text_koren_5deuteronomy.txt", encoding="utf-8-sig") as File:
             TextFile = File.read()
+
+    
             
     ## ELSE IF TEXT CHOSEN IS 6:  JOSHUA
     elif TextChosen == 6:
@@ -765,13 +767,12 @@ def fn_TextFileOpen(TextChosen):
                     TextFile31, TextFile32, TextFile33, TextFile34, TextFile35, \
                     TextFile36, TextFile37, TextFile38, TextFile39)
         
-            
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #2 - TEXT FILE OPEN")
+    print("WITHIN FUNCTION:  END FUNCTION #2A - TEXT FILE OPEN")
 
     ## RETURN VARIABLES TO PROGRAM
     return(TextFile)
 
-## END FUNCTION () #2 - TEXT FILE OPEN
+## END FUNCTION () #2A - TEXT FILE OPEN
 

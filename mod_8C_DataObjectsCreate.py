@@ -1,7 +1,6 @@
 ## IMPORT MODULES
 
-## FUNCTION () #8C - DATA OBJECTS CREATE
-
+## FUNCTION () #8C - DATA OBJECTS CREATE ##
 def fn_DataObjectsCreate(ListOfWords):
 
     """
@@ -23,12 +22,16 @@ def fn_DataObjectsCreate(ListOfWords):
 
         ## LW.append(EachWord)
 
+        ## BEGIN FOR LOOP
         for EachLetter in EachWord: ## EACH LETTER
 
+            ##
             ListTemporary.append(LetterCounter)
 
             ## INCREMENT LETTER COUNTER
             LetterCounter += 1
+
+        ## END FOR LOOP
 
         ## ADD EACH CURRENT TOTAL-LETTER-COUNT-VALUE-INDEX-POSITION (I.E. EACH LETTER)
         ListOfIndexes4LettersInEachWord.append(ListTemporary)

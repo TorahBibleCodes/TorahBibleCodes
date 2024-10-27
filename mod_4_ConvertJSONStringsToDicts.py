@@ -1,8 +1,7 @@
 ## IMPORT MODULES
-
 import json
 
-## FUNCTION () #4 - CONVERT PARSED JSON STRINGS TO DICTIONARIES
+## FUNCTION () #4 - CONVERT PARSED JSON STRINGS TO DICTIONARIES ##
 def fn_ConvertJSONStringsToDicts(ListOfJSONStringsParsed, ListOfJSONStringsParsedWithSpaces):
 
     """
@@ -11,7 +10,7 @@ def fn_ConvertJSONStringsToDicts(ListOfJSONStringsParsed, ListOfJSONStringsParse
     
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #4 CONVERT PARSED JSON STRINGS TO DICTIONARIES")
+    print("WITHIN FUNCTION:  BEGIN FUNCTION #4 - CONVERT PARSED JSON STRINGS TO DICTIONARIES")
     
     ## DECLARE VARIABLES      
     ListOfDictsOfJSONStringsParsed = []

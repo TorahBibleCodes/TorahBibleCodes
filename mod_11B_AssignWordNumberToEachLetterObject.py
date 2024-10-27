@@ -1,16 +1,16 @@
 ## IMPORT MODULES
 
 ## DEFINE FUNCTION
-## FUNCTION () #11B - 
+## FUNCTION() #11B - ##
 def fn_AssignWordNumberToEachLetterObject(DLO, DW, DWTK):
 
     """
-    ## MODULE.FUNCTION() #11B - 
+    ## MODULE.FUNCTION() #11B - ASSIGN WORD NUMBER TO EACH LETTER OBJECT
     """
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  BEGIN FUNCTION #11B")
+    print("WITHIN FUNCTION:  BEGIN FUNCTION #11B - ASSIGN WORD NUMBER TO EACH LETTER OBJECT")
 
     ## DECLARE VARIABLES FOR FOR LOOP BELOW WITH 1-INDEX DW OBJECT
    
@@ -25,13 +25,13 @@ def fn_AssignWordNumberToEachLetterObject(DLO, DW, DWTK):
                 DLO[EachIndexPosition].WordNumber = key
 
                 ## TEST
-                DLO[EachIndexPosition].WordCoordinatesDWT = DWTK[key]
+                DLO[EachIndexPosition].WordCoordinatesDWTK = DWTK[key]
 
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #11B")
+    print("WITHIN FUNCTION:  END FUNCTION #11B - ASSIGN WORD NUMBER TO EACH LETTER OBJECT")
 
     ## RETURN VARIABLES
     return(DLO)
 
-## END FUNCTION () #11B - 
+## END FUNCTION() #11B - 

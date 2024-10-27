@@ -1,7 +1,7 @@
 ## IMPORT MODULES
 
-## FUNCTION () #5 - GET NUMBER OF TEXT CHOSEN
-def fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed):
+## FUNCTION () #5 - GET NUMBER OF TEXT CHOSEN ##
+def fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed, NumberOfTextChosen):
 
     """
     ## MODULE.FUNCTION() #5 - GET NUMBER OF TEXT CHOSEN ## RETURNS TUPLE OF INTEGER NUMBER OF TEXT CHOSEN
@@ -72,8 +72,8 @@ def fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed):
         for each in BookNumbers:
             
             ## APPEND BOOK NUMBER TO LIST
-            TextChosen.append(each)
-    
+            TextChosen.append(each)   
+            
     ## ...ELSE IF TEXT CHOSEN IS ONLY 1 (ONE) TEXT:
     elif len(ListOfDictsOfJSONStringsParsed) == 1:
     
@@ -199,10 +199,23 @@ def fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed):
                 
             elif TextTitle == "IIChronicles":
                 BookNumber = 39
-                
-                
+                   
             ## APPEND BOOK NUMBER TO LIST
             TextChosen.append(BookNumber)
+
+    ## IF TEXT CHOSEN IS BOTH BOOKS OF (SAMUEL, KINGS, EZRA-NEHEMIAH, CHRONICLES)
+    elif len(ListOfDictsOfJSONStringsParsed) == 2:
+        
+        match NumberOfTextChosen: 
+
+            case 44:
+                TextChosen = (8,9)
+            case 45:
+                TextChosen = (10,11)
+            case 46:
+                TextChosen = (36,37)
+            case 47:
+                TextChosen = (38,39) 
     
     ## ELSE ALL OTHER CASES (NEVER CALLED)
     else:
@@ -211,11 +224,9 @@ def fn_GetNumberOfTextChosen(ListOfDictsOfJSONStringsParsed):
     ## CONVERT LIST TO TUPLE
     TextChosen = tuple(TextChosen)
     
-
-    
     ## TEST PRINT OUTPUT
     print("\n")  ## PRINT SPACE
-    print("WITHIN FUNCTION:  END FUNCTION #5 - GET NUMBER OF TEXT CHOSEN")
+    print("WITHIN FUNCTION:  END FUNCTION #5 - GET NUMBER OF TEXT CHOSEN ")
 
     ## RETURN VARIABLES TO PROGRAM
     return(TextChosen)

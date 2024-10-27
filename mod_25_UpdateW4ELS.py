@@ -1,6 +1,6 @@
 ## IMPORT MODULES
 
-## DEFINE FUNCTION
+## DEFINE FUNCTION ##
 def fn_UpdateW4ELS(W4ELS, DELSO):
 
     """ """
@@ -21,10 +21,16 @@ def fn_UpdateW4ELS(W4ELS, DELSO):
         ## CONVERT TUPLE TO LIST
         ListNew = list(EachTuple)
 
-        ## ADD NUMBER OF POSITIVE MATCHES
+        ## GET GEMATRIA VALUE OF THE WORD TO ALLOW FOR EASY SORTING OF CSV OUTPUT FILE
+        WordTotalValueGematria = ListNew[1][2]
+
+        ## ADD GEMATRIA VALUE OF THE WORD TO ALLOW FOR EASY SORTING OF CSV OUTPUT FILE
+        ListNew.append(WordTotalValueGematria)
+
+        ## ADD NUMBER OF MATCHES (POSITIVE)
         ListNew.append(DELSO[i].NMP)
 
-        ## ADD NUMBER OF NEGATIVE MATCHES
+        ## ADD NUMBER OF MATCHES (NEGATIVE)
         ListNew.append(DELSO[i].NMN)
 
         TempTup = tuple(ListNew)

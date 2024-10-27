@@ -1,7 +1,7 @@
 ## IMPORT MODULES
 
-## DEFINE FUNCTION
-def fn_AddSearchResultsToDELSO(DELSO, DELSMP, DELSMN):
+## DEFINE FUNCTION ##
+def fn_AddSearchResultsToDELSO(DELSO, DELSMLF_POS, DELSMLF_NEG, DELSMLL_POS, DELSMLL_NEG):
 
     """ ## MODULE.FUNCTION() #24 - ## RETURNS: DELSO """
 
@@ -18,10 +18,12 @@ def fn_AddSearchResultsToDELSO(DELSO, DELSMP, DELSMN):
     for EachELSObject in DELSO.values():
 
         ## ADD VALUE OF NUMBER TO INSTANCE OF LETTER OBJECT
-        EachELSObject.DELSMP = DELSMP[CurrentDictKeyPosition] ## ADD DICT OF POSITIVE ELS MATCHES TO DELSO
-        EachELSObject.NMP = len(DELSMP[CurrentDictKeyPosition])
-        EachELSObject.DELSMN = DELSMN[CurrentDictKeyPosition] ## ADD DICT OF NEGATIVE ELS MATCHES TO DELSO
-        EachELSObject.NMN = len(DELSMN[CurrentDictKeyPosition])
+        EachELSObject.DELSMLF_POS = DELSMLF_POS[CurrentDictKeyPosition] ## ADD DICT OF POSITIVE ELS MATCHES TO DELSO BY LETTER FIRST
+        EachELSObject.DELSMLF_NEG = DELSMLF_NEG[CurrentDictKeyPosition] ## ADD DICT OF NEGATIVE ELS MATCHES TO DELSO BY LETTER FIRST
+        EachELSObject.DELSMLL_POS = DELSMLL_POS[CurrentDictKeyPosition] ## ADD DICT OF POSITIVE ELS MATCHES TO DELSO BY LETTER LAST
+        EachELSObject.DELSMLL_NEG = DELSMLL_NEG[CurrentDictKeyPosition] ## ADD DICT OF NEGATIVE ELS MATCHES TO DELSO BY LETTER LAST
+        EachELSObject.NMP = len(DELSMLF_POS[CurrentDictKeyPosition])
+        EachELSObject.NMN = len(DELSMLF_NEG[CurrentDictKeyPosition])
 
         ## INCREMENT
         CurrentDictKeyPosition += 1

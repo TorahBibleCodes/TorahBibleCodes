@@ -1,4 +1,4 @@
-## DEFINE CLASS
+## DEFINE CLASS ##
 class cls_GlobalSearchObject():
 
     """

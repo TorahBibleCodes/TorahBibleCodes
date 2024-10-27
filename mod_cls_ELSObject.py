@@ -1,19 +1,22 @@
-## DEFINE CLASS
+## DEFINE CLASS ##
 class cls_ELSObject():
 
     """
     ## CLASS FOR EACH ELS OBJECT - ELSO() - elso
     """
     
-    def __init__(self, ELSSearchTermNumber=None, Letters=None, k=None, MaxSkipDistance=None, DELSMP=None, NMP=None, DELSMN=None, NMN=None, ListOfListsOfIndexMatches=None):
+    def __init__(self, ELSSearchTermNumber=None, Letters=None, WordGematriaNumberValue=None, k=None, MaxSkipDistance=None, DELSMLF_POS=None, DELSMLF_NEG=None, DELSMLL_POS=None, DELSMLL_NEG=None, NMP=None, NMN=None, ListOfListsOfIndexMatches=None):
 
         self.ELSSearchTermNumber = ELSSearchTermNumber ## INTEGER
         self.Letters = Letters ## ACTUALLY: GEMATRIA NUMBER VALUES [40, 300, 10, 8] ====== [ח, י, ש, מ] ====== [מ, ש, י, ח]
+        self.WordGematriaNumberValue = WordGematriaNumberValue ## 
         self.k = k ## INTEGER : LENGTH OF ELS SEARCH TERM ## 4
         self.MaxSkipDistance = MaxSkipDistance ## (LengthOfTextToSearch / k)
-        self.DELSMP = DELSMP ## DictOfELSMatchesPositive
+        self.DELSMLF_POS = DELSMLF_POS ## DictOfELSMatchesPositive BY LETTER FIRST
+        self.DELSMLF_NEG = DELSMLF_NEG ## DictOfELSMatchesNegative BY LETTER FIRST
+        self.DELSMLL_POS = DELSMLL_POS ## DictOfELSMatchesPositive BY LETTER LAST
+        self.DELSMLL_NEG = DELSMLL_NEG ## DictOfELSMatchesNegative BY LETTER LAST
         self.NMP = NMP ##NumberOfMatchesPositive
-        self.DELSMN = DELSMN ## DictOfELSMatchesNegative
         self.NMN = NMN ##NumberOfMatchesNegative
 
         self.ListOfListsOfIndexMatches = ListOfListsOfIndexMatches ## 0-BASED INDEX POSITIONS ## ONE (1) LIST PER LETTER MATCH FOR EACH LETTER IN EACH (MULTIPLE) ELS SEARCH TERM; MATCHES OF INDEX POSITIONS
