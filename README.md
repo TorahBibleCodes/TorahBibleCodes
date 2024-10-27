@@ -7,9 +7,13 @@ https://www.TorahBibleCodes.com
 <br />
 GITHUB: @TorahBibleCodes https://github.com/torahbiblecodes
 <br />
-READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
+SOFTWARE REPO (INCLUDES USER-GUIDE PDF): @TorahBibleCodes https://github.com/torahbiblecodes/torahbiblecodes
 <br />
-ACADEMIA: https://www.academia.edu/104334275
+ACADEMIA 2024 (PDF USER GUIDE): https://www.academia.edu/125087434
+<br /> 
+READ THE DOCS (NOT YET UPDATED FOR VERSION 0.2): @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
+<br />
+ACADEMIA 2023: https://www.academia.edu/104334275
 <br />
 STACKOVERFLOW: @TorahBibleCodes https://stackoverflow.com/users/8911652/torahbiblecodes
 <br />
