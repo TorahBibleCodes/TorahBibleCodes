@@ -261,7 +261,10 @@ READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en
 	<li>Outputs CSV EXCEL file of the Gematria Number values for each word AND letter in the selected text(s)</li>
 	<li>Outputs CSV EXCEL file of the Gematria Number values for each word AND letter in the ELS Search-Terms</li>
 	<li>Outputs CSV EXCEL file of the ELS Search Term Matches (both POSITIVE and NEGATIVE):  Testing of several (best?) ways / algorithms for ELS Search within the text; Currently investigating REGEX, PANDAS, PURE PYTHON LINEAR SEARCH, etc.; Please see and examine the Python / Pandas Data Objects returned to see current capabilities in development.</li>
-	<li>IN DEVELOPMENT:  Outputs CSV EXCEL file of the Data Points for each letter and each word of each of the ELS Search-Terms so that precise, exact positions, shared positions, letter-proximity, statistical probability, etc. of letters will be scientifically verifiable and reproduceable.</li>
+	<li>Outputs CSV EXCEL file of the Data Points for each letter and each word of each of the ELS Search-Terms so that precise, exact positions, shared positions, letter-proximity.</li>
+	<li>Outputs CSV EXCEL file of Letter Statistics for that text selected.</li>
+	<li>IN DEVELOPMENT: R&D for visualizations as well as integration into AI.</li>
+	<li>IN DEVELOPMENT: Measurement of statistical probability, etc. of letters will be scientifically verifiable and reproduceable.</li>
 </ol>
 
 <br />We invite you to share your open-source (alternative/multiple?) solutions of further development of this open-source program (e.g. add-ons, additional features, functionalities, GUIs, etc.), as well as scientific research using these software research tools with the community to allow confirmation of your discoveries and data, which will lead to further shared advancement and mutual benefit for us all
