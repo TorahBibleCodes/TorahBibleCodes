@@ -33,6 +33,10 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 <br />Active Development: In Progress
 
 # Updates
+<br />14 / MARCH / 2025
+<br />
+<br />SOFTWARE UPDATE (MINOR): ## LINE OF CODE IN THE FILE p.py ADDED TO DEAL WITH NUMPY UPDATE THAT SCREWS UP OUTPUT FORMATTING IN THE CSV FILE - THIS IS NUMPY'S SUGGESTED SOLUTION
+<br />
 <br />27 / SEPTEMBER / 2024
 <br />
 <br />SOFTWARE UPDATE: NOW AVAILABLE SOFTWARE UPDATE VERSION 0.2
