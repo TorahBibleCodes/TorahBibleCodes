@@ -38,6 +38,13 @@ https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 
 <br />Active Development: In Progress
 
+<br />
+<br />
+Support your friendly, neighborhood TorahBibleCodes research scientist:
+<br />
+https://www.givesendgo.com/TorahBibleCodes
+<br />
+
 # Updates
 <br />14 / MARCH / 2025
 <br />
