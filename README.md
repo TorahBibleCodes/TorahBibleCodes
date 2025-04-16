@@ -1,6 +1,10 @@
 # TorahBibleCodes
 Torah Bible Codes - Open-Source Python
-
+<br />
+Support your friendly, neighborhood TorahBibleCodes research scientist.
+<br />
+https://www.givesendgo.com/TorahBibleCodes
+<br />
 HOMEPAGE URL: https://TorahBibleCodes.com
 <br />
 https://www.TorahBibleCodes.com
