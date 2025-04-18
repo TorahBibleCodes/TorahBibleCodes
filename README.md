@@ -19,7 +19,7 @@ ACADEMIA 2024 (PDF USER GUIDE): https://www.academia.edu/125087434
 <br /> 
 READ THE DOCS (NOT YET UPDATED FOR VERSION 0.2): @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
 <br />
-ACADEMIA 2023: https://www.academia.edu/104334275
+ACADEMIA 2023 (POC WHITEPAPER): https://www.academia.edu/104334275
 <br />
 STACKOVERFLOW: @TorahBibleCodes https://stackoverflow.com/users/8911652/torahbiblecodes
 <br />
@@ -45,6 +45,14 @@ https://www.givesendgo.com/TorahBibleCodes
 <br />
 
 # Updates
+<br />18 / APRIL / 2025
+<br />
+<br />SOFTWARE UPDATE (MAJOR): BETA DEVELOPMENT HAS BEGUN FOR TORAH BIBLE CODES IN THE RUST LANGUAGE TO PROVIDE USERS WITH A SIMPLE (VERY FAST) EXECUTABLE TO PROVIDE SEARCH DATA IN SECONDS OR MINUTES (NOT MINUTES, HOURS, OR DAYS LIKE PYTHON).
+<br />
+Support your friendly, neighborhood TorahBibleCodes research scientist:
+<br />
+https://www.givesendgo.com/TorahBibleCodes
+<br />
 <br />14 / MARCH / 2025
 <br />
 <br />SOFTWARE UPDATE (MINOR): ONE LINE OF CODE ADDED TO THE FILE p.py TO DEAL WITH NUMPY UPDATE THAT SCREWS UP OUTPUT FORMATTING IN THE CSV FILE - THIS IS NUMPY'S SUGGESTED SOLUTION
