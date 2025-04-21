@@ -71,8 +71,9 @@ https://www.givesendgo.com/TorahBibleCodes
 <br />7. Spaces in ELS Search Terms are elegantly handled by the program: Search for Longer, Multiple-Word Names and Phrases. 
 <br />8. Letter Statistics for every text for every search.
 <br />
-<br />Please support our efforts if you can by donating via GIVESENDGO: 
-<br />https://www.givesendgo.com/torahbiblecodes
+Support your friendly, neighborhood TorahBibleCodes research scientist:
+<br />
+https://www.givesendgo.com/TorahBibleCodes
 <br />
 <br />OR via BITCOIN (BTC) to the following addresses:
 <br />bc1qzws4zjgzf4wll2mtztsavmyvkg72fnajfff8r7
@@ -88,8 +89,9 @@ https://www.givesendgo.com/TorahBibleCodes
 <br />YOUTUBE: @TorahBibleCodes https://www.youtube.com/channel/UCNsvtMx4JJRpNzzPq57HCqg
 <br /> BETA DEVELOPMENT PROGRAM (WORK-IN-PROGRESS) UPLOADED; More to come ASAP GOD-willing.
 <br />
-<br />Please support our efforts if you can by donating via GIVESENDGO: 
-<br />https://www.givesendgo.com/torahbiblecodes
+Support your friendly, neighborhood TorahBibleCodes research scientist:
+<br />
+https://www.givesendgo.com/TorahBibleCodes
 <br />
 <br />OR via BITCOIN (BTC) to the following addresses:
 <br />bc1qzws4zjgzf4wll2mtztsavmyvkg72fnajfff8r7
@@ -460,4 +462,9 @@ Total Number of Letter א in Hebrew Bible: 95685
 <br />Total Number of Letter ר in Hebrew Bible: 68064
 <br />Total Number of Letter ש in Hebrew Bible: 58198
 <br />Total Number of Letter ת in Hebrew Bible: 63206
+<br />
+Support your friendly, neighborhood TorahBibleCodes research scientist:
+<br />
+https://www.givesendgo.com/TorahBibleCodes
+<br />
 
