@@ -50,6 +50,9 @@ https://www.givesendgo.com/TorahBibleCodes
 <br />SOFTWARE UPDATE (MAJOR): BETA DEVELOPMENT HAS BEGUN FOR TORAH BIBLE CODES IN THE RUST LANGUAGE TO PROVIDE USERS WITH A SIMPLE (VERY FAST) EXECUTABLE TO PROVIDE SEARCH DATA IN SECONDS OR MINUTES (NOT MINUTES, HOURS, OR DAYS LIKE PYTHON).
 <br />
 <br />
+https://github.com/TorahBibleCodes/TorahBibleCodes_Rust_BETA_DEVELOPMENT
+<br />
+<br />
 Support your friendly, neighborhood TorahBibleCodes research scientist:
 <br />
 https://www.givesendgo.com/TorahBibleCodes
