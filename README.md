@@ -15,6 +15,8 @@ GITHUB: @TorahBibleCodes https://github.com/torahbiblecodes
 <br />
 SOFTWARE REPO (INCLUDES USER-GUIDE PDF): @TorahBibleCodes https://github.com/torahbiblecodes/torahbiblecodes
 <br />
+SOFTWARE REPO (RUST BETA DEVELOPMENT - RUST VERSION COMING SOON): @TorahBibleCodes https://github.com/TorahBibleCodes/TorahBibleCodes_Rust_BETA_DEVELOPMENT
+<br />
 ACADEMIA 2024 (PDF USER GUIDE): https://www.academia.edu/125087434
 <br /> 
 READ THE DOCS (NOT YET UPDATED FOR VERSION 0.2): @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
