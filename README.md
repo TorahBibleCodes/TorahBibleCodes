@@ -13,9 +13,11 @@ https://www.TorahBibleCodes.com
 <br />
 GITHUB: @TorahBibleCodes https://github.com/torahbiblecodes
 <br />
-SOFTWARE REPO (INCLUDES USER-GUIDE PDF): @TorahBibleCodes https://github.com/torahbiblecodes/torahbiblecodes
+PYTHON SOFTWARE REPO (INCLUDES USER-GUIDE PDF): @TorahBibleCodes https://github.com/torahbiblecodes/torahbiblecodes
 <br />
-SOFTWARE REPO (RUST BETA DEVELOPMENT - RUST VERSION COMING SOON): @TorahBibleCodes https://github.com/TorahBibleCodes/TorahBibleCodes_Rust_BETA_DEVELOPMENT
+RUST SOFTWARE REPO (RUST BETA DEVELOPMENT - RUST VERSION COMING SOON): @TorahBibleCodes https://github.com/TorahBibleCodes/TorahBibleCodes_Rust_BETA_DEVELOPMENT
+<br />
+GO SOFTWARE REPO (GO BETA DEVELOPMENT - GO VERSION COMING SOON): @TorahBibleCodes https://github.com/TorahBibleCodes/TorahBibleCodes_Go_BETA_DEVELOPMENT
 <br />
 ACADEMIA 2024 (PDF USER GUIDE): https://www.academia.edu/125087434
 <br /> 
