@@ -1,5 +1,5 @@
 # TorahBibleCodes
-Torah Bible Codes - Open-Source Python
+Torah Bible Codes - Open-Source Python (and Coming Soon: Open-Source Rust and Go)
 <br />
 <br />
 Support your friendly, neighborhood TorahBibleCodes research scientist:
