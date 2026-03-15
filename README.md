@@ -2,6 +2,15 @@
 Torah Bible Codes - Open-Source Python (and Coming Soon: Open-Source Rust and Go)
 <br />
 <br />
+NO LICENSE GIVEN == ALL RIGHTS RESERVED
+<br />
+<br />
+As a courtesy, we allow people to download and use this software for free, non-commercial, private, educational use only.
+<br />
+<br />
+No commercial use 
+<br />
+<br />
 Support your friendly, neighborhood TorahBibleCodes research scientist:
 <br />
 https://www.givesendgo.com/TorahBibleCodes
@@ -17,7 +26,7 @@ PYTHON SOFTWARE REPO (INCLUDES USER-GUIDE PDF): @TorahBibleCodes https://github.
 <br />
 RUST SOFTWARE REPO (RUST BETA DEVELOPMENT - RUST VERSION COMING SOON): @TorahBibleCodes https://github.com/TorahBibleCodes/TorahBibleCodes_Rust_BETA_DEVELOPMENT
 <br />
-GO SOFTWARE REPO (GO BETA DEVELOPMENT - GO VERSION COMING SOON): @TorahBibleCodes https://github.com/TorahBibleCodes/TorahBibleCodes_Go_BETA_DEVELOPMENT
+GO SOFTWARE REPO (GO BETA DEVELOPMENT - GO VERSION COMING SOON): @TorahBibleCodes https://github.com/TorahBibleCodes/TorahBibleCodes_Go
 <br />
 ACADEMIA 2024 (PDF USER GUIDE): https://www.academia.edu/125087434
 <br /> 
