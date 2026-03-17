@@ -10,7 +10,6 @@ As a courtesy, we allow people to download and use this software for free, non-c
 <br />
 No commercial use 
 <br />
-<br />
 <br />Free to view? YES
 <br />Free to use privately? YES
 <br />Free to use publicly? NO
