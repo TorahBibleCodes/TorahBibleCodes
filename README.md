@@ -15,7 +15,7 @@ No commercial use
 <br />Free to use publicly? NO
 <br />Free to use commercially? NO
 <br />Free to distribute? NO
-<br />Free to licenses any modifications? NO
+<br />Free to license any modifications? NO
 <br />
 <br />
 PLEASE BE AWARE THAT WE ARE NOT ASSOCIATED WITH THE FOLLOWING GITHUB REPO:
