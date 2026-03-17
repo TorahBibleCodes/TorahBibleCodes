@@ -11,6 +11,14 @@ As a courtesy, we allow people to download and use this software for free, non-c
 No commercial use 
 <br />
 <br />
+PLEASE BE AWARE THAT WE ARE NOT ASSOCIATED WITH THE FOLLOWING GITHUB REPO - AHARON (RON, RONI) ZBAIDA OF NEW JERSEY, USA HAS STOLEN OUR SOFTWARE AND IS IN VIOLATION OF OUR COPYRIGHT (ALL RIGHTS RESERVED 2017-2026).
+WE ARE CURRENTLY PURSUING LEGAL ACTION - HIS ENTIRE PROGRAM WAS DEVELOPED BY CLAUDE BY INPUTING OUR CODE BASE AND DATA FILES AND DEVELOPED.
+AHARON (RONI, RON) ZBAIDA - LAWYER UP: YOU ARE A SHAMELESS THIEF, AND I AM COMING AFTER YOU IN BOTH U.S. AND ISRAELI COURTS OF LAW.
+https://github.com/bible-codes
+https://github.com/bible-codes/bible-codes.github.io
+https://bible-codes.github.io/
+<br />
+<br />
 Support your friendly, neighborhood TorahBibleCodes research scientist:
 <br />
 https://www.givesendgo.com/TorahBibleCodes
