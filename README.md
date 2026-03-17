@@ -11,12 +11,12 @@ As a courtesy, we allow people to download and use this software for free, non-c
 No commercial use 
 <br />
 <br />
-Free to view? NO
-Free to use privately? YES
-Free to use publicly? NO
-Free to use commercially? NO
-Free to distribute? NO
-Free to give licenses any modifications? NO
+<br />Free to view? YES
+<br />Free to use privately? YES
+<br />Free to use publicly? NO
+<br />Free to use commercially? NO
+<br />Free to distribute? NO
+<br />Free to licenses any modifications? NO
 <br />
 <br />
 PLEASE BE AWARE THAT WE ARE NOT ASSOCIATED WITH THE FOLLOWING GITHUB REPO:
