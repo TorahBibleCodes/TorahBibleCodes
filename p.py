@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 ## import matplotlab.pyplot as plt
 ## import tkinter as tk
+np.set_printoptions(legacy="1.25") ## DEAL WITH NUMPY UPDATE THAT SCREWS UP OUTPUT FORMATTING IN THE CSV FILE - THIS IS NUMPY'S SUGGESTED SOLUTION
 
 import mod_0_GetUserInput_CodexToSearch ## MODULE.FUNCTION() #0 - GET USER INPUT; CHOOSE CODEX TO SEARCH; ## RETURNS INTEGER
 import mod_1A_GetUserInput_TextToSearch_Koren ## MODULE.FUNCTION() #1A - GET USER INPUT; CHOOSE TEXT TO SEARCH; ## RETURNS INTEGER
