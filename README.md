@@ -1,431 +1,466 @@
+> ## ⚠️ NOTICE TO ALL USERS
+> Due to the willful software theft and copyright infringement by Aharon (Ron/Roni) Zbaida
+> of East Brunswick, NJ, USA, we are releasing **only compiled executable files** for the Go
+> and Rust ports of the original Python version of TorahBibleCodes. **We cannot release the
+> source code** for those ports at this time due to Aharon (Ron/Roni) Zbaida's willful
+> copyright infringement and software theft of our ALL RIGHTS RESERVED copyrighted software.
+>
+> For the full copyright infringement notice and complete evidence, see:
+> **[Copyright Notice — Aharon (Ron/Roni) Zbaida — Software Theft](https://github.com/torahbiblecodes/Copyright-Notice-Aharon-Ron-Roni-Zbaida-East-Brunswick-NJ-USA-Software-Theft)**
+
+---
+
 # TorahBibleCodes
-Torah Bible Codes - Open-Source Python
 
-HOMEPAGE URL: https://TorahBibleCodes.com
-<br />
-https://www.TorahBibleCodes.com
-<br />
-GITHUB: @TorahBibleCodes https://github.com/torahbiblecodes
-<br />
-READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
-<br />
-ACADEMIA: https://www.academia.edu/104334275
-<br />
-STACKOVERFLOW: @TorahBibleCodes https://stackoverflow.com/users/8911652/torahbiblecodes
-<br />
-TWITTER: @TorahBibleCodes https://twitter.com/TorahBibleCodes
-<br />
-YOUTUBE: @TorahBibleCodes https://www.youtube.com/@TorahBibleCodes
-<br />
-YOUTUBE: @TorahBibleCodes https://www.youtube.com/channel/UCNsvtMx4JJRpNzzPq57HCqg
-<br />
-GIVESENDGO: @TorahBibleCodes https://www.givesendgo.com/torahbiblecodes
+Torah Bible Codes — Open-Source Python | Rust (Coming Soon) | Go (Now Available)
 
-# Known Bugs and Open Issues
+---
+
+## LICENSE
+
+**NO LICENSE GIVEN == ALL RIGHTS RESERVED**
+
+As a courtesy, we allow people to download and use this software for free, non-commercial, private, educational use only.
+
+| Permission | Status |
+|------------|--------|
+| Free to view | ✅ YES |
+| Free to use privately | ✅ YES |
+| Free to use publicly | ❌ NO |
+| Free to use commercially | ❌ NO |
+| Free to distribute | ❌ NO |
+| Free to license any modifications | ❌ NO |
+
+---
+
+## ⚠️ COPYRIGHT INFRINGEMENT NOTICE
+
+**PLEASE BE AWARE THAT WE ARE NOT ASSOCIATED WITH THE FOLLOWING GITHUB REPO WHO HAS WILLFULLY VIOLATED OUR COPYRIGHT, AND IS LIABLE FOR WILLFUL COPYRIGHT INFRINGEMENT AND SOFTWARE THEFT:**
+
+**AHARON (RON, RONI) ZBAIDA OF EAST BRUNSWICK, NJ, USA HAS STOLEN OUR SOFTWARE AND IS IN VIOLATION OF OUR COPYRIGHT (ALL RIGHTS RESERVED 2017-2026).**
+
+WE ARE CURRENTLY PURSUING LEGAL ACTION — HIS ENTIRE PROGRAM WAS DEVELOPED BY CLAUDE AI BY INPUTTING OUR ENTIRE CODE BASE AND DATA FILES.
+
+**AHARON (RONI, RON) ZBAIDA — LAWYER UP: YOU ARE A SHAMELESS THIEF, AND WE ARE COMING AFTER YOU IN BOTH U.S. AND ISRAELI COURTS OF LAW.**
+
+- https://github.com/bible-codes
+- https://github.com/bible-codes/bible-codes.github.io
+- https://bible-codes.github.io/
+
+**FULL COPYRIGHT INFRINGEMENT NOTICE AND EVIDENCE:**
+https://github.com/torahbiblecodes/Copyright-Notice-Aharon-Ron-Roni-Zbaida-East-Brunswick-NJ-USA-Software-Theft
+
+---
+
+## LINKS & COMMUNITY
+
+**Support your friendly, neighborhood TorahBibleCodes research scientist:**
+https://www.givesendgo.com/TorahBibleCodes
+
+| Resource | Link |
+|----------|------|
+| Homepage | https://TorahBibleCodes.com |
+| GitHub | https://github.com/torahbiblecodes |
+| Python Repo (includes User Guide PDF) | https://github.com/torahbiblecodes/torahbiblecodes |
+| Rust Repo (Beta — coming soon) | https://github.com/TorahBibleCodes/TorahBibleCodes_Rust_BETA_DEVELOPMENT |
+| Go Repo (Now Available) | https://github.com/TorahBibleCodes/TorahBibleCodes_Go |
+| User Guide 2024 (PDF) | https://www.academia.edu/125087434 |
+| Read the Docs (not yet updated for v0.2) | https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html |
+| White Paper 2023 | https://www.academia.edu/104334275 |
+| Stack Overflow | https://stackoverflow.com/users/8911652/torahbiblecodes |
+| YouTube | https://www.youtube.com/@TorahBibleCodes |
+| YouTube (channel) | https://www.youtube.com/channel/UCNsvtMx4JJRpNzzPq57HCqg |
+| GiveSendGo | https://www.givesendgo.com/torahbiblecodes |
+
+---
+
+## Known Bugs and Open Issues
+
 https://github.com/TorahBibleCodes/TorahBibleCodes/issues
 
-# Current Development Status
+---
 
-<br />Active Development: In Progress
+## Current Development Status
 
-# Updates
-<br />27 / SEPTEMBER / 2024
-<br />
-<br />SOFTWARE UPDATE: NOW AVAILABLE SOFTWARE UPDATE VERSION 0.2
-<br />
-<br />1. Choice of Codices (i.e. Collections of Manuscripts): A. Koren; B. Leningrad; C. Miqra According to Masorah (MAM) - based on the Aleppo Codex.
-<br />2. Possibility to search several texts as one complete book (as they were in antiquity): A. Samuel; B. Kings; C. Ezra-Nehemiah; D. Chronicles.
-<br />3. Multiple Batch ELSs Searches via simple EXCEL / CSV user-input file with UNLIMITED ELS SEARCH TERMS.
-<br />4. Individual CSV Data File for each ELS term with all word positions, letter positions, and verses where the ELS is found.
-<br />5. Search Progress Bar with count of search terms, measurement of search time per search term, as well as estimation of total search time.
-<br />6. Custom Skip Distances (d) according to User Input.
-<br />7. Spaces in ELS Search Terms are elegantly handled by the program: Search for Longer, Multiple-Word Names and Phrases. 
-<br />8. Letter Statistics for every text for every search.
-<br />
-<br />Please support our efforts if you can by donating via GIVESENDGO: 
-<br />https://www.givesendgo.com/torahbiblecodes
-<br />
-<br />OR via BITCOIN (BTC) to the following addresses:
-<br />bc1qzws4zjgzf4wll2mtztsavmyvkg72fnajfff8r7
+Active Development: In Progress
 
-<br />16 / JULY / 2023
-<br />
-<br />DEVELOPMENT UPDATE: POC (BETA) VERSION 0.1 WORKING: TorahBibleCodes: Free, Open-Source Python Equidistant Letter Sequences (ELS) Hebrew Bible Search Software
+**Support your friendly, neighborhood TorahBibleCodes research scientist:**
+https://www.givesendgo.com/TorahBibleCodes
 
-<br />ACADEMIC WHITE PAPER EXPLAINING HOW TORAH BIBLE CODES SOFTWARE WORKS: https://www.academia.edu/104334275
+---
 
-<br />TWITTER: @TorahBibleCodes https://twitter.com/TorahBibleCodes
-<br />YOUTUBE: @TorahBibleCodes https://www.youtube.com/@TorahBibleCodes
-<br />YOUTUBE: @TorahBibleCodes https://www.youtube.com/channel/UCNsvtMx4JJRpNzzPq57HCqg
-<br /> BETA DEVELOPMENT PROGRAM (WORK-IN-PROGRESS) UPLOADED; More to come ASAP GOD-willing.
-<br />
-<br />Please support our efforts if you can by donating via GIVESENDGO: 
-<br />https://www.givesendgo.com/torahbiblecodes
-<br />
-<br />OR via BITCOIN (BTC) to the following addresses:
-<br />bc1qzws4zjgzf4wll2mtztsavmyvkg72fnajfff8r7
+## Updates
 
-# Equidistant Letter Sequences (ELS)
+### 24 / MARCH / 2026
 
-<br />Witztum, Rips, and Rosenberg (WRR) define an Equidistant Letter Sequence (ELS) as a sequence of letters in the text whose positions - not counting spaces - form an arithmetic progression. That is to say the letters are found at the positions
+**SOFTWARE UPDATE (MAJOR): GO PORT NOW AVAILABLE**
 
+TorahBibleCodes Go version is now publicly released with compiled executables for Windows, Mac, and Linux. No installation required — no Python, no Go. Just download and run.
+
+Due to the willful software theft and copyright infringement by Aharon (Ron/Roni) Zbaida of East Brunswick, NJ, USA, only compiled executables are being released at this time. Source code withheld pending legal action.
+
+- **Go Repo:** https://github.com/TorahBibleCodes/TorahBibleCodes_Go
+- **Full Copyright Infringement Notice and Evidence:** https://github.com/torahbiblecodes/Copyright-Notice-Aharon-Ron-Roni-Zbaida-East-Brunswick-NJ-USA-Software-Theft
+
+**Support your friendly, neighborhood TorahBibleCodes research scientist:**
+https://www.givesendgo.com/TorahBibleCodes
+
+---
+
+### 18 / APRIL / 2025
+
+**SOFTWARE UPDATE (MAJOR): RUST BETA DEVELOPMENT BEGUN**
+
+Beta development has begun for TorahBibleCodes in the Rust language to provide users with a simple, very fast executable to provide search data in seconds or minutes (not minutes, hours, or days like Python).
+
+- **Rust Repo:** https://github.com/TorahBibleCodes/TorahBibleCodes_Rust_BETA_DEVELOPMENT
+
+**Support your friendly, neighborhood TorahBibleCodes research scientist:**
+https://www.givesendgo.com/TorahBibleCodes
+
+---
+
+### 14 / MARCH / 2025
+
+**SOFTWARE UPDATE (MINOR)**
+
+One line of code added to `p.py` to deal with NumPy update that screws up output formatting in the CSV file — this is NumPy's suggested solution.
+
+---
+
+### 27 / SEPTEMBER / 2024
+
+**SOFTWARE UPDATE: NOW AVAILABLE — VERSION 0.2**
+
+1. Choice of Codices (i.e. Collections of Manuscripts): A. Koren; B. Leningrad; C. Miqra According to Masorah (MAM) — based on the Aleppo Codex.
+2. Possibility to search several texts as one complete book (as they were in antiquity): A. Samuel; B. Kings; C. Ezra-Nehemiah; D. Chronicles.
+3. Multiple Batch ELS Searches via simple EXCEL / CSV user-input file with UNLIMITED ELS SEARCH TERMS.
+4. Individual CSV Data File for each ELS term with all word positions, letter positions, and verses where the ELS is found.
+5. Search Progress Bar with count of search terms, measurement of search time per search term, as well as estimation of total search time.
+6. Custom Skip Distances (d) according to User Input.
+7. Spaces in ELS Search Terms are elegantly handled by the program: Search for Longer, Multiple-Word Names and Phrases.
+8. Letter Statistics for every text for every search.
+
+**Support your friendly, neighborhood TorahBibleCodes research scientist:**
+https://www.givesendgo.com/TorahBibleCodes
+
+OR via BITCOIN (BTC): `bc1qzws4zjgzf4wll2mtztsavmyvkg72fnajfff8r7`
+
+---
+
+### 16 / JULY / 2023
+
+**DEVELOPMENT UPDATE: POC (BETA) VERSION 0.1 WORKING**
+
+TorahBibleCodes: Free, Open-Source Python Equidistant Letter Sequences (ELS) Hebrew Bible Search Software.
+
+**Academic White Paper explaining how Torah Bible Codes software works:**
+https://www.academia.edu/104334275
+
+- YouTube: https://www.youtube.com/@TorahBibleCodes
+- YouTube (channel): https://www.youtube.com/channel/UCNsvtMx4JJRpNzzPq57HCqg
+
+Beta development program (work-in-progress) uploaded. More to come ASAP God-willing.
+
+**Support your friendly, neighborhood TorahBibleCodes research scientist:**
+https://www.givesendgo.com/TorahBibleCodes
+
+OR via BITCOIN (BTC): `bc1qzws4zjgzf4wll2mtztsavmyvkg72fnajfff8r7`
+
+---
+
+## Equidistant Letter Sequences (ELS)
+
+Witztum, Rips, and Rosenberg (WRR) define an Equidistant Letter Sequence (ELS) as a sequence of letters in the text whose positions — not counting spaces — form an arithmetic progression. That is to say the letters are found at the positions:
+
+```
 n, (n + d), (n + 2d), (n + 3d),... (n + (k - 1)d)
+```
 
-WRR define n as the start, d as the skip between letters in the search-term, and k as the length of the ELS. These three parameters uniquely identify the ELS which is denoted (n, d, k).
-
-# The Texts Used:
-## 1.) Genesis
-<br />A. KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Text%20Only.json
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 2.) Exodus
-<br />A. KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Text%20Only.json
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 3.) Leviticus
-<br />A. KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Text%20Only.json
-KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 4.) Numbers
-<br />A. KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Text%20Only.json
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 5.) Deuteronomy
-<br />A. KOREN CODEX: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Text%20Only.json
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 6.) Joshua
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 7.) Judges
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 8.) I Samuel
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 9.) II Samuel
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 10.) I Kings
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 11.) II Kings
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 12.) Isaiah
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 13.) Jeremiah
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 14.) Ezekiel
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 15.) Hosea
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
+WRR define `n` as the start, `d` as the skip between letters in the search-term, and `k` as the length of the ELS. These three parameters uniquely identify the ELS which is denoted `(n, d, k)`.
 
-## 16.) Joel
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
+---
 
-## 17.) Amos
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
+## The Texts Used
 
-## 18.) Obadiah
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
+### 1.) Genesis
+- **A. KOREN CODEX:** https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
+- **B. LENINGRAD CODEX:** https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Text%20Only.json
+- **C. MAM (Miqra According to Masorah — based on Aleppo Codex):** https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
-## 19.) Jonah
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 20.) Micah
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 21.) Nahum
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
+### 2.) Exodus
+- **A. KOREN CODEX:** https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
+- **B. LENINGRAD CODEX:** https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Text%20Only.json
+- **C. MAM:** https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
-## 22.) Habakkuk
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
+### 3.) Leviticus
+- **A. KOREN CODEX:** https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
+- **B. LENINGRAD CODEX:** https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Text%20Only.json
+- **C. MAM:** https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
-## 23.) Zephaniah
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
+### 4.) Numbers
+- **A. KOREN CODEX:** https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
+- **B. LENINGRAD CODEX:** https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Text%20Only.json
+- **C. MAM:** https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
-## 24.) Haggai
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
+### 5.) Deuteronomy
+- **A. KOREN CODEX:** https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
+- **B. LENINGRAD CODEX:** https://github.com/TorahBibleCodes/Sefaria-Export/blob/master/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Text%20Only.json
+- **C. MAM:** https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
-## 25.) Zechariah
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
+### 6.) Joshua through 39.) II Chronicles
 
-## 26.) Malachi
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
+*(Leningrad Codex and MAM only for all remaining books)*
 
-## 27.) Psalms
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 28.) Proverbs
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 29.) Job
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
+- **B. LENINGRAD CODEX:** https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
+- **C. MAM:** https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
 
-## 30.) Song of Songs
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
+Books covered: Joshua, Judges, I Samuel, II Samuel, I Kings, II Kings, Isaiah, Jeremiah, Ezekiel, Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi, Psalms, Proverbs, Job, Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther, Daniel, Ezra, Nehemiah, I Chronicles, II Chronicles.
 
-## 31.) Ruth
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 32.) Lamentations
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 33.) Ecclesiastes
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 34.) Esther
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 35.) Daniel
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 36.) Ezra
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 37.) Nehemiah
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 38.) I Chronicles
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-## 39.) II Chronicles
-<br />B. LENINGRAD CODEX: https://github.com/TorahBibleCodes/Sefaria-Export/tree/master/json/Tanakh
-<br />C. Miqra According to the Masorah (MAM) Collection of Manuscripts (based upon the ALEPPO CODEX): https://github.com/bdenckla/MAM-for-Sefaria/tree/main/out/csv-ajf
-
-
-# How to Run the App / Program
-
-READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
-
-## TEST DEVELOPMENT (BETA): MOVE TO --> READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
-# Structure of App / Program
-
-<br />After running the Python file p.py, several Python / Pandas Objects are returned to you to interact with and further develop per your needs;
-<br />We are currently developing the functionalities in the program to provide certain (many) specific data points, data objects, etc. so that scientifically repeatable (and therefore verifiable) results can be precisely measured, shared, tested, and either confirmed or disproved.
-<br />The current BETA DEVELOPMENT version of the program does the following:
-
-<ol>
-	<li>Allows the user to select any text(s) from the Torah (Instruction) / Nevi'im (Prophets) / K'tuvim (Writings) of the Tanach (Hebrew Bible).</li>
-	<li>Allows the user to choose a custom size of the 2D Matrix (X Rows by Y Columns) for the user-selected text(s) to be outputted to a CSV EXCEL file (CAUTION: Numbers approaching 1000 for X Rows will exceed the maximum allowed by EXCEL, and therefore will truncate the text).</li>
-	<li>Allows the user to choose the number of desired ELS Search-Terms.</li>
-	<li>Allows the user to input those specified ELS Search-Terms (NOTE: These must be typed in Hebrew characters, else EXCEPTION IS THROWN).</li>
-	<li>Outputs CSV EXCEL file of the 2D Matrix for the selected text(s).</li>
-	<li>Outputs CSV EXCEL file of the Gematria Number values for each word AND letter in the selected text(s)</li>
-	<li>Outputs CSV EXCEL file of the Gematria Number values for each word AND letter in the ELS Search-Terms</li>
-	<li>Outputs CSV EXCEL file of the ELS Search Term Matches (both POSITIVE and NEGATIVE):  Testing of several (best?) ways / algorithms for ELS Search within the text; Currently investigating REGEX, PANDAS, PURE PYTHON LINEAR SEARCH, etc.; Please see and examine the Python / Pandas Data Objects returned to see current capabilities in development.</li>
-	<li>IN DEVELOPMENT:  Outputs CSV EXCEL file of the Data Points for each letter and each word of each of the ELS Search-Terms so that precise, exact positions, shared positions, letter-proximity, statistical probability, etc. of letters will be scientifically verifiable and reproduceable.</li>
-</ol>
-
-<br />We invite you to share your open-source (alternative/multiple?) solutions of further development of this open-source program (e.g. add-ons, additional features, functionalities, GUIs, etc.), as well as scientific research using these software research tools with the community to allow confirmation of your discoveries and data, which will lead to further shared advancement and mutual benefit for us all
-
-
-# Program Concepts:  Objects - D (DS), DL, D5, D5K, L (LLL), S (SSS), N (NW), W (DW), ListOfWords, NW4ELS, W4ELS (DW4ELS), LO (DLO), ELSO (DELSO), gso;
-
-READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
-
-# Hebrew Gematria Number Values
-
-
-### 1 = א
-### 2 = ב
-### 3 = ג
-### 4 = ד
-### 5 = ה
-### 6 = ו
-### 7 = ז
-### 8 = ח
-### 9 = ט
-### 10 = י
-### 20 = כ / ך
-### 30 = ל
-### 40 = מ / ם
-### 50 = נ / ן
-### 60 = ס
-### 70 = ע
-### 80 = פ / ף
-### 90 = צ / ץ
-### 100 = ק
-### 200 = ר
-### 300 = ש
-### 400 = ת
-
-
-
-## TEST DEVELOPMENT (BETA): MOVE TO --> READ THE DOCS: @TorahBibleCodes https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
-
-# CENTRAL ELS SEARCH ALGORITHM:
-<br />n, (n + d), (n + 2d), (n + 3d)... (n + (k-1)d)
-<br />
-<br />sL[6] ## == 'ת' == (n) ## WHEN TEXT SELECTED == 1 GENESIS
-<br />sL[6+50] ## == 'ו' == (n + d)
-<br />sL[6+50+50] ## == 'ר' == (n + 2d)
-<br />sL[6+50+50+50] ## = 'ה' == (n + 3d) ## k == 4 == LengthOfELSSearchTerm
-<br />
-<br />sL[6] ## == 'ת' == (n) ## WHEN TEXT SELECTED == 1 GENESIS
-<br />sL[56] ## == 'ו' == (n + d)
-<br />sL[106] ## == 'ר' == (n + 2d)
-<br />sL[156] ## = 'ה' == (n + 3d)
-
-
-# Useful CLI Commands
-sL.str.startswith("ב")
---> Returns Boolean (True/False) for each match (True) and for each non-match (False)
-
-sL.str.endswith("ב")
---> Returns Boolean (True/False) for each match (True) and for each non-match (False)
-
-sL.str.find("ב")
---> Returns Boolean-like (0 / -1) for each match (0) and for each non-match (-1)
-
-sL.str.rfind("ב")
---> Returns Boolean-like (0 / -1) for each match (0) and for each non-match (-1)
-
-### The following values are all equivalent; Each equals every other value
-<ul>
-  <li>len(sL) --> Total Number of Letters in the Pandas Series s --> Equal to len(S); len(L); len(DL); len(D5); len(N)</li>
-  <li>len(S) --> Total Number of Letters in the Python String S --> Equal to len(sL); len(L); len(DL); len(D5); len(N)</li>
-  <li>len(L) --> Total Number of Letters in the Python List L --> Equal to len(sL); len(S); len(DL); len(D5); len(N)</li>
-  <li>len(DL) --> Total Number of Letters in the Python Dictionary DL with 4-digit Tuple Key --> Equal to len(sL); len(S); len(L); len(D5); len(N)</li>
-  <li>len(D5) --> Total Number of Letters in the Python Dictionary D5 with 5-digit Tuple Key --> Equal to len(sL); len(S); len(L); len(DL); len(N)</li>
-  <li>len(N) --> Total Number of Numbers in the Python List N --> Equal to len(sL); len(S); len(L); len(DL); len(D5)</li>
-  
-</ul>
-
-# Statistics
-### Total Number of Verses in Torah (LENINGRAD CODEX): 5846
-### Total Number of Verses in Torah (KOREN CODEX): 5846 (excluding error of Numbers 25:19 in Claremont Michigan Transliteration)
-### Total Number of Letters in Torah (LENINGRAD CODEX):  304850
-Total Number of Letter א Aleph in Torah: 27060
-<br />Total Number of Letter ב Bet in Torah: 16345
-<br />Total Number of Letter ג Gimel in Torah: 2109
-<br />Total Number of Letter ד Daled in Torah: 7032
-<br />Total Number of Letter ה Heh/Hey/Hay in Torah: 28055
-<br />Total Number of Letter ו Vav in Torah: 30533
-<br />Total Number of Letter ז Zayin in Torah: 2198
-<br />Total Number of Letter ח Ḥet in Torah: 7189
-<br />Total Number of Letter ט Tet in Torah: 1804
-<br />Total Number of Letter י Yud in Torah: 31556
-<br />Total Number of Letter כ Khaf in Torah: 8610
-<br />Total Number of Letter ך Khaf Sofit in Torah: 3358
-<br />Total Number of Letter ל Lamed in Torah: 21570
-<br />Total Number of Letter מ Mem in Torah: 14466
-<br />Total Number of Letter ם Mem Sofit in Torah: 10624
-<br />Total Number of Letter נ Nun in Torah: 9867
-<br />Total Number of Letter ן Nun Sofit in Torah: 4259
-<br />Total Number of Letter ס Samekh in Torah: 1833
-<br />Total Number of Letter ע 'Ain in Torah: 11250
-<br />Total Number of Letter פ Peh/Pey/Pay in Torah: 3975
-<br />Total Number of Letter ף Peh/Pey/Pay Sofit in Torah: 830
-<br />Total Number of Letter צ Tzadik in Torah: 2927
-<br />Total Number of Letter ץ Tzadik Sofit in Torah: 1035
-<br />Total Number of Letter ק Kuf in Torah: 4695
-<br />Total Number of Letter ר Resh in Torah: 18125
-<br />Total Number of Letter ש Shin in Torah: 15595
-<br />Total Number of Letter ת Taf in Torah: 17950
-
-### Total Number of Verses in Genesis (LENINGRAD CODEX):  1533
-### Total Number of Letters in Genesis (LENINGRAD CODEX):  78069
-
-Total Number of Letter א in Book of Genesis (LENINGRAD CODEX): 7634
-<br />Total Number of Letter ב in Book of Genesis: 4332
-<br />Total Number of Letter ג in Book of Genesis: 577
-<br />Total Number of Letter ד in Book of Genesis: 1848
-<br />Total Number of Letter ה in Book of Genesis: 6283
-<br />Total Number of Letter ו in Book of Genesis: 8447
-<br />Total Number of Letter ז in Book of Genesis: 428
-<br />Total Number of Letter ח in Book of Genesis: 1844
-<br />Total Number of Letter ט in Book of Genesis: 308
-<br />Total Number of Letter י in Book of Genesis: 9041
-<br />Total Number of Letter כ in Book of Genesis: 1909
-<br />Total Number of Letter ך in Book of Genesis: 865
-<br />Total Number of Letter ל in Book of Genesis: 5275
-<br />Total Number of Letter מ in Book of Genesis: 3421
-<br />Total Number of Letter ם in Book of Genesis: 2689
-<br />Total Number of Letter נ in Book of Genesis: 2776
-<br />Total Number of Letter ן in Book of Genesis: 1009
-<br />Total Number of Letter ס in Book of Genesis: 446
-<br />Total Number of Letter ע in Book of Genesis: 2823
-<br />Total Number of Letter פ in Book of Genesis: 890
-<br />Total Number of Letter ף in Book of Genesis: 313
-<br />Total Number of Letter צ in Book of Genesis: 740
-<br />Total Number of Letter ץ in Book of Genesis: 351
-<br />Total Number of Letter ק in Book of Genesis: 1301
-<br />Total Number of Letter ר in Book of Genesis: 4793
-<br />Total Number of Letter ש in Book of Genesis: 3574
-<br />Total Number of Letter ת in Book of Genesis: 4152
-
-### Total Number of Verses in Hebrew Bible (LENINGRAD CODEX): 23206
-### Total Number of Letters in Hebrew Bible (LENINGRAD CODEX): 1197042
-
-Total Number of Letter א in Hebrew Bible: 95685
-<br />Total Number of Letter ב in Hebrew Bible: 65216
-<br />Total Number of Letter ג in Hebrew Bible: 10080
-<br />Total Number of Letter ד in Hebrew Bible: 32371
-<br />Total Number of Letter ה in Hebrew Bible: 101962
-<br />Total Number of Letter ו in Hebrew Bible: 129606
-<br />Total Number of Letter ז in Hebrew Bible: 9099
-<br />Total Number of Letter ח in Hebrew Bible: 27598
-<br />Total Number of Letter ט in Hebrew Bible: 6310
-<br />Total Number of Letter י in Hebrew Bible: 137870
-<br />Total Number of Letter כ in Hebrew Bible: 33466
-<br />Total Number of Letter ך in Hebrew Bible: 14002
-<br />Total Number of Letter ל in Hebrew Bible: 88302
-<br />Total Number of Letter מ in Hebrew Bible: 57638
-<br />Total Number of Letter ם in Hebrew Bible: 41291
-<br />Total Number of Letter נ in Hebrew Bible: 39852
-<br />Total Number of Letter ן in Hebrew Bible: 15241
-<br />Total Number of Letter ס in Hebrew Bible: 7635
-<br />Total Number of Letter ע in Hebrew Bible: 44811
-<br />Total Number of Letter פ in Hebrew Bible: 15730
-<br />Total Number of Letter ף in Hebrew Bible: 2554
-<br />Total Number of Letter צ in Hebrew Bible: 11689
-<br />Total Number of Letter ץ in Hebrew Bible: 3288
-<br />Total Number of Letter ק in Hebrew Bible: 16278
-<br />Total Number of Letter ר in Hebrew Bible: 68064
-<br />Total Number of Letter ש in Hebrew Bible: 58198
-<br />Total Number of Letter ת in Hebrew Bible: 63206
+---
 
+## How to Run the App / Program
+
+**READ THE DOCS:** https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
+
+---
+
+## Structure of App / Program
+
+After running the Python file `p.py`, several Python / Pandas Objects are returned to you to interact with and further develop per your needs. We are currently developing the functionalities in the program to provide specific data points and data objects so that scientifically repeatable (and therefore verifiable) results can be precisely measured, shared, tested, and either confirmed or disproved.
+
+The current BETA DEVELOPMENT version of the program does the following:
+
+1. Allows the user to select any text(s) from the Torah (Instruction) / Nevi'im (Prophets) / K'tuvim (Writings) of the Tanach (Hebrew Bible).
+2. Allows the user to choose a custom size of the 2D Matrix (X Rows by Y Columns) for the user-selected text(s) to be outputted to a CSV EXCEL file *(CAUTION: Numbers approaching 1000 for X Rows will exceed the maximum allowed by EXCEL, and therefore will truncate the text).*
+3. Allows the user to choose the number of desired ELS Search-Terms.
+4. Allows the user to input those specified ELS Search-Terms *(NOTE: These must be typed in Hebrew characters, else EXCEPTION IS THROWN).*
+5. Outputs CSV EXCEL file of the 2D Matrix for the selected text(s).
+6. Outputs CSV EXCEL file of the Gematria Number values for each word AND letter in the selected text(s).
+7. Outputs CSV EXCEL file of the Gematria Number values for each word AND letter in the ELS Search-Terms.
+8. Outputs CSV EXCEL file of the ELS Search Term Matches (both POSITIVE and NEGATIVE): Testing of several (best?) ways / algorithms for ELS Search within the text; Currently investigating REGEX, PANDAS, PURE PYTHON LINEAR SEARCH, etc.
+9. Outputs CSV EXCEL file of the Data Points for each letter and each word of each of the ELS Search-Terms so that precise, exact positions, shared positions, letter-proximity.
+10. Outputs CSV EXCEL file of Letter Statistics for that text selected.
+11. IN DEVELOPMENT: R&D for visualizations as well as integration into AI.
+12. IN DEVELOPMENT: Measurement of statistical probability, etc. of letters will be scientifically verifiable and reproduceable.
+
+We invite you to share your open-source solutions of further development of this open-source program (e.g. add-ons, additional features, functionalities, GUIs, etc.), as well as scientific research using these software research tools with the community to allow confirmation of your discoveries and data, which will lead to further shared advancement and mutual benefit for us all.
+
+---
+
+## Program Concepts: Objects
+
+`D (DS), DL, D5, D5K, L (LLL), S (SSS), N (NW), W (DW), ListOfWords, NW4ELS, W4ELS (DW4ELS), LO (DLO), ELSO (DELSO), gso`
+
+**READ THE DOCS:** https://torahbiblecodes-sphinx.readthedocs.io/en/latest/index.html
+
+---
+
+## Hebrew Gematria Number Values
+
+| Value | Letter |
+|-------|--------|
+| 1 | א |
+| 2 | ב |
+| 3 | ג |
+| 4 | ד |
+| 5 | ה |
+| 6 | ו |
+| 7 | ז |
+| 8 | ח |
+| 9 | ט |
+| 10 | י |
+| 20 | כ / ך |
+| 30 | ל |
+| 40 | מ / ם |
+| 50 | נ / ן |
+| 60 | ס |
+| 70 | ע |
+| 80 | פ / ף |
+| 90 | צ / ץ |
+| 100 | ק |
+| 200 | ר |
+| 300 | ש |
+| 400 | ת |
+
+---
+
+## Central ELS Search Algorithm
+
+```
+n, (n + d), (n + 2d), (n + 3d)... (n + (k-1)d)
+```
+
+Example (Genesis, skip distance d=50):
+
+```
+sL[6]          == 'ת' == (n)
+sL[6+50]       == 'ו' == (n + d)
+sL[6+50+50]    == 'ר' == (n + 2d)
+sL[6+50+50+50] == 'ה' == (n + 3d)  ## k == 4 == LengthOfELSSearchTerm
+
+sL[6]   == 'ת' == (n)
+sL[56]  == 'ו' == (n + d)
+sL[106] == 'ר' == (n + 2d)
+sL[156] == 'ה' == (n + 3d)
+```
+
+---
+
+## Useful CLI Commands
+
+```python
+sL.str.startswith("ב")  # Returns Boolean (True/False) for each match
+sL.str.endswith("ב")    # Returns Boolean (True/False) for each match
+sL.str.find("ב")        # Returns 0 for match, -1 for non-match
+sL.str.rfind("ב")       # Returns 0 for match, -1 for non-match
+```
+
+The following values are all equivalent — each equals every other value:
+
+- `len(sL)` — Total Number of Letters in the Pandas Series
+- `len(S)` — Total Number of Letters in the Python String
+- `len(L)` — Total Number of Letters in the Python List
+- `len(DL)` — Total Number of Letters in the Python Dictionary DL with 4-digit Tuple Key
+- `len(D5)` — Total Number of Letters in the Python Dictionary D5 with 5-digit Tuple Key
+- `len(N)` — Total Number of Numbers in the Python List
+
+---
+
+## Statistics
+
+### Torah (Leningrad Codex)
+
+| Metric | Count |
+|--------|-------|
+| Total Verses | 5,846 |
+| Total Letters | 304,850 |
+
+| Letter | Name | Count |
+|--------|------|-------|
+| א | Aleph | 27,060 |
+| ב | Bet | 16,345 |
+| ג | Gimel | 2,109 |
+| ד | Daled | 7,032 |
+| ה | Heh | 28,055 |
+| ו | Vav | 30,533 |
+| ז | Zayin | 2,198 |
+| ח | Ḥet | 7,189 |
+| ט | Tet | 1,804 |
+| י | Yud | 31,556 |
+| כ | Khaf | 8,610 |
+| ך | Khaf Sofit | 3,358 |
+| ל | Lamed | 21,570 |
+| מ | Mem | 14,466 |
+| ם | Mem Sofit | 10,624 |
+| נ | Nun | 9,867 |
+| ן | Nun Sofit | 4,259 |
+| ס | Samekh | 1,833 |
+| ע | Ayin | 11,250 |
+| פ | Peh | 3,975 |
+| ף | Peh Sofit | 830 |
+| צ | Tzadik | 2,927 |
+| ץ | Tzadik Sofit | 1,035 |
+| ק | Kuf | 4,695 |
+| ר | Resh | 18,125 |
+| ש | Shin | 15,595 |
+| ת | Taf | 17,950 |
+
+### Genesis (Leningrad Codex)
+
+| Metric | Count |
+|--------|-------|
+| Total Verses | 1,533 |
+| Total Letters | 78,069 |
+
+| Letter | Count |
+|--------|-------|
+| א | 7,634 |
+| ב | 4,332 |
+| ג | 577 |
+| ד | 1,848 |
+| ה | 6,283 |
+| ו | 8,447 |
+| ז | 428 |
+| ח | 1,844 |
+| ט | 308 |
+| י | 9,041 |
+| כ | 1,909 |
+| ך | 865 |
+| ל | 5,275 |
+| מ | 3,421 |
+| ם | 2,689 |
+| נ | 2,776 |
+| ן | 1,009 |
+| ס | 446 |
+| ע | 2,823 |
+| פ | 890 |
+| ף | 313 |
+| צ | 740 |
+| ץ | 351 |
+| ק | 1,301 |
+| ר | 4,793 |
+| ש | 3,574 |
+| ת | 4,152 |
+
+### Hebrew Bible (Leningrad Codex)
+
+| Metric | Count |
+|--------|-------|
+| Total Verses | 23,206 |
+| Total Letters | 1,197,042 |
+
+| Letter | Count |
+|--------|-------|
+| א | 95,685 |
+| ב | 65,216 |
+| ג | 10,080 |
+| ד | 32,371 |
+| ה | 101,962 |
+| ו | 129,606 |
+| ז | 9,099 |
+| ח | 27,598 |
+| ט | 6,310 |
+| י | 137,870 |
+| כ | 33,466 |
+| ך | 14,002 |
+| ל | 88,302 |
+| מ | 57,638 |
+| ם | 41,291 |
+| נ | 39,852 |
+| ן | 15,241 |
+| ס | 7,635 |
+| ע | 44,811 |
+| פ | 15,730 |
+| ף | 2,554 |
+| צ | 11,689 |
+| ץ | 3,288 |
+| ק | 16,278 |
+| ר | 68,064 |
+| ש | 58,198 |
+| ת | 63,206 |
+
+---
+
+**Support your friendly, neighborhood TorahBibleCodes research scientist:**
+https://www.givesendgo.com/TorahBibleCodes
+
+---
+
+## ⚠️ COPYRIGHT INFRINGEMENT NOTICE — BOTTOM OF PAGE
+
+This software and its entire codebase — including its proprietary standardized
+ID system, data structures, 500+ CSV data output files, and 2024 User Guide —
+are the sole intellectual property of Daniel Azariah / TorahBibleCodes.com,
+developed over 9 years (2017–present) entirely without AI assistance, without
+funding, and without compensation of any kind.
+
+Aharon (Ron/Roni) Zbaida of East Brunswick, NJ, USA willfully stole this
+entire codebase, applied an unauthorized license, commercialized it for
+profit, and destroyed evidence after being notified. DMCA notices have been
+filed with GitHub and Anthropic. Legal action is pending.
+
+**AHARON (RON/RONI) ZBAIDA — LAWYER UP: YOU ARE A SHAMELESS THIEF, AND WE ARE COMING AFTER YOU IN BOTH U.S. AND ISRAELI COURTS OF LAW.**
+
+**Full notice and complete evidence:**
+https://github.com/torahbiblecodes/Copyright-Notice-Aharon-Ron-Roni-Zbaida-East-Brunswick-NJ-USA-Software-Theft
