@@ -6,7 +6,7 @@
 > copyright infringement and software theft of our ALL RIGHTS RESERVED copyrighted software.
 >
 > For the full copyright infringement notice and complete evidence, see:
-> **[Copyright Notice — Aharon (Ron/Roni) Zbaida — Software Theft](https://github.com/torahbiblecodes/Copyright-Notice-Aharon-Ron-Roni-Zbaida-East-Brunswick-NJ-USA-Software-Theft)**
+> **[Copyright Notice — Aharon (Ron/Roni) Zbaida — Software Theft]<br />(https://github.com/torahbiblecodes/Copyright-Notice-Aharon-Ron-Roni-Zbaida-East-Brunswick-NJ-USA-Software-Theft)**
 
 ---
 
